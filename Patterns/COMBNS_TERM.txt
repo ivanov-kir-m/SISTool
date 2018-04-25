@@ -1,0 +1,289 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1
+
+FCTAAN = A1 A2 N1 <A1=A2=N1> =text> A1 A2 #N1<c=nom,n=sing> <A1~>N1,A2~>N1>
+NPFCTAAN = A1 A2 N1 <A1=A2=N1> =text> "A1["A1"] A2["#A2"] N1["#N1"] [A1=A2=N1] =text] A1 A2 #N1[c=nom,n=sing] [A1~]N1,A2~]N1]"
+CTAAN-AN = A1 A2 N1 <A1=A2=N1> =text> A1 #N1 <A1~>N1>
+CTAAN-AN-TWO = A1 A2 N1 <A1=A2=N1> =text> A2 #N1 <A2~>N1>
+NPCTAAN-AN = A1 A2 N1 <A1=A2=N1> =text> "A1[" #A1 "] N1[" #N1 "] [A1=N1] =text] A1 #N1 [A1~]N1]" 
+NPCTAAN-AN-TWO = A1 A2 N1 <A1=A2=N1> =text> "A2[" #A2 "] N1[" #N1 "] [A2=N1] =text] A2 #N1 [A2~]N1]"
+
+FCTAPN = A1 Pa2 N1 <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom,n=sing> <A1~>N1,Pa2~>N1>
+NPFCTAPN = A1 Pa2 N1 <A1=Pa2=N1> =text> "A1["A1"] Pa2["#Pa2"] N1["#N1"] [A1=Pa2=N1] =text] A1 Pa2 #N1[c=nom,n=sing] [A1~]N1,Pa2~]N1]"
+CTAPN-AN = A1 Pa2 N1 <A1=Pa2=N1> =text> A1 #N1 <A1~>N1>
+CTAPN-PN = A1 Pa2 N1 <A1=Pa2=N1> =text> Pa2 #N1 <Pa2~>N1>
+NPCTAPN-AN = A1 Pa2 N1 <A1=Pa2=N1> =text> "A1[" #A1 "] N1[" #N1 "] [A1=N1] =text] A1 #N1 [A1~]N1]" 
+NPCTAPN-PN = A1 Pa2 N1 <A1=Pa2=N1> =text> "Pa2[" #Pa2 "] N1[" #N1 "] [Pa2=N1] =text] Pa2 #N1 [Pa2~]N1]"
+
+FCTPAN = Pa1 A2 N1 <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom,n=sing> <Pa1~>N1,A2~>N1>
+NPFCTPAN = Pa1 A2 N1 <Pa1=A2=N1> =text> "Pa1["Pa1"] A2["#A2"] N1["#N1"] [Pa1=A2=N1] =text] Pa1 A2 #N1[c=nom,n=sing] [Pa1~]N1,A2~]N1]"
+CTPAN-PN = Pa1 A2 N1 <Pa1=A2=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPAN-AN = Pa1 A2 N1 <Pa1=A2=N1> =text> A2 #N1 <A2~>N1>
+NPCTPAN-PN = Pa1 A2 N1 <Pa1=A2=N1> =text> "Pa1[" #Pa1 "] N1[" #N1 "] [Pa1=N1] =text] Pa1 #N1 [Pa1~]N1]" 
+NPCTPAN-AN = Pa1 A2 N1 <Pa1=A2=N1> =text> "A2[" #A2 "] N1[" #N1 "] [A2=N1] =text] A2 #N1 [A2~]N1]"
+
+FCTPPN = Pa1 Pa2 N1 <Pa1=Pa2=N1> =text> Pa1 Pa2 #N1<c=nom,n=sing> <Pa1~>N1,Pa2~>N1>
+NPFCTPPN = Pa1 Pa2 N1 <Pa1=Pa2=N1> =text> "Pa1["Pa1"] Pa2["#Pa2"] N1["#N1"] [Pa1=Pa2=N1] =text] Pa1 Pa2 #N1[c=nom,n=sing] [Pa1~]N1,Pa2~]N1]"
+CTPPN-PN = Pa1 Pa2 N1 <Pa1=Pa2=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPPN-PN-TWO = Pa1 Pa2 N1 <Pa1=Pa2=N1> =text> Pa2 #N1 <Pa2~>N1>
+NPCTPPN-PN = Pa1 Pa2 N1 <Pa1=Pa2=N1> =text> "Pa1[" #Pa1 "] N1[" #N1 "] [Pa1=N1] =text] Pa1 #N1 [Pa1~]N1]" 
+NPCTPPN-PN-TWO = Pa1 Pa2 N1 <Pa1=Pa2=N1> =text> "Pa2[" #Pa2 "] N1[" #N1 "] [Pa2=N1] =text] Pa2 #N1 [Pa2~]N1]"
+
+FCTNAN = N1 A2 N2<c=gen> <A2=N2>  =text> N1<c=nom,n=sing> A2 N2<c=gen> <A2~>N2>
+NPFCTNAN = N1 A2 N2<c=gen> <A2=N2>  =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] [A2=N2] =text] N1[c=nom,n=sing] A2 N2[c=gen] [A2~]N2]"
+CTNAN-AN = N1 A2 N2<c=gen> <A2=N2>  =text> A2 #N2 <A2~>N2>
+CTNAN-NN = N1 A2 N2<c=gen> <A2=N2>  =text> #N1 N2<c=gen>
+NPCTNAN-AN = N1 A2 N2<c=gen> <A2=N2>  =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] [A2=N2] =text] A2 #N2 [A2~>N2]"
+NPCTNAN-NN = N1 A2 N2<c=gen> <A2=N2>  =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] [A2=N2] =text] #N1 N2[c=gen]"
+
+FCTNPN = N1 Pa2 N2<c=gen> <Pa2=N2>  =text> N1<c=nom,n=sing> Pa2 N2<c=gen> <Pa2~>N2>
+NPFCTNPN = N1 Pa2 N2<c=gen> <Pa2=N2>  =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa2=N2] =text] N1[c=nom,n=sing] Pa2 N2[c=gen] [Pa2~]N2]"
+CTNPN-PN = N1 Pa2 N2<c=gen> <Pa2=N2>  =text> Pa2 #N2 <Pa2~>N2>
+CTNPN-NN = N1 Pa2 N2<c=gen> <Pa2=N2>  =text> #N1 N2<c=gen>
+NPCTNPN-PN = N1 Pa2 N2<c=gen> <Pa2=N2>  =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa2=N2] =text] Pa2 #N2 [Pa2~>N2]"
+NPCTNPN-NN = N1 Pa2 N2<c=gen> <Pa2=N2>  =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa2=N2] =text] #N1 N2[c=gen]"
+
+FCTNANN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2>  =text> N1<c=nom,n=sing> A2 N2<c=gen> N3<c=gen> <A2~>N2>
+NPFCTNANN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] N3["#N3",c=gen] [A2=N2] =text] N1[c=nom,n=sing] A2 N2[c=gen] N3[c=gen] [A2~]N2]"
+CTNANN-NN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> #N1 N2<c=gen>
+CTNANN-NNN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> #N1 N2<c=gen> N3<c=gen>
+CTNANN-AN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> A2 #N2 <A2~>N2>
+CTNANN-ANN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> A2 #N2 N3<c=gen> <A2~>N2>
+NPCTNANN-NN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] N3["#N3",c=gen] [A2=N2] =text] #N1 N2[c=gen]"
+NPCTNANN-NNN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] N3["#N3",c=gen] [A2=N2] =text] #N1 N2[c=gen] N3[c=gen]"
+NPCTNANN-AN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] N3["#N3",c=gen] [A2=N2] =text] A2 #N2 [A2~]N2]"
+NPCTNANN-ANN = N1 A2 N2<c=gen> N3<c=gen> <A2=N2> =text> "N1["#N1"] A2["#A2"] N2["#N2",c=gen] N3["#N3",c=gen] [A2=N2] =text] A2 #N2 N3[c=gen] [A2~]N2]"
+
+FCTNPNN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2>  =text> N1<c=nom,n=sing> Pa2 N2<c=gen> N3<c=gen> <Pa2~>N2>
+NPFCTNPNN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] N3["#N3",c=gen] [Pa2=N2] =text] N1[c=nom,n=sing] Pa2 N2[c=gen] N3[c=gen] [Pa2~]N2]"
+CTNPNN-NN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> #N1 N2<c=gen>
+CTNPNN-NNN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> #N1 N2<c=gen> N3<c=gen>
+CTNPNN-PN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> Pa2 #N2 <Pa2~>N2>
+CTNPNN-PNN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> Pa2 #N2 N3<c=gen> <Pa2~>N2>
+NPCTNPNN-NN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] N3["#N3",c=gen] [Pa2=N2] =text] #N1 N2[c=gen]"
+NPCTNPNN-NNN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] N3["#N3",c=gen] [Pa2=N2] =text] #N1 N2[c=gen] N3[c=gen]"
+NPCTNPNN-PN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] N3["#N3",c=gen] [Pa2=N2] =text] Pa2 #N2 [Pa2~]N2]"
+NPCTNPNN-PNN = N1 Pa2 N2<c=gen> N3<c=gen> <Pa2=N2> =text> "N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] N3["#N3",c=gen] [Pa2=N2] =text] Pa2 #N2 N3[c=gen] [Pa2~]N2]"
+
+FCTNNAN = N1 N2<c=gen> A3 N3<c=gen> <A3=N3>  =text> N1<c=nom,n=sing> N2<c=gen> A3 N3<c=gen> <A3~>N3>
+NPFCTNNAN = N1 N2<c=gen> A3 N3<c=gen> <A3=N3>  =text> "N1["#N1"] N2["#N2",c=gen] A3["#A3"] N3["#N3",c=gen] [A3=N3] =text] N1[c=nom,n=sing] N2[c=gen] A3 N3[c=gen] [A3~>N3]"
+CTNNAN-AN = N1 N2<c=gen> A3 N3<c=gen> <A3=N3> =text> A3 #N3 <A3~>N3>
+CTNNAN-NNN = N1 N2<c=gen> A3 N3<c=gen> <A3=N3> =text> #N1 N2<c=gen> N3<c=gen>
+NPCTNNAN-AN = N1 N2<c=gen> A3 N3<c=gen> <A3=N3> =text> "N1["#N1"] N2["#N2",c=gen] A3["#A3"] N3["#N3",c=gen] [A3=N3] =text] A3 #N3 [A3~]N3]"
+NPCTNNAN-NNN = N1 N2<c=gen> A3 N3<c=gen> <A3=N3> =text> "N1["#N1"] N2["#N2",c=gen] A3["#A3"] N3["#N3",c=gen] [A3=N3] =text] #N1 N2[c=gen] N3[c=gen]"
+
+FCTNNPN = N1 N2<c=gen> Pa3 N3<c=gen> <Pa3=N3>  =text> N1<c=nom,n=sing> N2<c=gen> Pa3 N3<c=gen> <Pa3~>N3>
+NPFCTNNPN = N1 N2<c=gen> Pa3 N3<c=gen> <Pa3=N3>  =text> "N1["#N1"] N2["#N2",c=gen] Pa3["#Pa3"] N3["#N3",c=gen] [Pa3=N3] =text] N1[c=nom,n=sing] N2[c=gen] Pa3 N3[c=gen] [Pa3~>N3]"
+CTNNPN-PN = N1 N2<c=gen> Pa3 N3<c=gen> <Pa3=N3> =text> Pa3 #N3 <Pa3~>N3>
+CTNNPN-NNN = N1 N2<c=gen> Pa3 N3<c=gen> <Pa3=N3> =text> #N1 N2<c=gen> N3<c=gen>
+NPCTNNPN-PN = N1 N2<c=gen> Pa3 N3<c=gen> <Pa3=N3> =text> "N1["#N1"] N2["#N2",c=gen] Pa3["#Pa3"] N3["#N3",c=gen] [Pa3=N3] =text] Pa3 #N3 [Pa3~]N3]"
+NPCTNNPN-NNN = N1 N2<c=gen> Pa3 N3<c=gen> <Pa3=N3> =text> "N1["#N1"] N2["#N2",c=gen] Pa3["#Pa3"] N3["#N3",c=gen] [Pa3=N3] =text] #N1 N2[c=gen] N3[c=gen]"
+
+FCTNAAN = N1 A1 A2 N2<c=gen> <A1=A2=N2>  =text> N1<c=nom,n=sing> A1 A2 N2<c=gen> <A1~>N2,A2~>N2>
+NPFCTNAAN = N1 A1 A2 N2<c=gen> <A1=A2=N2>  =text> "N1["#N1"] A1["#A1"] A2["#A2"] N2["#N2",c=gen] [A1=A2=N2] =text] N1[c=nom,n=sing] A1 A2 N2[c=gen] [A1~]N2,A2~]N2]"
+CTNAAN-AN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> A1 #N2 <A1~>N2>
+CTNAAN-NN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> #N1 N2<c=gen>
+CTNAAN-AAN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> A1 A2 #N2 <A1~>N2,A2~>N2>
+CTNAAN-NAN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> #N1 A2 N2<c=gen> <A2~>N2>
+NPCTNAAN-AN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> "N1["#N1"] A1["#A1"] A2["#A2"] N2["#N2",c=gen] [A1=A2=N2] =text] A1 #N2 [A1~]N2]"
+NPCTNAAN-NN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> "N1["#N1"] A1["#A1"] A2["#A2"] N2["#N2",c=gen] [A1=A2=N2] =text] #N1 N2[c=gen]"
+NPCTNAAN-NAN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> "N1["#N1"] A1["#A1"] A2["#A2"] N2["#N2",c=gen] [A1=A2=N2] =text] #N1 A2 N2[c=gen] [A2~]N2]"
+NPCTNAAN-AAN = N1 A1 A2 N2<c=gen> <A1=A2=N2> =text> "N1["#N1"] A1["#A1"] A2["#A2"] N2["#N2",c=gen] [A1=A2=N2] =text] A1 A2 #N2 [A1~]N2,A2~]N2]"
+
+FCTNAPN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2>  =text> N1<c=nom,n=sing> A1 Pa2 N2<c=gen> <A1~>N2,Pa2~>N2>
+NPFCTNAPN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2>  =text> "N1["#N1"] A1["#A1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=Pa2=N2] =text] N1[c=nom,n=sing] A1 Pa2 N2[c=gen] [A1~]N2,Pa2~]N2]"
+CTNAPN-AN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> A1 #N2 <A1~>N2>
+CTNAPN-NN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> #N1 N2<c=gen>
+CTNAPN-APN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> A1 Pa2 #N2 <A1~>N2,Pa2~>N2>
+CTNAPN-NPN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> #N1 Pa2 N2<c=gen> <Pa2~>N2>
+NPCTNAPN-AN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> "N1["#N1"] A1["#A1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=Pa2=N2] =text] A1 #N2 [A1~]N2]"
+NPCTNAPN-NN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> "N1["#N1"] A1["#A1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=Pa2=N2] =text] #N1 N2[c=gen]"
+NPCTNAPN-NPN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> "N1["#N1"] A1["#A1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=Pa2=N2] =text] #N1 Pa2 N2[c=gen] [Pa2~]N2]"
+NPCTNAPN-APN = N1 A1 Pa2 N2<c=gen> <A1=Pa2=N2> =text> "N1["#N1"] A1["#A1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=Pa2=N2] =text] A1 Pa2 #N2 [A1~]N2,Pa2~]N2]"
+
+FCTNPAN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2>  =text> N1<c=nom,n=sing> Pa1 A2 N2<c=gen> <Pa1~>N2,A2~>N2>
+NPFCTNPAN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2>  =text> "N1["#N1"] Pa1["#Pa1"] A2["#A2"] N2["#N2",c=gen] [Pa1=A2=N2] =text] N1[c=nom,n=sing] Pa1 A2 N2[c=gen] [Pa1~]N2,A2~]N2]"
+CTNPAN-PN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> Pa1 #N2 <Pa1~>N2>
+CTNPAN-NN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> #N1 N2<c=gen>
+CTNPAN-PAN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> Pa1 A2 #N2 <Pa1~>N2,A2~>N2>
+CTNPAN-NAN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> #N1 A2 N2<c=gen> <A2~>N2>
+NPCTNPAN-PN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> "N1["#N1"] Pa1["#Pa1"] A2["#A2"] N2["#N2",c=gen] [Pa1=A2=N2] =text] Pa1 #N2 [Pa1~]N2]"
+NPCTNPAN-NN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> "N1["#N1"] Pa1["#Pa1"] A2["#A2"] N2["#N2",c=gen] [Pa1=A2=N2] =text] #N1 N2[c=gen]"
+NPCTNPAN-NAN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> "N1["#N1"] Pa1["#Pa1"] A2["#A2"] N2["#N2",c=gen] [Pa1=A2=N2] =text] #N1 A2 N2[c=gen] [A2~]N2]"
+NPCTNPAN-PAN = N1 Pa1 A2 N2<c=gen> <Pa1=A2=N2> =text> "N1["#N1"] Pa1["#Pa1"] A2["#A2"] N2["#N2",c=gen] [Pa1=A2=N2] =text] Pa1 A2 #N2 [Pa1~]N2,A2~]N2]"
+
+FCTNPPN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2>  =text> N1<c=nom,n=sing> Pa1 Pa2 N2<c=gen> <Pa1~>N2,Pa2~>N2>
+NPFCTNPPN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2>  =text> "N1["#N1"] Pa1["#Pa1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=Pa2=N2] =text] N1[c=nom,n=sing] Pa1 Pa2 N2[c=gen] [Pa1~]N2,Pa2~]N2]"
+CTNPPN-PN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> Pa1 #N2 <Pa1~>N2>
+CTNPPN-NN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> #N1 N2<c=gen>
+CTNPPN-PPN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> Pa1 Pa2 #N2 <Pa1~>N2,Pa2~>N2>
+CTNPPN-NPN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> #N1 Pa2 N2<c=gen> <Pa2~>N2>
+NPCTNPPN-PN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> "N1["#N1"] Pa1["#Pa1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=Pa2=N2] =text] Pa1 #N2 [Pa1~]N2]"
+NPCTNPPN-NN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> "N1["#N1"] Pa1["#Pa1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=Pa2=N2] =text] #N1 N2[c=gen]"
+NPCTNPPN-NPN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> "N1["#N1"] Pa1["#Pa1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=Pa2=N2] =text] #N1 Pa2 N2[c=gen] [Pa2~]N2]"
+NPCTNPPN-PPN = N1 Pa1 Pa2 N2<c=gen> <Pa1=Pa2=N2> =text> "N1["#N1"] Pa1["#Pa1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=Pa2=N2] =text] Pa1 Pa2 #N2 [Pa1~]N2,Pa2~]N2]"
+
+FCTAANN = A1 A2 N1 N2<c=gen> <A1=A2=N1>  =text> A1 A2 N1<c=nom,n=sing> N2<c=gen> <A1~>N1,A2~>N1>
+NPFCTAANN = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> "A1["#A1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [A1=A2=N1] =text] A1 A2 N1[c=nom,n=sing] N2[c=gen] [A1~]N1,A2~]N1]"
+CTAANN-AN = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> A1 #N1 <A1~>N1>
+CTAANN-ANN = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> A2 #N1 N2<c=gen> <A2~>N1>
+CTAANN-AN-TWO = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> A2 #N1 <A2~>N1>
+CTAANN-ANN-TWO = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> A1 #N1 N2<c=gen> <A1~>N1>
+NPCTAANN-AN = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> "A1["#A1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [A1=A2=N1] =text] A1 #N1 [A1~]N1]"
+NPCTAANN-ANN = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> "A1["#A1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [A1=A2=N1] =text] A2 #N1 N2[c=gen] [A2~]N1]"
+NPCTAANN-AN-TWO = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> "A1["#A1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [A1=A2=N1] =text] A2 #N1 [A2~]N1]"
+NPCTAANN-ANN-TWO = A1 A2 N1 N2<c=gen> <A1=A2=N1> =text> "A1["#A1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [A1=A2=N1] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+FCTAPNN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1>  =text> A1 Pa2 N1<c=nom,n=sing> N2<c=gen> <A1~>N1,Pa2~>N1>
+NPFCTAPNN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> "A1["#A1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [A1=Pa2=N1] =text] A1 Pa2 N1[c=nom,n=sing] N2[c=gen] [A1~]N1,Pa2~]N1]"
+CTAPNN-AN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> A1 #N1 <A1~>N1>
+CTAPNN-PNN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> Pa2 #N1 N2<c=gen> <Pa2~>N1>
+CTAPNN-PN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> Pa2 #N1 <Pa2~>N1>
+CTAPNN-ANN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> A1 #N1 N2<c=gen> <A1~>N1>
+NPCTAPNN-AN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> "A1["#A1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [A1=Pa2=N1] =text] A1 #N1 [A1~]N1]"
+NPCTAPNN-PNN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> "A1["#A1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [A1=Pa2=N1] =text] Pa2 #N1 N2[c=gen] [Pa2~]N1]"
+NPCTAPNN-PN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> "A1["#A1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [A1=Pa2=N1] =text] Pa2 #N1 [Pa2~]N1]"
+NPCTAPNN-ANN = A1 Pa2 N1 N2<c=gen> <A1=Pa2=N1> =text> "A1["#A1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [A1=Pa2=N1] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+FCTPANN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1>  =text> Pa1 A2 N1<c=nom,n=sing> N2<c=gen> <Pa1~>N1,A2~>N1>
+NPFCTPANN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> "Pa1["#Pa1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [Pa1=A2=N1] =text] Pa1 A2 N1[c=nom,n=sing] N2[c=gen] [Pa1~]N1,A2~]N1]"
+CTPANN-PN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPANN-ANN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> A2 #N1 N2<c=gen> <A2~>N1>
+CTPANN-AN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> A2 #N1 <A2~>N1>
+CTPANN-PNN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> Pa1 #N1 N2<c=gen> <Pa1~>N1>
+NPCTPANN-PN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> "Pa1["#Pa1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [Pa1=A2=N1] =text] Pa1 #N1 [Pa1~]N1]"
+NPCTPANN-ANN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> "Pa1["#Pa1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [Pa1=A2=N1] =text] A2 #N1 N2[c=gen] [A2~]N1]"
+NPCTPANN-AN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> "Pa1["#Pa1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [Pa1=A2=N1] =text] A2 #N1 [A2~]N1]"
+NPCTPANN-PNN = Pa1 A2 N1 N2<c=gen> <Pa1=A2=N1> =text> "Pa1["#Pa1"] A2["#A2"] N1["#N1"] N2["#N2",c=gen] [Pa1=A2=N1] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+FCTPPNN = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1>  =text> Pa1 Pa2 N1<c=nom,n=sing> N2<c=gen> <Pa1~>N1,Pa2~>N1>
+NPFCTPPNN = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [Pa1=Pa2=N1] =text] Pa1 Pa2 N1[c=nom,n=sing] N2[c=gen] [Pa1~]N1,Pa2~]N1]"
+CTPPNN-PN = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPPNN-PNN = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> Pa2 #N1 N2<c=gen> <Pa2~>N1>
+CTPPNN-PN-TWO = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> Pa2 #N1 <Pa2~>N1>
+CTPPNN-PNN-TWO = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> Pa1 #N1 N2<c=gen> <Pa1~>N1>
+NPCTPPNN-PN = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [Pa1=Pa2=N1] =text] Pa1 #N1 [Pa1~]N1]"
+NPCTPPNN-PNN = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [Pa1=Pa2=N1] =text] Pa2 #N1 N2[c=gen] [Pa2~]N1]"
+NPCTPPNN-PN-TWO = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [Pa1=Pa2=N1] =text] Pa2 #N1 [Pa2~]N1]"
+NPCTPPNN-PNN-TWO = Pa1 Pa2 N1 N2<c=gen> <Pa1=Pa2=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] N1["#N1"] N2["#N2",c=gen] [Pa1=Pa2=N1] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+FCTANAN = A1 N1 A2 N2<c=gen> <A1=N1,A2=N2> =text> A1 N1<c=nom,n=sing> A2 N2<c=gen> <A1~>N1,A2~>N2>
+NPFCTANAN = A1 N1 A2 N2<c=gen> <A1=N1,A2=N2> =text> "A1["#A1"] N1["#N1"] A2["#A2"] N2["#N2",c=gen] [A1=N1,A2=N2] =text] A1 N1[c=nom,n=sing] A2 N2[c=gen] [A1~]N1,A2~]N2]"
+CTANAN-AN = A1 N1 A2 N2<c=gen> <A1=N1,A2=N2> =text> A2 #N2 <A2~>N2>
+CTANAN-ANN = A1 N1 A2 N2<c=gen> <A1=N1,A2=N2> =text> A1 #N1 N2<c=gen> <A1~>N2>
+NPCTANAN-AN = A1 N1 A2 N2<c=gen> <A1=N1,A2=N2> =text> "A1["#A1"] N1["#N1"] A2["#A2"] N2["#N2",c=gen] [A1=N1,A2=N2] =text] A2 #N2 [A2~]N2]"
+NPCTANAN-ANN = A1 N1 A2 N2<c=gen> <A1=N1,A2=N2> =text> "A1["#A1"] N1["#N1"] A2["#A2"] N2["#N2",c=gen] [A1=N1,A2=N2] =text] A1 #N1 N2[c=gen] [A1~]N2]"
+
+FCTANPN = A1 N1 Pa2 N2<c=gen> <A1=N1,Pa2=N2> =text> A1 N1<c=nom,n=sing> Pa2 N2<c=gen> <A1~>N1,Pa2~>N2>
+NPFCTANPN = A1 N1 Pa2 N2<c=gen> <A1=N1,Pa2=N2> =text> "A1["#A1"] N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=N1,Pa2=N2] =text] A1 N1[c=nom,n=sing] Pa2 N2[c=gen] [A1~]N1,Pa2~]N2]"
+CTANPN-PN = A1 N1 Pa2 N2<c=gen> <A1=N1,Pa2=N2> =text> Pa2 #N2 <Pa2~>N2>
+CTANPN-ANN = A1 N1 Pa2 N2<c=gen> <A1=N1,Pa2=N2> =text> A1 #N1 N2<c=gen> <A1~>N2>
+NPCTANPN-PN = A1 N1 Pa2 N2<c=gen> <A1=N1,Pa2=N2> =text> "A1["#A1"] N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=N1,Pa2=N2] =text] Pa2 #N2 [Pa2~]N2]"
+NPCTANPN-ANN = A1 N1 Pa2 N2<c=gen> <A1=N1,Pa2=N2> =text> "A1["#A1"] N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [A1=N1,Pa2=N2] =text] A1 #N1 N2[c=gen] [A1~]N2]"
+
+FCTPNAN = Pa1 N1 A2 N2<c=gen> <Pa1=N1,A2=N2> =text> Pa1 N1<c=nom,n=sing> A2 N2<c=gen> <Pa1~>N1,A2~>N2>
+NPFCTPNAN = Pa1 N1 A2 N2<c=gen> <Pa1=N1,A2=N2> =text> "Pa1["#Pa1"] N1["#N1"] A2["#A2"] N2["#N2",c=gen] [Pa1=N1,A2=N2] =text] Pa1 N1[c=nom,n=sing] A2 N2[c=gen] [Pa1~]N1,A2~]N2]"
+CTPNAN-AN = Pa1 N1 A2 N2<c=gen> <Pa1=N1,A2=N2> =text> A2 #N2 <A2~>N2>
+CTPNAN-PNN = Pa1 N1 A2 N2<c=gen> <Pa1=N1,A2=N2> =text> Pa1 #N1 N2<c=gen> <Pa1~>N2>
+NPCTPNAN-AN = Pa1 N1 A2 N2<c=gen> <Pa1=N1,A2=N2> =text> "Pa1["#Pa1"] N1["#N1"] A2["#A2"] N2["#N2",c=gen] [Pa1=N1,A2=N2] =text] A2 #N2 [A2~]N2]"
+NPCTPNAN-PNN = Pa1 N1 A2 N2<c=gen> <Pa1=N1,A2=N2> =text> "Pa1["#Pa1"] N1["#N1"] A2["#A2"] N2["#N2",c=gen] [Pa1=N1,A2=N2] =text] Pa1 #N1 N2[c=gen] [Pa1~]N2]"
+
+FCTPNPN = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1,Pa2=N2> =text> Pa1 N1<c=nom,n=sing> Pa2 N2<c=gen> <Pa1~>N1,Pa2~>N2>
+NPFCTPNPN = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1,Pa2=N2> =text> "Pa1["#Pa1"] N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=N1,Pa2=N2] =text] Pa1 N1[c=nom,n=sing] Pa2 N2[c=gen] [Pa1~]N1,Pa2~]N2]"
+CTPNPN-PN = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1,Pa2=N2> =text> Pa2 #N2 <Pa2~>N2>
+CTPNPN-PNN = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1,Pa2=N2> =text> Pa1 #N1 N2<c=gen> <Pa1~>N2>
+NPCTPNPN-PN = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1,Pa2=N2> =text> "Pa1["#Pa1"] N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=N1,Pa2=N2] =text] Pa2 #N2 [Pa2~]N2]"
+NPCTPNPN-PNN = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1,Pa2=N2> =text> "Pa1["#Pa1"] N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=N1,Pa2=N2] =text] Pa1 #N1 N2[c=gen] [Pa1~]N2]"
+
+FCTAAAN = A1 A2 A3 N1<c=gen> <A1=A2=A3=N1> =text> A1 A2 A3 N1<c=nom,n=sing> <A1~>N1,A2~>N1,A3~>N1>
+NPFCTAAAN = A1 A2 A3 N1<c=gen> <A1=A2=A3=N1> =text> "A1["#A1"] A2["#A2"] A3["#A3"] N1["#N1",c=gen] [A1=A2=A3=N1]  =text] A1 A2 A3 N1[c=nom,n=sing] [A1~]N1,A2~]N1,A3~]N1]"
+CTAAAN-AN = A1 A2 A3 N1<c=gen> <A1=A2=A3=N1> =text> A1 #N1 <A1~>N1>
+CTAAAN-AAN = A1 A2 A3 N1<c=gen> <A1=A2=A3=N1> =text> A2 A3 #N1 <A2~>N1,A3~>N1>
+NPCTAAAN-AN = A1 A2 A3 N1<c=gen> <A1=A2=A3=N1> =text> "A1["#A1"] A2["#A2"] A3["#A3"] N1["#N1",c=gen] [A1=A2=A3=N1]  =text] A1 #N1 [A1~]N1]"
+NPCTAAAN-AAN = A1 A2 A3 N1<c=gen> <A1=A2=A3=N1> =text> "A1["#A1"] A2["#A2"] A3["#A3"] N1["#N1",c=gen] [A1=A2=A3=N1]  =text] A2 A3 #N1 [A2~]N1,A3~]N1]"
+
+FCTAAPN = A1 A2 Pa3 N1<c=gen> <A1=A2=Pa3=N1> =text> A1 A2 Pa3 N1<c=nom,n=sing> <A1~>N1,A2~>N1,Pa3~>N1>
+NPFCTAAPN = A1 A2 Pa3 N1<c=gen> <A1=A2=Pa3=N1> =text> "A1["#A1"] A2["#A2"] Pa3["#Pa3"] N1["#N1",c=gen] [A1=A2=Pa3=N1]  =text] A1 A2 Pa3 N1[c=nom,n=sing] [A1~]N1,A2~]N1,Pa3~]N1]"
+CTAAPN-AN = A1 A2 Pa3 N1<c=gen> <A1=A2=Pa3=N1> =text> A1 #N1 <A1~>N1>
+CTAAPN-APN = A1 A2 Pa3 N1<c=gen> <A1=A2=Pa3=N1> =text> A2 Pa3 #N1 <A2~>N1,Pa3~>N1>
+NPCTAAPN-AN = A1 A2 Pa3 N1<c=gen> <A1=A2=Pa3=N1> =text> "A1["#A1"] A2["#A2"] Pa3["#Pa3"] N1["#N1",c=gen] [A1=A2=Pa3=N1]  =text] A1 #N1 [A1~]N1]"
+NPCTAAPN-APN = A1 A2 Pa3 N1<c=gen> <A1=A2=Pa3=N1> =text> "A1["#A1"] A2["#A2"] Pa3["#Pa3"] N1["#N1",c=gen] [A1=A2=Pa3=N1]  =text] A2 Pa3 #N1 [A2~]N1,Pa3~]N1]"
+
+FCTAPAN = A1 Pa2 A3 N1<c=gen> <A1=Pa2=A3=N1> =text> A1 Pa2 A3 N1<c=nom,n=sing> <A1~>N1,Pa2~>N1,A3~>N1>
+NPFCTAPAN = A1 Pa2 A3 N1<c=gen> <A1=Pa2=A3=N1> =text> "A1["#A1"] Pa2["#Pa2"] A3["#A3"] N1["#N1",c=gen] [A1=Pa2=A3=N1]  =text] A1 Pa2 A3 N1[c=nom,n=sing] [A1~]N1,Pa2~]N1,A3~]N1]"
+CTAPAN-AN = A1 Pa2 A3 N1<c=gen> <A1=Pa2=A3=N1> =text> A1 #N1 <A1~>N1>
+CTAPAN-PAN = A1 Pa2 A3 N1<c=gen> <A1=Pa2=A3=N1> =text> Pa2 A3 #N1 <Pa2~>N1,A3~>N1>
+NPCTAPAN-AN = A1 Pa2 A3 N1<c=gen> <A1=Pa2=A3=N1> =text> "A1["#A1"] Pa2["#Pa2"] A3["#A3"] N1["#N1",c=gen] [A1=Pa2=A3=N1]  =text] A1 #N1 [A1~]N1]"
+NPCTAPAN-PAN = A1 Pa2 A3 N1<c=gen> <A1=Pa2=A3=N1> =text> "A1["#A1"] Pa2["#Pa2"] A3["#A3"] N1["#N1",c=gen] [A1=Pa2=A3=N1]  =text] Pa2 A3 #N1 [Pa2~]N1,A3~]N1]"
+
+FCTAPPN = A1 Pa2 Pa3 N1<c=gen> <A1=Pa2=Pa3=N1> =text> A1 Pa2 Pa3 N1<c=nom,n=sing> <A1~>N1,Pa2~>N1,Pa3~>N1>
+NPFCTAPPN = A1 Pa2 Pa3 N1<c=gen> <A1=Pa2=Pa3=N1> =text> "A1["#A1"] Pa2["#Pa2"] Pa3["#Pa3"] N1["#N1",c=gen] [A1=Pa2=Pa3=N1]  =text] A1 Pa2 Pa3 N1[c=nom,n=sing] [A1~]N1,Pa2~]N1,Pa3~]N1]"
+CTAPPN-AN = A1 Pa2 Pa3 N1<c=gen> <A1=Pa2=Pa3=N1> =text> A1 #N1 <A1~>N1>
+CTAPPN-PPN = A1 Pa2 Pa3 N1<c=gen> <A1=Pa2=Pa3=N1> =text> Pa2 Pa3 #N1 <Pa2~>N1,Pa3~>N1>
+NPCTAPPN-AN = A1 Pa2 Pa3 N1<c=gen> <A1=Pa2=Pa3=N1> =text> "A1["#A1"] Pa2["#Pa2"] Pa3["#Pa3"] N1["#N1",c=gen] [A1=Pa2=Pa3=N1]  =text] A1 #N1 [A1~]N1]"
+NPCTAPPN-PPN = A1 Pa2 Pa3 N1<c=gen> <A1=Pa2=Pa3=N1> =text> "A1["#A1"] Pa2["#Pa2"] Pa3["#Pa3"] N1["#N1",c=gen] [A1=Pa2=Pa3=N1]  =text] Pa2 Pa3 #N1 [Pa2~]N1,Pa3~]N1]"
+
+FCTPAAN = Pa1 A2 A3 N1<c=gen> <Pa1=A2=A3=N1> =text> Pa1 A2 A3 N1<c=nom,n=sing> <Pa1~>N1,A2~>N1,A3~>N1>
+NPFCTPAAN = Pa1 A2 A3 N1<c=gen> <Pa1=A2=A3=N1> =text> "Pa1["#Pa1"] A2["#A2"] A3["#A3"] N1["#N1",c=gen] [Pa1=A2=A3=N1]  =text] Pa1 A2 A3 N1[c=nom,n=sing] [Pa1~]N1,A2~]N1,A3~]N1]"
+CTPAAN-PN = Pa1 A2 A3 N1<c=gen> <Pa1=A2=A3=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPAAN-AAN = Pa1 A2 A3 N1<c=gen> <Pa1=A2=A3=N1> =text> A2 A3 #N1 <A2~>N1,A3~>N1>
+NPCTPAAN-PN = Pa1 A2 A3 N1<c=gen> <Pa1=A2=A3=N1> =text> "Pa1["#Pa1"] A2["#A2"] A3["#A3"] N1["#N1",c=gen] [Pa1=A2=A3=N1]  =text] Pa1 #N1 [Pa1~]N1]"
+NPCTPAAN-AAN = Pa1 A2 A3 N1<c=gen> <Pa1=A2=A3=N1> =text> "Pa1["#Pa1"] A2["#A2"] A3["#A3"] N1["#N1",c=gen] [Pa1=A2=A3=N1]  =text] A2 A3 #N1 [A2~]N1,A3~]N1]"
+
+FCTPAPN = Pa1 A2 Pa3 N1<c=gen> <Pa1=A2=Pa3=N1> =text> Pa1 A2 Pa3 N1<c=nom,n=sing> <Pa1~>N1,A2~>N1,Pa3~>N1>
+NPFCTPAPN = Pa1 A2 Pa3 N1<c=gen> <Pa1=A2=Pa3=N1> =text> "Pa1["#Pa1"] A2["#A2"] Pa3["#Pa3"] N1["#N1",c=gen] [Pa1=A2=Pa3=N1]  =text] Pa1 A2 Pa3 N1[c=nom,n=sing] [Pa1~]N1,A2~]N1,Pa3~]N1]"
+CTPAPN-PN = Pa1 A2 Pa3 N1<c=gen> <Pa1=A2=Pa3=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPAPN-APN = Pa1 A2 Pa3 N1<c=gen> <Pa1=A2=Pa3=N1> =text> A2 Pa3 #N1 <A2~>N1,Pa3~>N1>
+NPCTPAPN-N = Pa1 A2 Pa3 N1<c=gen> <Pa1=A2=Pa3=N1> =text> "Pa1["#Pa1"] A2["#A2"] Pa3["#Pa3"] N1["#N1",c=gen] [Pa1=A2=Pa3=N1]  =text] Pa1 #N1 [Pa1~]N1]"
+NPCTPAPN-APN = Pa1 A2 Pa3 N1<c=gen> <Pa1=A2=Pa3=N1> =text> "Pa1["#Pa1"] A2["#A2"] Pa3["#Pa3"] N1["#N1",c=gen] [Pa1=A2=Pa3=N1]  =text] A2 Pa3 #N1 [A2~]N1,Pa3~]N1]"
+
+FCTPPAN = Pa1 Pa2 A3 N1<c=gen> <Pa1=Pa2=A3=N1> =text> Pa1 Pa2 A3 N1<c=nom,n=sing> <Pa1~>N1,Pa2~>N1,A3~>N1>
+NPFCTPPAN = Pa1 Pa2 A3 N1<c=gen> <Pa1=Pa2=A3=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] A3["#A3"] N1["#N1",c=gen] [Pa1=Pa2=A3=N1]  =text] Pa1 Pa2 A3 N1[c=nom,n=sing] [Pa1~]N1,Pa2~]N1,A3~]N1]"
+CTPPAN-PN = Pa1 Pa2 A3 N1<c=gen> <Pa1=Pa2=A3=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPPAN-PAN = Pa1 Pa2 A3 N1<c=gen> <Pa1=Pa2=A3=N1> =text> Pa2 A3 #N1 <Pa2~>N1,A3~>N1>
+NPCTPPAN-PN = Pa1 Pa2 A3 N1<c=gen> <Pa1=Pa2=A3=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] A3["#A3"] N1["#N1",c=gen] [Pa1=Pa2=A3=N1]  =text] Pa1 #N1 [Pa1~]N1]"
+NPCTPPAN-PAN = Pa1 Pa2 A3 N1<c=gen> <Pa1=Pa2=A3=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] A3["#A3"] N1["#N1",c=gen] [Pa1=Pa2=A3=N1]  =text] Pa2 A3 #N1 [Pa2~]N1,A3~]N1]"
+
+FCTPPPN = Pa1 Pa2 Pa3 N1<c=gen> <Pa1=Pa2=Pa3=N1> =text> Pa1 Pa2 Pa3 N1<c=nom,n=sing> <Pa1~>N1,Pa2~>N1,Pa3~>N1>
+NPFCTPPPN = Pa1 Pa2 Pa3 N1<c=gen> <Pa1=Pa2=Pa3=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] Pa3["#Pa3"] N1["#N1",c=gen] [Pa1=Pa2=Pa3=N1]  =text] Pa1 Pa2 Pa3 N1[c=nom,n=sing] [Pa1~]N1,Pa2~]N1,Pa3~]N1]"
+CTPPPN-PN = Pa1 Pa2 Pa3 N1<c=gen> <Pa1=Pa2=Pa3=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPPPN-PPN = Pa1 Pa2 Pa3 N1<c=gen> <Pa1=Pa2=Pa3=N1> =text> Pa2 Pa3 #N1 <Pa2~>N1,Pa3~>N1>
+NPCTPPPN-PN = Pa1 Pa2 Pa3 N1<c=gen> <Pa1=Pa2=Pa3=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] Pa3["#Pa3"] N1["#N1",c=gen] [Pa1=Pa2=Pa3=N1]  =text] Pa1 #N1 [Pa1~]N1]"
+NPCTPPPN-PPN = Pa1 Pa2 Pa3 N1<c=gen> <Pa1=Pa2=Pa3=N1> =text> "Pa1["#Pa1"] Pa2["#Pa2"] Pa3["#Pa3"] N1["#N1",c=gen] [Pa1=Pa2=Pa3=N1]  =text] Pa2 Pa3 #N1 [Pa2~]N1,Pa3~]N1]"
+
+FCTNNN = N1 N2<c=gen> N3<c=gen> =text> N1<c=nom,n=sing> N2 N3
+NPFCTNNN = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] N1[c=nom,n=sing] N2 N3"
+CTNNN-N = N1 N2<c=gen> N3<c=gen> =text> #N1
+CTNNN-N-TWO = N1 N2<c=gen> N3<c=gen> =text> #N2
+CTNNN-N-THREE = N1 N2<c=gen> N3<c=gen> =text> #N3
+CTNNN-NN = N1 N2<c=gen> N3<c=gen> =text> #N1 N2
+CTNNN-NN-TWO = N1 N2<c=gen> N3<c=gen> =text> #N2 N3
+NPCTNNN-N = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N1"
+NPCTNNN-N-TWO = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N2"
+NPCTNNN-N-THREE = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N3"
+NPCTNNN-NN = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N1 N2"
+NPCTNNN-NN-TWO = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N2 N3"
+
+FCTANN = A1 N1 N2<c=gen> <A1=N1> =text> A1 N1<c=nom,n=sing> N2<c=gen> <A1~>N1>
+NPFCTANN = A1 N1 N2<c=gen> <A1=N1> =text> "A1["#A1"] N1["#N1"] N2["#N2",c=gen] [A1=N1] =text] A1 N1[c=nom,n=sing] N2[c=gen] [A1~]N1]"
+CTANN-NN = A1 N1 N2<c=gen> <A1=N1> =text> #N1 N2<c=gen>
+CTANN-AN = A1 N1 N2<c=gen> <A1=N1> =text> A1 #N1 <A1~>N1>
+CTANN-N = A1 N1 N2<c=gen> <A1=N1> =text> #N2
+NPCTANN-NN = A1 N1 N2<c=gen> <A1=N1> =text> "A1["#A1"] N1["#N1"] N2["#N2",c=gen] [A1=N1] =text] #N1 N2[c=gen]"
+NPCTANN-AN = A1 N1 N2<c=gen> <A1=N1> =text> "A1["#A1"] N1["#N1"] N2["#N2",c=gen] [A1=N1] =text] A1 #N1 [A1~]N1]"
+NPCTANN-N = A1 N1 N2<c=gen> <A1=N1> =text> "A1["#A1"] N1["#N1"] N2["#N2",c=gen] [A1=N1] =text] #N2"
+
+FCTPNN = Pa1 N1 N2<c=gen> <Pa1=N1> =text> Pa1 N1<c=nom,n=sing> N2<c=gen> <Pa1~>N1>
+NPFCTPNN = Pa1 N1 N2<c=gen> <Pa1=N1> =text> "Pa1["#Pa1"] N1["#N1"] N2["#N2",c=gen] [Pa1=N1] =text] Pa1 N1[c=nom,n=sing] N2[c=gen] [Pa1~]N1]"
+CTPNN-NN = Pa1 N1 N2<c=gen> <Pa1=N1> =text> #N1 N2<c=gen>
+CTPNN-PN = Pa1 N1 N2<c=gen> <Pa1=N1> =text> Pa1 #N1 <Pa1~>N1>
+CTPNN-N = Pa1 N1 N2<c=gen> <Pa1=N1> =text> #N2
+NPCTPNN-NN = Pa1 N1 N2<c=gen> <Pa1=N1> =text> "Pa1["#Pa1"] N1["#N1"] N2["#N2",c=gen] [Pa1=N1] =text] #N1 N2[c=gen]"
+NPCTPNN-PN = Pa1 N1 N2<c=gen> <Pa1=N1> =text> "Pa1["#Pa1"] N1["#N1"] N2["#N2",c=gen] [Pa1=N1] =text] Pa1 #N1 [Pa1~]N1]"
+NPCTPNN-N = Pa1 N1 N2<c=gen> <Pa1=N1> =text> "Pa1["#Pa1"] N1["#N1"] N2["#N2",c=gen] [Pa1=N1] =text] #N2"
+
+FCTNN = N1 N2<c=gen> =text> N1<c=nom,n=sing> N2<c=gen>
+NPFCTNN = N1 N2<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] =text] N1[c=nom,n=sing] N2[c=gen]"
+CTNN-N = N1 N2<c=gen> =text> #N1
+CTNN-N-TWO = N1 N2<c=gen> =text> #N2
+NPCTNN-N = N1 N2<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] =text] #N1"
+NPCTNN-N-TWO = N1 N2<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] =text] #N2"

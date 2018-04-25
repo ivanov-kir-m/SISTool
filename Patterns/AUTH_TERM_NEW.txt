@@ -1,0 +1,100 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1
+
+NE = "не" =text> "не"
+Del = "," =text> "," | "–" =text> "–"
+
+WD = W1 =text> W1 | Del1 =text> Del1
+SG = "," [Pr1] Pn1<который> {WD1}<0,4> "," (Pn1) =text> "," Pr1 Pn1 WD1 ","
+PG = "," [NE1] Pa1 {WD1}<0,4> "," (Pa1) =text> "," NE1 Pa1 WD1 ","
+NMSP = N1 (N1) =text> N1 | N1 N2<c=gen> (N1) =text> N1 N2<c=gen>
+
+MSP = N1 (N1) =text> N1 
+MSP = N1 N2<c=gen> (N1) =text> N1 N2<c=gen> 
+MSP = Pa1 N1 <Pa1=N1> (N1) =text> Pa1 N1 <Pa1~>N1> 
+MSP = A1 N1 <A1=N1> (N1) =text> A1 N1 <A1~>N1> 
+MSP = Pa1 Pa2 N1 <Pa1=N1> <Pa2=N1> (N1) =text> Pa1 Pa2 N1 <Pa1~>N1, Pa2~>N1>
+MSP = A1 Pa2 N1 <A1=N1> <Pa2=N1> (N1) =text> A1 Pa2 N1 <A1~>N1, Pa2~>N1>
+MSP = Pa1 A2 N1 <Pa1=N1> <A2=N1> (N1) =text> Pa1 A2 N1 <Pa1~>N1, A2~>N1>
+MSP = A1 A2 N1 <A1=A2=N1> (N1) =text> A1 A2 N1 <A1~>N1, A2~>N1> 
+MSP = Pa1 N1 N2<c=gen> <Pa1=N1> (N1) =text> Pa1 N1<Pa1~>N1> N2<c=gen>
+MSP = A1 N1 N2<c=gen> <A1=N1> (N1) =text> A1 N1 <A1~>N1> N2<c=gen>
+MSP = N1 Pa1 N2<c=gen> <Pa1=N2> (N1) =text> N1 Pa1 N2<c=gen> <Pa1~>N2>
+MSP = N1 A1 N2<c=gen> <A1=N2> (N1) =text> N1 A1 N2<c=gen> <A1~>N2> 
+MSP = N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2<c=gen> N3<c=gen>
+
+Prep = Pr1 MSP1 (MSP1) =text> Pr1 MSP1 <Pr1~>MSP1>
+
+TermSyn = MSP1 ["\("MSP2"\)"] <MSP1.c=MSP2.c> (MSP1) =text> MSP1 "@@" MSP2
+
+TermN = NMSP1 [PG1] <NMSP1=PG1> (NMSP1) =text> NMSP1
+
+Term = TermSyn1 ["," "или" ["просто"] TermSyn2] <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> TermSyn1 "@@" #TermSyn2
+Term = MSP1 ["," "или" ["просто"] MSP2] <MSP1.c=MSP2.c> (MSP1) =text> #MSP1 "@@" #MSP2
+
+
+TrustedSdefA = ["соответственно"] "называют" Pn1<такой> TermN1<c=acc> AP1<c=ins> ["\("AP2<c=ins>"\)"] ["," "или" AP3<c=ins> ["\("AP4<c=ins>"\)"] [","]] <Pn1=AP1,AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefB = TermN1<c=nom> ["соответственно"] ["иногда"|"и"] V1<называтьсЯ, t=pres, p=3, m=ind> AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <TermN1.g=AP1.g, TermN1.a=AP1.a, TermN1.n=V1.n=AP1.n, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefC = TermN1<c=acc> ["соответственно"] ["часто"] "называют" AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <TermN1.g=AP1.g, TermN1.a=AP1.a, TermN1.n=AP1.n, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefD = ["соответственно"] "назовем" ["соответственно"] TermN1<c=acc> [Prep1<c=prep>] AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefE = ["соответственно"] TermN1<c=acc> "назовем" AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefF = ["соответственно"] TermN1<c=nom> ["соответственно"] ["условно"] "назовем" AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefG = ["соответственно"] TermN1<c=acc> ["соответственно"] ["далее"] "будем" "называть" AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefH = ["соответственно"] TermN1<c=acc> ["соответственно"] "мы" "называем" AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefI = ["соответственно"] TermN1"," ["условно"|"обычно"] Pa1<назвать> AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <TermN1.g=AP1.g, TermN1.a=AP1.a, TermN1.n=V1.n=AP1.n, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefJ = ["соответственно"] TermN1<c=acc> ["соответственно"] [","{W}<0,4>","] "можно" "назвать" AP1 ["\("AP2"\)"] ["," "или" AP3 ["\("AP4"\)"] [","]] <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2=AP3=AP4> =text> AP1 "@@" AP2 "@@" AP3 "@@" AP4 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1,AP3~>TermN1,AP4~>TermN1>
+TrustedSdefK = ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] ["соответственно"] V1<называтьсЯ, t=pres, p=3, m=ind> ["соответственно"] AP1 "или" AP2 TermN1 <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2> =text> AP1 "@@" AP2 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1>
+TrustedSdefL = ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] ["соответственно"] V1<называтьсЯ, t=pres, p=3, m=ind> ["соответственно"] AP1 "и" AP2 TermN1 <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2> =text> AP1 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1>
+TrustedSdefM = ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] ["соответственно"] V1<называтьсЯ, t=pres, p=3, m=ind> ["соответственно"] AP1 "и" AP2 TermN1 <AP1.n=TermN1.n, AP1.g=TermN1.g, TermN1.a=AP1.a, AP1=AP2> =text> AP2 "@@" #TermN1 <AP1~>TermN1,AP2~>TermN1>
+
+TrustedDefA = "будем" "понимать" "под" Term1<c=ins> =text> #Term1
+TrustedDefB = "введем" "понЯтие" Term1 "," "под" "которым" "будем" "понимать" =text> #Term1
+TrustedDefC = "может" "быть" Pa1<назвать, f=short> Term1<c=ins> <Pa1.n=Term1.n> =text> #Term1
+TrustedDefD = "назовем" Term1<c=ins> =text> #Term1
+TrustedDefE = "под" {"словом"|"термином"}<1,1> Term1<c=nom> {"понимаетсЯ"|"будем" "понимать"|V1<пониматьсЯ, t=pres, p=3, m=ind>}<1,1> =text> #Term1
+TrustedDefF = "под" Term1<c=ins> {"мы" "понимаем" | "понимают" | "следует" "понимать" | ["здесь" | "в" "общем" "случае" | "мы"] "будем" "понимать" | [Prep1<c=prep>] ["обычно" | "здесь"] V1<пониматьсЯ, t=pres, p=3, m=ind>}<1,1> =text> #Term1
+TrustedDefG = "так" {"называемый" | "называющийся" | "называемая" | "называющаяся" | "называемое" | "называющееся" | "называемые" | "называющиеся" | "называемого" | "называющегося" | "называемой" | "называющейся" | "называемых" | "называющихся" | "называемому" | "называющемуся" | "называемым" | "называющимся" |  "называемую" | "называющуюся" | "называемою" | "называющеюся" | "называемыми" | "называющимися" | "называемом" | "называющемся" | "называем" | "называема" | "называемо" | "называемы"}<1,1> Term1 <Pa1=Term1> =text> #Term1
+TrustedDefH = ["целесообразно" | "можно"] "ввести" N1<понЯтие, c=acc, n=sing> Term1<c=gen> =text> #Term1
+TrustedDefI = {"т.н." | "т" "." "н" "."}<1,1> Term1 =text> #Term1
+TrustedDefJ = A1 "\(" {"т.е."|"то" "есть"|"т." "е."}<1,1> {W1}<0,4> "\)" NMSP1 <A1=NMSP1> =text> A1 #NMSP1
+
+
+TrustedDefK = {"называемый" | "называющийся" | "называемая" | "называющаяся" | "называемое" | "называющееся" | "называемые" | "называющиеся" | "называемого" | "называющегося" | "называемой" | "называющейся" | "называемых" | "называющихся" | "называемому" | "называющемуся" | "называемым" | "называющимся" |  "называемую" | "называющуюся" | "называемою" | "называющеюся" | "называемыми" | "называющимися" | "называемом" | "называющемся" | "называем" | "называема" | "называемо" | "называемы"}<1,1> Term1<c=nom> =text> #Term1
+
+
+TrustedDefL = Pn1<который> "можно" ["было" "бы"] "назвать" ["также"] Term1<c=ins> =text> #Term1
+TrustedDefM = Pn1<который> "мы" ["условно"] "называем" Term1<c=ins> =text> #Term1
+TrustedDefN = Pn1<который> ["далее"] "будем" ["условно" | "соответственно"] "называть" ["соответственно"] Term1<c=ins> =text> #Term1
+TrustedDefO = { "," | "\(" }<1,1> Pa1<назвать> Term1<c=ins> =text> #Term1
+TrustedDefP = {","|"\("}<1,1> {"называемый" | "называющийся" | "называемая" | "называющаяся" | "называемое" | "называющееся" | "называемые" | "называющиеся" | "называемого" | "называющегося" | "называемой" | "называющейся" | "называемых" | "называющихся" | "называемому" | "называющемуся" | "называемым" | "называющимся" |  "называемую" | "называющуюся" | "называемою" | "называющеюся" | "называемыми" | "называющимися" | "называемом" | "называющемся" | "называем" | "называема" | "называемо" | "называемы"}<1,1> ["часто"] Term1<c=ins> =text> #Term1
+TrustedDefR = Pn1<который> ["традиционно"] V1<называтьсЯ, t=pres, p=3, m=ind> ["соответственно"] Term1<c=ins> =text> #Term1
+TrustedDefS = Pn1<который> "назовем" Term1<c=ins> =text> #Term1
+TrustedDefT = Pn1<который> ["впоследствие"] V1<получить, t=past, p=3, m=ind> "название" Term1<c=nom> =text> #Term1
+TrustedDefU = {"можно"|"принЯто"}<1,1> ["соответственно"] {"называть"|"назвать"}<1,1> ["соответственно"] Term1<c=ins> =text> #Term1
+TrustedDefV = ["кратко"] "назовем" Term1<c=ins> =text> #Term1
+TrustedDefX = [Prep1<c=prep>] "называют" ["также"] Term1<c=ins> =text> #Term1
+TrustedDefY = {"удобно"|"разумно"}<1,1> "назвать" Term1<c=ins> =text> #Term1
+TrustedDefZ = "называетсЯ" ["везде" "одинаково" "–"] {"явление" | "принцип" | "свойство"}<0,1> Term1<c=nom> =text> #Term1
+TrustedDefAB = Pa1<назвать, f=short> [Prep1<c=prep>] Term1<c=ins> =text> #Term1
+TrustedDefAC = Prep1 V1<называтьсЯ, t=pres, p=3, m=ind> ["соответственно"] Term1<c=ins> =text> Term1
+TrustedDefAF = Pa1 "\(" {"т.е."|"то" "есть"|"т." "е."}<1,1> {W1}<0,4> "\)" NMSP1 <Pa1=NMSP1> =text> Pa1 #NMSP1
+TrustedDefAG = Pa1<получить> [Prep1<c=prep>] N1<название> Term1<c=nom> <Pa1.n=N1.n> =text> #Term1
+TrustedDefAH = Pn1 ["соответственно"] V1<называть, t=pres, p=3, m=ind> ["соответственно"] Term1<c=ins> <Pn1=V1> =text> #Term1
+TrustedDefAI = Term1<c=ins> ["соответственно"] {["мы"] "будем" "называть"|"называют" ["обычно"] | ["обычно"] "принЯто" "называть"|'мы' 'называем'}<1,1> =text> #Term1
+TrustedDefAJ = Term1<c=ins> ["\("MSP1<c=gen>"\)" | "\("Prep1<c=prep>"\)"] V1<называтьсЯ, t=pres, p=3, m=ind> =text> #Term1
+TrustedDefAD = ["соответственно"] {V1<носить, t=pres, p=3, m=ind>|V1<получить, t=past, p=3, m=ind>}<1,1> "название" Term1<c=gen> =text> #Term1
+
+TrustedDefAK = "назовем" Dfn1<c=acc> ["соответственно"] Term1<c=ins> =text> #Term1
+TrustedDefW = ["мы"] ["соответственно"] "будем" "называть" ["соответственно"] Term1<c=ins> =text> #Term1
+TrustedDefAA = ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] ["соответственно"] V1<называтьсЯ, t=pres, p=3, m=ind> ["соответственно"] Term1<c=ins> =text> #Term1
+TrustedDefAE = {N1<термин,c=nom> | N1<термин,c=ins> | N1<термин,c=acc>}<1,1> ["обозначает"] Term1<c=nom> =text> #Term1
+TrustedDefBB = Term1<c=nom> V<представлять, t=pres,p=3,m=ind> "собой" <Term1.n=V.n> =text> #Term1
+
+
+
+
+UntrustedDefA = Term1<c=nom> ["–"] {"есть"|"это"}<1,1> =text> #Term1
+UntrustedDefC = Pr1 Term1 {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Pr1 =text> #Term1
+UntrustedDefD = Term1 {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> =text> #Term1
+
+
+
