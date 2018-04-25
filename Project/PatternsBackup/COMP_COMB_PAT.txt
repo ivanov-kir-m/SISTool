@@ -1,0 +1,119 @@
+CompCombPat = N1<разр€дность> N2<регистр> N3<микропроцессор> =text> #N1 N2 N3
+CompCombPat = A1<внутренний> N1<регистр> <A1=N1> =text> A1 #N1 <A1~>N1>
+
+CompCombPat = A1<сверхбольшой> N1<схема> <A1=N1> =text> A1 #N1 <A1~>N1>
+CompCombPat = A1<интегральный> N1<схема> <A1=N1> =text> A1 #N1 <A1~>N1>
+
+CompCombPat = A1<единый> N1<кристалл> <A1=N1> =text> A1 #N1 <A1~>N1>
+CompCombPat = A1<полупроводниковый> N1<кристалл> <A1=N1> =text> A1 #N1 <A1~>N1>
+
+CompCombPat = N1<функци€> N2<процессор,c=gen> =text> #N1 N2
+CompCombPat = A1<центральный> N1<процессор> <A1=N1> =text> A1 #N1 <A1~>N1>     
+
+CompCombPat = N1<разр€дность> N2<регистр,c=gen> =text> #N1 N2
+CompCombPat = A1<внутренний> N1<регистр> <A1=N1> =text> A1 #N1 <A1~>N1>        
+
+CompCombPat = N1<количество> N2<вывод,c=gen> =text> #N1 N2
+CompCombPat = A1<внешний> N1<вывод> <A1=N1> =text> A1 #N1 <A1~>N1>  
+
+CompCombPat = N1<лини€> N2<данные,c=gen> =text> #N1 N2
+CompCombPat = A1<внешний> N1<данные> <A1=N1> =text> A1 #N1 <A1~>N1> 
+
+CompCombPat = N1<16> N2<лини€,c=gen,n=plur> N3<данные,c=gen> =text> #N1 N2 N3
+CompCombPat = A1<внешний> N1<данные> <A1=N1> =text> A1 #N1 <A1~>N1>
+
+CompCombPat = N1<контакт> N2<корпус,c=gen> =text> #N1 N2
+CompCombPat = A1<специальный> N1<контакт> <A1=N1> =text> A1 #N1 <A1~>N1>    
+
+CompCombPat = A1<специальный> N1<контакт> <A1=N1> =text> A1 #N1 <A1~>N1> 
+CompCombPat = N1<корпус> =text> #N1
+
+CompCombPat = N1<регистр> N2<микропроцессор,c=gen> =text> #N1 N2
+CompCombPat = A1<внутренний> N1<регистр> <A1=N1> =text> A1 #N1 <A1~>N1>    
+
+CompCombPat = A1<внутренний> N1<регистр> <A1=N1> =text> A1 #N1 <A1~>N1> 
+CompCombPat = N1<микропроцессор> =text> #N1
+
+CompCombPat = N1<шина> N2<микропроцессор,c=gen> =text> #N1 N2
+CompCombPat = A1<внешн€€> N1<шина> <A1=N1> =text> A1 #N1 <A1~>N1>    
+
+CompCombPat = A1<внешн€€> N1<шина> <A1=N1> =text> A1 #N1 <A1~>N1> 
+CompCombPat = N1<микропроцессор> =text> #N1
+
+CompCombPat = N1<контакт> =text> #N1
+CompCombPat = N1<корпус> =text> #N1
+CompCombPat = N1<микросхема> =text> #N1
+
+CompCombPat = N1<контакт> N2<корпус,c=gen> =text> #N1 N2
+CompCombPat = N1<микросхема> =text> #N1
+
+CompCombPat = N1<контакт> N2<корпус,c=gen> =text> #N1 N2
+CompCombPat = N1<корпус> N2<микросхема,c=gen> =text> #N1 N2
+
+CompCombPat = N1<контакт> =text> #N1
+CompCombPat = N1<корпус> N2<микросхема,c=gen> =text> #N1 N2
+
+CompCombPat = N1<микропроцессор> =text> #N1
+CompCombPat = N1<операци€> =text> #N1
+CompCombPat = N1<ввод-вывод> =text> #N1
+
+CompCombPat = N1<микропроцессор> N2<операци€,c=gen> =text> #N1 N2
+CompCombPat = N1<ввод-вывод> =text> #N1
+
+CompCombPat = N1<микропроцессор> N2<операци€,c=gen> =text> #N1 N2
+N1<корпус> N2<ввод-вывод,c=gen> =text> #N1 N2
+
+CompCombPat = N1<микропроцессор> =text> #N1
+CompCombPat = N1<операци€> N2<ввод-вывод,c=gen> =text> #N1 N2            
+
+CompCombPat = N1<шина> =text> #N1
+CompCombPat = N1<адрес> =text> #N1
+
+CompCombPat = N1<контакт> =text> #N1
+CompCombPat = N1<корпус> =text> #N1
+ 
+CompCombPat = N1<корпус> =text> #N1
+CompCombPat = N1<микросхема> =text> #N1
+
+CompCombPat = N1<операци€> =text> #N1
+CompCombPat = N1<ввод-вывод> =text> #N1
+
+CompCombPat = N1<схема> =text> #N1
+CompCombPat = N1<сопр€жение> =text> #N1
+
+CompCombPat = N1<регистр> =text> #N1
+CompCombPat = N1<ввод-вывод> =text> #N1
+
+CompCombPat = N1<шина> =text> #N1
+CompCombPat = N1<микропроцессор> =text> #N1
+
+CompCombPat = N1<порт> =text> #N1
+CompCombPat = N1<ввода-вывода> =text> #N1
+
+CompCombPat = N1<регистр> =text> #N1
+CompCombPat = N1<микропроцессор> =text> #N1
+
+CompCombPat = N1<лини€> =text> #N1
+CompCombPat = N1<данные> =text> #N1
+
+CompCombPat = N1<микропроцессор> =text> #N1
+CompCombPat = N1<операци€> =text> #N1
+
+CompCombPat = N1<регистр> =text> #N1
+CompCombPat = N1<микропроцессор> =text> #N1
+CompCombPat = N1<пр€> =text> #N1
+
+CompCombPat = N1<регистр> N2<микропроцессор,c=gen> =text> #N1 N2
+CompCombPat = N1<пр€> =text> #N1
+
+CompCombPat = N1<регистр> N2<микропроцессор,c=gen> =text> #N1 N2
+CompCombPat = N1<микропроцессор> N2<пр€,c=gen> =text> #N1 N2
+
+CompCombPat = N1<регистр> =text> #N1
+CompCombPat = N1<микропроцессор> N2<пр€,c=gen> =text> #N1 N2
+
+CompCombPat = N1<микропроцессор> =text> #N1
+CompCombPat = N1<пр€> =text> #N1
+
+CompCombPat = N1<16> =text> #N1
+CompCombPat = N1<лини€> =text> #N1

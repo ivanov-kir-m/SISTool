@@ -1,0 +1,13 @@
+D:\Programs\c-sharp\LemmaExample\bin\Debug\LemmaExample.exe
+D:\Programs\c-sharp\LemmaExample\bin\Debug\LemmaExample.pdb
+D:\Programs\c-sharp\LemmaExample\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Programs\c-sharp\LemmaExample\obj\x86\Debug\LemmaExample.exe
+D:\Programs\c-sharp\LemmaExample\obj\x86\Debug\LemmaExample.pdb
+D:\Programs\c-sharp\LemmaExample\bin\Debug\LemmatizerNET.dll
+D:\Programs\c-sharp\LemmaExample\bin\Debug\LemmatizerNET.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\LemmaExample\obj\x86\Debug\LemmaExample.exe
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\LemmaExample\obj\x86\Debug\LemmaExample.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\LemmaExample\bin\Debug\LemmaExample.exe
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\LemmaExample\bin\Debug\LemmaExample.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\LemmaExample\bin\Debug\LemmatizerNET.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\LemmaExample\obj\x86\Debug\LemmaExample.csprojResolveAssemblyReference.cache

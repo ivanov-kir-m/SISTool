@@ -1,0 +1,5 @@
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRulesV2\bin\Debug\TermRulesV2.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRulesV2\bin\Debug\TermRulesV2.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRulesV2\obj\Debug\TermRulesV2.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRulesV2\obj\Debug\TermRulesV2.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRulesV2\obj\Debug\TermRulesV2.csprojResolveAssemblyReference.cache

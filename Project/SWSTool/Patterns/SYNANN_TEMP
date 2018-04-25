@@ -1,0 +1,33 @@
+MSPANN = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> AP1 N1<AP1~>N1> N2<c=gen>
+TermANN = TermSynANN1 [[","] "или" ["просто"] TermSynANN2] <TermSynANN1.c=TermSynANN2.c> (TermSynANN1) =text> TermSynANN1
+TermSynANN = MSPANN1 ["\("MSPANN2"\)"] <MSPANN1.c=MSPANN2.c> (MSPANN1) =text> MSPANN1
+
+SYNANN = MSPANN1 "\("MSPANN2"\)" (MSPANN1) =text> #MSPANN1 "-" #MSPANN2
+SYNANN = MSPANN1 "\(" ["или"] MSPANN2 "\)" <MSPANN1.c=MSPANN2.c> =text> #MSPANN1 "-" #MSPANN2
+SYNANN = MSPANN1 "," "или" ["просто"] MSPANN2 =text> #MSPANN1 "-" #MSPANN2
+SYNANN = AP1 "\(" ["или"] AP2 "\)" PMSPNN1 <AP1=AP2=PMSPNN1> =text> AP1 #PMSPNN1 <AP1~>PMSPNN1> "-" AP2 #PMSPNN1 <AP2~>PMSPNN1>
+SYNANN = AP1 "," "или" AP2 [","] PMSPNN1 <AP1=AP2=PMSPNN1> =text> AP1 #PMSPNN1 <AP1~>PMSPNN1> "-" AP2 #PMSPNN1 <AP2~>PMSPNN1>
+SYNANN = TermANN1<c=acc> "будем" ["также"] "называть" TermANN2<c=ins> =text> #TermANN1 "-" #TermANN2 
+SYNANN = TermANN1"\(" "далее" ["-"] TermANN2<c=nom> "\)" =text> #TermANN1 "-" #TermANN2
+SYNANN = TermSynANN1 [","] "или" ["просто"] TermSynANN2 <TermSynANN1.c=TermSynANN2.c> (TermSynANN1) =text> #TermSynANN1 "-" #TermSynANN2
+
+NPMSPANN = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> "AP1[" #AP1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [AP1=N1] (N1) =text] AP1 N1[AP1~]N1] N2[c=gen]"
+NPTermSynANN = NPMSPANN1 ["\("NPMSPANN2"\)"] <NPMSPANN1.c=NPMSPANN2.c> (NPMSPANN1) =text> NPMSPANN1
+NPTermANN = NPTermSynANN1 [[","] "или" ["просто"] NPTermSynANN2] <NPTermSynANN1.c=NPTermSynANN2.c> (NPTermSynANN1) =text> NPTermSynANN1
+
+NPSYNANN-A = NPMSPANN1 "\("NPMSPANN2"\)" (NPMSPANN1) =text> #NPMSPANN1
+NPSYNANN-B = NPMSPANN1 "\("NPMSPANN2"\)" (NPMSPANN1) =text> #NPMSPANN2
+NPSYNANN-A = NPMSPANN1 "\(" ["или"] NPMSPANN2 "\)" <NPMSPANN1.c=NPMSPANN2.c> =text> #NPMSPANN1
+NPSYNANN-B = NPMSPANN1 "\(" ["или"] NPMSPANN2 "\)" <NPMSPANN1.c=NPMSPANN2.c> =text> #NPMSPANN2
+NPSYNANN-A = NPMSPANN1 "," "или" ["просто"] NPMSPANN2 =text> #NPMSPANN1
+NPSYNANN-B = NPMSPANN1 "," "или" ["просто"] NPMSPANN2 =text> #NPMSPANN2
+NPSYNANN-A = AP1 "\(" ["или"] AP2 "\)" NPPMSPNN1 <AP1=AP2=NPPMSPNN1> =text> AP1 #NPPMSPNN1 <AP1~>NPPMSPNN1>
+NPSYNANN-B = AP1 "\(" ["или"] AP2 "\)" NPPMSPNN1 <AP1=AP2=NPPMSPNN1> =text> AP2 #NPPMSPNN1 <AP2~>NPPMSPNN1>
+NPSYNANN-A = AP1 "," "или" AP2 [","] NPPMSPNN1 <AP1=AP2=NPPMSPNN1> =text> AP1 #NPPMSPNN1 <AP1~>NPPMSPNN1>
+NPSYNANN-B = AP1 "," "или" AP2 [","] NPPMSPNN1 <AP1=AP2=NPPMSPNN1> =text> AP2 #NPPMSPNN1 <AP2~>NPPMSPNN1>
+NPSYNANN-A = NPTermANN1<c=acc> "будем" ["также"] "называть" NPTermANN2<c=ins> =text> #NPTermANN1 
+NPSYNANN-B = NPTermANN1<c=acc> "будем" ["также"] "называть" NPTermANN2<c=ins> =text> #NPTermANN2 
+NPSYNANN-A = NPTermANN1"\(" "далее" ["-"] NPTermANN2<c=nom> "\)" =text> #NPTermANN1
+NPSYNANN-B = NPTermANN1"\(" "далее" ["-"] NPTermANN2<c=nom> "\)" =text> #NPTermANN2
+NPSYNANN-A = NPTermSynANN1 [","] "или" ["просто"] NPTermSynANN2 <NPTermSynANN1.c=NPTermSynANN2.c> (NPTermSynANN1) =text> #NPTermSynANN1
+NPSYNANN-B = NPTermSynANN1 [","] "или" ["просто"] NPTermSynANN2 <NPTermSynANN1.c=NPTermSynANN2.c> (NPTermSynANN1) =text> #NPTermSynANN2

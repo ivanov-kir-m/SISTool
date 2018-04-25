@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<texts>
+	<text>
+		<goal name="AT">
+			<match startPos="766" endPos="789">
+				<fragment>чиновного
+князя Василия</fragment>
+				<result pos="N N A">ВАСИЛИЯ КНЯЗЯ ЧИНОВНОГО</result>
+				<result pos="N N A">ВАСИЛИЯ КНЯЗЯ ЧИНОВНОГО</result>
+			</match>
+			<match startPos="5602" endPos="5624">
+				<fragment>лучших фамилий Франции</fragment>
+				<result pos="N N A">ФРАНЦИИ ФАМИЛИЙ ЛУЧШИХ</result>
+			</match>
+			<match startPos="6626" endPos="6657">
+				<fragment>искреннее
+выражение преданности</fragment>
+				<result pos="N N A">ПРЕДАННОСТИ ВЫРАЖЕНИЕ ИСКРЕННЕЕ</result>
+				<result pos="N N A">ПРЕДАННОСТИ ВЫРАЖЕНИЕ ИСКРЕННЕЕ</result>
+				<result pos="N N A">ПРЕДАННОСТИ ВЫРАЖЕНИЕ ИСКРЕННЕЕ</result>
+				<result pos="N N A">ПРЕДАННОСТИ ВЫРАЖЕНИЕ ИСКРЕННЕЕ</result>
+			</match>
+			<match startPos="9363" endPos="9385">
+				<fragment>блудного сына  Анатоля</fragment>
+				<result pos="N N A">АНАТОЛЯ СЫНА БЛУДНОГО</result>
+				<result pos="N N A">АНАТОЛЯ СЫНА БЛУДНОГО</result>
+			</match>
+			<match startPos="11288" endPos="11311">
+				<fragment>высшая
+знать Петербурга</fragment>
+				<result pos="N N A">ПЕТЕРБУРГА ЗНАТЬ ВЫСШАЯ</result>
+			</match>
+			<match startPos="17548" endPos="17569">
+				<fragment>громкий
+звук веретена</fragment>
+				<result pos="N N A">ВЕРЕТЕНА ЗВУК ГРОМКИЙ</result>
+				<result pos="N N A">ВЕРЕТЕНА ЗВУК ГРОМКИЙ</result>
+			</match>
+			<match startPos="18403" endPos="18424">
+				<fragment>изящные выражения лиц</fragment>
+				<result pos="N N A">ЛИЦ ВЫРАЖЕНИЯ ИЗЯЩНЫЕ</result>
+				<result pos="N N A">ЛИЦ ВЫРАЖЕНИЯ ИЗЯЩНЫЕ</result>
+				<result pos="N N A">ЛИЦ ВЫРАЖЕНИЯ ИЗЯЩНЫЕ</result>
+				<result pos="N N A">ЛИЦ ВЫРАЖЕНИЯ ИЗЯЩНЫЕ</result>
+			</match>
+			<match startPos="19860" endPos="19888">
+				<fragment>особенные причины озлобления</fragment>
+				<result pos="N N A">ОЗЛОБЛЕНИЯ ПРИЧИНЫ ОСОБЕННЫЕ</result>
+				<result pos="N N A">ОЗЛОБЛЕНИЯ ПРИЧИНЫ ОСОБЕННЫЕ</result>
+			</match>
+			<match startPos="23402" endPos="23426">
+				<fragment>неизменною
+улыбкой жизни</fragment>
+				<result pos="N N A">ЖИЗНИ УЛЫБКОЙ НЕИЗМЕННОЮ</result>
+			</match>
+			<match startPos="23442" endPos="23464">
+				<fragment>античною красотой тела</fragment>
+				<result pos="N N A">ТЕЛА КРАСОТОЙ АНТИЧНОЮ</result>
+			</match>
+		</goal>
+	</text>
+</texts>

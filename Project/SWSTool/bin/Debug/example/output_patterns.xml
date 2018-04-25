@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<texts>
+	<text>
+		<goal name="AP">
+			<match startPos="766" endPos="789">
+				<fragment>чиновного
+князя Василия</fragment>
+				<result><![CDATA[GP-E = A<c=gen, n=sing, g=masc, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-F = A<c=acc, n=sing, g=masc, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="5602" endPos="5624">
+				<fragment>лучших фамилий Франции</fragment>
+				<result><![CDATA[GP-G = A<c=gen, n=plur, g=un, doc=sup, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="6626" endPos="6657">
+				<fragment>искреннее
+выражение преданности</fragment>
+				<result><![CDATA[GP-H = A<c=nom, n=sing, g=neut, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-I = A<c=acc, n=sing, g=neut, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-J = A<c=un, n=un, g=un, doc=com, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-BA = A<c=un, n=un, g=un, doc=com, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="9363" endPos="9385">
+				<fragment>блудного сына  Анатоля</fragment>
+				<result><![CDATA[GP-BB = A<c=gen, n=sing, g=masc, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-BC = A<c=acc, n=sing, g=masc, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="11288" endPos="11311">
+				<fragment>высшая
+знать Петербурга</fragment>
+				<result><![CDATA[GP-BD = A<c=nom, n=sing, g=fem, doc=sup, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="17548" endPos="17569">
+				<fragment>громкий
+звук веретена</fragment>
+				<result><![CDATA[GP-BE = A<c=nom, n=sing, g=masc, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-BF = A<c=acc, n=sing, g=masc, doc=un, t=un, a=inan, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="18403" endPos="18424">
+				<fragment>изящные выражения лиц</fragment>
+				<result><![CDATA[GP-BG = A<c=nom, n=plur, g=un, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-BH = A<c=nom, n=plur, g=un, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-BI = A<c=acc, n=plur, g=un, doc=un, t=un, a=inan, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-BJ = A<c=acc, n=plur, g=un, doc=un, t=un, a=inan, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="19860" endPos="19888">
+				<fragment>особенные причины озлобления</fragment>
+				<result><![CDATA[GP-CA = A<c=nom, n=plur, g=un, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+				<result><![CDATA[GP-CB = A<c=acc, n=plur, g=un, doc=un, t=un, a=inan, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="23402" endPos="23426">
+				<fragment>неизменною
+улыбкой жизни</fragment>
+				<result><![CDATA[GP-CC = A<c=ins, n=sing, g=fem, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+			<match startPos="23442" endPos="23464">
+				<fragment>античною красотой тела</fragment>
+				<result><![CDATA[GP-CD = A<c=ins, n=sing, g=fem, doc=un, t=un, a=anim, f=un, m=un, p=un, r=un>]]></result>
+			</match>
+		</goal>
+		<goal name="APT">
+			<match startPos="766" endPos="789">
+				<fragment>чиновного
+князя Василия</fragment>
+				<result><![CDATA[GP-CE = N<c=gen, n=sing, g=masc>]]></result>
+				<result><![CDATA[GP-CF = N<c=acc, n=sing, g=masc>]]></result>
+			</match>
+			<match startPos="5602" endPos="5624">
+				<fragment>лучших фамилий Франции</fragment>
+				<result><![CDATA[GP-CG = N<c=gen, n=plur, g=fem>]]></result>
+			</match>
+			<match startPos="6626" endPos="6657">
+				<fragment>искреннее
+выражение преданности</fragment>
+				<result><![CDATA[GP-CH = N<c=nom, n=sing, g=neut>]]></result>
+				<result><![CDATA[GP-CI = N<c=acc, n=sing, g=neut>]]></result>
+			</match>
+			<match startPos="9363" endPos="9385">
+				<fragment>блудного сына  Анатоля</fragment>
+				<result><![CDATA[GP-CJ = N<c=gen, n=sing, g=masc>]]></result>
+				<result><![CDATA[GP-DA = N<c=acc, n=sing, g=masc>]]></result>
+			</match>
+			<match startPos="11288" endPos="11311">
+				<fragment>высшая
+знать Петербурга</fragment>
+				<result><![CDATA[GP-DB = N<c=nom, n=sing, g=fem>]]></result>
+			</match>
+			<match startPos="17548" endPos="17569">
+				<fragment>громкий
+звук веретена</fragment>
+				<result><![CDATA[GP-DC = N<c=nom, n=sing, g=masc>]]></result>
+				<result><![CDATA[GP-DD = N<c=acc, n=sing, g=masc>]]></result>
+			</match>
+			<match startPos="18403" endPos="18424">
+				<fragment>изящные выражения лиц</fragment>
+				<result><![CDATA[GP-DE = N<c=nom, n=plur, g=neut>]]></result>
+				<result><![CDATA[GP-DF = N<c=acc, n=plur, g=neut>]]></result>
+			</match>
+			<match startPos="19860" endPos="19888">
+				<fragment>особенные причины озлобления</fragment>
+				<result><![CDATA[GP-DG = N<c=nom, n=plur, g=fem>]]></result>
+				<result><![CDATA[GP-DH = N<c=acc, n=plur, g=fem>]]></result>
+			</match>
+			<match startPos="23402" endPos="23426">
+				<fragment>неизменною
+улыбкой жизни</fragment>
+				<result><![CDATA[GP-DI = N<c=ins, n=sing, g=fem>]]></result>
+			</match>
+			<match startPos="23442" endPos="23464">
+				<fragment>античною красотой тела</fragment>
+				<result><![CDATA[GP-DJ = N<c=ins, n=sing, g=fem>]]></result>
+			</match>
+		</goal>
+	</text>
+</texts>

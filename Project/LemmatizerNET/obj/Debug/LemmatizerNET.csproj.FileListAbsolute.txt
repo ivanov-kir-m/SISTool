@@ -1,0 +1,5 @@
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\LemmatizerNET\bin\Debug\LemmatizerNET.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\LemmatizerNET\bin\Debug\LemmatizerNET.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\LemmatizerNET\obj\Debug\LemmatizerNET.csprojResolveAssemblyReference.cache
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\LemmatizerNET\obj\Debug\LemmatizerNET.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\LemmatizerNET\obj\Debug\LemmatizerNET.pdb

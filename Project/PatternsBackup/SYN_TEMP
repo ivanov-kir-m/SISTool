@@ -1,0 +1,49 @@
+AP = A1<f=full> (A1) =text> A1 | Pa1<f=full> (Pa1) =text> Pa1
+MSP = N1 (N1) =text> N1 | N1 N2<c=gen> (N1) =text> N1 N2<c=gen> | AP1 N1 <AP1=N1> (N1) =text> AP1 N1 <AP1~>N1> | AP1 AP2 N1 <AP1=AP2=N1> (N1) =text> AP1 AP2 N1 <AP1~>N1, AP2~>N1> | AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> AP1 N1<AP1~>N1> N2<c=gen>| N1 AP1 N2<c=gen> <AP1=N2> (N1) =text> N1 AP1 N2<c=gen><AP1~>N2> | N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2<c=gen> N3<c=gen>
+PMSP = N1 (N1) =text> N1 | AP1 N1 <AP1=N1> (N1) =text> AP1 N1 | N1 N2<c=gen> (N1) =text> N1 N2<c=gen>
+Term = TermSyn1 [[","] "или" ["просто"] TermSyn2] <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> TermSyn1
+TermSyn = MSP1 ["\("MSP2"\)"] <MSP1.c=MSP2.c> (MSP1) =text> MSP1
+
+SYN = MSP1 "\("MSP2"\)" (MSP1) =text> #MSP1 "-" #MSP2
+SYN = MSP1 "\(" ["или"] MSP2 "\)" <MSP1.c=MSP2.c> =text> #MSP1 "-" #MSP2
+SYN = MSP1 "," "или" ["просто"] MSP2 =text> #MSP1 "-" #MSP2
+SYN = AP1 "\(" ["или"] AP2 "\)" PMSP1 <AP1=AP2=PMSP1> =text> AP1 #PMSP1 <AP1~>PMSP1> "-" AP2 #PMSP1 <AP2~>PMSP1>
+SYN = AP1 "," "или" AP2 [","] PMSP1 <AP1=AP2=PMSP1> =text> AP1 #PMSP1 <AP1~>PMSP1> "-" AP2 #PMSP1 <AP2~>PMSP1>
+SYN = N1 "\(" N2 "\)" N3<c=gen> =text> #N1 N3<c=gen> "-" #N2 N3<c=gen>
+SYN = Term1<c=acc> "будем" ["также"] "называть" Term2<c=ins> =text> #Term1 "-" #Term2 
+SYN = Term1"\(" "далее" ["-"] Term2<c=nom> "\)" =text> #Term1 "-" #Term2
+SYN = TermSyn1 [","] "или" ["просто"] TermSyn2 <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> #TermSyn1 "-" #TermSyn2
+
+NPMSP = N1 (N1) =text> "N1[" #N1 "] (N1) =text] #N1"
+NPMSP = N1 N2<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] (N1) =text] #N1 N2[c=gen]" 
+NPMSP = AP1 N1 <AP1=N1> (N1) =text> "AP1[" #AP1 "] N1[" #N1 "] [AP1=N1] (N1) =text] AP1 #N1 [AP1~]N1]" 
+NPMSP = AP1 AP2 N1 <AP1=AP2=N1> (N1) =text>"AP1[" #AP1 "] AP2[" #AP2 "] N1[" #N1 "] [AP1=AP2=N1] (N1) =text] AP1 AP2 N1 [AP1~]N1, AP2~]N1]" 
+NPMSP = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> "AP1[" #AP1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [AP1=N1] (N1) =text] AP1 N1[AP1~]N1] N2[c=gen]"
+NPMSP = N1 AP1 N2<c=gen> <AP1=N2> (N1) =text> "N1[" #N1 "] AP1[" #AP1 "] N2[" #N2 ",c=gen] [AP1=N2] (N1) =text] N1 AP1 N2[c=gen][AP1~]N2]" 
+NPMSP = N1 N2<c=gen> N3<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] N3[" #N3 ",c=gen] (N1) =text] N1 N2[c=gen] N3[c=gen]"
+
+NPPMSP = N1 (N1) =text> "N1[" #N1 "] (N1) =text] #N1"
+NPPMSP = AP1 N1 <AP1=N1> (N1) =text> "AP1[" #AP1 "] N1[" #N1 "] [AP1=N1] (N1) =text] AP1 #N1 [AP1~]N1]"
+NPPMSP = N1 N2<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] (N1) =text] #N1 N2[c=gen]" 
+
+NPTermSyn = NPMSP1 ["\("NPMSP2"\)"] <NPMSP1.c=NPMSP2.c> (NPMSP1) =text> NPMSP1
+NPTerm = NPTermSyn1 [[","] "или" ["просто"] NPTermSyn2] <NPTermSyn1.c=NPTermSyn2.c> (NPTermSyn1) =text> NPTermSyn1
+
+NPSYN = NPMSP1 "\("NPMSP2"\)" (NPMSP1) =text> #NPMSP1
+NPSYN = NPMSP1 "\("NPMSP2"\)" (NPMSP1) =text> #NPMSP2
+NPSYN = NPMSP1 "\(" ["или"] NPMSP2 "\)" <NPMSP1.c=NPMSP2.c> =text> #NPMSP1
+NPSYN = NPMSP1 "\(" ["или"] NPMSP2 "\)" <NPMSP1.c=NPMSP2.c> =text> #NPMSP2
+NPSYN = NPMSP1 "," "или" ["просто"] NPMSP2 =text> #NPMSP1
+NPSYN = NPMSP1 "," "или" ["просто"] NPMSP2 =text> #NPMSP2
+NPSYN = AP1 "\(" ["или"] AP2 "\)" NPPMSP1 <AP1=AP2=NPPMSP1> =text> AP1 #NPPMSP1 <AP1~>NPPMSP1>
+NPSYN = AP1 "\(" ["или"] AP2 "\)" NPPMSP1 <AP1=AP2=NPPMSP1> =text> AP2 #NPPMSP1 <AP2~>NPPMSP1>
+NPSYN = AP1 "," "или" AP2 [","] NPPMSP1 <AP1=AP2=NPPMSP1> =text> AP1 #NPPMSP1 <AP1~>NPPMSP1>
+NPSYN = AP1 "," "или" AP2 [","] NPPMSP1 <AP1=AP2=NPPMSP1> =text> AP2 #NPPMSP1 <AP2~>NPPMSP1>
+NPSYN = N1 "\(" N2 "\)" N3<c=gen> =text> #N1 N3<c=gen>
+NPSYN = N1 "\(" N2 "\)" N3<c=gen> =text> #N2 N3<c=gen>
+NPSYN = NPTerm1<c=acc> "будем" ["также"] "называть" NPTerm2<c=ins> =text> #NPTerm1 
+NPSYN = NPTerm1<c=acc> "будем" ["также"] "называть" NPTerm2<c=ins> =text> #NPTerm2 
+NPSYN = NPTerm1"\(" "далее" ["-"] NPTerm2<c=nom> "\)" =text> #NPTerm1
+NPSYN = NPTerm1"\(" "далее" ["-"] NPTerm2<c=nom> "\)" =text> #NPTerm2
+NPSYN = NPTermSyn1 [","] "или" ["просто"] NPTermSyn2 <NPTermSyn1.c=NPTermSyn2.c> (NPTermSyn1) =text> #NPTermSyn1
+NPSYN = NPTermSyn1 [","] "или" ["просто"] NPTermSyn2 <NPTermSyn1.c=NPTermSyn2.c> (NPTermSyn1) =text> #NPTermSyn2

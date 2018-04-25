@@ -1,0 +1,129 @@
+MSPNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2<c=gen> N3<c=gen>
+TSNNN = MSPNNN1 ["\("MSPNNN2"\)"] <MSPNNN1.c=MSPNNN2.c> (MSPNNN1) =text> MSPNNN1
+TNNNTWO = TSNNN1 [[","] "или" ["просто"] TSNNN2] <TSNNN1.c=TSNNN2.c> (TSNNN1) =text> TSNNN1
+
+DefNAN = TNNNTWO1<c=nom> '-' ['это'] Def1<c=nom> =text> #TNNNTWO1
+DefNAN = 'под' TNNNTWO1<c=ins> [Prep1<c=prep>] ['обычно' | 'здесь'] V1<пониматься, t=pres, p=3, m=ind> Def1<c=nom> <Def1.n=V1.n> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=nom> '-' ['это'] Def1<c=nom> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=ins> 'мы' 'называем' Def1<c=acc> =text> #TNNNTWO1
+DefNAN = 'под' TNNNTWO1<c=ins> 'мы' 'понимаем' DefXXX1<c=acc> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=ins> "мы" "называем" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = Def1 "," Pn1<который> "мы" ["условно"] "называем" TNNNTWO1<c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a>  =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=ins> "будем" "называть" Def1<c=acc>  =text> #TNNNTWO1
+DefNAN = Def1<c=acc> ["мы"] "будем" "называть" TNNNTWO1<c=ins>  =text> #TNNNTWO1
+DefNAN = Def1 "," Pn1<который> ["далее"] "будем" ["условно"] "называть" TNNNTWO1<c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a>  =text> #TNNNTWO1
+DefNAN = Def1<c=acc> "можно" "называть" TNNNTWO1<c=ins>  =text> #TNNNTWO1
+DefNAN = Def1<c=acc> ["кратко"] "назовем" TNNNTWO1<c=ins> =text> #TNNNTWO1
+DefNAN = "назовем" TNNNTWO1<c=ins> Def1<c=acc>  =text> #TNNNTWO1
+DefNAN = "назовем" Def1<c=acc> TNNNTWO1<c=ins> =text> #TNNNTWO1
+DefNAN = "назовем" Def1<c=acc> TNNNTWO1<c=nom> =text> #TNNNTWO1
+DefNAN = Def1<c=acc> "," Pn1<который> "назовем" TNNNTWO1<c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a> =text> #TNNNTWO1
+DefNAN = Def1<c=acc> "можно" "назвать" TNNNTWO1<c=ins> =text> #TNNNTWO1
+DefNAN = Def1 "," Pn1<который> "можно" ["было" "бы"] "назвать" ["также"] TNNNTWO1<c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a> =text> #TNNNTWO1
+DefNAN = Def1<c=acc> {"удобно"|"разумно"}<1,1> "назвать" TNNNTWO1<c=ins> =text> #TNNNTWO1
+DefNAN = "может" "быть" Pa1<назвать, f=short> TNNNTWO1<c=ins> <Pa1.n=TNNNTWO1.n> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=ins> ["\("MSPNNN1<c=gen>"\)" | "\("Prep1<c=prep>"\)"] V1<называтьсЯ, t=pres, p=3, m=ind> Def1<c=nom> <V1.n=Def1.n> =text> #TNNNTWO1
+DefNAN = Def1<c=nom> ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] V1<называтьсЯ, t=pres, p=3, m=ind> TNNNTWO1<c=ins> <Def1.n=V1.n> =text> #TNNNTWO1
+DefNAN = Def1<c=nom> Prep1<c=prep> V1<называтьсЯ, t=pres, p=3, m=ind> TNNNTWO1<c=ins> <V1.n=Def1.n> =text> TNNNTWO1
+DefNAN = Def1<c=nom> "называетсЯ" ["везде" "одинаково" "-"] TNNNTWO1<c=nom> =text> #TNNNTWO1
+DefNAN = Def1"," Pn1<который> ["традиционно"] V1<называтьсЯ, t=pres, p=3, m=ind> TNNNTWO1<c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=ins> "принЯто" "называть" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = Def1<c=acc> "принЯто" "называть" TNNNTWO1<c=ins> =text> #TNNNTWO1
+DefNAN = Def1<c=acc> [Prep1<c=prep>]  "называют" ["также"] TNNNTWO1<c=ins> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=ins> "называют" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = Def1<c=nom> Pa1<назвать, f=short> [Prep1<c=prep>] TNNNTWO1<c=ins> <Def1=Pa1> =text> #TNNNTWO1
+DefNAN = Pa1<получить> [Prep1<c=prep>]  N1<название> TNNNTWO1<c=nom> <Pa1.n=N1.n> =text> #TNNNTWO1
+DefNAN = Def1<c=nom> V1<получить, t=past, p=3, m=ind> "название" TNNNTWO1<c=gen> <Def1.n=V1.n, Def1.g=V1.g> =text> #TNNNTWO1
+DefNAN = Def1<c=nom> V1<получить, t=past, p=3, m=ind> "название" TNNNTWO1<c=nom> <Def1.n=V1.n> =text> #TNNNTWO1
+DefNAN = Def1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" TNNNTWO1<c=gen> <Def1.n=V1.n> =text> #TNNNTWO1
+DefNAN = Def1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" TNNNTWO1<c=nom> <Def1.n=V1.n> =text> #TNNNTWO1
+DefNAN = Def1<c=acc> "," Pn1<который> ["впоследствие"] V1<получить, t=past, p=3, m=ind> "название" TNNNTWO1<c=nom> <Def1.n=V1.n, Def1.g=V1.g> =text> #TNNNTWO1
+DefNAN = "так" Pa1<называть> TNNNTWO1 <Pa1=TNNNTWO1> =text> #TNNNTWO1
+DefNAN = {"т.н." | "т" "." "н" "."}<1,1> TNNNTWO1 =text> #TNNNTWO1
+DefNAN = Def1 {","|"\("}<1,1> Pa1<называть> ["часто"] TNNNTWO1<c=ins> <Pa1=Def1>  =text> #TNNNTWO1
+DefNAN = Def1 "," Pa1<называть> TNNNTWO1<c=nom> <Pa1=Def1> =text> #TNNNTWO1
+DefNAN = Def1 { "," | "\(" }<1,1> Pa1<назвать> TNNNTWO1<c=ins> <Def1=Pa1> =text> #TNNNTWO1
+DefNAN = Pn1 V1<называть, t=pres, p=3, m=ind> TNNNTWO1<c=ins> <Pn1=V1> =text> #TNNNTWO1
+DefNAN = "под" TNNNTWO1<c=ins> "мы" "понимаем" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "под" TNNNTWO1<c=ins> "понимают" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "под" TNNNTWO1<c=ins> ["здесь" | "в" "общем" "случае" | "мы"] "будем" "понимать" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "будем" "понимать" "под" TNNNTWO1<c=ins> Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "введем" "понЯтие" TNNNTWO1<c=acc> "," "под" "которым" "будем" "понимать" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "введем" "понЯтие" TNNNTWO1<c=nom> "," "под" "которым" "будем" "понимать" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "под" "термином" TNNNTWO1<c=nom> "будем" "понимать" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "под" TNNNTWO1<c=ins> "следует" "понимать" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "под" TNNNTWO1<c=ins> "мы" "понимаем" Def1<c=acc> =text> #TNNNTWO1
+DefNAN = "под" TNNNTWO1<c=ins> [Prep1<c=prep>] ["обычно" | "здесь"] V1<пониматьсЯ, t=pres, p=3, m=ind> Def1<c=nom> <Def1.n=V1.n> =text> #TNNNTWO1
+DefNAN = "под" "термином" TNNNTWO1<c=nom> V1<пониматьсЯ, t=pres, p=3, m=ind> Def1<c=nom> <TNNNTWO1.n=V1.n> =text> #TNNNTWO1
+DefNAN = N1<термин> TNNNTWO1<c=nom> =text> #TNNNTWO1
+DefNAN = "под" "словом" TNNNTWO1<c=nom> "понимаетсЯ" Def1<c=nom> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=nom> ["–"] "есть" Def1<c=nom> =text> #TNNNTWO1
+DefNAN = ["целесообразно" | "можно"] "ввести" N1<понЯтие, c=acc, n=sing> TNNNTWO1<c=gen> =text> #TNNNTWO1
+DefNAN = TNNNTWO1<c=nom> ["–"] "это" Def1<c=nom> =text> #TNNNTWO1
+DefNAN = TNNNTWO1 {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Def1 <TNNNTWO1.c=Def1.c> =text> #TNNNTWO1
+DefNAN = Pr1 TNNNTWO1 {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Pr1 Def1 <TNNNTWO1.c=Def1.c> =text> #TNNNTWO1
+
+NPMSPNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] N3[" #N3 ",c=gen] (N1) =text] N1 N2[c=gen] N3[c=gen]"
+NPTNNNTWOSyn = NPMSPNNN1 ["\("NPMSPNNN2"\)"] <NPMSPNNN1.c=NPMSPNNN2.c> (NPMSPNNN1) =text> NPMSPNNN1
+NPTNNNTWO = NPTNNNTWOSyn1 [[","] "или" ["просто"] NPTNNNTWOSyn2] <NPTNNNTWOSyn1.c=NPTNNNTWOSyn2.c> (NPTNNNTWOSyn1) =text> NPTNNNTWOSyn1
+
+NPDefNAN = NPTNNNTWO1 <c=nom> '-' ['это'] Def1<c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = 'под' NPTNNNTWO1 <c=ins> [Prep1<c=prep>] ['обычно' | 'здесь'] V1<пониматься, t=pres, p=3, m=ind> Def1<c=nom> <Def1.n=V1.n> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=nom> '-' ['это'] Def1<c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=ins> 'мы' 'называем' DefIns1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = 'под' NPTNNNTWO1 <c=ins> 'мы' 'понимаем' DefXXX1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=ins> "мы" "называем" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = Def1 "," Pn1<который> "мы" ["условно"] "называем" NPTNNNTWO1 <c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a>  =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=ins> "будем" "называть" Def1<c=acc>  =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> ["мы"] "будем" "называть" NPTNNNTWO1 <c=ins>  =text> #NPTNNNTWO1 
+NPDefNAN = Def1 "," Pn1<который> ["далее"] "будем" ["условно"] "называть" NPTNNNTWO1 <c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a>  =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> "можно" "называть" NPTNNNTWO1 <c=ins>  =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> ["кратко"] "назовем" NPTNNNTWO1 <c=ins> =text> #NPTNNNTWO1 
+NPDefNAN = "назовем" NPTNNNTWO1 <c=ins> Def1<c=acc>  =text> #NPTNNNTWO1 
+NPDefNAN = "назовем" Def1<c=acc> NPTNNNTWO1 <c=ins> =text> #NPTNNNTWO1 
+NPDefNAN = "назовем" Def1<c=acc> NPTNNNTWO1 <c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> "," Pn1<который> "назовем" NPTNNNTWO1 <c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> "можно" "назвать" NPTNNNTWO1 <c=ins> =text> #NPTNNNTWO1 
+NPDefNAN = Def1 "," Pn1<который> "можно" ["было" "бы"] "назвать" ["также"] NPTNNNTWO1 <c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> {"удобно"|"разумно"}<1,1> "назвать" NPTNNNTWO1 <c=ins> =text> #NPTNNNTWO1 
+NPDefNAN = "может" "быть" Pa1<назвать, f=short> NPTNNNTWO1 <c=ins> <Pa1.n=NPTNNNTWO1 .n> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=ins> ["\("MSP1<c=gen>"\)" | "\("Prep1<c=prep>"\)"] V1<называтьсЯ, t=pres, p=3, m=ind> Def1<c=nom> <V1.n=Def1.n> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTNNNTWO1 <c=ins> <Def1.n=V1.n> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> Prep1<c=prep> V1<называтьсЯ, t=pres, p=3, m=ind> NPTNNNTWO1 <c=ins> <V1.n=Def1.n> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> "называетсЯ" ["везде" "одинаково" "-"] NPTNNNTWO1 <c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = Def1"," Pn1<который> ["традиционно"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTNNNTWO1 <c=ins> <Def1.g=Pn1.g, Def1.n=Pn1.n, Def1.a=Pn1.a> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=ins> "принЯто" "называть" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> "принЯто" "называть" NPTNNNTWO1 <c=ins> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> [Prep1<c=prep>]  "называют" ["также"] NPTNNNTWO1 <c=ins> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=ins> "называют" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> Pa1<назвать, f=short> [Prep1<c=prep>] NPTNNNTWO1 <c=ins> <Def1=Pa1> =text> #NPTNNNTWO1 
+NPDefNAN = Pa1<получить> [Prep1<c=prep>]  N1<название> NPTNNNTWO1 <c=nom> <Pa1.n=N1.n> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> V1<получить, t=past, p=3, m=ind> "название" NPTNNNTWO1 <c=gen> <Def1.n=V1.n, Def1.g=V1.g> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> V1<получить, t=past, p=3, m=ind> "название" NPTNNNTWO1 <c=nom> <Def1.n=V1.n> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" NPTNNNTWO1 <c=gen> <Def1.n=V1.n> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" NPTNNNTWO1 <c=nom> <Def1.n=V1.n> =text> #NPTNNNTWO1 
+NPDefNAN = Def1<c=acc> "," Pn1<который> ["впоследствие"] V1<получить, t=past, p=3, m=ind> "название" NPTNNNTWO1 <c=nom> <Def1.n=V1.n, Def1.g=V1.g> =text> #NPTNNNTWO1 
+NPDefNAN = "так" Pa1<называть> NPTNNNTWO1  <Pa1=NPTNNNTWO1 > =text> #NPTNNNTWO1 
+NPDefNAN = {"т.н." | "т" "." "н" "."}<1,1> NPTNNNTWO1  =text> #NPTNNNTWO1 
+NPDefNAN = Def1 {","|"\("}<1,1> Pa1<называть> ["часто"] NPTNNNTWO1 <c=ins> <Pa1=Def1>  =text> #NPTNNNTWO1 
+NPDefNAN = Def1 "," Pa1<называть> NPTNNNTWO1 <c=nom> <Pa1=Def1> =text> #NPTNNNTWO1 
+NPDefNAN = Def1 { "," | "\(" }<1,1> Pa1<назвать> NPTNNNTWO1 <c=ins> <Def1=Pa1> =text> #NPTNNNTWO1 
+NPDefNAN = Pn1 V1<называть, t=pres, p=3, m=ind> NPTNNNTWO1 <c=ins> <Pn1=V1> =text> #NPTNNNTWO1 
+NPDefNAN = "под" NPTNNNTWO1 <c=ins> "мы" "понимаем" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "под" NPTNNNTWO1 <c=ins> "понимают" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "под" NPTNNNTWO1 <c=ins> ["здесь" | "в" "общем" "случае" | "мы"] "будем" "понимать" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "будем" "понимать" "под" NPTNNNTWO1 <c=ins> Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "введем" "понЯтие" NPTNNNTWO1 <c=acc> "," "под" "которым" "будем" "понимать" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "введем" "понЯтие" NPTNNNTWO1 <c=nom> "," "под" "которым" "будем" "понимать" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "под" "термином" NPTNNNTWO1 <c=nom> "будем" "понимать" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "под" NPTNNNTWO1 <c=ins> "следует" "понимать" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "под" NPTNNNTWO1 <c=ins> "мы" "понимаем" Def1<c=acc> =text> #NPTNNNTWO1 
+NPDefNAN = "под" NPTNNNTWO1 <c=ins> [Prep1<c=prep>] ["обычно" | "здесь"] V1<пониматьсЯ, t=pres, p=3, m=ind> Def1<c=nom> <Def1.n=V1.n> =text> #NPTNNNTWO1 
+NPDefNAN = "под" "термином" NPTNNNTWO1 <c=nom> V1<пониматьсЯ, t=pres, p=3, m=ind> Def1<c=nom> <NPTNNNTWO1 .n=V1.n> =text> #NPTNNNTWO1 
+NPDefNAN = N1<термин> NPTNNNTWO1 <c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = "под" "словом" NPTNNNTWO1 <c=nom> "понимаетсЯ" Def1<c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=nom> ["–"] "есть" Def1<c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = ["целесообразно" | "можно"] "ввести" N1<понЯтие, c=acc, n=sing> NPTNNNTWO1 <c=gen> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1 <c=nom> ["–"] "это" Def1<c=nom> =text> #NPTNNNTWO1 
+NPDefNAN = NPTNNNTWO1  {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Def1 <NPTNNNTWO1 .c=Def1.c> =text> #NPTNNNTWO1 
+NPDefNAN = Pr1 NPTNNNTWO1  {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Pr1 Def1 <NPTNNNTWO1 .c=Def1.c> =text> #NPTNNNTWO1 

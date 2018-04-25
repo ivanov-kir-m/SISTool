@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<texts>
+	<text>
+		<goal name="упругий-B">
+		</goal>
+		<goal name="упругий-C">
+		</goal>
+		<goal name="упругий-D">
+		</goal>
+		<goal name="упругий-E">
+		</goal>
+		<goal name="упругий-F">
+		</goal>
+		<goal name="упругий-G">
+		</goal>
+		<goal name="упругий-H">
+		</goal>
+		<goal name="упругость-A">
+		</goal>
+		<goal name="уравнение-A">
+		</goal>
+		<goal name="уравнение-B">
+		</goal>
+		<goal name="уравнение-C">
+		</goal>
+		<goal name="уравнение-D">
+		</goal>
+		<goal name="уравнение-E">
+		</goal>
+		<goal name="уравновешивать-A">
+		</goal>
+		<goal name="уровень-A">
+		</goal>
+		<goal name="уровень-B">
+		</goal>
+		<goal name="уровень-C">
+		</goal>
+		<goal name="ус-A">
+		</goal>
+		<goal name="ускорение-A">
+		</goal>
+		<goal name="ускорение-B">
+		</goal>
+		<goal name="ускоритель-A">
+		</goal>
+		<goal name="условие-A">
+		</goal>
+		<goal name="условный-A">
+		</goal>
+		<goal name="усталость-A">
+		</goal>
+		<goal name="устойчивый-A">
+		</goal>
+		<goal name="устойчивость-A">
+		</goal>
+		<goal name="устойчивость-B">
+		</goal>
+		<goal name="устойчивость-C">
+		</goal>
+		<goal name="УТС-A">
+		</goal>
+		<goal name="уширение-A">
+		</goal>
+		<goal name="фаза-A">
+		</goal>
+		<goal name="фазовый-A">
+		</goal>
+		<goal name="фазовый-B">
+		</goal>
+		<goal name="фазовый-C">
+		</goal>
+		<goal name="фазовый-D">
+		</goal>
+		<goal name="фазовый-E">
+		</goal>
+		<goal name="фазовый-F">
+		</goal>
+		<goal name="фазовый-G">
+		</goal>
+		<goal name="фазовый-H">
+		</goal>
+		<goal name="фазовый-I">
+		</goal>
+		<goal name="фазовый-J">
+		</goal>
+		<goal name="фазовый-K">
+		</goal>
+		<goal name="фазовый-L">
+		</goal>
+		<goal name="фазовый-M">
+		</goal>
+		<goal name="фазометр-A">
+		</goal>
+		<goal name="фазотрон-A">
+		</goal>
+		<goal name="фактор-A">
+		</goal>
+		<goal name="фактор-B">
+		</goal>
+		<goal name="фарад-A">
+		</goal>
+		<goal name="фарада-A">
+		</goal>
+		<goal name="фарадеевый-A">
+		</goal>
+		<goal name="фарадей-A">
+		</goal>
+		<goal name="фарадметр-A">
+		</goal>
+		<goal name="ферми-A">
+		</goal>
+		<goal name="ферми-газ-A">
+		</goal>
+		<goal name="ферми-жидкость-A">
+		</goal>
+		<goal name="фермион-A">
+		</goal>
+		<goal name="ферримагнетизм-A">
+		</goal>
+		<goal name="ферримагнетик-A">
+		</goal>
+		<goal name="феррит-A">
+		</goal>
+		<goal name="ферродиэлектрик-A">
+		</goal>
+		<goal name="феррозонд-A">
+		</goal>
+		<goal name="ферромагнетизм-A">
+		</goal>
+		<goal name="ферромагнетик-A">
+		</goal>
+		<goal name="ферромагнитный-A">
+		</goal>
+		<goal name="ферромагнон-A">
+		</goal>
+		<goal name="феррометр-A">
+		</goal>
+		<goal name="фигуративный-A">
+		</goal>
+		<goal name="фигура-A">
+		</goal>
+		<goal name="фигура-B">
+		</goal>
+		<goal name="физика-A">
+			<match startPos="34034" endPos="34040">
+				<fragment>физики</fragment>
+				<result>ФИЗИКА</result>
+				<result>ФИЗИКА</result>
+				<result>ФИЗИКА</result>
+			</match>
+		</goal>
+		<goal name="фигуративный-A">
+		</goal>
+		<goal name="фигуративный-B">
+		</goal>
+		<goal name="физический-A">
+		</goal>
+		<goal name="физический-B">
+		</goal>
+		<goal name="физический-C">
+		</goal>
+		<goal name="физический-D">
+		</goal>
+		<goal name="физический-E">
+		</goal>
+		<goal name="физический-F">
+		</goal>
+		<goal name="физический-G">
+		</goal>
+		<goal name="физический-H">
+		</goal>
+		<goal name="физический-I">
+		</goal>
+		<goal name="физический-J">
+		</goal>
+		<goal name="физический-K">
+		</goal>
+		<goal name="физический-L">
+		</goal>
+		<goal name="фильтр-A">
+			<match startPos="18509" endPos="18517">
+				<fragment>фильтров</fragment>
+				<result>ФИЛЬТР</result>
+			</match>
+			<match startPos="18590" endPos="18596">
+				<fragment>фильтр</fragment>
+				<result>ФИЛЬТР</result>
+				<result>ФИЛЬТР</result>
+			</match>
+			<match startPos="18633" endPos="18639">
+				<fragment>фильтр</fragment>
+				<result>ФИЛЬТР</result>
+				<result>ФИЛЬТР</result>
+			</match>
+			<match startPos="18654" endPos="18661">
+				<fragment>фильтры</fragment>
+				<result>ФИЛЬТР</result>
+				<result>ФИЛЬТР</result>
+			</match>
+			<match startPos="18814" endPos="18821">
+				<fragment>фильтры</fragment>
+				<result>ФИЛЬТР</result>
+				<result>ФИЛЬТР</result>
+			</match>
+			<match startPos="18929" endPos="18937">
+				<fragment>фильтром</fragment>
+				<result>ФИЛЬТР</result>
+			</match>
+		</goal>
+		<goal name="фильтрация-A">
+			<match startPos="1058" endPos="1068">
+				<fragment>фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="1076" endPos="1086">
+				<fragment>Фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="14250" endPos="14260">
+				<fragment>фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="17001" endPos="17011">
+				<fragment>Фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="17727" endPos="17737">
+				<fragment>фильтрации</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="20374" endPos="20384">
+				<fragment>фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="29486" endPos="29496">
+				<fragment>Фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="30130" endPos="30140">
+				<fragment>фильтрацию</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="31105" endPos="31115">
+				<fragment>фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="36756" endPos="36766">
+				<fragment>Фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="36947" endPos="36957">
+				<fragment>фильтрации</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="42580" endPos="42590">
+				<fragment>фильтрации</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="46854" endPos="46864">
+				<fragment>фильтрации</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="49898" endPos="49908">
+				<fragment>фильтрации</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="52199" endPos="52209">
+				<fragment>фильтрация</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+			<match startPos="55704" endPos="55714">
+				<fragment>фильтрацию</fragment>
+				<result>ФИЛЬТРАЦИЯ</result>
+			</match>
+		</goal>
+		<goal name="фильтрование-A">
+		</goal>
+		<goal name="фиолетовый-A">
+		</goal>
+		<goal name="флаксон-A">
+		</goal>
+		<goal name="фликкер-эффект-A">
+		</goal>
+		<goal name="флуктуационный-A">
+		</goal>
+		<goal name="флуктуация-A">
+		</goal>
+		<goal name="флуоресценция-A">
+		</goal>
+		<goal name="флуориметр-A">
+		</goal>
+		<goal name="флуорометр-A">
+		</goal>
+		<goal name="флюенс-A">
+		</goal>
+		<goal name="флюксметр-A">
+		</goal>
+		<goal name="флюксон-A">
+		</goal>
+		<goal name="фокальный-A">
+		</goal>
+		<goal name="фокальный-B">
+		</goal>
+		<goal name="фокальный-C">
+		</goal>
+		<goal name="фокон-A">
+		</goal>
+		<goal name="фокус-A">
+		</goal>
+		<goal name="фокусировка-A">
+		</goal>
+		<goal name="фокусировка-B">
+		</goal>
+		<goal name="фокусный-A">
+		</goal>
+		<goal name="фокусон-A">
+		</goal>
+		<goal name="фон-A">
+		</goal>
+		<goal name="фонон-A">
+		</goal>
+		<goal name="фононный-A">
+		</goal>
+		<goal name="форвакуум-A">
+		</goal>
+		<goal name="форвакуумный-A">
+		</goal>
+		<goal name="формфактор-A">
+		</goal>
+		<goal name="фосфор-A">
+		</goal>
+		<goal name="фосфоресценция-A">
+		</goal>
+		<goal name="фосфороскоп-A">
+		</goal>
+		<goal name="фотогальванический-A">
+		</goal>
+		<goal name="фотография-A">
+		</goal>
+		<goal name="фотоделение-A">
+		</goal>
+		<goal name="фотодиод-A">
+		</goal>
+		<goal name="фотодиссоциация-A">
+		</goal>
+		<goal name="фотоионизация-A">
+		</goal>
+		<goal name="фотокатод-A">
+		</goal>
+		<goal name="фотолиз-A">
+		</goal>
+		<goal name="фотолюминесценция-A">
+		</goal>
+		<goal name="фотоматериал-A">
+		</goal>
+		<goal name="фотометр-A">
+		</goal>
+		<goal name="фотометрия-A">
+		</goal>
+		<goal name="фотон-A">
+		</goal>
+		<goal name="фотонный-A">
+		</goal>
+		<goal name="фотополупроводник-A">
+		</goal>
+		<goal name="фотопроводимость-A">
+		</goal>
+		<goal name="фотопьезоэлектрический-A">
+		</goal>
+		<goal name="фоторезистор-A">
+		</goal>
+		<goal name="фоторождение-A">
+		</goal>
+		<goal name="фототок-A">
+		</goal>
+		<goal name="фотоумножитель-A">
+		</goal>
+		<goal name="фотоупругост-A">
+		</goal>
+		<goal name="фотохромизм-A">
+		</goal>
+		<goal name="фотохромный-A">
+		</goal>
+		<goal name="фотоэдс-A">
+		</goal>
+		<goal name="фотоэлектрический-A">
+		</goal>
+		<goal name="фотоэлектрический-B">
+		</goal>
+		<goal name="фотоэлектрический-C">
+		</goal>
+		<goal name="фотоэлектродвижущий-A">
+		</goal>
+		<goal name="фотоэлектрон-A">
+		</goal>
+		<goal name="фотоэлектронный-A">
+		</goal>
+		<goal name="фотоэлектронный-B">
+		</goal>
+		<goal name="фотоэлектронный-C">
+		</goal>
+		<goal name="фотоэлектронный-D">
+		</goal>
+		<goal name="фотоэлемент-A">
+		</goal>
+		<goal name="фотоэффект-A">
+		</goal>
+		<goal name="фотоядерный-A">
+		</goal>
+		<goal name="франклин-A">
+		</goal>
+		<goal name="фраунгоферовый-A">
+		</goal>
+		<goal name="фронт-A">
+		</goal>
+		<goal name="фугитивность-A">
+		</goal>
+		<goal name="фундаментальный-A">
+		</goal>
+		<goal name="функция-A">
+		</goal>
+		<goal name="функция-B">
+		</goal>
+		<goal name="функция-C">
+		</goal>
+		<goal name="функция-D">
+		</goal>
+		<goal name="функция-E">
+		</goal>
+		<goal name="фурье-спектрометр-A">
+		</goal>
+		<goal name="фурье-спектроскопия-A">
+		</goal>
+		<goal name="ФЭР-A">
+		</goal>
+		<goal name="ФЭУ-A">
+		</goal>
+		<goal name="характеристический-A">
+		</goal>
+		<goal name="характеристический-B">
+		</goal>
+		<goal name="характеристический-C">
+		</goal>
+		<goal name="хемиадсорбция-A">
+		</goal>
+		<goal name="хемилюминесценция-A">
+		</goal>
+		<goal name="хемосорбция-A">
+		</goal>
+		<goal name="химический-A">
+		</goal>
+		<goal name="химический-B">
+		</goal>
+		<goal name="химический-C">
+		</goal>
+		<goal name="химический-D">
+		</goal>
+		<goal name="химический-E">
+		</goal>
+		<goal name="химический-F">
+		</goal>
+		<goal name="хиральность-A">
+		</goal>
+		<goal name="холестерик-A">
+		</goal>
+		<goal name="холодильный-A">
+		</goal>
+		<goal name="холодильник-A">
+		</goal>
+		<goal name="холодный-A">
+		</goal>
+		<goal name="холодный-B">
+		</goal>
+		<goal name="хроматический-A">
+		</goal>
+		<goal name="хрупкость-A">
+		</goal>
+		<goal name="цвет-A">
+		</goal>
+		<goal name="цветовой-A">
+		</goal>
+		<goal name="цветовой-B">
+		</goal>
+		<goal name="цветометрия-A">
+		</goal>
+		<goal name="центр-A">
+		</goal>
+		<goal name="центр-B">
+		</goal>
+		<goal name="центр-C">
+		</goal>
+		<goal name="центр-D">
+		</goal>
+		<goal name="центр-E">
+		</goal>
+		<goal name="центр-F">
+		</goal>
+		<goal name="центр-G">
+		</goal>
+		<goal name="центр-H">
+		</goal>
+		<goal name="центр-I">
+		</goal>
+		<goal name="центр-J">
+		</goal>
+		<goal name="центр-K">
+		</goal>
+		<goal name="центр-L">
+		</goal>
+		<goal name="центральный-A">
+		</goal>
+		<goal name="центральный-B">
+		</goal>
+		<goal name="центральный-C">
+		</goal>
+		<goal name="центральный-D">
+		</goal>
+		<goal name="центральный-E">
+		</goal>
+		<goal name="центробежный-A">
+		</goal>
+		<goal name="центробежный-B">
+		</goal>
+		<goal name="центроида-A">
+		</goal>
+		<goal name="центростремительный-A">
+		</goal>
+		<goal name="центростремительный-B">
+		</goal>
+		<goal name="цепной-A">
+		</goal>
+		<goal name="цепной-B">
+		</goal>
+		<goal name="цикл-A">
+			<match startPos="19824" endPos="19828">
+				<fragment>цикл</fragment>
+				<result>ЦИКЛ</result>
+				<result>ЦИКЛ</result>
+			</match>
+			<match startPos="52464" endPos="52469">
+				<fragment>цикла</fragment>
+				<result>ЦИКЛ</result>
+			</match>
+		</goal>
+		<goal name="цикл-B">
+		</goal>
+		<goal name="циклический-A">
+		</goal>
+		<goal name="циклический-B">
+		</goal>
+		<goal name="циклический-C">
+		</goal>
+		<goal name="циклический-D">
+		</goal>
+		<goal name="циклоидальный-A">
+		</goal>
+		<goal name="циклотрон-A">
+		</goal>
+		<goal name="циклотронный-A">
+		</goal>
+		<goal name="циклотронный-B">
+		</goal>
+		<goal name="цилиндрический-A">
+		</goal>
+		<goal name="цилиндрический-B">
+		</goal>
+		<goal name="циркулярный-A">
+		</goal>
+		<goal name="циркулярный-B">
+		</goal>
+		<goal name="циркулярно-A">
+		</goal>
+		<goal name="циркуляция-A">
+		</goal>
+		<goal name="циркуляция-B">
+		</goal>
+		<goal name="ЦМД-A">
+		</goal>
+		<goal name="чарм-A">
+		</goal>
+		<goal name="чармоний-A">
+		</goal>
+		<goal name="частица-A">
+		</goal>
+		<goal name="частота-A">
+			<match startPos="14440" endPos="14447">
+				<fragment>частота</fragment>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="48351" endPos="48358">
+				<fragment>частота</fragment>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="49998" endPos="50005">
+				<fragment>частоты</fragment>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="50103" endPos="50110">
+				<fragment>частоту</fragment>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="50162" endPos="50170">
+				<fragment>частотой</fragment>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="50180" endPos="50187">
+				<fragment>частоты</fragment>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="50390" endPos="50398">
+				<fragment>частотой</fragment>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="50483" endPos="50491">
+				<fragment>Частотой</fragment>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="50684" endPos="50691">
+				<fragment>частоты</fragment>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+			</match>
+			<match startPos="51906" endPos="51913">
+				<fragment>частоты</fragment>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+				<result>ЧАСТОТА</result>
+			</match>
+		</goal>
+		<goal name="частота-B">
+		</goal>
+		<goal name="частота-C">
+		</goal>
+		<goal name="частотный-A">
+		</goal>
+		<goal name="частотно-контрастный-A">
+		</goal>
+		<goal name="частотомер-A">
+		</goal>
+		<goal name="черенковский-A">
+		</goal>
+		<goal name="черенковский-B">
+		</goal>
+		<goal name="черный-A">
+		</goal>
+		<goal name="четно-нечетный-A">
+		</goal>
+		<goal name="четность-A">
+		</goal>
+		<goal name="четно-четный-A">
+		</goal>
+		<goal name="число-A">
+		</goal>
+		<goal name="число-B">
+		</goal>
+		<goal name="число-C">
+		</goal>
+		<goal name="число-D">
+		</goal>
+		<goal name="число-E">
+		</goal>
+		<goal name="число-F">
+		</goal>
+		<goal name="число-G">
+		</goal>
+		<goal name="число-H">
+		</goal>
+		<goal name="число-I">
+		</goal>
+		<goal name="число-J">
+		</goal>
+		<goal name="число-K">
+		</goal>
+		<goal name="число-L">
+		</goal>
+		<goal name="число-M">
+		</goal>
+		<goal name="число-N">
+		</goal>
+		<goal name="число-O">
+		</goal>
+		<goal name="число-P">
+		</goal>
+		<goal name="чистый-A">
+		</goal>
+		<goal name="ЧКХ-A">
+		</goal>
+		<goal name="чувствительность-A">
+		</goal>
+		<goal name="шарм-A">
+		</goal>
+		<goal name="шаровой-A">
+		</goal>
+		<goal name="ширина-A">
+		</goal>
+		<goal name="ширина-B">
+		</goal>
+		<goal name="ширина-C">
+		</goal>
+		<goal name="ширина-D">
+		</goal>
+		<goal name="широкий-A">
+		</goal>
+		<goal name="шкала-A">
+		</goal>
+		<goal name="шнурование-A">
+		</goal>
+		<goal name="штарковский-A">
+		</goal>
+		<goal name="шум-A">
+		</goal>
+		<goal name="шумовой-A">
+		</goal>
+		<goal name="шумомер-A">
+		</goal>
+		<goal name="шунт-A">
+		</goal>
+		<goal name="эвапорография-A">
+		</goal>
+		<goal name="эвтектика-A">
+		</goal>
+		<goal name="эвтектический-A">
+		</goal>
+		<goal name="ЭДС-A">
+		</goal>
+		<goal name="эйконал-A">
+		</goal>
+		<goal name="экваториальный-A">
+		</goal>
+		<goal name="эквивалентный-A">
+		</goal>
+		<goal name="эквипотенциальный-A">
+		</goal>
+		<goal name="экзоэлектронный-A">
+		</goal>
+		<goal name="экзоэмиссия-A">
+		</goal>
+		<goal name="экранирование-A">
+		</goal>
+		<goal name="эксергия-A">
+		</goal>
+		<goal name="эксимер-A">
+		</goal>
+		<goal name="эксимерный-A">
+		</goal>
+		<goal name="эксимерный-B">
+		</goal>
+		<goal name="экситон-A">
+		</goal>
+		<goal name="экспозиционный-A">
+		</goal>
+		<goal name="экспозиция-A">
+		</goal>
+		<goal name="экспонирование-A">
+		</goal>
+		<goal name="экстенсивный-A">
+		</goal>
+		<goal name="экстинкция-A">
+		</goal>
+		<goal name="эластичность-A">
+		</goal>
+		<goal name="электрет-A">
+		</goal>
+		<goal name="электризация-A">
+		</goal>
+		<goal name="электрический-A">
+		</goal>
+		<goal name="электрический-B">
+		</goal>
+		<goal name="электрический-C">
+		</goal>
+		<goal name="электрический-D">
+		</goal>
+		<goal name="электрический-E">
+		</goal>
+		<goal name="электрический-F">
+		</goal>
+		<goal name="электрический-G">
+		</goal>
+		<goal name="электрический-H">
+		</goal>
+		<goal name="электрический-I">
+		</goal>
+		<goal name="электрический-J">
+		</goal>
+		<goal name="электрический-K">
+		</goal>
+		<goal name="электрический-L">
+		</goal>
+		<goal name="электрический-M">
+		</goal>
+		<goal name="электрический-N">
+		</goal>
+		<goal name="электрический-O">
+		</goal>
+		<goal name="электрический-P">
+		</goal>
+		<goal name="электрический-Q">
+		</goal>
+		<goal name="электрический-R">
+		</goal>
+		<goal name="электрический-S">
+		</goal>
+		<goal name="электрический-T">
+		</goal>
+		<goal name="электрический-U">
+		</goal>
+		<goal name="электрический-V">
+		</goal>
+		<goal name="электрический-W">
+		</goal>
+		<goal name="электрический-X">
+		</goal>
+		<goal name="электрический-Y">
+		</goal>
+		<goal name="электрический-Z">
+		</goal>
+		<goal name="электрический-AA">
+		</goal>
+		<goal name="электрический-AB">
+		</goal>
+		<goal name="электрический-AC">
+		</goal>
+		<goal name="электрический-AD">
+		</goal>
+		<goal name="электричество-A">
+		</goal>
+		<goal name="электроакустика-A">
+		</goal>
+		<goal name="электроакустический-A">
+		</goal>
+		<goal name="электрогирация-A">
+		</goal>
+		<goal name="электрод-A">
+		</goal>
+		<goal name="электродвижущий-A">
+		</goal>
+		<goal name="электродинамика-A">
+		</goal>
+		<goal name="электродиффузия-A">
+		</goal>
+		<goal name="электродный-A">
+		</goal>
+		<goal name="электродный-B">
+		</goal>
+		<goal name="электроемкость-A">
+		</goal>
+		<goal name="электролиз-A">
+		</goal>
+		<goal name="электролит-A">
+		</goal>
+		<goal name="электролюминесценция-A">
+		</goal>
+		<goal name="электромагнетизм-A">
+		</goal>
+		<goal name="электромагнит-A">
+		</goal>
+		<goal name="электромагнитный-A">
+		</goal>
+		<goal name="электромагнитный-B">
+		</goal>
+		<goal name="электромагнитный-C">
+		</goal>
+		<goal name="электромагнитный-D">
+		</goal>
+		<goal name="электромагнитный-E">
+		</goal>
+		<goal name="электромагнитный-F">
+		</goal>
+		<goal name="электромагнитный-G">
+		</goal>
+		<goal name="электрометр-A">
+		</goal>
+		<goal name="электрон-A">
+			<match startPos="57098" endPos="57106">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="57262" endPos="57270">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="57424" endPos="57432">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="58125" endPos="58133">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="58363" endPos="58371">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="58995" endPos="59003">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+		</goal>
+		<goal name="электрон-B">
+		</goal>
+		<goal name="электрон-вольт-A">
+		</goal>
+		<goal name="электроника-A">
+		</goal>
+		<goal name="электроннолучевой-A">
+		</goal>
+		<goal name="электронно-оптический-A">
+		</goal>
+		<goal name="электронно-фононный-A">
+		</goal>
+		<goal name="электронно-дырочный-A">
+		</goal>
+		<goal name="электронный-A">
+		</goal>
+		<goal name="электронный-B">
+		</goal>
+		<goal name="электронный-C">
+		</goal>
+		<goal name="электронный-D">
+		</goal>
+		<goal name="электронный-E">
+		</goal>
+		<goal name="электронный-F">
+		</goal>
+		<goal name="электронный-G">
+		</goal>
+		<goal name="электронный-H">
+		</goal>
+		<goal name="электронный-I">
+		</goal>
+		<goal name="электронный-J">
+		</goal>
+		<goal name="электронный-K">
+		</goal>
+		<goal name="электронный-L">
+		</goal>
+		<goal name="электронный-M">
+		</goal>
+		<goal name="электронный-N">
+		</goal>
+		<goal name="электронный-O">
+		</goal>
+		<goal name="электронный-P">
+		</goal>
+		<goal name="электронный-Q">
+		</goal>
+		<goal name="электронный-R">
+		</goal>
+		<goal name="электронограмма-A">
+		</goal>
+		<goal name="электронография-A">
+		</goal>
+		<goal name="электрон-A">
+			<match startPos="57098" endPos="57106">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="57262" endPos="57270">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="57424" endPos="57432">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="58125" endPos="58133">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="58363" endPos="58371">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+			<match startPos="58995" endPos="59003">
+				<fragment>Электрон</fragment>
+				<result>ЭЛЕКТРОН</result>
+				<result>ЭЛЕКТРОН</result>
+			</match>
+		</goal>
+		<goal name="электрооптика-A">
+		</goal>
+		<goal name="электроосмос-A">
+		</goal>
+		<goal name="электропроводность-A">
+		</goal>
+		<goal name="электророждение-A">
+		</goal>
+		<goal name="электроскоп-A">
+		</goal>
+		<goal name="электрослабый-A">
+		</goal>
+		<goal name="электростатика-A">
+		</goal>
+		<goal name="электростатический-A">
+		</goal>
+		<goal name="электростатический-B">
+		</goal>
+		<goal name="электростатический-C">
+		</goal>
+		<goal name="электростатический-D">
+		</goal>
+		<goal name="электростатический-E">
+		</goal>
+		<goal name="электрострикция-A">
+		</goal>
+		<goal name="электрофорез-A">
+		</goal>
+		<goal name="электрофотолюминесценция-A">
+		</goal>
+		<goal name="электрохемилюминесценция-A">
+		</goal>
+		<goal name="электрохимический-A">
+		</goal>
+		<goal name="электрохимический-B">
+		</goal>
+		<goal name="электрохимический-C">
+		</goal>
+		<goal name="элемент-A">
+			<match startPos="24112" endPos="24121">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="24319" endPos="24328">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="24540" endPos="24549">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="24691" endPos="24701">
+				<fragment>элементами</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="25099" endPos="25108">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="25177" endPos="25186">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="25295" endPos="25304">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="25768" endPos="25776">
+				<fragment>элементы</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="25805" endPos="25813">
+				<fragment>элементы</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="25842" endPos="25851">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="26225" endPos="26232">
+				<fragment>элемент</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="26649" endPos="26657">
+				<fragment>элементы</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="26677" endPos="26684">
+				<fragment>элемент</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="26798" endPos="26805">
+				<fragment>элемент</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="26894" endPos="26903">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="26917" endPos="26926">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="26995" endPos="27003">
+				<fragment>элементы</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="27527" endPos="27536">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="37829" endPos="37839">
+				<fragment>элементами</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="38262" endPos="38270">
+				<fragment>элементы</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="38387" endPos="38394">
+				<fragment>элемент</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="48311" endPos="48319">
+				<fragment>элемента</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="48431" endPos="48439">
+				<fragment>элементы</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="48546" endPos="48555">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="48852" endPos="48861">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="49632" endPos="49639">
+				<fragment>элемент</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="50143" endPos="50151">
+				<fragment>элементы</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="51021" endPos="51030">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="51176" endPos="51183">
+				<fragment>Элемент</fragment>
+				<result>ЭЛЕМЕНТ</result>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="51426" endPos="51435">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="51914" endPos="51923">
+				<fragment>элементов</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="53187" endPos="53196">
+				<fragment>элементом</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+			<match startPos="53784" endPos="53792">
+				<fragment>элемента</fragment>
+				<result>ЭЛЕМЕНТ</result>
+			</match>
+		</goal>
+		<goal name="элемент-B">
+		</goal>
+		<goal name="элементарный-A">
+		</goal>
+		<goal name="элементарный-B">
+		</goal>
+		<goal name="элементарный-C">
+		</goal>
+		<goal name="элементарный-D">
+		</goal>
+		<goal name="эллипсоид-A">
+		</goal>
+		<goal name="эллипсоид-B">
+		</goal>
+		<goal name="эллипсометрия-A">
+		</goal>
+		<goal name="эллиптически-A">
+		</goal>
+		<goal name="эмиссионный-A">
+		</goal>
+		<goal name="эмиссионный-B">
+		</goal>
+		<goal name="эмиссионный-C">
+		</goal>
+		<goal name="эмиттер-A">
+		</goal>
+		<goal name="эмульсионный-A">
+		</goal>
+		<goal name="энергетический-A">
+		</goal>
+		<goal name="энергетический-B">
+		</goal>
+		<goal name="энергетический-C">
+		</goal>
+		<goal name="энергетический-D">
+		</goal>
+		<goal name="энергетический-E">
+		</goal>
+		<goal name="энергетический-F">
+		</goal>
+		<goal name="энергетический-G">
+		</goal>
+		<goal name="энергетический-H">
+		</goal>
+		<goal name="энергетический-I">
+		</goal>
+		<goal name="энергия-A">
+		</goal>
+		<goal name="энергия-B">
+		</goal>
+		<goal name="энергия-C">
+		</goal>
+		<goal name="энергия-D">
+		</goal>
+		<goal name="энергия-E">
+		</goal>
+		<goal name="энергия-F">
+		</goal>
+		<goal name="энергия-G">
+		</goal>
+		<goal name="энергия-H">
+		</goal>
+		<goal name="энтальпия-A">
+		</goal>
+		<goal name="энтропия-A">
+		</goal>
+		<goal name="ЭОП-A">
+		</goal>
+		<goal name="эпиграмма-A">
+		</goal>
+		<goal name="эпископический-A">
+		</goal>
+		<goal name="эпитаксия-A">
+		</goal>
+		<goal name="ЭПР-A">
+		</goal>
+		<goal name="эрг-A">
+		</goal>
+		<goal name="эргодичность-A">
+		</goal>
+		<goal name="эрстед-A">
+		</goal>
+		<goal name="эталон-A">
+		</goal>
+		<goal name="этвеш-A">
+		</goal>
+		<goal name="эффект-A">
+		</goal>
+		<goal name="эффект-B">
+		</goal>
+		<goal name="эффект-C">
+		</goal>
+		<goal name="эффект-D">
+		</goal>
+		<goal name="эффект-E">
+		</goal>
+		<goal name="эффект-F">
+		</goal>
+		<goal name="эффект-G">
+		</goal>
+		<goal name="эффект-H">
+		</goal>
+		<goal name="эффект-I">
+		</goal>
+		<goal name="эффект-J">
+		</goal>
+		<goal name="эффект-K">
+		</goal>
+		<goal name="эффект-L">
+		</goal>
+		<goal name="эффект-M">
+		</goal>
+		<goal name="эффект-N">
+		</goal>
+		<goal name="эффективный-A">
+		</goal>
+		<goal name="эффективный-B">
+		</goal>
+		<goal name="эффузия-A">
+		</goal>
+		<goal name="эхо-A">
+		</goal>
+		<goal name="эхолот-A">
+		</goal>
+		<goal name="эшелетт-A">
+		</goal>
+		<goal name="эшелле-A">
+		</goal>
+		<goal name="эшелон-A">
+		</goal>
+		<goal name="юстировка-A">
+		</goal>
+		<goal name="явления-A">
+		</goal>
+		<goal name="явления-B">
+		</goal>
+		<goal name="ядерно-термоядерный-A">
+		</goal>
+		<goal name="ядерный-A">
+		</goal>
+		<goal name="ядерный-B">
+		</goal>
+		<goal name="ядерный-C">
+		</goal>
+		<goal name="ядерный-D">
+		</goal>
+		<goal name="ядерный-E">
+		</goal>
+		<goal name="ядерный-F">
+		</goal>
+		<goal name="ядерный-G">
+		</goal>
+		<goal name="ядерный-H">
+		</goal>
+		<goal name="ядерный-I">
+		</goal>
+		<goal name="ядерный-J">
+		</goal>
+		<goal name="ядерный-K">
+		</goal>
+		<goal name="ядерный-L">
+		</goal>
+		<goal name="ядерный-M">
+		</goal>
+		<goal name="ядерный-N">
+		</goal>
+		<goal name="ядерный-O">
+		</goal>
+		<goal name="ядерный-P">
+		</goal>
+		<goal name="ядерный-Q">
+		</goal>
+		<goal name="ядро-A">
+		</goal>
+		<goal name="ЯКР-A">
+		</goal>
+		<goal name="ЯМР-A">
+		</goal>
+		<goal name="янский-A">
+		</goal>
+		<goal name="яркомер-A">
+		</goal>
+		<goal name="яркостный-A">
+		</goal>
+		<goal name="яркость-A">
+		</goal>
+		<goal name="ячейка-A">
+		</goal>
+		<goal name="ячейка-B">
+		</goal>
+	</text>
+</texts>

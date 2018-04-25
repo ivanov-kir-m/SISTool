@@ -1,0 +1,19 @@
+SYN = MSP1 "\("MSP2"\)" (MSP1) =text> #MSP1 "-" #MSP2
+SYN = MSP1 "\(" ["или"] MSP2 "\)" <MSP1.c=MSP2.c> =text> #MSP1 "-" #MSP2
+SYN = MSP1 "," "или" ["просто"] MSP2 =text> #MSP1 "-" #MSP2
+SYN = Term1<c=acc> "будем" ["также"] "называть" Term2<c=ins> =text> #Term1 "-" #Term2 
+SYN = Term1"\(" "далее" ["-"] Term2<c=nom> "\)" =text> #Term1 "-" #Term2
+SYN = TermSyn1 [","] "или" ["просто"] TermSyn2 <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> #TermSyn1 "-" #TermSyn2
+
+NPSYN-A = NPMSP1 "\("NPMSP2"\)" (NPMSP1) =text> #NPMSP1
+NPSYN-A = NPMSP1 "\("NPMSP2"\)" (NPMSP1) =text> #NPMSP2
+NPSYN-A = NPMSP1 "\(" ["или"] NPMSP2 "\)" <NPMSP1.c=NPMSP2.c> =text> #NPMSP1
+NPSYN-A = NPMSP1 "\(" ["или"] NPMSP2 "\)" <NPMSP1.c=NPMSP2.c> =text> #NPMSP2
+NPSYN-A = NPMSP1 "," "или" ["просто"] NPMSP2 =text> #NPMSP1
+NPSYN-A = NPMSP1 "," "или" ["просто"] NPMSP2 =text> #NPMSP2
+NPSYN-A = NPTerm1<c=acc> "будем" ["также"] "называть" NPTerm2<c=ins> =text> #NPTerm1 
+NPSYN-A = NPTerm1<c=acc> "будем" ["также"] "называть" NPTerm2<c=ins> =text> #NPTerm2 
+NPSYN-A = NPTerm1"\(" "далее" ["-"] NPTerm2<c=nom> "\)" =text> #NPTerm1
+NPSYN-A = NPTerm1"\(" "далее" ["-"] NPTerm2<c=nom> "\)" =text> #NPTerm2
+NPSYN-A = NPTermSyn1 [","] "или" ["просто"] NPTermSyn2 <NPTermSyn1.c=NPTermSyn2.c> (NPTermSyn1) =text> #NPTermSyn1
+NPSYN-A = NPTermSyn1 [","] "или" ["просто"] NPTermSyn2 <NPTermSyn1.c=NPTermSyn2.c> (NPTermSyn1) =text> #NPTermSyn2

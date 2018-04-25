@@ -1,0 +1,34 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1
+
+FN = N1 (N1) =text> N1<c=nom>
+
+FNN = N1 N2<c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+CaNN = N1 N2<c=gen> =text> #N1
+CaNN = N1 N2<c=gen> =text> #N2
+
+FAN = AP1 N1 <AP1=N1> (N1) =text> AP1 N1<c=nom> <AP1~>N1>
+
+FAAN = AP1 AP2 N1 <AP1=N1> <AP2=N1> (N1) =text> AP1 AP2 N1<c=nom> <AP1~>N1> <AP2~>N1>
+CaAAN = AP1 AP2 N1 <AP1=AP2=N1> =text> AP1 #N1 <AP1~>N1>
+CaAAN = AP1 AP2 N1 <AP1=AP2=N1> =text> AP2 #N1 <AP2~>N1>
+
+FANN = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> AP1 N1<c=nom> N2<c=gen> <AP1~>N1>
+CaANN = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> AP1 #N1
+caANN = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> #N1 N2<c=gen>
+CbANN = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> AP1 #N1
+CbANN = AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> #N2
+
+FNAN = N1 AP1 N2<c=gen> <AP1=N2> (N1) =text> N1 AP1 N2<c=gen> <AP1~>N2>
+CaNAN = N1 AP1 N2<c=gen> <AP1=N2>  =text> #N1 N2<c=gen>
+CaNAN = N1 AP1 N2<c=gen> <AP1=N2>  =text> AP1 #N2 <AP1~>N2>
+
+FNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> N1<c=nom> N2<c=gen> N3<c=gen>
+CaNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N1 N2
+CaNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N2 N3
+CbNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N1
+CbNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N2 N3
+CcNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N1 N2
+CcNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N3
+CdNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N1
+CdNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N2
+CdNNN = N1 N2<c=gen> N3<c=gen> (N1) =text> #N3

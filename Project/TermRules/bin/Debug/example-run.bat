@@ -1,0 +1,1 @@
+bin\lspl-find -i example\text.txt -p example\patterns.txt -o example\output.xml -t example\output_text.xml -r example\output_patterns.xml -s example\targets.txt

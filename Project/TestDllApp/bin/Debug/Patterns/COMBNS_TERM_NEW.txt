@@ -1,0 +1,107 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1
+
+FCT = AP1 AP2 N1 <AP1=AP2=N1> =text> AP1 AP2 #N1<c=nom,n=sing> <AP1~>N1,AP2~>N1>
+NPFCT = AP1 AP2 N1 <AP1=AP2=N1> =text> "AP1["AP1"] AP2["#AP2"] N1["#N1"] [AP1=AP2=N1] =text] AP1 AP2 #N1[c=nom,n=sing] [AP1~]N1,AP2~]N1]"
+CT = AP1 AP2 N1 <AP1=AP2=N1> =text> AP1 #N1 <AP1~>N1>
+CT = AP1 AP2 N1 <AP1=AP2=N1> =text> AP2 #N1 <AP2~>N1>
+NPCT = AP1 AP2 N1 <AP1=AP2=N1> =text> "AP1[" #AP1 "] N1[" #N1 "] [AP1=N1] =text] AP1 #N1 [AP1~]N1]" 
+NPCT = AP1 AP2 N1 <AP1=AP2=N1> =text> "AP2[" #AP2 "] N1[" #N1 "] [AP2=N1] =text] AP2 #N1 [AP2~]N1]"
+
+FCT = N1 AP2 N2<c=gen> <AP2=N2>  =text> N1<c=nom,n=sing> AP2 N2<c=gen> <AP2~>N2>
+NPFCT = N1 AP2 N2<c=gen> <AP2=N2>  =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] [AP2=N2] =text] N1[c=nom,n=sing] AP2 N2[c=gen] [AP2~]N2]"
+CT = N1 AP2 N2<c=gen> <AP2=N2>  =text> AP2 #N2 <AP2~>N2>
+CT = N1 AP2 N2<c=gen> <AP2=N2>  =text> #N1 N2<c=gen>
+NPCT = N1 AP2 N2<c=gen> <AP2=N2>  =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] [AP2=N2] =text] AP2 #N2 [AP2~>N2]"
+NPCT = N1 AP2 N2<c=gen> <AP2=N2>  =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] [AP2=N2] =text] #N1 N2[c=gen]"
+
+FCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2>  =text> N1<c=nom,n=sing> AP2 N2<c=gen> N3<c=gen> <AP2~>N2>
+NPFCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] N3["#N3",c=gen] [AP2=N2] =text] N1[c=nom,n=sing] AP2 N2[c=gen] N3[c=gen] [AP2~]N2]"
+CT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> AP2 #N2 <AP2~>N2>
+CT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> #N1 N2<c=gen> N3<c=gen>
+NPCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] N3["#N3",c=gen] [AP2=N2] =text] AP2 #N2 [AP2~]N2]"
+NPCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] N3["#N3",c=gen] [AP2=N2] =text] #N1 N2[c=gen] N3[c=gen]"
+
+FCT = N1 N2<c=gen> AP3 N3<c=gen> <AP3=N3>  =text> N1<c=nom,n=sing> N2<c=gen> AP3 N3<c=gen> <AP3~>N3>
+NPFCT = N1 N2<c=gen> AP3 N3<c=gen> <AP3=N3>  =text> "N1["#N1"] N2["#N2",c=gen] AP3["#AP3"] N3["#N3",c=gen] [AP3=N3] =text] N1[c=nom,n=sing] N2[c=gen] AP3 N3[c=gen] [AP3~>N3]"
+CT = N1 N2<c=gen> AP3 N3<c=gen> <AP3=N3> =text> AP3 #N3 <AP3~>N3>
+CT = N1 N2<c=gen> AP3 N3<c=gen> <AP3=N3> =text> #N1 N2<c=gen> N3<c=gen>
+NPCT = N1 N2<c=gen> AP3 N3<c=gen> <AP3=N3> =text> "N1["#N1"] N2["#N2",c=gen] AP3["#AP3"] N3["#N3",c=gen] [AP3=N3] =text] AP3 #N3 [AP3~]N3]"
+NPCT = N1 N2<c=gen> AP3 N3<c=gen> <AP3=N3> =text> "N1["#N1"] N2["#N2",c=gen] AP3["#AP3"] N3["#N3",c=gen] [AP3=N3] =text] #N1 N2[c=gen] N3[c=gen]"
+
+FCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2>  =text> N1<c=nom,n=sing> AP1 AP2 N2<c=gen> <AP1~>N2,AP2~>N2>
+NPFCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2>  =text> "N1["#N1"] AP1["#AP1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=AP2=N2] =text] N1[c=nom,n=sing] AP1 AP2 N2[c=gen] [AP1~]N2,AP2~]N2]"
+CT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> AP1 #N2 <AP1~>N2>
+CT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> #N1 AP2 N2<c=gen> <AP2~>N2>
+NPCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> "N1["#N1"] AP1["#AP1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=AP2=N2] =text] AP1 #N2 [AP1~]N2]"
+NPCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> "N1["#N1"] AP1["#AP1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=AP2=N2] =text] #N1 AP2 N2[c=gen] [AP2~]N2]"
+
+FCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1>  =text> AP1 AP2 N1<c=nom,n=sing> N2<c=gen> <AP1~>N1,AP2~>N1>
+NPFCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> "AP1["#AP1" AP2["#AP2"] N1["#N1"] N2["#N2",c=gen] [AP1=AP2=N1] =text] AP1 AP2 N1[c=nom,n=sing] N2[c=gen] [AP1~]N1,AP2~]N1]"
+CT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> AP1 #N1 <AP1~>N1>
+CT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> AP2 #N1 N2<c=gen> <AP2~>N1>
+NPCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> "AP1["#AP1" AP2["#AP2"] N1["#N1"] N2["#N2",c=gen] [AP1=AP2=N1] =text] AP1 #N1 [AP1~]N1]"
+NPCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> "AP1["#AP1" AP2["#AP2"] N1["#N1"] N2["#N2",c=gen] [AP1=AP2=N1] =text] AP2 #N1 N2[c=gen] [AP2~]N1]"
+
+FCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> AP1 AP2 N1<c=nom,n=sing> N2<c=gen> <AP1~>N1,AP2~>N1>
+NPFCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> "AP1["#AP1"] AP2["#AP2"] N1["#N1"] N2["#N2",c=gen] [AP1=AP2=N1] =text] AP1 AP2 N1[c=nom,n=sing] N2[c=gen] [AP1~]N1,AP2~]N1]"
+CT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> AP2 #N1 <AP2~>N1>
+CT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> AP1 #N1 N2<c=gen> <AP1~>N1>
+NPCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> "AP1["#AP1"] AP2["#AP2"] N1["#N1"] N2["#N2",c=gen] [AP1=AP2=N1] =text] AP2 #N1 [AP2~]N1]"
+NPCT = AP1 AP2 N1 N2<c=gen> <AP1=AP2=N1> =text> "AP1["#AP1"] AP2["#AP2"] N1["#N1"] N2["#N2",c=gen] [AP1=AP2=N1] =text] AP1 #N1 N2[c=gen] [AP1~]N1]"
+
+FCT = AP1 N1 AP2 N2<c=gen> <AP1=N1,AP2=N2> =text> AP1 N1<c=nom,n=sing> AP2 N2<c=gen> <AP1~>N1,AP2~>N2>
+NPFCT = AP1 N1 AP2 N2<c=gen> <AP1=N1,AP2=N2> =text> "AP1["#AP1"] N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=N1,AP2=N2] =text] AP1 N1[c=nom,n=sing] AP2 N2[c=gen] [AP1~]N1,AP2~]N2]"
+CT = AP1 N1 AP2 N2<c=gen> <AP1=N1,AP2=N2> =text> AP2 #N2 <AP2~>N2>
+CT = AP1 N1 AP2 N2<c=gen> <AP1=N1,AP2=N2> =text> AP1 #N1 N2<c=gen> <AP1~>N2>
+NPCT = AP1 N1 AP2 N2<c=gen> <AP1=N1,AP2=N2> =text> "AP1["#AP1"] N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=N1,AP2=N2] =text] AP2 #N2 [AP2~]N2]"
+NPCT = AP1 N1 AP2 N2<c=gen> <AP1=N1,AP2=N2> =text> "AP1["#AP1"] N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=N1,AP2=N2] =text] AP1 #N1 N2[c=gen] [AP1~]N2]"
+
+FCT = AP1 AP2 AP3 N1<c=gen> <AP1=AP2=AP3=N1> =text> AP1 AP2 AP3 N1<c=nom,n=sing> <AP1~>N1,AP2~>N1,AP3~>N1>
+NPFCT = AP1 AP2 AP3 N1<c=gen> <AP1=AP2=AP3=N1> =text> "AP1["#AP1"] AP2["#AP2"] AP3["#AP3"] N1["#N1",c=gen] [AP1=AP2=AP3=N1]  =text] AP1 AP2 AP3 N1[c=nom,n=sing] [AP1~]N1,AP2~]N1,AP3~]N1]"
+CT = AP1 AP2 AP3 N1<c=gen> <AP1=AP2=AP3=N1> =text> AP1 #N1 <AP1~>N1>
+CT = AP1 AP2 AP3 N1<c=gen> <AP1=AP2=AP3=N1> =text> AP2 AP3 #N1 <AP2~>N1,AP3~>N1>
+NPCT = AP1 AP2 AP3 N1<c=gen> <AP1=AP2=AP3=N1> =text> "AP1["#AP1"] AP2["#AP2"] AP3["#AP3"] N1["#N1",c=gen] [AP1=AP2=AP3=N1]  =text] AP1 #N1 [AP1~]N1]"
+NPCT = AP1 AP2 AP3 N1<c=gen> <AP1=AP2=AP3=N1> =text> "AP1["#AP1"] AP2["#AP2"] AP3["#AP3"] N1["#N1",c=gen] [AP1=AP2=AP3=N1]  =text] AP2 AP3 #N1 [AP2~]N1,AP3~]N1]"
+
+FCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> N1<c=nom,n=sing> AP2 N2<c=gen> N3<c=gen> <AP2~>N2>
+NPFCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] N3["#N3",c=gen] [AP2=N2] =text] N1[c=nom,n=sing] AP2 N2[c=gen] N3[c=gen] [AP2~]N2]"
+CT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> #N1 N2<c=gen>
+CT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> AP2 #N2 N3<c=gen> <AP2~>N2>
+NPCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] N3["#N3",c=gen] [AP2=N2] =text] #N1 N2[c=gen]"
+NPCT = N1 AP2 N2<c=gen> N3<c=gen> <AP2=N2> =text> "N1["#N1"] AP2["#AP2"] N2["#N2",c=gen] N3["#N3",c=gen] [AP2=N2] =text] AP2 #N2 N3[c=gen] [AP2~]N2]"
+
+FCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> N1<c=nom,n=sing> AP1 AP2 N2<c=gen> <AP1~>N2,AP2~>N2>
+NPFCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> "N1["#N1"] AP1["#AP1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=AP2=N2] =text] N1[c=nom,n=sing] AP1 AP2 N2[c=gen] [AP1~]N2,AP2~]N2]"
+CT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> #N1 N2<c=gen>
+CT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> AP1 AP2 #N2 <AP1~>N2,AP2~>N2>
+NPCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> "N1["#N1"] AP1["#AP1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=AP2=N2] =text] #N1 N2[c=gen]"
+NPCT = N1 AP1 AP2 N2<c=gen> <AP1=AP2=N2> =text> "N1["#N1"] AP1["#AP1"] AP2["#AP2"] N2["#N2",c=gen] [AP1=AP2=N2] =text] AP1 AP2 #N2 [AP1~]N2,AP2~]N2]"
+
+FCT = N1 N2<c=gen> N3<c=gen> =text> N1<c=nom,n=sing> N2 N3
+NPFCT = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] N1[c=nom,n=sing] N2 N3"
+CT = N1 N2<c=gen> N3<c=gen> =text> #N1
+CT = N1 N2<c=gen> N3<c=gen> =text> #N2
+CT = N1 N2<c=gen> N3<c=gen> =text> #N3
+CT = N1 N2<c=gen> N3<c=gen> =text> #N1 N2
+CT = N1 N2<c=gen> N3<c=gen> =text> #N2 N3
+NPCT = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N1"
+NPCT = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N2"
+NPCT = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N3"
+NPCT = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N1 N2"
+NPCT = N1 N2<c=gen> N3<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] =text] #N2 N3"
+
+FCT = AP1 N1 N2<c=gen> <AP1=N1> =text> AP1 N1<c=nom,n=sing> N2<c=gen> <AP1~>N1>
+NPFCT = AP1 N1 N2<c=gen> <AP1=N1> =text> "AP1["#AP1"] N1["#N1"] N2["#N2",c=gen] [AP1=N1] =text] AP1 N1[c=nom,n=sing] N2[c=gen] [AP1~]N1]"
+CT = AP1 N1 N2<c=gen> <AP1=N1> =text> #N1 N2<c=gen>
+CT = AP1 N1 N2<c=gen> <AP1=N1> =text> AP1 #N1 <AP1~>N1>
+CT = AP1 N1 N2<c=gen> <AP1=N1> =text> #N2
+NPCT = AP1 N1 N2<c=gen> <AP1=N1> =text> "AP1["#AP1"] N1["#N1"] N2["#N2",c=gen] [AP1=N1] =text] #N1 N2[c=gen]"
+NPCT = AP1 N1 N2<c=gen> <AP1=N1> =text> "AP1["#AP1"] N1["#N1"] N2["#N2",c=gen] [AP1=N1] =text] AP1 #N1 [AP1~]N1]"
+NPCT = AP1 N1 N2<c=gen> <AP1=N1> =text> "AP1["#AP1"] N1["#N1"] N2["#N2",c=gen] [AP1=N1] =text] #N2"
+
+FCT = N1 N2<c=gen> =text> N1<c=nom,n=sing> N2<c=gen>
+NPFCT = N1 N2<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] =text] N1[c=nom,n=sing] N2[c=gen]"
+CT = N1 N2<c=gen> =text> #N1
+CT = N1 N2<c=gen> =text> #N2
+NPCT = N1 N2<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] =text] #N1"
+NPCT = N1 N2<c=gen> =text> "N1["#N1"] N2["#N2",c=gen] =text] #N2"

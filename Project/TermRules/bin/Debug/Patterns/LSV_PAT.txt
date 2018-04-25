@@ -1,0 +1,7 @@
+AP1 N1 <AP1=N1> #N1,
+AP2 N1 <Syn(AP2,AP1),AP2=N1>, AP1 N2 <Syn(N2,N1),AP1=N2>, N1 N2<c=gen> <AP1.st=N2.st> 
+N1 N2<c=gen> #N1, N2, N1 N4<c=gen> <Syn(N2,N4)>, N3 N2<c=gen> <Syn(N1,N3)>, AP1 N1 <AP1.st=N2.st,AP1=N1>
+AP1 AP2 N1 <AP1=AP2=N1> #N1, AP2 N1 <AP2=N1>, AP1 N1 <AP1=N1>, AP3 AP2 N1 <Syn(AP3,AP1),AP2=AP3=N1>, AP1 AP3 N1 <Syn(AP3,AP2),AP1=AP3=N1>,  AP1 AP2 N2 <Syn(N1,N2),AP1=AP2=N2>,  AP1 N2 <Syn(AP2 N1,N2),AP1=N2>
+AP1 N1 N2<c=gen> <AP1=N1> #N1, AP1 N1 <AP1=N1>, N1 N2<c=gen>, AP3 N1 N2<c=gen> <Syn(AP3,A1),AP3=N1>, AP1 N3 N2<c=gen> <Syn(N3,N1),AP1=N3>, AP1 N1 N3<c=gen> <Syn(N3,N2),AP1=N1>, AP1 N3 <Syn(N3,N1 N2),AP1=N3>, N3 N2<c=gen> <Syn(N3,AP1 N1)>
+N1 N2<c=gen> N3<c=gen> #N1, N1 N2<c=gen>, N4 N2<c=gen> N3<c=gen> <Syn(N4,N1)>, N1 N4<c=gen> N3<c=gen> <Syn(N4,N2)>, N1 N2<c=gen> N4<c=gen> <Syn(N4,N3)>, N4 N3<c=gen> <Syn(N4,N1 N2)>, N1 N4<c=gen> <Syn(N4,N2 N3)>
+N1 AP2 N2<c=gen> <AP2=N2> #N1, N3 AP2 N2<c=gen> <Syn(N3,N1),AP2=N2>, N1 AP3 N2<c=gen> <Syn(AP3,AP2),AP3=N2>, N1 AP2 N3<c=gen> <Syn(N3,N2),AP2=N3>, N1 N3<c=gen> <Syn(N3,AP2 N2)>

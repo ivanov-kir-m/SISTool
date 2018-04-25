@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<texts>
+	<text>
+		<goal name="ATT">
+			<match startPos="766" endPos="789">
+				<fragment>чиновного
+князя Василия</fragment>
+			</match>
+			<match startPos="766" endPos="789">
+				<fragment>чиновного
+князя Василия</fragment>
+			</match>
+			<match startPos="5602" endPos="5624">
+				<fragment>лучших фамилий Франции</fragment>
+			</match>
+			<match startPos="6626" endPos="6657">
+				<fragment>искреннее
+выражение преданности</fragment>
+			</match>
+			<match startPos="6626" endPos="6657">
+				<fragment>искреннее
+выражение преданности</fragment>
+			</match>
+			<match startPos="9363" endPos="9385">
+				<fragment>блудного сына  Анатоля</fragment>
+			</match>
+			<match startPos="9363" endPos="9385">
+				<fragment>блудного сына  Анатоля</fragment>
+			</match>
+			<match startPos="11288" endPos="11311">
+				<fragment>высшая
+знать Петербурга</fragment>
+			</match>
+			<match startPos="17548" endPos="17569">
+				<fragment>громкий
+звук веретена</fragment>
+			</match>
+			<match startPos="17548" endPos="17569">
+				<fragment>громкий
+звук веретена</fragment>
+			</match>
+			<match startPos="18403" endPos="18424">
+				<fragment>изящные выражения лиц</fragment>
+			</match>
+			<match startPos="18403" endPos="18424">
+				<fragment>изящные выражения лиц</fragment>
+			</match>
+			<match startPos="19860" endPos="19888">
+				<fragment>особенные причины озлобления</fragment>
+			</match>
+			<match startPos="19860" endPos="19888">
+				<fragment>особенные причины озлобления</fragment>
+			</match>
+			<match startPos="23402" endPos="23426">
+				<fragment>неизменною
+улыбкой жизни</fragment>
+			</match>
+			<match startPos="23442" endPos="23464">
+				<fragment>античною красотой тела</fragment>
+			</match>
+		</goal>
+	</text>
+</texts>

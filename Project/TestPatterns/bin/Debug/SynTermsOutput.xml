@@ -1,0 +1,3089 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<texts>
+	<text>
+		<goal name="SYN-N-N">
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>ЛИНГВИСТИКА - КЛ</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>ЛИНГВИСТИКА - КЛ</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>ЛИНГВИСТИКА - КЛ</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>ЛИНГВИСТИКА - КЛ</result>
+			</match>
+			<match startPos="5960" endPos="5994">
+				<fragment>эксперты-лингвисты или специалисты</fragment>
+				<result>ЭКСПЕРТ-ЛИНГВИСТ - СПЕЦИАЛИСТ</result>
+			</match>
+			<match startPos="7362" endPos="7385">
+				<fragment>конструкций (выражений)</fragment>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="7362" endPos="7385">
+				<fragment>конструкций (выражений)</fragment>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="7729" endPos="7741">
+				<fragment>PDF или DOCX</fragment>
+				<result>PDF - DOCX</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+				<result>ТОЛКОВАНИЕ - ОПРЕДЕЛЕНИЕ</result>
+			</match>
+			<match startPos="14423" endPos="14437">
+				<fragment>Frequency (TF)</fragment>
+				<result>FREQUENCY - TF</result>
+			</match>
+			<match startPos="14423" endPos="14437">
+				<fragment>Frequency (TF)</fragment>
+				<result>FREQUENCY - TF</result>
+			</match>
+			<match startPos="14485" endPos="14507">
+				<fragment>документе, или разделе</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="14485" endPos="14507">
+				<fragment>документе, или разделе</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="14533" endPos="14547">
+				<fragment>Frequency (DF)</fragment>
+				<result>FREQUENCY - DF</result>
+			</match>
+			<match startPos="14533" endPos="14547">
+				<fragment>Frequency (DF)</fragment>
+				<result>FREQUENCY - DF</result>
+			</match>
+			<match startPos="14556" endPos="14580">
+				<fragment>документов, или разделов</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="14556" endPos="14580">
+				<fragment>документов, или разделов</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>ФРАЗА - PHRASENESS</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>ФРАЗА - PHRASENESS</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>ФРАЗА - PHRASENESS</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>ФРАЗА - PHRASENESS</result>
+			</match>
+			<match startPos="20584" endPos="20598">
+				<fragment>Detector (GCD)</fragment>
+				<result>DETECTOR - GCD</result>
+			</match>
+			<match startPos="20584" endPos="20598">
+				<fragment>Detector (GCD)</fragment>
+				<result>DETECTOR - GCD</result>
+			</match>
+			<match startPos="23169" endPos="23192">
+				<fragment>конструкций (выражений)</fragment>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="23169" endPos="23192">
+				<fragment>конструкций (выражений)</fragment>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+				<result>КОНСТРУКЦИЯ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>ПРИЛАГАТЕЛЬНОЕ - A1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>ПРИЛАГАТЕЛЬНОЕ - A1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>ПРИЛАГАТЕЛЬНОЕ - A1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>ПРИЧАСТИЕ - PA1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>ПРИЧАСТИЕ - PA1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>ПРИЧАСТИЕ - PA1</result>
+			</match>
+			<match startPos="24005" endPos="24012">
+				<fragment>A1 (A1)</fragment>
+				<result>A1 - A1</result>
+			</match>
+			<match startPos="24005" endPos="24012">
+				<fragment>A1 (A1)</fragment>
+				<result>A1 - A1</result>
+			</match>
+			<match startPos="24025" endPos="24034">
+				<fragment>Pa1 (Pa1)</fragment>
+				<result>PA1 - PA1</result>
+			</match>
+			<match startPos="24025" endPos="24034">
+				<fragment>Pa1 (Pa1)</fragment>
+				<result>PA1 - PA1</result>
+			</match>
+			<match startPos="24707" endPos="24735">
+				<fragment>прилагательное или причастие</fragment>
+				<result>ПРИЛАГАТЕЛЬНОЕ - ПРИЧАСТИЕ</result>
+			</match>
+			<match startPos="24707" endPos="24735">
+				<fragment>прилагательное или причастие</fragment>
+				<result>ПРИЛАГАТЕЛЬНОЕ - ПРИЧАСТИЕ</result>
+			</match>
+			<match startPos="24739" endPos="24759">
+				<fragment>N1 (существительное)</fragment>
+				<result>N1 - СУЩЕСТВИТЕЛЬНОЕ</result>
+				<result>N1 - СУЩЕСТВИТЕЛЬНОЕ</result>
+			</match>
+			<match startPos="24739" endPos="24759">
+				<fragment>N1 (существительное)</fragment>
+				<result>N1 - СУЩЕСТВИТЕЛЬНОЕ</result>
+			</match>
+			<match startPos="25606" endPos="25631">
+				<fragment>апострофами или кавычками</fragment>
+				<result>АПОСТРОФ - КАВЫЧКА</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+				<result>ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+			</match>
+			<match startPos="29685" endPos="29697">
+				<fragment>PDF или DOCX</fragment>
+				<result>PDF - DOCX</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>ТЕРМИН - M_AUTH</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>ТЕРМИН - M_AUTH</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>ТЕРМИН - M_AUTH</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>ТЕРМИН - M_DICT</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>ТЕРМИН - M_DICT</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>ТЕРМИН - M_DICT</result>
+			</match>
+			<match startPos="31323" endPos="31340">
+				<fragment>синонимов (M_syn)</fragment>
+				<result>СИНОНИМ - M_SYN</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>ТЕРМИН - M_NONDICT</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>ТЕРМИН - M_NONDICT</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>ТЕРМИН - M_NONDICT</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>СОЕДИНЕНИЕ - M_COMB</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>СОЕДИНЕНИЕ - M_COMB</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>СОЕДИНЕНИЕ - M_COMB</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>СОЕДИНЕНИЕ - M_COMB</result>
+			</match>
+			<match startPos="32934" endPos="32941">
+				<fragment>N1 (N1)</fragment>
+				<result>N1 - N1</result>
+			</match>
+			<match startPos="32934" endPos="32941">
+				<fragment>N1 (N1)</fragment>
+				<result>N1 - N1</result>
+			</match>
+			<match startPos="34317" endPos="34340">
+				<fragment>синонимы или сокращения</fragment>
+				<result>СИНОНИМ - СОКРАЩЕНИЕ</result>
+			</match>
+			<match startPos="34317" endPos="34340">
+				<fragment>синонимы или сокращения</fragment>
+				<result>СИНОНИМ - СОКРАЩЕНИЕ</result>
+			</match>
+			<match startPos="34545" endPos="34569">
+				<fragment>программирования, или ЯП</fragment>
+				<result>ПРОГРАММИРОВАНИЕ - ЯП</result>
+				<result>ПРОГРАММИРОВАНИЕ - ЯП</result>
+				<result>ПРОГРАММИРОВАНИЕ - ЯП</result>
+			</match>
+			<match startPos="34545" endPos="34569">
+				<fragment>программирования, или ЯП</fragment>
+				<result>ПРОГРАММИРОВАНИЕ - ЯП</result>
+			</match>
+			<match startPos="36377" endPos="36393">
+				<fragment>шаблона (FCTANN)</fragment>
+				<result>ШАБЛОН - FCTANN</result>
+			</match>
+			<match startPos="46613" endPos="46625">
+				<fragment>PDF или DOCX</fragment>
+				<result>PDF - DOCX</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>ТЕРМИН-КАНДИДАТ - ОМОНИМ</result>
+				<result>ТЕРМИН-КАНДИДАТ - ОМОНИМ</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>ТЕРМИН-КАНДИДАТ - ОМОНИМ</result>
+				<result>ТЕРМИН-КАНДИДАТ - ОМОНИМ</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>ТЕРМИН-КАНДИДАТ - ОМОНИМ</result>
+			</match>
+			<match startPos="55278" endPos="55289">
+				<fragment>файла (txt)</fragment>
+				<result>ФАЙЛ - TXT</result>
+			</match>
+			<match startPos="58010" endPos="58015">
+				<fragment>9(16)</fragment>
+				<result>9 - 16</result>
+			</match>
+			<match startPos="58010" endPos="58015">
+				<fragment>9(16)</fragment>
+				<result>9 - 16</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-N-A">
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ ЛИНГВИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ ЛИНГВИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ ЛИНГВИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ ЛИНГВИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7362" endPos="7385">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7362" endPos="7385">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТОЛКОВАНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14423" endPos="14437">
+				<fragment>Frequency (TF)</fragment>
+				<result>N1[ FREQUENCY ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14423" endPos="14437">
+				<fragment>Frequency (TF)</fragment>
+				<result>N1[ FREQUENCY ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14485" endPos="14507">
+				<fragment>документе, или разделе</fragment>
+				<result>N1[ ДОКУМЕНТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14533" endPos="14547">
+				<fragment>Frequency (DF)</fragment>
+				<result>N1[ FREQUENCY ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14533" endPos="14547">
+				<fragment>Frequency (DF)</fragment>
+				<result>N1[ FREQUENCY ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14556" endPos="14580">
+				<fragment>документов, или разделов</fragment>
+				<result>N1[ ДОКУМЕНТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ ФРАЗА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ ФРАЗА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ ФРАЗА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ ФРАЗА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="20584" endPos="20598">
+				<fragment>Detector (GCD)</fragment>
+				<result>N1[ DETECTOR ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="20584" endPos="20598">
+				<fragment>Detector (GCD)</fragment>
+				<result>N1[ DETECTOR ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23169" endPos="23192">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23169" endPos="23192">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+				<result>N1[ КОНСТРУКЦИЯ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>N1[ ПРИЛАГАТЕЛЬНОЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>N1[ ПРИЛАГАТЕЛЬНОЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>N1[ ПРИЛАГАТЕЛЬНОЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>N1[ ПРИЧАСТИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>N1[ ПРИЧАСТИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>N1[ ПРИЧАСТИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24005" endPos="24012">
+				<fragment>A1 (A1)</fragment>
+				<result>N1[ A1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24005" endPos="24012">
+				<fragment>A1 (A1)</fragment>
+				<result>N1[ A1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24025" endPos="24034">
+				<fragment>Pa1 (Pa1)</fragment>
+				<result>N1[ PA1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24025" endPos="24034">
+				<fragment>Pa1 (Pa1)</fragment>
+				<result>N1[ PA1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24739" endPos="24759">
+				<fragment>N1 (существительное)</fragment>
+				<result>N1[ N1 ] (N1) =TEXT] #N1</result>
+				<result>N1[ N1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24739" endPos="24759">
+				<fragment>N1 (существительное)</fragment>
+				<result>N1[ N1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+				<result>N1[ ХАРАКТЕРИСТИКА ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31323" endPos="31340">
+				<fragment>синонимов (M_syn)</fragment>
+				<result>N1[ СИНОНИМ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ СОЕДИНЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ СОЕДИНЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ СОЕДИНЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ СОЕДИНЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="32934" endPos="32941">
+				<fragment>N1 (N1)</fragment>
+				<result>N1[ N1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="32934" endPos="32941">
+				<fragment>N1 (N1)</fragment>
+				<result>N1[ N1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="34545" endPos="34569">
+				<fragment>программирования, или ЯП</fragment>
+				<result>N1[ ПРОГРАММИРОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРОГРАММИРОВАНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРОГРАММИРОВАНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="36377" endPos="36393">
+				<fragment>шаблона (FCTANN)</fragment>
+				<result>N1[ ШАБЛОН ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>N1[ ТЕРМИН-КАНДИДАТ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТЕРМИН-КАНДИДАТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>N1[ ТЕРМИН-КАНДИДАТ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТЕРМИН-КАНДИДАТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>N1[ ТЕРМИН-КАНДИДАТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="55278" endPos="55289">
+				<fragment>файла (txt)</fragment>
+				<result>N1[ ФАЙЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="58010" endPos="58015">
+				<fragment>9(16)</fragment>
+				<result>N1[ 9 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="58010" endPos="58015">
+				<fragment>9(16)</fragment>
+				<result>N1[ 9 ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-N-B">
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ КЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ КЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ КЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="1974" endPos="1990">
+				<fragment>лингвистики (КЛ)</fragment>
+				<result>N1[ КЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7362" endPos="7385">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7362" endPos="7385">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="12611" endPos="12635">
+				<fragment>толкования (определения)</fragment>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОПРЕДЕЛЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14423" endPos="14437">
+				<fragment>Frequency (TF)</fragment>
+				<result>N1[ TF ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14423" endPos="14437">
+				<fragment>Frequency (TF)</fragment>
+				<result>N1[ TF ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14485" endPos="14507">
+				<fragment>документе, или разделе</fragment>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14533" endPos="14547">
+				<fragment>Frequency (DF)</fragment>
+				<result>N1[ DF ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14533" endPos="14547">
+				<fragment>Frequency (DF)</fragment>
+				<result>N1[ DF ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14556" endPos="14580">
+				<fragment>документов, или разделов</fragment>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17889" endPos="17907">
+				<fragment>фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="20584" endPos="20598">
+				<fragment>Detector (GCD)</fragment>
+				<result>N1[ GCD ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="20584" endPos="20598">
+				<fragment>Detector (GCD)</fragment>
+				<result>N1[ GCD ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23169" endPos="23192">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23169" endPos="23192">
+				<fragment>конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>N1[ A1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>N1[ A1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23961" endPos="23980">
+				<fragment>прилагательное (A1)</fragment>
+				<result>N1[ A1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>N1[ PA1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>N1[ PA1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23983" endPos="23998">
+				<fragment>причастие (Pa1)</fragment>
+				<result>N1[ PA1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24005" endPos="24012">
+				<fragment>A1 (A1)</fragment>
+				<result>N1[ A1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24005" endPos="24012">
+				<fragment>A1 (A1)</fragment>
+				<result>N1[ A1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24025" endPos="24034">
+				<fragment>Pa1 (Pa1)</fragment>
+				<result>N1[ PA1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24025" endPos="24034">
+				<fragment>Pa1 (Pa1)</fragment>
+				<result>N1[ PA1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24739" endPos="24759">
+				<fragment>N1 (существительное)</fragment>
+				<result>N1[ СУЩЕСТВИТЕЛЬНОЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ СУЩЕСТВИТЕЛЬНОЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="24739" endPos="24759">
+				<fragment>N1 (существительное)</fragment>
+				<result>N1[ СУЩЕСТВИТЕЛЬНОЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25956" endPos="25981">
+				<fragment>характеристики (признаки)</fragment>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>N1[ M_AUTH ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>N1[ M_AUTH ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31270" endPos="31286">
+				<fragment>термины (M_auth)</fragment>
+				<result>N1[ M_AUTH ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>N1[ M_DICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>N1[ M_DICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31299" endPos="31315">
+				<fragment>термины (M_dict)</fragment>
+				<result>N1[ M_DICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31323" endPos="31340">
+				<fragment>синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>N1[ M_NONDICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>N1[ M_NONDICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31355" endPos="31374">
+				<fragment>термины (M_nondict)</fragment>
+				<result>N1[ M_NONDICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ M_COMB ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ M_COMB ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ M_COMB ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31388" endPos="31407">
+				<fragment>соединения (M_comb)</fragment>
+				<result>N1[ M_COMB ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="32934" endPos="32941">
+				<fragment>N1 (N1)</fragment>
+				<result>N1[ N1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="32934" endPos="32941">
+				<fragment>N1 (N1)</fragment>
+				<result>N1[ N1 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="34545" endPos="34569">
+				<fragment>программирования, или ЯП</fragment>
+				<result>N1[ ЯП ] (N1) =TEXT] #N1</result>
+				<result>N1[ ЯП ] (N1) =TEXT] #N1</result>
+				<result>N1[ ЯП ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="36377" endPos="36393">
+				<fragment>шаблона (FCTANN)</fragment>
+				<result>N1[ FCTANN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>N1[ ОМОНИМ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОМОНИМ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>N1[ ОМОНИМ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ОМОНИМ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="51579" endPos="51606">
+				<fragment>термина-кандидата (омонимы)</fragment>
+				<result>N1[ ОМОНИМ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="55278" endPos="55289">
+				<fragment>файла (txt)</fragment>
+				<result>N1[ TXT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="58010" endPos="58015">
+				<fragment>9(16)</fragment>
+				<result>N1[ 16 ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="58010" endPos="58015">
+				<fragment>9(16)</fragment>
+				<result>N1[ 16 ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-NN-NN">
+			<match startPos="7362" endPos="7394">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+			</match>
+			<match startPos="12611" endPos="12644">
+				<fragment>толкования (определения) терминов</fragment>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+			</match>
+			<match startPos="14550" endPos="14590">
+				<fragment>число документов, или разделов документа</fragment>
+				<result>ЧИСЛО ДОКУМЕНТОВ - РАЗДЕЛ ДОКУМЕНТА</result>
+				<result>ЧИСЛО ДОКУМЕНТОВ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+			<match startPos="23169" endPos="23201">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>МЕТОД ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>МЕТОД ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>МЕТОД ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>МЕТОДА ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>МЕТОДА ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>МЕТОДА ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>МЕТОД ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>МЕТОДА ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NN-NN-A">
+			<match startPos="7362" endPos="7394">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>КОНСТРУКЦИЯ РУССКОГО</result>
+				<result>КОНСТРУКЦИЯ РУССКОГО</result>
+			</match>
+			<match startPos="12611" endPos="12644">
+				<fragment>толкования (определения) терминов</fragment>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ</result>
+			</match>
+			<match startPos="14550" endPos="14590">
+				<fragment>число документов, или разделов документа</fragment>
+				<result>N1[ ЧИСЛО ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ЧИСЛО ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="23169" endPos="23201">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>КОНСТРУКЦИЯ РУССКОГО</result>
+				<result>КОНСТРУКЦИЯ РУССКОГО</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>N1[ МЕТОД ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ МЕТОД ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ МЕТОД ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>N1[ МЕТОДА ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ МЕТОДА ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ МЕТОДА ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>N1[ МЕТОД ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ МЕТОДА ] N2[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NN-NN-B">
+			<match startPos="7362" endPos="7394">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>ВЫРАЖЕНЬЕ РУССКОГО</result>
+				<result>ВЫРАЖЕНЬЕ РУССКОГО</result>
+			</match>
+			<match startPos="12611" endPos="12644">
+				<fragment>толкования (определения) терминов</fragment>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+			</match>
+			<match startPos="14550" endPos="14590">
+				<fragment>число документов, или разделов документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="23169" endPos="23201">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>ВЫРАЖЕНЬЕ РУССКОГО</result>
+				<result>ВЫРАЖЕНЬЕ РУССКОГО</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49790" endPos="49832">
+				<fragment>метода извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="SYN-AN-AN">
+			<match startPos="5377" endPos="5414">
+				<fragment>статистических (вероятностных) данных</fragment>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+				<result>СТАТИСТИЧЕСКИЙ ДАННЫХ - ВЕРОЯТНОСТНЫЙ ДАННЫХ</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AN-AN-A">
+			<match startPos="5377" endPos="5414">
+				<fragment>статистических (вероятностных) данных</fragment>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>СТАТИСТИЧЕСКИЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AN-AN-B">
+			<match startPos="5377" endPos="5414">
+				<fragment>статистических (вероятностных) данных</fragment>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+				<result>ВЕРОЯТНОСТНЫЙ N1[ ДАННЫХ ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-PN-PN">
+		</goal>
+		<goal name="NPSYN-PN-PN-A">
+		</goal>
+		<goal name="NPSYN-PN-PN-B">
+		</goal>
+		<goal name="SYN-AAN-AAN">
+		</goal>
+		<goal name="NPSYN-AAN-AAN-A">
+		</goal>
+		<goal name="NPSYN-AAN-AAN-B">
+		</goal>
+		<goal name="SYN-APN-APN">
+		</goal>
+		<goal name="NPSYN-APN-APN-A">
+		</goal>
+		<goal name="NPSYN-APN-APN-B">
+		</goal>
+		<goal name="SYN-PAN-PAN">
+		</goal>
+		<goal name="NPSYN-PAN-PAN-A">
+		</goal>
+		<goal name="NPSYN-PAN-PAN-B">
+		</goal>
+		<goal name="SYN-PPN-PPN">
+		</goal>
+		<goal name="NPSYN-PPN-PPN-A">
+		</goal>
+		<goal name="NPSYN-PPN-PPN-B">
+		</goal>
+		<goal name="SYN-ANN-ANN">
+		</goal>
+		<goal name="NPSYN-ANN-ANN-A">
+		</goal>
+		<goal name="NPSYN-ANN-ANN-B">
+		</goal>
+		<goal name="SYN-PNN-PNN">
+		</goal>
+		<goal name="NPSYN-PNN-PNN-A">
+		</goal>
+		<goal name="NPSYN-PNN-PNN-B">
+		</goal>
+		<goal name="SYN-NAN-NAN">
+		</goal>
+		<goal name="NPSYN-NAN-NAN-A">
+		</goal>
+		<goal name="NPSYN-NAN-NAN-B">
+		</goal>
+		<goal name="SYN-NPN-NPN">
+		</goal>
+		<goal name="NPSYN-NPN-NPN-A">
+		</goal>
+		<goal name="NPSYN-NPN-NPN-B">
+		</goal>
+		<goal name="SYN-NNN-NNN">
+			<match startPos="7362" endPos="7394">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+			</match>
+			<match startPos="12611" endPos="12644">
+				<fragment>толкования (определения) терминов</fragment>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+				<result>ТОЛКОВАНИЕ ТЕРМИНОВ - ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</result>
+			</match>
+			<match startPos="23169" endPos="23201">
+				<fragment>конструкций (выражений) русского</fragment>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+				<result>КОНСТРУКЦИЯ РУССКОГО - ВЫРАЖЕНЬЕ РУССКОГО</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NNN-NNN-A">
+		</goal>
+		<goal name="NPSYN-NNN-NNN-B">
+		</goal>
+		<goal name="SYN-N-NN">
+			<match startPos="14485" endPos="14517">
+				<fragment>документе, или разделе документа</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+			<match startPos="14485" endPos="14517">
+				<fragment>документе, или разделе документа</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+			<match startPos="14556" endPos="14590">
+				<fragment>документов, или разделов документа</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+			<match startPos="14556" endPos="14590">
+				<fragment>документов, или разделов документа</fragment>
+				<result>ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ИЗВЛЕЧЕНИЕ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-NN-A">
+			<match startPos="14485" endPos="14517">
+				<fragment>документе, или разделе документа</fragment>
+				<result>N1[ ДОКУМЕНТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14485" endPos="14517">
+				<fragment>документе, или разделе документа</fragment>
+				<result>N1[ ДОКУМЕНТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14556" endPos="14590">
+				<fragment>документов, или разделов документа</fragment>
+				<result>N1[ ДОКУМЕНТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14556" endPos="14590">
+				<fragment>документов, или разделов документа</fragment>
+				<result>N1[ ДОКУМЕНТ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ИЗВЛЕЧЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-NN-B">
+			<match startPos="14485" endPos="14517">
+				<fragment>документе, или разделе документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="14485" endPos="14517">
+				<fragment>документе, или разделе документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="14556" endPos="14590">
+				<fragment>документов, или разделов документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="14556" endPos="14590">
+				<fragment>документов, или разделов документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="49797" endPos="49832">
+				<fragment>извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="SYN-N-AN">
+			<match startPos="38802" endPos="38828">
+				<fragment>позиция (порядковый номер)</fragment>
+				<result>ПОЗИЦИЯ - ПОРЯДКОВЫЙ НОМЕР</result>
+				<result>ПОЗИЦИЯ - ПОРЯДКОВЫЙ НОМЕР</result>
+			</match>
+			<match startPos="38802" endPos="38828">
+				<fragment>позиция (порядковый номер)</fragment>
+				<result>ПОЗИЦИЯ - ПОРЯДКОВЫЙ НОМЕР</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-AN-A">
+			<match startPos="38802" endPos="38828">
+				<fragment>позиция (порядковый номер)</fragment>
+				<result>N1[ ПОЗИЦИЯ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПОЗИЦИЯ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="38802" endPos="38828">
+				<fragment>позиция (порядковый номер)</fragment>
+				<result>N1[ ПОЗИЦИЯ ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-AN-B">
+			<match startPos="38802" endPos="38828">
+				<fragment>позиция (порядковый номер)</fragment>
+				<result>A1[ ПОРЯДКОВЫЙ ] N1[ НОМЕР ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+				<result>A1[ ПОРЯДКОВЫЙ ] N1[ НОМЕР ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="38802" endPos="38828">
+				<fragment>позиция (порядковый номер)</fragment>
+				<result>A1[ ПОРЯДКОВЫЙ ] N1[ НОМЕР ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+		</goal>
+		<goal name="SYN-N-PN">
+		</goal>
+		<goal name="NPSYN-N-PN-A">
+		</goal>
+		<goal name="NPSYN-N-PN-B">
+		</goal>
+		<goal name="SYN-N-AAN">
+		</goal>
+		<goal name="NPSYN-N-AAN-A">
+		</goal>
+		<goal name="NPSYN-N-AAN-B">
+		</goal>
+		<goal name="SYN-N-APN">
+		</goal>
+		<goal name="NPSYN-N-APN-A">
+		</goal>
+		<goal name="NPSYN-N-APN-B">
+		</goal>
+		<goal name="SYN-N-PAN">
+		</goal>
+		<goal name="NPSYN-N-PAN-A">
+		</goal>
+		<goal name="NPSYN-N-PAN-B">
+		</goal>
+		<goal name="SYN-N-PPN">
+		</goal>
+		<goal name="NPSYN-N-PPN-A">
+		</goal>
+		<goal name="NPSYN-N-PPN-B">
+		</goal>
+		<goal name="SYN-N-ANN">
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>ПОНЯТИЕ - ПРЯМОУГОЛЬНЫЙ БЛОК СИМВОЛОВ</result>
+				<result>ПОНЯТИЕ - ПРЯМОУГОЛЬНЫЙ БЛОК СИМВОЛОВ</result>
+			</match>
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>ПОНЯТИЕ - ПРЯМОУГОЛЬНЫЙ БЛОК СИМВОЛОВ</result>
+				<result>ПОНЯТИЕ - ПРЯМОУГОЛЬНЫЙ БЛОК СИМВОЛОВ</result>
+			</match>
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>ПОНЯТИЕ - ПРЯМОУГОЛЬНЫЙ БЛОК СИМВОЛОВ</result>
+				<result>ПОНЯТИЕ - ПРЯМОУГОЛЬНЫЙ БЛОК СИМВОЛОВ</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-ANN-A">
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>N1[ ПОНЯТИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПОНЯТИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>N1[ ПОНЯТИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПОНЯТИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>N1[ ПОНЯТИЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПОНЯТИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-ANN-B">
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>A1[ ПРЯМОУГОЛЬНЫЙ ] N1[ БЛОК ] N2[ СИМВОЛ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+				<result>A1[ ПРЯМОУГОЛЬНЫЙ ] N1[ БЛОК ] N2[ СИМВОЛ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+			</match>
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>A1[ ПРЯМОУГОЛЬНЫЙ ] N1[ БЛОК ] N2[ СИМВОЛ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+				<result>A1[ ПРЯМОУГОЛЬНЫЙ ] N1[ БЛОК ] N2[ СИМВОЛ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+			</match>
+			<match startPos="10217" endPos="10254">
+				<fragment>понятие (прямоугольный блок символов)</fragment>
+				<result>A1[ ПРЯМОУГОЛЬНЫЙ ] N1[ БЛОК ] N2[ СИМВОЛ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+				<result>A1[ ПРЯМОУГОЛЬНЫЙ ] N1[ БЛОК ] N2[ СИМВОЛ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="SYN-N-PNN">
+		</goal>
+		<goal name="NPSYN-N-PNN-A">
+		</goal>
+		<goal name="NPSYN-N-PNN-B">
+		</goal>
+		<goal name="SYN-N-NAN">
+			<match startPos="5960" endPos="6015">
+				<fragment>эксперты-лингвисты или специалисты определенной области</fragment>
+				<result>ЭКСПЕРТ-ЛИНГВИСТ - СПЕЦИАЛИСТ ОПРЕДЕЛЕННОЙ ОБЛАСТИ</result>
+			</match>
+			<match startPos="45200" endPos="45239">
+				<fragment>терминов (терминов итогового множества)</fragment>
+				<result>ТЕРМИН - ТЕРМИН ИТОГОВОГО МНОЖЕСТВА</result>
+			</match>
+			<match startPos="45200" endPos="45239">
+				<fragment>терминов (терминов итогового множества)</fragment>
+				<result>ТЕРМИН - ТЕРМИН ИТОГОВОГО МНОЖЕСТВА</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-NAN-A">
+			<match startPos="5960" endPos="6015">
+				<fragment>эксперты-лингвисты или специалисты определенной области</fragment>
+				<result>N1[ ЭКСПЕРТ-ЛИНГВИСТ ] (N1) =TEXT] #N1</result>
+				<result>N1[ СПЕЦИАЛИСТ ] A1[ ОПРЕДЕЛЕННЫЙ ] N2[ ОБЛАСТЬ ,C=GEN] [A1=N2] (N1) =TEXT] N1 A1 N2[C=GEN][A1~]N2]</result>
+			</match>
+			<match startPos="45200" endPos="45239">
+				<fragment>терминов (терминов итогового множества)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТЕРМИН ] A1[ ИТОГОВЫЙ ] N2[ МНОЖЕСТВО ,C=GEN] [A1=N2] (N1) =TEXT] N1 A1 N2[C=GEN][A1~]N2]</result>
+			</match>
+			<match startPos="45200" endPos="45239">
+				<fragment>терминов (терминов итогового множества)</fragment>
+				<result>N1[ ТЕРМИН ] (N1) =TEXT] #N1</result>
+				<result>N1[ ТЕРМИН ] A1[ ИТОГОВЫЙ ] N2[ МНОЖЕСТВО ,C=GEN] [A1=N2] (N1) =TEXT] N1 A1 N2[C=GEN][A1~]N2]</result>
+			</match>
+		</goal>
+		<goal name="SYN-N-NPN">
+			<match startPos="5960" endPos="6015">
+				<fragment>эксперты-лингвисты или специалисты определенной области</fragment>
+				<result>ЭКСПЕРТ-ЛИНГВИСТ - СПЕЦИАЛИСТ ОПРЕДЕЛИВШЕЙ ОБЛАСТИ</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-N-NPN-A">
+			<match startPos="5960" endPos="6015">
+				<fragment>эксперты-лингвисты или специалисты определенной области</fragment>
+				<result>N1[ ЭКСПЕРТ-ЛИНГВИСТ ] (N1) =TEXT] #N1</result>
+				<result>N1[ СПЕЦИАЛИСТ ] PA1[ ОПРЕДЕЛИВШИЙ ] N2[ ОБЛАСТЬ ,C=GEN] [PA1=N2] (N1) =TEXT] N1 PA1 N2[C=GEN][PA1~]N2]</result>
+			</match>
+		</goal>
+		<goal name="SYN-N-NNN">
+		</goal>
+		<goal name="NPSYN-N-NNN-A">
+		</goal>
+		<goal name="NPSYN-N-NNN-B">
+		</goal>
+		<goal name="SYN-NN-N">
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="14550" endPos="14580">
+				<fragment>число документов, или разделов</fragment>
+				<result>ЧИСЛО ДОКУМЕНТОВ - РАЗДЕЛ</result>
+				<result>ЧИСЛО ДОКУМЕНТОВ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>СВЯЗНОСТЬ ФРАЗЫ - PHRASENESS</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>СВЯЗНОСТЬ ФРАЗЫ - PHRASENESS</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>СВЯЗНОСТЬ ФРАЗЫ - PHRASENESS</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>СВЯЗНОСТЬ ФРАЗЫ - PHRASENESS</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>СВЯЗНОСТЬ ФРАЗЫ - PHRASENESS</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>СВЯЗНОСТЬ ФРАЗЫ - PHRASENESS</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАРА СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАРА СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАРА СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАРА СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАРА СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАР СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАР СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>ПАРА СИНОНИМОВ - M_SYN</result>
+				<result>ПАРА СИНОНИМОВ - M_SYN</result>
+				<result>ПАР СИНОНИМОВ - M_SYN</result>
+			</match>
+			<match startPos="34540" endPos="34569">
+				<fragment>язык программирования, или ЯП</fragment>
+				<result>ЯЗЫК ПРОГРАММИРОВАНИЯ - ЯП</result>
+				<result>ЯЗЫК ПРОГРАММИРОВАНИЯ - ЯП</result>
+			</match>
+			<match startPos="34540" endPos="34569">
+				<fragment>язык программирования, или ЯП</fragment>
+				<result>ЯЗЫК ПРОГРАММИРОВАНИЯ - ЯП</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>ВЫША ШАБЛОНА - FCTANN</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>ВЫША ШАБЛОНА - FCTANN</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NN-N-A">
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="14550" endPos="14580">
+				<fragment>число документов, или разделов</fragment>
+				<result>N1[ ЧИСЛО ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ЧИСЛО ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ СВЯЗНОСТЬ ] N2[ ФРАЗА ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ СВЯЗНОСТЬ ] N2[ ФРАЗА ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ СВЯЗНОСТЬ ] N2[ ФРАЗА ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ СВЯЗНОСТЬ ] N2[ ФРАЗА ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ СВЯЗНОСТЬ ] N2[ ФРАЗА ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ СВЯЗНОСТЬ ] N2[ ФРАЗА ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАРА ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАРА ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАРА ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАРА ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАРА ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАР ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАР ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ ПАРА ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ПАРА ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ПАР ] N2[ СИНОНИМ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="34540" endPos="34569">
+				<fragment>язык программирования, или ЯП</fragment>
+				<result>N1[ ЯЗЫК ] N2[ ПРОГРАММИРОВАНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ЯЗЫК ] N2[ ПРОГРАММИРОВАНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="34540" endPos="34569">
+				<fragment>язык программирования, или ЯП</fragment>
+				<result>N1[ ЯЗЫК ] N2[ ПРОГРАММИРОВАНИЕ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>N1[ ВЫША ] N2[ ШАБЛОН ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>N1[ ВЫША ] N2[ ШАБЛОН ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NN-N-B">
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7353" endPos="7385">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14550" endPos="14580">
+				<fragment>число документов, или разделов</fragment>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="17879" endPos="17907">
+				<fragment>связности фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23160" endPos="23192">
+				<fragment>описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31318" endPos="31340">
+				<fragment>Пары синонимов (M_syn)</fragment>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+				<result>N1[ M_SYN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="34540" endPos="34569">
+				<fragment>язык программирования, или ЯП</fragment>
+				<result>N1[ ЯП ] (N1) =TEXT] #N1</result>
+				<result>N1[ ЯП ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="34540" endPos="34569">
+				<fragment>язык программирования, или ЯП</fragment>
+				<result>N1[ ЯП ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>N1[ FCTANN ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>N1[ FCTANN ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-NN-AN">
+		</goal>
+		<goal name="NPSYN-NN-AN-A">
+		</goal>
+		<goal name="NPSYN-NN-AN-B">
+		</goal>
+		<goal name="SYN-NN-PN">
+		</goal>
+		<goal name="NPSYN-NN-PN-A">
+		</goal>
+		<goal name="NPSYN-NN-PN-B">
+		</goal>
+		<goal name="SYN-NN-AAN">
+		</goal>
+		<goal name="NPSYN-NN-AAN-A">
+		</goal>
+		<goal name="NPSYN-NN-AAN-B">
+		</goal>
+		<goal name="SYN-NN-APN">
+		</goal>
+		<goal name="NPSYN-NN-APN-A">
+		</goal>
+		<goal name="NPSYN-NN-APN-B">
+		</goal>
+		<goal name="SYN-NN-PAN">
+		</goal>
+		<goal name="NPSYN-NN-PAN-A">
+		</goal>
+		<goal name="NPSYN-NN-PAN-B">
+		</goal>
+		<goal name="SYN-NN-PPN">
+		</goal>
+		<goal name="NPSYN-NN-PPN-A">
+		</goal>
+		<goal name="NPSYN-NN-PPN-B">
+		</goal>
+		<goal name="SYN-NN-ANN">
+		</goal>
+		<goal name="NPSYN-NN-ANN-A">
+		</goal>
+		<goal name="NPSYN-NN-ANN-B">
+		</goal>
+		<goal name="SYN-NN-PNN">
+		</goal>
+		<goal name="NPSYN-NN-PNN-A">
+		</goal>
+		<goal name="NPSYN-NN-PNN-B">
+		</goal>
+		<goal name="SYN-NN-NAN">
+		</goal>
+		<goal name="NPSYN-NN-NAN-A">
+		</goal>
+		<goal name="NPSYN-NN-NAN-B">
+		</goal>
+		<goal name="SYN-NN-NPN">
+		</goal>
+		<goal name="NPSYN-NN-NPN-A">
+		</goal>
+		<goal name="NPSYN-NN-NPN-B">
+		</goal>
+		<goal name="SYN-NN-NNN">
+		</goal>
+		<goal name="NPSYN-NN-NNN-A">
+		</goal>
+		<goal name="NPSYN-NN-NNN-B">
+		</goal>
+		<goal name="SYN-AN-N">
+			<match startPos="1961" endPos="1990">
+				<fragment>компьютерной лингвистики (КЛ)</fragment>
+				<result>КОМПЬЮТЕРНАЯ ЛИНГВИСТИКА - КЛ</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>ДАННЫЙ ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>ДАННЫЙ ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>МОРФОЛОГИЧЕСКАЯ ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+				<result>МОРФОЛОГИЧЕСКАЯ ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>МОРФОЛОГИЧЕСКАЯ ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+				<result>МОРФОЛОГИЧЕСКАЯ ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>МОРФОЛОГИЧЕСКАЯ ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+				<result>МОРФОЛОГИЧЕСКАЯ ХАРАКТЕРИСТИКА - ПРИЗНАК</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>АВТОРСКИЙ ТЕРМИН - M_AUTH</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>АВТОРСКИЙ ТЕРМИН - M_AUTH</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>АВТОРСКИЙ ТЕРМИН - M_AUTH</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>СЛОВАРНЫЙ ТЕРМИН - M_DICT</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>СЛОВАРНЫЙ ТЕРМИН - M_DICT</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>СЛОВАРНЫЙ ТЕРМИН - M_DICT</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>НЕСЛОВАРНЫЙ ТЕРМИН - M_NONDICT</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>НЕСЛОВАРНЫЙ ТЕРМИН - M_NONDICT</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>НЕСЛОВАРНЫЙ ТЕРМИН - M_NONDICT</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>БЕССОЮЗНОЕ СОЕДИНЕНИЕ - M_COMB</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>БЕССОЮЗНОЕ СОЕДИНЕНИЕ - M_COMB</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>БЕССОЮЗНОЕ СОЕДИНЕНИЕ - M_COMB</result>
+			</match>
+			<match startPos="34299" endPos="34340">
+				<fragment>терминологические синонимы или сокращения</fragment>
+				<result>ТЕРМИНОЛОГИЧЕСКИЙ СИНОНИМ - СОКРАЩЕНИЕ</result>
+			</match>
+			<match startPos="34299" endPos="34340">
+				<fragment>терминологические синонимы или сокращения</fragment>
+				<result>ТЕРМИНОЛОГИЧЕСКИЙ СИНОНИМ - СОКРАЩЕНИЕ</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>ВЫШЕ ШАБЛОН - FCTANN</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AN-N-A">
+			<match startPos="1961" endPos="1990">
+				<fragment>компьютерной лингвистики (КЛ)</fragment>
+				<result>A1[ КОМПЬЮТЕРНЫЙ ] N1[ ЛИНГВИСТИКА ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>A1[ ДАННЫЙ ] N1[ ДОКУМЕНТ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>A1[ ДАННЫЙ ] N1[ ДОКУМЕНТ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>A1[ МОРФОЛОГИЧЕСКИЙ ] N1[ ХАРАКТЕРИСТИКА ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+				<result>A1[ МОРФОЛОГИЧЕСКИЙ ] N1[ ХАРАКТЕРИСТИКА ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>A1[ МОРФОЛОГИЧЕСКИЙ ] N1[ ХАРАКТЕРИСТИКА ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+				<result>A1[ МОРФОЛОГИЧЕСКИЙ ] N1[ ХАРАКТЕРИСТИКА ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>A1[ МОРФОЛОГИЧЕСКИЙ ] N1[ ХАРАКТЕРИСТИКА ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+				<result>A1[ МОРФОЛОГИЧЕСКИЙ ] N1[ ХАРАКТЕРИСТИКА ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>A1[ АВТОРСКИЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>A1[ АВТОРСКИЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>A1[ АВТОРСКИЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>A1[ СЛОВАРНЫЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>A1[ СЛОВАРНЫЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>A1[ СЛОВАРНЫЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>A1[ НЕСЛОВАРНЫЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>A1[ НЕСЛОВАРНЫЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>A1[ НЕСЛОВАРНЫЙ ] N1[ ТЕРМИН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>A1[ БЕССОЮЗНЫЙ ] N1[ СОЕДИНЕНИЕ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>A1[ БЕССОЮЗНЫЙ ] N1[ СОЕДИНЕНИЕ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>A1[ БЕССОЮЗНЫЙ ] N1[ СОЕДИНЕНИЕ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="34299" endPos="34340">
+				<fragment>терминологические синонимы или сокращения</fragment>
+				<result>A1[ ТЕРМИНОЛОГИЧЕСКИЙ ] N1[ СИНОНИМ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="34299" endPos="34340">
+				<fragment>терминологические синонимы или сокращения</fragment>
+				<result>A1[ ТЕРМИНОЛОГИЧЕСКИЙ ] N1[ СИНОНИМ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>A1[ ВЫСОКИЙ ] N1[ ШАБЛОН ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AN-N-B">
+			<match startPos="1961" endPos="1990">
+				<fragment>компьютерной лингвистики (КЛ)</fragment>
+				<result>N1[ КЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="25940" endPos="25981">
+				<fragment>морфологические характеристики (признаки)</fragment>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+				<result>N1[ ПРИЗНАК ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>N1[ M_AUTH ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>N1[ M_AUTH ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31260" endPos="31286">
+				<fragment>Авторские термины (M_auth)</fragment>
+				<result>N1[ M_AUTH ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>N1[ M_DICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>N1[ M_DICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31289" endPos="31315">
+				<fragment>Словарные термины (M_dict)</fragment>
+				<result>N1[ M_DICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>N1[ M_NONDICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>N1[ M_NONDICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31343" endPos="31374">
+				<fragment>Несловарные термины (M_nondict)</fragment>
+				<result>N1[ M_NONDICT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>N1[ M_COMB ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>N1[ M_COMB ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="31377" endPos="31407">
+				<fragment>Бессоюзные соединения (M_comb)</fragment>
+				<result>N1[ M_COMB ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="34299" endPos="34340">
+				<fragment>терминологические синонимы или сокращения</fragment>
+				<result>N1[ СОКРАЩЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="34299" endPos="34340">
+				<fragment>терминологические синонимы или сокращения</fragment>
+				<result>N1[ СОКРАЩЕНИЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="36372" endPos="36393">
+				<fragment>выше шаблона (FCTANN)</fragment>
+				<result>N1[ FCTANN ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-PN-N">
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>ДАВШИЙ ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>ДАВШИЙ ДОКУМЕНТ - РАЗДЕЛ</result>
+			</match>
+			<match startPos="55265" endPos="55289">
+				<fragment>сохраняемого файла (txt)</fragment>
+				<result>СОХРАНЯЮЩИЙ ФАЙЛ - TXT</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PN-N-A">
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>PA1[ ДАВШИЙ ] N1[ ДОКУМЕНТ ] [PA1=N1] (N1) =TEXT] PA1 #N1 [PA1~]N1]</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>PA1[ ДАВШИЙ ] N1[ ДОКУМЕНТ ] [PA1=N1] (N1) =TEXT] PA1 #N1 [PA1~]N1]</result>
+			</match>
+			<match startPos="55265" endPos="55289">
+				<fragment>сохраняемого файла (txt)</fragment>
+				<result>PA1[ СОХРАНЯЮЩИЙ ] N1[ ФАЙЛ ] [PA1=N1] (N1) =TEXT] PA1 #N1 [PA1~]N1]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PN-N-B">
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="14478" endPos="14507">
+				<fragment>данном документе, или разделе</fragment>
+				<result>N1[ РАЗДЕЛ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="55265" endPos="55289">
+				<fragment>сохраняемого файла (txt)</fragment>
+				<result>N1[ TXT ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-AN-NN">
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>ДАННЫЙ ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>ДАННЫЙ ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AN-NN-A">
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>A1[ ДАННЫЙ ] N1[ ДОКУМЕНТ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>A1[ ДАННЫЙ ] N1[ ДОКУМЕНТ ] [A1=N1] (N1) =TEXT] A1 #N1 [A1~]N1]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AN-NN-B">
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="SYN-PN-NN">
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>ДАВШИЙ ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>ДАВШИЙ ДОКУМЕНТ - РАЗДЕЛ ДОКУМЕНТА</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PN-NN-A">
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>PA1[ ДАВШИЙ ] N1[ ДОКУМЕНТ ] [PA1=N1] (N1) =TEXT] PA1 #N1 [PA1~]N1]</result>
+			</match>
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>PA1[ ДАВШИЙ ] N1[ ДОКУМЕНТ ] [PA1=N1] (N1) =TEXT] PA1 #N1 [PA1~]N1]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PN-NN-B">
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+			<match startPos="14478" endPos="14517">
+				<fragment>данном документе, или разделе документа</fragment>
+				<result>N1[ РАЗДЕЛ ] N2[ ДОКУМЕНТ ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="SYN-AN-AAN">
+		</goal>
+		<goal name="NPSYN-AN-AAN-A">
+		</goal>
+		<goal name="NPSYN-AN-AAN-B">
+		</goal>
+		<goal name="SYN-AN-APN">
+		</goal>
+		<goal name="NPSYN-AN-APN-A">
+		</goal>
+		<goal name="NPSYN-AN-APN-B">
+		</goal>
+		<goal name="SYN-AN-PAN">
+		</goal>
+		<goal name="NPSYN-AN-PAN-A">
+		</goal>
+		<goal name="NPSYN-AN-PAN-B">
+		</goal>
+		<goal name="SYN-AN-PPN">
+		</goal>
+		<goal name="NPSYN-AN-PPN-A">
+		</goal>
+		<goal name="NPSYN-AN-PPN-B">
+		</goal>
+		<goal name="SYN-PN-AAN">
+		</goal>
+		<goal name="NPSYN-PN-AAN-A">
+		</goal>
+		<goal name="NPSYN-PN-AAN-B">
+		</goal>
+		<goal name="SYN-PN-APN">
+		</goal>
+		<goal name="NPSYN-PN-APN-A">
+		</goal>
+		<goal name="NPSYN-PN-APN-B">
+		</goal>
+		<goal name="SYN-PN-PAN">
+		</goal>
+		<goal name="NPSYN-PN-PAN-A">
+		</goal>
+		<goal name="NPSYN-PN-PAN-B">
+		</goal>
+		<goal name="SYN-PN-PPN">
+		</goal>
+		<goal name="NPSYN-PN-PPN-A">
+		</goal>
+		<goal name="NPSYN-PN-PPN-B">
+		</goal>
+		<goal name="SYN-AN-ANN">
+		</goal>
+		<goal name="NPSYN-AN-ANN-A">
+		</goal>
+		<goal name="NPSYN-AN-ANN-B">
+		</goal>
+		<goal name="SYN-AN-PNN">
+		</goal>
+		<goal name="NPSYN-AN-PNN-A">
+		</goal>
+		<goal name="NPSYN-AN-PNN-B">
+		</goal>
+		<goal name="SYN-PN-ANN">
+		</goal>
+		<goal name="NPSYN-PN-ANN-A">
+		</goal>
+		<goal name="NPSYN-PN-ANN-B">
+		</goal>
+		<goal name="SYN-PN-PNN">
+		</goal>
+		<goal name="NPSYN-PN-PNN-A">
+		</goal>
+		<goal name="NPSYN-PN-PNN-B">
+		</goal>
+		<goal name="SYN-AN-NAN">
+		</goal>
+		<goal name="NPSYN-AN-NAN-A">
+		</goal>
+		<goal name="NPSYN-AN-NAN-B">
+		</goal>
+		<goal name="SYN-AN-NPN">
+		</goal>
+		<goal name="NPSYN-AN-NPN-A">
+		</goal>
+		<goal name="NPSYN-AN-NPN-B">
+		</goal>
+		<goal name="SYN-PN-NAN">
+			<match startPos="45187" endPos="45239">
+				<fragment>распознанных терминов (терминов итогового множества)</fragment>
+				<result>РАСПОЗНАВШИЙ ТЕРМИН - ТЕРМИН ИТОГОВОГО МНОЖЕСТВА</result>
+			</match>
+			<match startPos="45187" endPos="45239">
+				<fragment>распознанных терминов (терминов итогового множества)</fragment>
+				<result>РАСПОЗНАВШИЙ ТЕРМИН - ТЕРМИН ИТОГОВОГО МНОЖЕСТВА</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PN-NAN-A">
+			<match startPos="45187" endPos="45239">
+				<fragment>распознанных терминов (терминов итогового множества)</fragment>
+				<result>PA1[ РАСПОЗНАВШИЙ ] N1[ ТЕРМИН ] [PA1=N1] (N1) =TEXT] PA1 #N1 [PA1~]N1]</result>
+			</match>
+			<match startPos="45187" endPos="45239">
+				<fragment>распознанных терминов (терминов итогового множества)</fragment>
+				<result>PA1[ РАСПОЗНАВШИЙ ] N1[ ТЕРМИН ] [PA1=N1] (N1) =TEXT] PA1 #N1 [PA1~]N1]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PN-NAN-B">
+			<match startPos="45187" endPos="45239">
+				<fragment>распознанных терминов (терминов итогового множества)</fragment>
+				<result>N1[ ТЕРМИН ] A1[ ИТОГОВЫЙ ] N2[ МНОЖЕСТВО ,C=GEN] [A1=N2] (N1) =TEXT] N1 A1 N2[C=GEN][A1~]N2]</result>
+			</match>
+			<match startPos="45187" endPos="45239">
+				<fragment>распознанных терминов (терминов итогового множества)</fragment>
+				<result>N1[ ТЕРМИН ] A1[ ИТОГОВЫЙ ] N2[ МНОЖЕСТВО ,C=GEN] [A1=N2] (N1) =TEXT] N1 A1 N2[C=GEN][A1~]N2]</result>
+			</match>
+		</goal>
+		<goal name="SYN-PN-NPN">
+		</goal>
+		<goal name="NPSYN-PN-NPN-A">
+		</goal>
+		<goal name="NPSYN-PN-NPN-B">
+		</goal>
+		<goal name="SYN-AN-NNN">
+		</goal>
+		<goal name="NPSYN-AN-NNN-A">
+		</goal>
+		<goal name="NPSYN-AN-NNN-B">
+		</goal>
+		<goal name="SYN-PN-NNN">
+		</goal>
+		<goal name="NPSYN-PN-NNN-A">
+		</goal>
+		<goal name="NPSYN-PN-NNN-B">
+		</goal>
+		<goal name="SYN-AAN-N">
+			<match startPos="36361" endPos="36393">
+				<fragment>указанного выше шаблона (FCTANN)</fragment>
+				<result>УКАЗАННЫЙ ВЫШЕ ШАБЛОН - FCTANN</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AAN-N-A">
+			<match startPos="36361" endPos="36393">
+				<fragment>указанного выше шаблона (FCTANN)</fragment>
+				<result>A1[ УКАЗАННЫЙ ] A2[ ВЫСОКИЙ ] N1[ ШАБЛОН ] [A1=A2=N1] (N1) =TEXT] A1 A2 N1 [A1~]N1, A2~]N1]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-AAN-N-B">
+			<match startPos="36361" endPos="36393">
+				<fragment>указанного выше шаблона (FCTANN)</fragment>
+				<result>N1[ FCTANN ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-APN-N">
+		</goal>
+		<goal name="NPSYN-APN-N-A">
+		</goal>
+		<goal name="NPSYN-APN-N-B">
+		</goal>
+		<goal name="SYN-PAN-N">
+			<match startPos="36361" endPos="36393">
+				<fragment>указанного выше шаблона (FCTANN)</fragment>
+				<result>УКАЗАВШИЙ ВЫШЕ ШАБЛОН - FCTANN</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PAN-N-A">
+			<match startPos="36361" endPos="36393">
+				<fragment>указанного выше шаблона (FCTANN)</fragment>
+				<result>PA1[ УКАЗАВШИЙ ] A2[ ВЫСОКИЙ ] N1[ ШАБЛОН ] [PA1=A2=N1] (N1) =TEXT] PA1 A2 N1 [PA1~]N1, A2~]N1]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-PAN-N-B">
+			<match startPos="36361" endPos="36393">
+				<fragment>указанного выше шаблона (FCTANN)</fragment>
+				<result>N1[ FCTANN ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-PPN-N">
+		</goal>
+		<goal name="NPSYN-PPN-N-A">
+		</goal>
+		<goal name="NPSYN-PPN-N-B">
+		</goal>
+		<goal name="SYN-AAN-NN">
+		</goal>
+		<goal name="NPSYN-AAN-NN-A">
+		</goal>
+		<goal name="NPSYN-AAN-NN-B">
+		</goal>
+		<goal name="SYN-APN-NN">
+		</goal>
+		<goal name="NPSYN-APN-NN-A">
+		</goal>
+		<goal name="NPSYN-APN-NN-B">
+		</goal>
+		<goal name="SYN-PAN-NN">
+		</goal>
+		<goal name="NPSYN-PAN-NN-A">
+		</goal>
+		<goal name="NPSYN-PAN-NN-B">
+		</goal>
+		<goal name="SYN-PPN-NN">
+		</goal>
+		<goal name="NPSYN-PPN-NN-A">
+		</goal>
+		<goal name="NPSYN-PPN-NN-B">
+		</goal>
+		<goal name="SYN-AAN-AN">
+		</goal>
+		<goal name="NPSYN-AAN-AN-A">
+		</goal>
+		<goal name="NPSYN-AAN-AN-B">
+		</goal>
+		<goal name="SYN-AAN-PN">
+		</goal>
+		<goal name="NPSYN-AAN-PN-A">
+		</goal>
+		<goal name="NPSYN-AAN-PN-B">
+		</goal>
+		<goal name="SYN-APN-AN">
+		</goal>
+		<goal name="NPSYN-APN-AN-A">
+		</goal>
+		<goal name="NPSYN-APN-AN-B">
+		</goal>
+		<goal name="SYN-APN-PN">
+		</goal>
+		<goal name="NPSYN-APN-PN-A">
+		</goal>
+		<goal name="NPSYN-APN-PN-B">
+		</goal>
+		<goal name="SYN-PAN-AN">
+		</goal>
+		<goal name="NPSYN-PAN-AN-A">
+		</goal>
+		<goal name="NPSYN-PAN-AN-B">
+		</goal>
+		<goal name="SYN-PAN-PN">
+		</goal>
+		<goal name="NPSYN-PAN-PN-A">
+		</goal>
+		<goal name="NPSYN-PAN-PN-B">
+		</goal>
+		<goal name="SYN-PPN-AN">
+		</goal>
+		<goal name="NPSYN-PPN-AN-A">
+		</goal>
+		<goal name="NPSYN-PPN-AN-B">
+		</goal>
+		<goal name="SYN-PPN-PN">
+		</goal>
+		<goal name="NPSYN-PPN-PN-A">
+		</goal>
+		<goal name="NPSYN-PPN-PN-B">
+		</goal>
+		<goal name="SYN-AAN-ANN">
+		</goal>
+		<goal name="NPSYN-AAN-ANN-A">
+		</goal>
+		<goal name="NPSYN-AAN-ANN-B">
+		</goal>
+		<goal name="SYN-AAN-PNN">
+		</goal>
+		<goal name="NPSYN-AAN-PNN-A">
+		</goal>
+		<goal name="NPSYN-AAN-PNN-B">
+		</goal>
+		<goal name="SYN-APN-ANN">
+		</goal>
+		<goal name="NPSYN-APN-ANN-A">
+		</goal>
+		<goal name="NPSYN-APN-ANN-B">
+		</goal>
+		<goal name="SYN-APN-PNN">
+		</goal>
+		<goal name="NPSYN-APN-PNN-A">
+		</goal>
+		<goal name="NPSYN-APN-PNN-B">
+		</goal>
+		<goal name="SYN-PAN-ANN">
+		</goal>
+		<goal name="NPSYN-PAN-ANN-A">
+		</goal>
+		<goal name="NPSYN-PAN-ANN-B">
+		</goal>
+		<goal name="SYN-PAN-PNN">
+		</goal>
+		<goal name="NPSYN-PAN-PNN-A">
+		</goal>
+		<goal name="NPSYN-PAN-PNN-B">
+		</goal>
+		<goal name="SYN-PPN-ANN">
+		</goal>
+		<goal name="NPSYN-PPN-ANN-A">
+		</goal>
+		<goal name="NPSYN-PPN-ANN-B">
+		</goal>
+		<goal name="SYN-PPN-PNN">
+		</goal>
+		<goal name="NPSYN-PPN-PNN-A">
+		</goal>
+		<goal name="NPSYN-PPN-PNN-B">
+		</goal>
+		<goal name="SYN-AAN-NAN">
+		</goal>
+		<goal name="NPSYN-AAN-NAN-A">
+		</goal>
+		<goal name="NPSYN-AAN-NAN-B">
+		</goal>
+		<goal name="SYN-AAN-NPN">
+		</goal>
+		<goal name="NPSYN-AAN-NPN-A">
+		</goal>
+		<goal name="NPSYN-AAN-NPN-B">
+		</goal>
+		<goal name="SYN-APN-NAN">
+		</goal>
+		<goal name="NPSYN-APN-NAN-A">
+		</goal>
+		<goal name="NPSYN-APN-NAN-B">
+		</goal>
+		<goal name="SYN-APN-NPN">
+		</goal>
+		<goal name="NPSYN-APN-NPN-A">
+		</goal>
+		<goal name="NPSYN-APN-NPN-B">
+		</goal>
+		<goal name="SYN-PAN-NAN">
+		</goal>
+		<goal name="NPSYN-PAN-NAN-A">
+		</goal>
+		<goal name="NPSYN-PAN-NAN-B">
+		</goal>
+		<goal name="SYN-PAN-NPN">
+		</goal>
+		<goal name="NPSYN-PAN-NPN-A">
+		</goal>
+		<goal name="NPSYN-PAN-NPN-B">
+		</goal>
+		<goal name="SYN-PPN-NAN">
+		</goal>
+		<goal name="NPSYN-PPN-NAN-A">
+		</goal>
+		<goal name="NPSYN-PPN-NAN-B">
+		</goal>
+		<goal name="SYN-PPN-NPN">
+		</goal>
+		<goal name="NPSYN-PPN-NPN-A">
+		</goal>
+		<goal name="NPSYN-PPN-NPN-B">
+		</goal>
+		<goal name="SYN-AAN-NNN">
+		</goal>
+		<goal name="NPSYN-AAN-NNN-A">
+		</goal>
+		<goal name="NPSYN-AAN-NNN-B">
+		</goal>
+		<goal name="SYN-APN-NNN">
+		</goal>
+		<goal name="NPSYN-APN-NNN-A">
+		</goal>
+		<goal name="NPSYN-APN-NNN-B">
+		</goal>
+		<goal name="SYN-PAN-NNN">
+		</goal>
+		<goal name="NPSYN-PAN-NNN-A">
+		</goal>
+		<goal name="NPSYN-PAN-NNN-B">
+		</goal>
+		<goal name="SYN-PPN-NNN">
+		</goal>
+		<goal name="NPSYN-PPN-NNN-A">
+		</goal>
+		<goal name="NPSYN-PPN-NNN-B">
+		</goal>
+		<goal name="SYN-ANN-N">
+			<match startPos="7341" endPos="7385">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="7341" endPos="7385">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="23148" endPos="23192">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+			<match startPos="23148" endPos="23192">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+				<result>ФОРМАЛЬНОЕ ОПИСАНИЕ КОНСТРУКЦИЙ - ВЫРАЖЕНЬЕ</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-ANN-N-A">
+			<match startPos="7341" endPos="7385">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+			</match>
+			<match startPos="7341" endPos="7385">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+			</match>
+			<match startPos="23148" endPos="23192">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+			</match>
+			<match startPos="23148" endPos="23192">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+				<result>A1[ ФОРМАЛЬНЫЙ ] N1[ ОПИСАНИЕ ] N2[ КОНСТРУКЦИЯ ,C=GEN] [A1=N1] (N1) =TEXT] A1 N1[A1~]N1] N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-ANN-N-B">
+			<match startPos="7341" endPos="7385">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="7341" endPos="7385">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23148" endPos="23192">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="23148" endPos="23192">
+				<fragment>формального описания конструкций (выражений)</fragment>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+				<result>N1[ ВЫРАЖЕНЬЕ ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-PNN-N">
+		</goal>
+		<goal name="NPSYN-PNN-N-A">
+		</goal>
+		<goal name="NPSYN-PNN-N-B">
+		</goal>
+		<goal name="SYN-ANN-NN">
+		</goal>
+		<goal name="NPSYN-ANN-NN-A">
+		</goal>
+		<goal name="NPSYN-ANN-NN-B">
+		</goal>
+		<goal name="SYN-PNN-NN">
+		</goal>
+		<goal name="NPSYN-PNN-NN-A">
+		</goal>
+		<goal name="NPSYN-PNN-NN-B">
+		</goal>
+		<goal name="SYN-ANN-AN">
+		</goal>
+		<goal name="NPSYN-ANN-AN-A">
+		</goal>
+		<goal name="NPSYN-ANN-AN-B">
+		</goal>
+		<goal name="SYN-ANN-PN">
+		</goal>
+		<goal name="NPSYN-ANN-PN-A">
+		</goal>
+		<goal name="NPSYN-ANN-PN-B">
+		</goal>
+		<goal name="SYN-PNN-AN">
+		</goal>
+		<goal name="NPSYN-PNN-AN-A">
+		</goal>
+		<goal name="NPSYN-PNN-AN-B">
+		</goal>
+		<goal name="SYN-PNN-PN">
+		</goal>
+		<goal name="NPSYN-PNN-PN-A">
+		</goal>
+		<goal name="NPSYN-PNN-PN-B">
+		</goal>
+		<goal name="SYN-ANN-AAN">
+		</goal>
+		<goal name="NPSYN-ANN-AAN-A">
+		</goal>
+		<goal name="NPSYN-ANN-AAN-B">
+		</goal>
+		<goal name="SYN-ANN-APN">
+		</goal>
+		<goal name="NPSYN-ANN-APN-A">
+		</goal>
+		<goal name="NPSYN-ANN-APN-B">
+		</goal>
+		<goal name="SYN-ANN-PAN">
+		</goal>
+		<goal name="NPSYN-ANN-PAN-A">
+		</goal>
+		<goal name="NPSYN-ANN-PAN-B">
+		</goal>
+		<goal name="SYN-ANN-PPN">
+		</goal>
+		<goal name="NPSYN-ANN-PPN-A">
+		</goal>
+		<goal name="NPSYN-ANN-PPN-B">
+		</goal>
+		<goal name="SYN-PNN-AAN">
+		</goal>
+		<goal name="NPSYN-PNN-AAN-A">
+		</goal>
+		<goal name="NPSYN-PNN-AAN-B">
+		</goal>
+		<goal name="SYN-PNN-APN">
+		</goal>
+		<goal name="NPSYN-PNN-APN-A">
+		</goal>
+		<goal name="NPSYN-PNN-APN-B">
+		</goal>
+		<goal name="SYN-PNN-PAN">
+		</goal>
+		<goal name="NPSYN-PNN-PAN-A">
+		</goal>
+		<goal name="NPSYN-PNN-PAN-B">
+		</goal>
+		<goal name="SYN-PNN-PPN">
+		</goal>
+		<goal name="NPSYN-PNN-PPN-A">
+		</goal>
+		<goal name="NPSYN-PNN-PPN-B">
+		</goal>
+		<goal name="SYN-ANN-NAN">
+		</goal>
+		<goal name="NPSYN-ANN-NAN-A">
+		</goal>
+		<goal name="NPSYN-ANN-NAN-B">
+		</goal>
+		<goal name="SYN-ANN-NPN">
+		</goal>
+		<goal name="NPSYN-ANN-NPN-A">
+		</goal>
+		<goal name="NPSYN-ANN-NPN-B">
+		</goal>
+		<goal name="SYN-PNN-NAN">
+		</goal>
+		<goal name="NPSYN-PNN-NAN-A">
+		</goal>
+		<goal name="NPSYN-PNN-NAN-B">
+		</goal>
+		<goal name="SYN-PNN-NPN">
+		</goal>
+		<goal name="NPSYN-PNN-NPN-A">
+		</goal>
+		<goal name="NPSYN-PNN-NPN-B">
+		</goal>
+		<goal name="SYN-NAN-N">
+			<match startPos="1948" endPos="1990">
+				<fragment>исследований компьютерной лингвистики (КЛ)</fragment>
+				<result>ИССЛЕДОВАНИЕ КОМПЬЮТЕРНОЙ ЛИНГВИСТИКИ - КЛ</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NAN-N-A">
+			<match startPos="1948" endPos="1990">
+				<fragment>исследований компьютерной лингвистики (КЛ)</fragment>
+				<result>N1[ ИССЛЕДОВАНИЕ ] A1[ КОМПЬЮТЕРНЫЙ ] N2[ ЛИНГВИСТИКА ,C=GEN] [A1=N2] (N1) =TEXT] N1 A1 N2[C=GEN][A1~]N2]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NAN-N-B">
+			<match startPos="1948" endPos="1990">
+				<fragment>исследований компьютерной лингвистики (КЛ)</fragment>
+				<result>N1[ КЛ ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-NPN-N">
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>ФОРМАТ СОХРАНЯЮЩЕГО ФАЙЛА - TXT</result>
+			</match>
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>ФОРМАТ СОХРАНЯЮЩЕГО ФАЙЛА - TXT</result>
+			</match>
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>ФОРМАТ СОХРАНЯЮЩЕГО ФАЙЛА - TXT</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NPN-N-A">
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>N1[ ФОРМАТ ] PA1[ СОХРАНЯЮЩИЙ ] N2[ ФАЙЛ ,C=GEN] [PA1=N2] (N1) =TEXT] N1 PA1 N2[C=GEN][PA1~]N2]</result>
+			</match>
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>N1[ ФОРМАТ ] PA1[ СОХРАНЯЮЩИЙ ] N2[ ФАЙЛ ,C=GEN] [PA1=N2] (N1) =TEXT] N1 PA1 N2[C=GEN][PA1~]N2]</result>
+			</match>
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>N1[ ФОРМАТ ] PA1[ СОХРАНЯЮЩИЙ ] N2[ ФАЙЛ ,C=GEN] [PA1=N2] (N1) =TEXT] N1 PA1 N2[C=GEN][PA1~]N2]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NPN-N-B">
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>N1[ TXT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>N1[ TXT ] (N1) =TEXT] #N1</result>
+			</match>
+			<match startPos="55258" endPos="55289">
+				<fragment>формат сохраняемого файла (txt)</fragment>
+				<result>N1[ TXT ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-NAN-NN">
+		</goal>
+		<goal name="NPSYN-NAN-NN-A">
+		</goal>
+		<goal name="NPSYN-NAN-NN-B">
+		</goal>
+		<goal name="SYN-NPN-NN">
+		</goal>
+		<goal name="NPSYN-NPN-NN-A">
+		</goal>
+		<goal name="NPSYN-NPN-NN-B">
+		</goal>
+		<goal name="SYN-NAN-AN">
+		</goal>
+		<goal name="NPSYN-NAN-AN-A">
+		</goal>
+		<goal name="NPSYN-NAN-AN-B">
+		</goal>
+		<goal name="SYN-NAN-PN">
+		</goal>
+		<goal name="NPSYN-NAN-PN-A">
+		</goal>
+		<goal name="NPSYN-NAN-PN-B">
+		</goal>
+		<goal name="SYN-NPN-AN">
+		</goal>
+		<goal name="NPSYN-NPN-AN-A">
+		</goal>
+		<goal name="NPSYN-NPN-AN-B">
+		</goal>
+		<goal name="SYN-NPN-PN">
+		</goal>
+		<goal name="NPSYN-NPN-PN-A">
+		</goal>
+		<goal name="NPSYN-NPN-PN-B">
+		</goal>
+		<goal name="SYN-NAN-AAN">
+		</goal>
+		<goal name="NPSYN-NAN-AAN-A">
+		</goal>
+		<goal name="NPSYN-NAN-AAN-B">
+		</goal>
+		<goal name="SYN-NAN-APN">
+		</goal>
+		<goal name="NPSYN-NAN-APN-A">
+		</goal>
+		<goal name="NPSYN-NAN-APN-B">
+		</goal>
+		<goal name="SYN-NAN-PAN">
+		</goal>
+		<goal name="NPSYN-NAN-PAN-A">
+		</goal>
+		<goal name="NPSYN-NAN-PAN-B">
+		</goal>
+		<goal name="SYN-NAN-PPN">
+		</goal>
+		<goal name="NPSYN-NAN-PPN-A">
+		</goal>
+		<goal name="NPSYN-NAN-PPN-B">
+		</goal>
+		<goal name="SYN-NPN-AAN">
+		</goal>
+		<goal name="NPSYN-NPN-AAN-A">
+		</goal>
+		<goal name="NPSYN-NPN-AAN-B">
+		</goal>
+		<goal name="SYN-NPN-APN">
+		</goal>
+		<goal name="NPSYN-NPN-APN-A">
+		</goal>
+		<goal name="NPSYN-NPN-APN-B">
+		</goal>
+		<goal name="SYN-NPN-PAN">
+		</goal>
+		<goal name="NPSYN-NPN-PAN-A">
+		</goal>
+		<goal name="NPSYN-NPN-PAN-B">
+		</goal>
+		<goal name="SYN-NPN-PPN">
+		</goal>
+		<goal name="NPSYN-NPN-PPN-A">
+		</goal>
+		<goal name="NPSYN-NPN-PPN-B">
+		</goal>
+		<goal name="SYN-NAN-ANN">
+		</goal>
+		<goal name="NPSYN-NAN-ANN-A">
+		</goal>
+		<goal name="NPSYN-NAN-ANN-B">
+		</goal>
+		<goal name="SYN-NAN-NNN">
+		</goal>
+		<goal name="NPSYN-NAN-NNN-A">
+		</goal>
+		<goal name="NPSYN-NAN-NNN-B">
+		</goal>
+		<goal name="SYN-NPN-NNN">
+		</goal>
+		<goal name="NPSYN-NPN-NNN-A">
+		</goal>
+		<goal name="NPSYN-NPN-NNN-B">
+		</goal>
+		<goal name="SYN-NNN-N">
+			<match startPos="17873" endPos="17907">
+				<fragment>учета связности фразы (phraseness)</fragment>
+				<result>УЧЕТ СВЯЗНОСТИ ФРАЗЫ - PHRASENESS</result>
+				<result>УЧЕТ СВЯЗНОСТИ ФРАЗЫ - PHRASENESS</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NNN-N-A">
+			<match startPos="17873" endPos="17907">
+				<fragment>учета связности фразы (phraseness)</fragment>
+				<result>N1[ УЧЕТ ] N2[ СВЯЗНОСТЬ ,C=GEN] N3[ ФРАЗА ,C=GEN] (N1) =TEXT] N1 N2[C=GEN] N3[C=GEN]</result>
+				<result>N1[ УЧЕТ ] N2[ СВЯЗНОСТЬ ,C=GEN] N3[ ФРАЗА ,C=GEN] (N1) =TEXT] N1 N2[C=GEN] N3[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NNN-N-B">
+			<match startPos="17873" endPos="17907">
+				<fragment>учета связности фразы (phraseness)</fragment>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+				<result>N1[ PHRASENESS ] (N1) =TEXT] #N1</result>
+			</match>
+		</goal>
+		<goal name="SYN-NNN-NN">
+			<match startPos="49778" endPos="49832">
+				<fragment>завершением метода извлечения (формирования множества)</fragment>
+				<result>ЗАВЕРШЕНИЕ МЕТОДА ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ЗАВЕРШЕНИЕ МЕТОДА ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+				<result>ЗАВЕРШЕНИЕ МЕТОДА ИЗВЛЕЧЕНИЯ - ФОРМИРОВАНИЕ МНОЖЕСТВА</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NNN-NN-A">
+			<match startPos="49778" endPos="49832">
+				<fragment>завершением метода извлечения (формирования множества)</fragment>
+				<result>N1[ ЗАВЕРШЕНИЕ ] N2[ МЕТОД ,C=GEN] N3[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] N1 N2[C=GEN] N3[C=GEN]</result>
+				<result>N1[ ЗАВЕРШЕНИЕ ] N2[ МЕТОД ,C=GEN] N3[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] N1 N2[C=GEN] N3[C=GEN]</result>
+				<result>N1[ ЗАВЕРШЕНИЕ ] N2[ МЕТОД ,C=GEN] N3[ ИЗВЛЕЧЕНИЕ ,C=GEN] (N1) =TEXT] N1 N2[C=GEN] N3[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="NPSYN-NNN-NN-B">
+			<match startPos="49778" endPos="49832">
+				<fragment>завершением метода извлечения (формирования множества)</fragment>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+				<result>N1[ ФОРМИРОВАНИЕ ] N2[ МНОЖЕСТВО ,C=GEN] (N1) =TEXT] #N1 N2[C=GEN]</result>
+			</match>
+		</goal>
+		<goal name="SYN-NNN-AN">
+		</goal>
+		<goal name="NPSYN-NNN-AN-A">
+		</goal>
+		<goal name="NPSYN-NNN-AN-B">
+		</goal>
+		<goal name="SYN-NNN-PN">
+		</goal>
+		<goal name="NPSYN-NNN-PN-A">
+		</goal>
+		<goal name="NPSYN-NNN-PN-B">
+		</goal>
+		<goal name="SYN-NNN-AAN">
+		</goal>
+		<goal name="NPSYN-NNN-AAN-A">
+		</goal>
+		<goal name="NPSYN-NNN-AAN-B">
+		</goal>
+		<goal name="SYN-NNN-APN">
+		</goal>
+		<goal name="NPSYN-NNN-APN-A">
+		</goal>
+		<goal name="NPSYN-NNN-APN-B">
+		</goal>
+		<goal name="SYN-NNN-PAN">
+		</goal>
+		<goal name="NPSYN-NNN-PAN-A">
+		</goal>
+		<goal name="NPSYN-NNN-PAN-B">
+		</goal>
+		<goal name="SYN-NNN-PPN">
+		</goal>
+		<goal name="NPSYN-NNN-PPN-A">
+		</goal>
+		<goal name="NPSYN-NNN-PPN-B">
+		</goal>
+		<goal name="SYN-NNN-ANN">
+		</goal>
+		<goal name="NPSYN-NNN-ANN-A">
+		</goal>
+		<goal name="NPSYN-NNN-ANN-B">
+		</goal>
+		<goal name="SYN-NNN-PNN">
+		</goal>
+		<goal name="NPSYN-NNN-PNN-A">
+		</goal>
+		<goal name="NPSYN-NNN-PNN-B">
+		</goal>
+		<goal name="SYN-NNN-NAN">
+		</goal>
+		<goal name="NPSYN-NNN-NAN-A">
+		</goal>
+		<goal name="NPSYN-NNN-NAN-B">
+		</goal>
+		<goal name="SYN-NNN-NPN">
+		</goal>
+		<goal name="NPSYN-NNN-NPN-A">
+		</goal>
+		<goal name="NPSYN-NNN-NPN-B">
+		</goal>
+	</text>
+</texts>

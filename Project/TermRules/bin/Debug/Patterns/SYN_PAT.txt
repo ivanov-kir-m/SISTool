@@ -1,0 +1,29 @@
+AP = A1<f=full> (A1) =text> A1 | Pa1<f=full> (Pa1) =text> Pa1
+MSP = N1 (N1) =text> N1 | N1 N2<c=gen> (N1) =text> N1 N2<c=gen> | AP1 N1 <AP1=N1> (N1) =text> AP1 N1 <AP1~>N1> | AP1 AP2 N1 <AP1=AP2=N1> (N1) =text> AP1 AP2 N1 <AP1~>N1, AP2~>N1> | AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> AP1 N1<AP1~>N1> N2<c=gen>| N1 AP1 N2<c=gen> <AP1=N2> (N1) =text> N1 AP1 N2<c=gen><AP1~>N2> | N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2<c=gen> N3<c=gen>
+PMSP = N1 (N1) =text> N1 | AP1 N1 <AP1=N1> (N1) =text> AP1 N1 | N1 N2<c=gen> (N1) =text> N1 N2<c=gen>
+Term = TermSyn1 [[","] "или" ["просто"] TermSyn2] <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> TermSyn1
+TermSyn = MSP1 ["\("MSP2"\)"] <MSP1.c=MSP2.c> (MSP1) =text> MSP1
+
+SYN = MSP1 "\("MSP2"\)" (MSP1) =text> #MSP1 "-" #MSP2
+SYN = MSP1 "\(" ["или"] MSP2 "\)" <MSP1.c=MSP2.c> =text> #MSP1 "-" #MSP2
+SYN = MSP1 "," "или" ["просто"] MSP2 =text> #MSP1 "-" #MSP2
+SYN = AP1 "\(" ["или"] AP2 "\)" PMPS1 <AP1=AP2=PMPS1> =text> AP1 #PMPS1 <AP1~>PMPS1> "-" AP2 #PMPS1 <AP2~>PMPS1>
+SYN = AP1 "," "или" AP2 [","] PMPS1 <AP1=AP2=PMPS1> =text> AP1 #PMPS1 <AP1~>PMPS1> "-" AP2 #PMPS1 <AP2~>PMPS1>
+SYN = N1 "\(" N2 "\)" N3<c=gen> =text> #N1 N3<c=gen> "-" #N2 N3<c=gen>
+SYN = Term1<c=acc> "будем" ["также"] "называть" Term2<c=ins> =text> #Term1 "-" #Term2 
+SYN = Term1"\(" "далее" ["-"] Term2<c=nom> "\)" =text> #Term1 "-" #Term2
+
+
+SYN = TermSyn1 [","] "или" ["просто"] TermSyn2 <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> #TermSyn1 "-" #TermSyn2
+
+NPSYN = MSP1 "\("MSP2"\)" (MSP1) =text> #MSP1 "-" #MSP2
+NPSYN = MSP1 "\(" ["или"] MSP2 "\)" <MSP1.c=MSP2.c> =text> #MSP1 "-" #MSP2
+NPSYN = MSP1 "," "или" ["просто"] MSP2 =text> #MSP1 "-" #MSP2
+NPSYN = AP1 "\(" ["или"] AP2 "\)" PMPS1 <AP1=AP2=PMPS1> =text> AP1 #PMPS1 <AP1~>PMPS1> "-" AP2 #PMPS1 <AP2~>PMPS1>
+NPSYN = AP1 "," "или" AP2 [","] PMPS1 <AP1=AP2=PMPS1> =text> AP1 #PMPS1 <AP1~>PMPS1> "-" AP2 #PMPS1 <AP2~>PMPS1>
+NPSYN = N1 "\(" N2 "\)" N3<c=gen> =text> #N1 N3<c=gen> "-" #N2 N3<c=gen>
+NPSYN = Term1<c=acc> "будем" ["также"] "называть" Term2<c=ins> =text> #Term1 "-" #Term2 
+NPSYN = Term1"\(" "далее" ["-"] Term2<c=nom> "\)" =text> #Term1 "-" #Term2
+
+
+NPSYN = TermSyn1 [","] "или" ["просто"] TermSyn2 <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> #TermSyn1 "-" #TermSyn2

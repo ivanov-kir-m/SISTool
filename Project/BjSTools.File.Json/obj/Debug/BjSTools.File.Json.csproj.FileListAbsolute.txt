@@ -1,0 +1,10 @@
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\BjSJson\BjSTools.File.Json\bin\Debug\BjSTools.File.Json.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\BjSJson\BjSTools.File.Json\bin\Debug\BjSTools.File.Json.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\BjSJson\BjSTools.File.Json\obj\Debug\BjSTools.File.Json.csprojResolveAssemblyReference.cache
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\BjSJson\BjSTools.File.Json\obj\Debug\BjSTools.File.Json.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\BjSJson\BjSTools.File.Json\obj\Debug\BjSTools.File.Json.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\BjSTools.File.Json\bin\Debug\BjSTools.File.Json.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\BjSTools.File.Json\bin\Debug\BjSTools.File.Json.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\BjSTools.File.Json\obj\Debug\BjSTools.File.Json.csprojResolveAssemblyReference.cache
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\BjSTools.File.Json\obj\Debug\BjSTools.File.Json.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\BjSTools.File.Json\obj\Debug\BjSTools.File.Json.pdb

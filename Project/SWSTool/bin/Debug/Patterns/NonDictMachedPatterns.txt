@@ -1,0 +1,1446 @@
+Term-I-full = N1<предисловие> (N1) =text> N1<c=nom>
+Term-II-full = N1<лисп> (N1) =text> N1<c=nom>
+Term-III-full = N1<программирование> (N1) =text> N1<c=nom>
+Term-IV-full = N1<год> (N1) =text> N1<c=nom>
+Term-V-full = N1<прошлое> (N1) =text> N1<c=nom>
+Term-VI-full = N1<ученый> (N1) =text> N1<c=nom>
+Term-VII-full = N1<дж> (N1) =text> N1<c=nom>
+Term-VIII-full = N1<маккарти> (N1) =text> N1<c=nom>
+Term-IX-full = N1<информация> (N1) =text> N1<c=nom>
+Term-X-full = N1<структура> (N1) =text> N1<c=nom>
+Term-XI-full = N1<список> (N1) =text> N1<c=nom>
+Term-XII-full = N1<название> (N1) =text> N1<c=nom>
+Term-XIII-full = N1<диалект> (N1) =text> N1<c=nom>
+Term-XIV-full = N1<реализация> (N1) =text> N1<c=nom>
+Term-XV-full = N1<россия> (N1) =text> N1<c=nom>
+Term-XVI-full = N1<эвм> (N1) =text> N1<c=nom>
+Term-XVII-full = N1<база> (N1) =text> N1<c=nom>
+Term-XVIII-full = N1<тема> (N1) =text> N1<c=nom>
+Term-XIX-full = N1<попытка> (N1) =text> N1<c=nom>
+Term-XX-full = N1<настоящее> (N1) =text> N1<c=nom>
+Term-XXI-full = N1<пакет> (N1) =text> N1<c=nom>
+Term-XXII-full = N1<роль> (N1) =text> N1<c=nom>
+Term-XXIII-full = N1<простота> (N1) =text> N1<c=nom>
+Term-XXIV-full = N1<естественность> (N1) =text> N1<c=nom>
+Term-XXV-full = N1<расширение> (N1) =text> N1<c=nom>
+Term-XXVI-full = N1<программа> (N1) =text> N1<c=nom>
+Term-XXVII-full = N1<лекция> (N1) =text> N1<c=nom>
+Term-XXVIII-full = N1<большакова> (N1) =text> N1<c=nom>
+Term-XXIX-full = N1<факультет> (N1) =text> N1<c=nom>
+Term-XXX-full = N1<вмк> (N1) =text> N1<c=nom>
+Term-XXXI-full = N1<мгу> (N1) =text> N1<c=nom>
+Term-XXXII-full = N1<ломоносова> (N1) =text> N1<c=nom>
+Term-XXXIII-full = N1<рекурсия> (N1) =text> N1<c=nom>
+Term-XXXIV-full = N1<прием> (N1) =text> N1<c=nom>
+Term-XXXV-full = N1<рассмотриваются> (N1) =text> N1<c=nom>
+Term-XXXVI-full = N1<функционал> (N1) =text> N1<c=nom>
+Term-XXXVII-full = N1<функция> (N1) =text> N1<c=nom>
+Term-XXXVIII-full = N1<описание> (N1) =text> N1<c=nom>
+Term-XXXIX-full = N1<отличие> (N1) =text> N1<c=nom>
+Term-XL-full = N1<присваивание> (N1) =text> N1<c=nom>
+Term-XLI-full = N1<др> (N1) =text> N1<c=nom>
+Term-XLII-full = N1<раздел> (N1) =text> N1<c=nom>
+Term-XLIII-full = N1<баева> (N1) =text> N1<c=nom>
+Term-XLV-full = N1<подготовка> (N1) =text> N1<c=nom>
+Term-XLVI-full = N1<большинство> (N1) =text> N1<c=nom>
+Term-XLVII-full = N1<атом> (N1) =text> N1<c=nom>
+Term-XLVIII-full = N1<очередь> (N1) =text> N1<c=nom>
+Term-XLIX-full = N1<идентификатор> (N1) =text> N1<c=nom>
+Term-L-full = N1<буква> (N1) =text> N1<c=nom>
+Term-LI-full = N1<цифра> (N1) =text> N1<c=nom>
+Term-LII-full = N1<символ> (N1) =text> N1<c=nom>
+Term-LIII-full = N1<спецзнак> (N1) =text> N1<c=nom>
+Term-LIV-full = N1<регистр> (N1) =text> N1<c=nom>
+Term-LV-full = N1<множество> (N1) =text> N1<c=nom>
+Term-LVI-full = N1<истина> (N1) =text> N1<c=nom>
+Term-LVII-full = N1<ложь> (N1) =text> N1<c=nom>
+Term-LVIII-full = N1<бнф> (N1) =text> N1<c=nom>
+Term-LIX-full = N1<формула> (N1) =text> N1<c=nom>
+Term-LX-full = N1<пробел> (N1) =text> N1<c=nom>
+Term-LXI-full = N1<скобка> (N1) =text> N1<c=nom>
+Term-LXII-full = N1<образ> (N1) =text> N1<c=nom>
+Term-LXIII-full = N1<пар> (N1) =text> N1<c=nom>
+Term-LXIV-full = N1<принадлежность> (N1) =text> N1<c=nom>
+Term-LXV-full = N1<последовательность> (N1) =text> N1<c=nom>
+Term-LXVI-full = N1<лисп-программа> (N1) =text> N1<c=nom>
+Term-LXVII-full = N1<лисп-интерпретатор> (N1) =text> N1<c=nom>
+Term-LXVIII-full = N1<нотация> (N1) =text> N1<c=nom>
+Term-LXIX-full = N1<счет> (N1) =text> N1<c=nom>
+Term-LXX-full = N1<деление> (N1) =text> N1<c=nom>
+Term-LXXI-full = N1<класс> (N1) =text> N1<c=nom>
+Term-LXXII-full = N1<интерпретатор> (N1) =text> N1<c=nom>
+Term-LXXIII-full = N1<нея> (N1) =text> N1<c=nom>
+Term-LXXIV-full = N1<соответствие> (N1) =text> N1<c=nom>
+Term-LXXV-full = N1<иерархия> (N1) =text> N1<c=nom>
+Term-LXXVI-full = N1<операция> (N1) =text> N1<c=nom>
+Term-LXXVII-full = N1<расщепление> (N1) =text> N1<c=nom>
+Term-LXXVIII-full = N1<функция-конструктор> (N1) =text> N1<c=nom>
+Term-LXXIX-full = N1<сокращение> (N1) =text> N1<c=nom>
+Term-LXXX-full = N1<англ> (N1) =text> N1<c=nom>
+Term-LXXXI-full = N1<отношение> (N1) =text> N1<c=nom>
+Term-LXXXII-full = N1<дановна> (N1) =text> N1<c=nom>
+Term-LXXXIII-full = N1<предикат> (N1) =text> N1<c=nom>
+Term-LXXXIV-full = N1<зависимость> (N1) =text> N1<c=nom>
+Term-LXXXV-full = N1<наличие> (N1) =text> N1<c=nom>
+Term-LXXXVI-full = N1<функция-предикат> (N1) =text> N1<c=nom>
+Term-LXXXVII-full = N1<совпадение> (N1) =text> N1<c=nom>
+Term-LXXXVIII-full = N1<аргумент-атом> (N1) =text> N1<c=nom>
+Term-LXXXIX-full = N1<неопределен> (N1) =text> N1<c=nom>
+Term-XCI-full = N1<способ> (N1) =text> N1<c=nom>
+Term-XCII-full = N1<сравнение> (N1) =text> N1<c=nom>
+Term-XCIII-full = N1<проверка> (N1) =text> N1<c=nom>
+Term-XCIV-full = N1<равенство> (N1) =text> N1<c=nom>
+Term-XCV-full = N1<шестая> (N1) =text> N1<c=nom>
+Term-XCVI-full = N1<кавычка> (N1) =text> N1<c=nom>
+Term-XCVII-full = N1<апостроф> (N1) =text> N1<c=nom>
+Term-XCVIII-full = N1<блокировка> (N1) =text> N1<c=nom>
+Term-XCIX-full = N1<значимость> (N1) =text> N1<c=nom>
+Term-C-full = N1<условие> (N1) =text> N1<c=nom>
+Term-CI-full = N1<ветвь> (N1) =text> N1<c=nom>
+Term-CII-full = N1<выражение-форма> (N1) =text> N1<c=nom>
+Term-CIII-full = N1<пора> (N1) =text> N1<c=nom>
+Term-CIV-full = N1<строка> (N1) =text> N1<c=nom>
+Term-CV-full = N1<сложение> (N1) =text> N1<c=nom>
+Term-CVI-full = N1<модуль> (N1) =text> N1<c=nom>
+Term-CVII-full = N1<комбинация> (N1) =text> N1<c=nom>
+Term-CVIII-full = N1<конъюнкция> (N1) =text> N1<c=nom>
+Term-CIX-full = N1<дизъюнкция> (N1) =text> N1<c=nom>
+Term-CX-full = N1<место> (N1) =text> N1<c=nom>
+Term-CXI-full = N1<трактовка> (N1) =text> N1<c=nom>
+Term-CXII-full = N1<гибкость> (N1) =text> N1<c=nom>
+Term-CXIII-full = N1<алгоритм> (N1) =text> N1<c=nom>
+Term-CXIV-full = N1<передача> (N1) =text> N1<c=nom>
+Term-CXV-full = N1<лямбда-выражение> (N1) =text> N1<c=nom>
+Term-CXVI-full = N1<термин> (N1) =text> N1<c=nom>
+Term-CXVII-full = N1<лямбда-исчисление> (N1) =text> N1<c=nom>
+Term-CXVIII-full = N1<лямбда-список> (N1) =text> N1<c=nom>
+Term-CXIX-full = N1<частное> (N1) =text> N1<c=nom>
+Term-CXX-full = N1<тело> (N1) =text> N1<c=nom>
+Term-CXXI-full = N1<лямбда-вызов> (N1) =text> N1<c=nom>
+Term-CXXII-full = N1<выша> (N1) =text> N1<c=nom>
+Term-CXXIII-full = N1<характер> (N1) =text> N1<c=nom>
+Term-CXXIV-full = N1<механизм> (N1) =text> N1<c=nom>
+Term-CXXV-full = N1<присутствие> (N1) =text> N1<c=nom>
+Term-CXXVI-full = N1<чаща> (N1) =text> N1<c=nom>
+Term-CXXVII-full = N1<именование> (N1) =text> N1<c=nom>
+Term-CXXVIII-full = N1<образующая> (N1) =text> N1<c=nom>
+Term-CXXIX-full = N1<служащий> (N1) =text> N1<c=nom>
+Term-CXXX-full = N1<формирование> (N1) =text> N1<c=nom>
+Term-CXXXI-full = N1<аргумент-список> (N1) =text> N1<c=nom>
+Term-CXXXII-full = N1<котор> (N1) =text> N1<c=nom>
+Term-CXXXIII-full = N1<десяток> (N1) =text> N1<c=nom>
+Term-CXXXIV-full = N1<сотня> (N1) =text> N1<c=nom>
+Term-CXXXV-full = N1<лисп-функция> (N1) =text> N1<c=nom>
+Term-CXXXVI-full = N1<назначение> (N1) =text> N1<c=nom>
+Term-CXXXVII-full = N1<группа> (N1) =text> N1<c=nom>
+Term-CXXXVIII-full = N1<суперпозиция> (N1) =text> N1<c=nom>
+Term-CXXXIX-full = N1<список-аргумент> (N1) =text> N1<c=nom>
+Term-CXL-full = N1<третий> (N1) =text> N1<c=nom>
+Term-CXLI-full = N1<функция-суперпозиция> (N1) =text> N1<c=nom>
+Term-CXLII-full = N1<повторенье> (N1) =text> N1<c=nom>
+Term-CXLIII-full = N1<см> (N1) =text> N1<c=nom>
+Term-CXLIV-full = N1<организация> (N1) =text> N1<c=nom>
+Term-CXLV-full = N1<вычитание> (N1) =text> N1<c=nom>
+Term-CXLVI-full = N1<умножение> (N1) =text> N1<c=nom>
+Term-CXLVII-full = N1<прибавление> (N1) =text> N1<c=nom>
+Term-CXLVIII-full = N1<единица> (N1) =text> N1<c=nom>
+Term-CXLIX-full = N1<неравенство> (N1) =text> N1<c=nom>
+Term-CL-full = N1<проход> (N1) =text> N1<c=nom>
+Term-CLI-full = N1<движение> (N1) =text> N1<c=nom>
+Term-CLII-full = N1<нуль> (N1) =text> N1<c=nom>
+Term-CLIII-full = N1<короча> (N1) =text> N1<c=nom>
+Term-CLIV-full = N1<исчерпание> (N1) =text> N1<c=nom>
+Term-CLV-full = N1<стека> (N1) =text> N1<c=nom>
+Term-CLVII-full = N1<аргумент-вызов> (N1) =text> N1<c=nom>
+Term-CLVIII-full = N1<стрелок> (N1) =text> N1<c=nom>
+Term-CLIX-full = N1<занесение> (N1) =text> N1<c=nom>
+Term-CLX-full = N1<справа> (N1) =text> N1<c=nom>
+Term-CLXI-full = N1<переменный-параметр> (N1) =text> N1<c=nom>
+Term-CLXII-full = N1<старое> (N1) =text> N1<c=nom>
+Term-CLXIII-full = N1<поиск> (N1) =text> N1<c=nom>
+Term-CLXIV-full = N1<завершаемость> (N1) =text> N1<c=nom>
+Term-CLXV-full = N1<атом-значение> (N1) =text> N1<c=nom>
+Term-CLXVI-full = N1<подсписок> (N1) =text> N1<c=nom>
+Term-CLXVII-full = N1<конкатенация> (N1) =text> N1<c=nom>
+Term-CLXVIII-full = N1<той> (N1) =text> N1<c=nom>
+Term-CLXIX-full = N1<слияние> (N1) =text> N1<c=nom>
+Term-CLXX-full = N1<присоединение> (N1) =text> N1<c=nom>
+Term-CLXXI-full = N1<соединение> (N1) =text> N1<c=nom>
+Term-CLXXII-full = N1<простейшее> (N1) =text> N1<c=nom>
+Term-CLXXIII-full = N1<точка> (N1) =text> N1<c=nom>
+Term-CLXXIV-full = N1<перевод> (N1) =text> N1<c=nom>
+Term-CLXXV-full = N1<обозначение> (N1) =text> N1<c=nom>
+Term-CLXXVI-full = N1<преобразуемое> (N1) =text> N1<c=nom>
+Term-CLXXVII-full = N1<простой> (N1) =text> N1<c=nom>
+Term-CLXXVIII-full = N1<селектор> (N1) =text> N1<c=nom>
+Term-CLXXIX-full = N1<конструктор> (N1) =text> N1<c=nom>
+Term-CLXXX-full = N1<дерево> (N1) =text> N1<c=nom>
+Term-CLXXXI-full = N1<лист> (N1) =text> N1<c=nom>
+Term-CLXXXII-full = N1<поддерево> (N1) =text> N1<c=nom>
+Term-CLXXXIII-full = N1<рис> (N1) =text> N1<c=nom>
+Term-CLXXXIV-full = N1<таблица> (N1) =text> N1<c=nom>
+Term-CLXXXV-full = N1<исключение> (N1) =text> N1<c=nom>
+Term-CLXXXVI-full = N1<интерпретация> (N1) =text> N1<c=nom>
+Term-CLXXXVII-full = N1<указатель> (N1) =text> N1<c=nom>
+Term-CLXXXVIII-full = N1<ссылка> (N1) =text> N1<c=nom>
+Term-CLXXXIX-full = N1<уникальность> (N1) =text> N1<c=nom>
+Term-CXC-full = N1<поль> (N1) =text> N1<c=nom>
+Term-CXCI-full = N1<полевна> (N1) =text> N1<c=nom>
+Term-CXCIII-full = N1<адрес> (N1) =text> N1<c=nom>
+Term-CXCIV-full = N1<совокупность> (N1) =text> N1<c=nom>
+Term-CXCV-full = N1<подсоединение> (N1) =text> N1<c=nom>
+Term-CXCVI-full = N1<неизменяемость> (N1) =text> N1<c=nom>
+Term-CXCVII-full = N1<цикл> (N1) =text> N1<c=nom>
+Term-CXCVIII-full = N1<дубликат> (N1) =text> N1<c=nom>
+Term-CXCIX-full = N1<утилита> (N1) =text> N1<c=nom>
+Term-CC-full = N1<предназначение> (N1) =text> N1<c=nom>
+Term-CCI-full = N1<осуществление> (N1) =text> N1<c=nom>
+Term-CCII-full = N1<главное> (N1) =text> N1<c=nom>
+Term-CCIII-full = N1<управление> (N1) =text> N1<c=nom>
+Term-CCIV-full = N1<протяжение> (N1) =text> N1<c=nom>
+Term-CCV-full = N1<паскаль> (N1) =text> N1<c=nom>
+Term-CCVI-full = N1<оператор> (N1) =text> N1<c=nom>
+Term-CCVII-full = N1<комментарий> (N1) =text> N1<c=nom>
+Term-CCVIII-full = N1<функция-операция> (N1) =text> N1<c=nom>
+Term-CCIX-full = N1<сумма> (N1) =text> N1<c=nom>
+Term-CCX-full = N1<произведение> (N1) =text> N1<c=nom>
+Term-CCXI-full = N1<клавиатура> (N1) =text> N1<c=nom>
+Term-CCXII-full = N1<файл> (N1) =text> N1<c=nom>
+Term-CCXIII-full = N1<легкость> (N1) =text> N1<c=nom>
+Term-CCXIV-full = N1<рамка> (N1) =text> N1<c=nom>
+Term-CCXV-full = N1<загрузка> (N1) =text> N1<c=nom>
+Term-CCXVI-full = N1<исполнение> (N1) =text> N1<c=nom>
+Term-CCXVII-full = N1<трата> (N1) =text> N1<c=nom>
+Term-CCXVIII-full = N1<создание> (N1) =text> N1<c=nom>
+Term-CCXIX-full = N1<умолчание> (N1) =text> N1<c=nom>
+Term-CCXX-full = N1<подвыражение> (N1) =text> N1<c=nom>
+Term-CCXXI-full = N1<номер> (N1) =text> N1<c=nom>
+Term-CCXXII-full = N1<сложность> (N1) =text> N1<c=nom>
+Term-CCXXIII-full = N1<характеристика> (N1) =text> N1<c=nom>
+Term-CCXXIV-full = N1<итерация> (N1) =text> N1<c=nom>
+Term-CCXXV-full = N1<расход> (N1) =text> N1<c=nom>
+Term-CCXXVI-full = N1<компилятор> (N1) =text> N1<c=nom>
+Term-CCXXVII-full = N1<сдвиг> (N1) =text> N1<c=nom>
+Term-CCXXVIII-full = N1<преобразующий> (N1) =text> N1<c=nom>
+Term-CCXXIX-full = N1<альтернатива> (N1) =text> N1<c=nom>
+Term-CCXXX-full = N1<список-обращение> (N1) =text> N1<c=nom>
+Term-CCXXXI-full = N1<вхождение> (N1) =text> N1<c=nom>
+Term-CCXXXII-full = N1<получение> (N1) =text> N1<c=nom>
+Term-CCXXXIII-full = N1<итог> (N1) =text> N1<c=nom>
+Term-CCXXXIV-full = N1<опора> (N1) =text> N1<c=nom>
+Term-CCXXXVI-full = N1<введение> (N1) =text> N1<c=nom>
+Term-CCXXXVII-full = N1<пересчет> (N1) =text> N1<c=nom>
+Term-CCXXXVIII-full = N1<дублирование> (N1) =text> N1<c=nom>
+Term-CCXXXIX-full = N1<практик> (N1) =text> N1<c=nom>
+Term-CCXL-full = N1<реверсирующей> (N1) =text> N1<c=nom>
+Term-CCXLI-full = N1<направление> (N1) =text> N1<c=nom>
+Term-CCXLII-full = N1<реверсированная> (N1) =text> N1<c=nom>
+Term-CCXLIII-full = N1<удаление> (N1) =text> N1<c=nom>
+Term-CCXLIV-full = N1<объединение> (N1) =text> N1<c=nom>
+Term-CCXLV-full = N1<сохранение> (N1) =text> N1<c=nom>
+Term-CCXLVI-full = N1<возврат> (N1) =text> N1<c=nom>
+Term-CCXLVII-full = N1<список-параметр> (N1) =text> N1<c=nom>
+Term-CCXLVIII-full = N1<добавление> (N1) =text> N1<c=nom>
+Term-CCXLIX-full = N1<пересечение> (N1) =text> N1<c=nom>
+Term-CCL-full = N1<частота> (N1) =text> N1<c=nom>
+Term-CCLI-full = N1<интеграл> (N1) =text> N1<c=nom>
+Term-CCLII-full = N1<элемент-число> (N1) =text> N1<c=nom>
+Term-CCLIII-full = N1<схема> (N1) =text> N1<c=nom>
+Term-CCLIV-full = N1<число-элемент> (N1) =text> N1<c=nom>
+Term-CCLV-full = N1<список-результат> (N1) =text> N1<c=nom>
+Term-CCLVI-full = N1<замена> (N1) =text> N1<c=nom>
+Term-CCLVII-full = N1<причина> (N1) =text> N1<c=nom>
+Term-CCLVIII-full = N1<квотирование> (N1) =text> N1<c=nom>
+Term-CCLIX-full = N1<отдельность> (N1) =text> N1<c=nom>
+Term-CCLX-full = N1<префикс> (N1) =text> N1<c=nom>
+Term-CCLXI-full = N1<отображение> (N1) =text> N1<c=nom>
+Term-CCLXII-full = N1<функция-селектор> (N1) =text> N1<c=nom>
+Term-CCLXIII-full = N1<замыкание> (N1) =text> N1<c=nom>
+Term-CCLXIV-full = N1<программист> (N1) =text> N1<c=nom>
+Term-CCLXV-full = N1<редукция> (N1) =text> N1<c=nom>
+Term-CCLXVI-full = N1<сверток> (N1) =text> N1<c=nom>
+Term-CCLXVIII-full = N1<вставка> (N1) =text> N1<c=nom>
+Term-CCLXIX-full = N1<неубывание> (N1) =text> N1<c=nom>
+Term-CCLXX-full = N1<максимум> (N1) =text> N1<c=nom>
+Term-CCLXXI-full = N1<коммутативность> (N1) =text> N1<c=nom>
+Term-CCLXXII-full = N1<элемент-атом> (N1) =text> N1<c=nom>
+Term-CCLXXIII-full = N1<кортеж-пар> (N1) =text> N1<c=nom>
+Term-CCLXXV-full = N1<дополнение> (N1) =text> N1<c=nom>
+Term-CCLXXVI-full = N1<список-множество> (N1) =text> N1<c=nom>
+Term-CCLXXVII-full = N1<взгляд> (N1) =text> N1<c=nom>
+Term-CCLXXVIII-full = N1<аналог> (N1) =text> N1<c=nom>
+Term-CCLXXIX-full = N1<аргумент-функция> (N1) =text> N1<c=nom>
+Term-CCLXXX-full = N1<подмножество> (N1) =text> N1<c=nom>
+Term-CCLXXXI-full = N1<булеан> (N1) =text> N1<c=nom>
+Term-CCLXXXII-full = N1<заключение> (N1) =text> N1<c=nom>
+Term-CCLXXXIII-full = N1<композиция> (N1) =text> N1<c=nom>
+Term-CCLXXXIV-full = N1<удобство> (N1) =text> N1<c=nom>
+Term-CCLXXXV-full = N1<отступление> (N1) =text> N1<c=nom>
+Term-CCLXXXVI-full = N1<правильность> (N1) =text> N1<c=nom>
+Term-CCLXXXVII-full = N1<синус> (N1) =text> N1<c=nom>
+Term-CCLXXXVIII-full = N1<косинус> (N1) =text> N1<c=nom>
+Term-CCLXXXIX-full = N1<экспонент> (N1) =text> N1<c=nom>
+Term-CCXC-full = N1<логарифм> (N1) =text> N1<c=nom>
+Term-CCXCI-full = N1<округление> (N1) =text> N1<c=nom>
+Term-CCXCII-full = N1<выражение-суперпозиция> (N1) =text> N1<c=nom>
+Term-CCXCIII-full = N1<четвертая> (N1) =text> N1<c=nom>
+Term-CCXCIV-full = N1<малое> (N1) =text> N1<c=nom>
+Term-CCXCV-full = N1<литер> (N1) =text> N1<c=nom>
+Term-CCXCVI-full = N1<играющий> (N1) =text> N1<c=nom>
+Term-CCXCVII-full = N1<идентификация> (N1) =text> N1<c=nom>
+Term-CCXCVIII-full = N1<допущение> (N1) =text> N1<c=nom>
+Term-CCXCIX-full = N1<поток> (N1) =text> N1<c=nom>
+Term-CCC-full = N1<символ-константа> (N1) =text> N1<c=nom>
+Term-CCCI-full = N1<распаковка> (N1) =text> N1<c=nom>
+Term-CCCII-full = N1<упаковка> (N1) =text> N1<c=nom>
+Term-CCCIII-full = N1<отладка> (N1) =text> N1<c=nom>
+Term-CCCIV-full = N1<печать> (N1) =text> N1<c=nom>
+Term-CCCV-full = N1<включение> (N1) =text> N1<c=nom>
+Term-CCCVI-full = N1<выраженье-форма> (N1) =text> N1<c=nom>
+Term-CCCVII-full = N1<выбор> (N1) =text> N1<c=nom>
+Term-CCCVIII-full = N1<выражение-аргумент> (N1) =text> N1<c=nom>
+Term-CCCIX-full = N1<макрос> (N1) =text> N1<c=nom>
+Term-CCCX-full = N1<макросредство> (N1) =text> N1<c=nom>
+Term-CCCXI-full = N1<макрофункция> (N1) =text> N1<c=nom>
+Term-CCCXII-full = N1<макровызов> (N1) =text> N1<c=nom>
+Term-CCCXIII-full = N1<раскрытие> (N1) =text> N1<c=nom>
+Term-CCCXIV-full = N1<макрорасширение> (N1) =text> N1<c=nom>
+Term-CCCXV-full = N1<сторона> (N1) =text> N1<c=nom>
+Term-CCCXVI-full = N1<заквотированный> (N1) =text> N1<c=nom>
+Term-CCCXVII-full = N1<макроопределение> (N1) =text> N1<c=nom>
+Term-CCCXVIII-full = N1<подставится> (N1) =text> N1<c=nom>
+Term-CCCXIX-full = N1<переход> (N1) =text> N1<c=nom>
+Term-CCCXX-full = N1<конструкция-цикл> (N1) =text> N1<c=nom>
+Term-CCCXXI-full = N1<необязательность> (N1) =text> N1<c=nom>
+Term-CCCXXII-full = N1<нач> (N1) =text> N1<c=nom>
+Term-CCCXXIII-full = N1<установка> (N1) =text> N1<c=nom>
+Term-CCCXXIV-full = N1<функция-оператор> (N1) =text> N1<c=nom>
+Term-CCCXXV-full = N1<ядро> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXVI-full = N1<прошлое> N2<век,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXVII-full = N1<структура> N2<данных,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXVIII-full = N1<название> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXIX-full = N1<популярность> N2<лисп,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXX-full = N1<диалект> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXI-full = N1<реализация> N2<лисп,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXII-full = N1<концепция> N2<лисп,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXIII-full = N1<ряд> N2<аспект,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXIV-full = N1<диалект> N2<лисп,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXV-full = N1<реализация> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXVI-full = N1<программирование> N2<задача,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXVII-full = N1<сила> N2<ряд,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXVIII-full = N1<ясность> N2<синтаксис,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXXXIX-full = N1<база> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXL-full = N1<прием> N2<построение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLI-full = N1<построение> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLII-full = N1<лисп> N2<конструкция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLIII-full = N1<картина> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLIV-full = N1<множество> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLV-full = N1<разделитель> N2<элемент,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLVI-full = N1<элемент> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLVII-full = N1<список> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLVIII-full = N1<вложенность> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXLIX-full = N1<глубина> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCL-full = N1<пар> N2<скобка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLI-full = N1<последовательность> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLII-full = N1<последовательность> N2<форма,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLIII-full = N1<вывод> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLIV-full = N1<аргумент> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLV-full = N1<вызов> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLVI-full = N1<имя> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLVII-full = N1<выражение> N2<программа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLVIII-full = N1<математик> N2<запись,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLIX-full = N1<функция> N2<лисп,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLX-full = N1<деление> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXI-full = N1<значение> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXII-full = N1<построение> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXIII-full = N1<хвост> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXIV-full = N1<остаток> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXV-full = N1<сокращение> N2<названье,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXVI-full = N1<проверка> N2<равенство,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXVII-full = N1<равенство> N2<число,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXVIII-full = N1<снятие> N2<блокировка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXIX-full = N1<средство> N2<разветвление,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXX-full = N1<условие> N2<ветвь,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXI-full = N1<операция> N2<сложение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXII-full = N1<мощность> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXIII-full = N1<лисповский> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXIV-full = N1<параметр> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXV-full = N1<тело> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXVI-full = N1<средство> N2<параметризация,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXVII-full = N1<основа> N2<формирование,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXVIII-full = N1<лисповский> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXIX-full = N1<список-вызов> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXX-full = N1<большинство> N2<диалект,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXI-full = N1<суперпозиция> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXII-full = N1<имя> N2<функция-суперпозиция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXIII-full = N1<группа> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXIV-full = N1<деление> N2<число,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXV-full = N1<знак> N2<число-аргумент,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXVI-full = N1<операция> N2<деление,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXVII-full = N1<вычитание> N2<единица,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXVIII-full = N1<сравнение> N2<атом-число,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCLXXXIX-full = N1<предикат> N2<тип,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXC-full = N1<вызов> N2<функция-дизъюнкция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCI-full = N1<интерпретатор> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCII-full = N1<реализация> N2<проход,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCIII-full = N1<длина> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCIV-full = N1<ветвь> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCV-full = N1<завершение> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCVI-full = N1<функция> N2<сложение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCVII-full = N1<стека> N2<выражение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CCCXCIX-full = N1<заполнение> N2<стек,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CD-full = N1<старое> N2<связь,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDI-full = N1<исход> N2<сравнение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDII-full = N1<поиск> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDIII-full = N1<искомое> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDIV-full = N1<атом-значение> N2<параметр,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDV-full = N1<функция> N2<поиск,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDVI-full = N1<конкатенация> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDVII-full = N1<второе> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDVIII-full = N1<соединение> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDIX-full = N1<имя> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDX-full = N1<понятие> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXI-full = N1<правило> N2<перевод,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXIII-full = N1<преобразуемого> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXIV-full = N1<способ> N2<представление,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXV-full = N1<память> N2<компьютер,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXVI-full = N1<таблица> N2<символ,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXVII-full = N1<список> N2<свойство,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXVIII-full = N1<свойство> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXIX-full = N1<значение> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXX-full = N1<таблица> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXI-full = N1<лисповский> N2<объект,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXII-full = N1<потеря> N2<указатель,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXIII-full = N1<копирование> N2<элемент,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXIV-full = N1<сравнение> N2<указатель,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXV-full = N1<сборка> N2<мусор,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXVI-full = N1<последовательность> N2<операция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXVII-full = N1<оператор> N2<присваивание,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXVIII-full = N1<передача> N2<данных,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXIX-full = N1<текст> N2<лисп-программа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXX-full = N1<список> N2<число,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXI-full = N1<функция> N2<вычитание,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXII-full = N1<функция> N2<сравнение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXIII-full = N1<функция> N2<умножение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXIV-full = N1<функция> N2<деление,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXV-full = N1<сумма> N2<число,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXVI-full = N1<произведение> N2<число,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXVII-full = N1<расширение> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXVIII-full = N1<исполнение> N2<программа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXXXIX-full = N1<стратегия> N2<связывание,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXL-full = N1<создание> N2<интерпретатор,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLI-full = N1<конфликт> N2<имя,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLII-full = N1<связь> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLIII-full = N1<программа> N2<константа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLIV-full = N1<написание> N2<программа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLV-full = N1<программирование> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLVI-full = N1<простой> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLVII-full = N1<иллюстрация> N2<динамика,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLVIII-full = N1<глубина> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXLIX-full = N1<реверсируемого> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLI-full = N1<объем> N2<память,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLII-full = N1<выполнение> N2<цикл,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLIII-full = N1<организация> N2<стек,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLIV-full = N1<выша> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLV-full = N1<список> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLVI-full = N1<прямая> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLVII-full = N1<упрощение> N2<программа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLVIII-full = N1<функция> N2<перевод,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLIX-full = N1<распознавание> N2<конъюнкция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLX-full = N1<перевод> N2<константа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXI-full = N1<операция> N2<конъюнкция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXII-full = N1<операция> N2<дизъюнкция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXIII-full = N1<техника> N2<переписывание,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXIV-full = N1<учет> N2<динамика,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXV-full = N1<построение> N2<функция-предикат,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXVI-full = N1<структура> N2<тело,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXVII-full = N1<проверка> N2<поддерево,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXVIII-full = N1<непустота> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXIX-full = N1<учет> N2<структура,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXX-full = N1<сравнение> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXI-full = N1<подсчет> N2<лист,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXII-full = N1<число> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXIII-full = N1<список> N2<длина,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXIV-full = N1<пересчет> N2<сумма,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXV-full = N1<первое> N2<аргумент-список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXVI-full = N1<реверсирование> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXVII-full = N1<построение> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXVIII-full = N1<порядок> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXIX-full = N1<добавление> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXX-full = N1<программирование> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXI-full = N1<список> N2<глубина,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXII-full = N1<атом> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXIII-full = N1<вхождение> N2<значение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXIV-full = N1<пар> N2<элемент,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXV-full = N1<аргумент-список> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXVI-full = N1<запись> N2<произведение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXVII-full = N1<разность> N2<множество,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXVIII-full = N1<равенство> N2<множество,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDLXXXIX-full = N1<вхождение> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXC-full = N1<список> N2<пара,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCI-full = N1<понятие> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCII-full = N1<предел> N2<интегрирование,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCIII-full = N1<число> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCIV-full = N1<получение> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCV-full = N1<запись> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCVI-full = N1<причина> N2<ошибка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCVII-full = N1<счет> N2<первое,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCVIII-full = N1<счет> N2<второе,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-CDXCIX-full = N1<тело> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-D-full = N1<аргумент> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DI-full = N1<функция> N2<квотирование,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DII-full = N1<отображение> N2<список-аргумент,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DIII-full = N1<счет> N2<применение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DIV-full = N1<имя> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DV-full = N1<основа> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DVI-full = N1<вызов> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DVII-full = N1<значение> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DVIII-full = N1<вычисляемость> N2<параметр,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DIX-full = N1<коллизия> N2<имя,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DX-full = N1<особенность> N2<диалект,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXI-full = N1<применение> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXII-full = N1<различие> N2<решенье,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXIII-full = N1<задача> N2<слияние,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXIV-full = N1<условие> N2<вставка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXV-full = N1<место> N2<вставка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXVI-full = N1<сохранение> N2<упорядоченность,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXVII-full = N1<поиск> N2<максимум,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXVIII-full = N1<база> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXX-full = N1<первое> N2<операнд,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXI-full = N1<направление> N2<свертка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXII-full = N1<задача> N2<построение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXIII-full = N1<слияние> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXIV-full = N1<функция> N2<формирование,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXV-full = N1<произведение> N2<множество,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXVI-full = N1<список> N2<список-подмножество,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXVII-full = N1<программирование> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXVIII-full = N1<квотирование> N2<лямбда-выражение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXIX-full = N1<раздел> N2<средство,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXX-full = N1<хранение> N2<информация,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXI-full = N1<отсутствие> N2<свойство,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXII-full = N1<удаление> N2<свойство,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXIII-full = N1<функция> N2<присваивание,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXIV-full = N1<функция> N2<синус,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXV-full = N1<паскалевский> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXVI-full = N1<выражение-суперпозиция> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXVII-full = N1<данна> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXVIII-full = N1<список-значение> N2<свойство,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXXXIX-full = N1<функция> N2<ввод,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXL-full = N1<ввод> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLI-full = N1<ввод> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLII-full = N1<последовательность> N2<символ,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLIII-full = N1<символ> N2<имя,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLIV-full = N1<запись> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLV-full = N1<исключение> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLVI-full = N1<считывание> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLVII-full = N1<ввод> N2<символ,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLVIII-full = N1<способ> N2<ввод,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DXLIX-full = N1<список> N2<символ,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DL-full = N1<преобразование> N2<строка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLI-full = N1<список> N2<символ-константа,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLII-full = N1<путь> N2<конкатенация,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLIII-full = N1<запись> N2<символ,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLIV-full = N1<перевод> N2<строка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLV-full = N1<позиция> N2<строка,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLVI-full = N1<символ> N2<пробел,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLVII-full = N1<загрузка> N2<определенье,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLVIII-full = N1<ветвь> N2<выражение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLIX-full = N1<функция> N2<выражение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLX-full = N1<тело> N2<лямбда-выражение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXI-full = N1<образ> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXII-full = N1<невычисляемых> N2<аргумент,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXIII-full = N1<продолжение> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXIV-full = N1<список> N2<аргумент,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXV-full = N1<описание> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXVI-full = N1<список> N2<параметр,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXVII-full = N1<механизм> N2<макрос,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXVIII-full = N1<пользователь> N2<макрос,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXIX-full = N1<загрузка> N2<файл,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXX-full = N1<имя> N2<макрос,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXI-full = N1<тело> N2<макрос,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXII-full = N1<значение> N2<макровызов,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXIII-full = N1<контекст> N2<макровызов,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXIV-full = N1<различие> N2<макрос,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXV-full = N1<исключение> N2<первое,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXVI-full = N1<ветвь> N2<макрофункция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXVII-full = N1<тело> N2<цикл,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXVIII-full = N1<программирование> N2<цикл,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXIX-full = N1<передача> N2<управление,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXX-full = N1<метка> N2<переход,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Term-DLXXXI-full = A1<старый> N1<язык> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DLXXXII-full = A1<функциональный> N1<язык> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DLXXXIII-full = A1<широкий> N1<распространение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DLXXXIV-full = A1<прошлый> N1<веко> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DLXXXVI-full = A1<символьный> N1<информация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DLXXXVII-full = A1<основный> N1<язык> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DLXXXVIII-full = A1<научный> N1<исследование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DLXXXIX-full = A1<официальный> N1<стандарт> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXC-full = A1<удачный> N1<диалект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCI-full = A1<функциональный> N1<программирование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCII-full = A1<яркий> N1<представитель> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCIII-full = A1<удивительный> N1<особенность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCIV-full = A1<функциональный> N1<средство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCV-full = A1<основополагающий> N1<принцип> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCVI-full = A1<принципиальный> N1<отличие> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCVII-full = A1<современный> N1<диалект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCVIII-full = A1<строгий> N1<функциональность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DXCIX-full = A1<базовый> N1<лисп> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DC-full = A1<функциональный> N1<диалект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCI-full = A1<базовый> N1<средство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCII-full = A1<скалярный> N1<данным> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCIII-full = A1<неделимый> N1<целое> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCIV-full = A1<списочный> N1<структура> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCV-full = A1<вещественный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCVI-full = A1<символьный> N1<атом> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCVII-full = A1<числовой> N1<атом> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCVIII-full = A1<логический> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCIX-full = A1<пустой> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCX-full = A1<рекурсивный> N1<структура> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXI-full = A1<круглый> N1<скобка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXII-full = A1<лисповский> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXIII-full = A1<верхний> N1<уровень> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXIV-full = A1<единственный> N1<константа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXV-full = A1<уникальный> N1<особенность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXVI-full = A1<одинаковый> N1<синтаксис> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXVII-full = A1<вычислимый> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXVIII-full = A1<канонический> N1<запись> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXIX-full = A1<формальный> N1<параметр> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXX-full = A1<функциональный> N1<вызов> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXI-full = A1<аргументный> N1<скобка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXII-full = A1<синтаксический> N1<единообразие> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXIII-full = A1<обычный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXIV-full = A1<специальный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXV-full = A1<особый> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXVI-full = A1<указанный> N1<требование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXVII-full = A1<существенный> N1<порядок> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXVIII-full = A1<внешний> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXIX-full = A1<стандартный> N1<порядок> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXX-full = A1<базовый> N1<набор> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXI-full = A1<единственный> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXII-full = A1<непустой> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXIII-full = A1<ранний> N1<реализация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXIV-full = A1<специальный> N1<регистр> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXV-full = A1<определенный> N1<свойство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXVI-full = A1<разный> N1<способ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXVII-full = A1<прежний> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXVIII-full = A1<упрощенный> N1<способ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXXXIX-full = A1<квотируемый> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXL-full = A1<нижний> N1<линия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLI-full = A1<условный> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLII-full = A1<истинный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLIII-full = A1<пробельный> N1<отступ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLIV-full = A1<низкий> N1<форма> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLV-full = A1<переменный> N1<операция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLVI-full = A1<всевозможный> N1<комбинация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLVII-full = A1<аналогичный> N1<ситуация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLVIII-full = A1<лисповский> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXLIX-full = A1<логический> N1<операция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCL-full = A1<практический> N1<программирование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLI-full = A1<специальный> N1<формализм> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLII-full = A1<безымянный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLIII-full = A1<фактический> N1<параметр> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLIV-full = A1<итоговый> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLV-full = A1<временный> N1<характер> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLVI-full = A1<ранний> N1<связь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLVII-full = A1<фактический> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLVIII-full = A1<неоднократный> N1<применение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLIX-full = A1<рекурсивный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLX-full = A1<исторический> N1<первое> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXI-full = A1<упрощенный> N1<запись> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXII-full = A1<внешний> N1<скобка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXIII-full = A1<широкий> N1<набор> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXIV-full = A1<сложный> N1<задача> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXV-full = A1<определенный> N1<суперпозиция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXVI-full = A1<нужный> N1<уровень> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXVII-full = A1<фигурный> N1<скобка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXVIII-full = A1<квадратный> N1<скобка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXIX-full = A1<эквивалентный> N1<суперпозиция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXX-full = A1<специальный> N1<средство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXI-full = A1<арифметический> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXII-full = A1<обратный> N1<величина> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXIII-full = A1<разный> N1<диалект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXIV-full = A1<рациональный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXV-full = A1<арифметический> N1<предикат> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXVI-full = A1<числовой> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXVII-full = A1<четный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXVIII-full = A1<логический> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXIX-full = A1<логический> N1<функция-предикат> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXX-full = A1<логический> N1<отрицание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXI-full = A1<разный> N1<контекст> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXII-full = A1<равный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXIII-full = A1<списочный> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXIV-full = A1<мощный> N1<механизм> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXV-full = A1<равный> N1<длина> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXVI-full = A1<рекурсивный> N1<вызов> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXVII-full = A1<элементарный> N1<ветвь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXVIII-full = A1<необработанный> N1<вызов> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCLXXXIX-full = A1<содержимый> N1<стек> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXC-full = A1<локальный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCI-full = A1<обратный> N1<порядок> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCII-full = A1<стоящий> N1<справа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCIII-full = A1<локальный> N1<связь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCIV-full = A1<старый> N1<связь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCV-full = A1<неатомарный> N1<элемент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCVI-full = A1<обязательный> N1<атомарность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCVII-full = A1<искомый> N1<атом> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCVIII-full = A1<непустой> N1<аргумент-список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCXCIX-full = A1<простой> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCC-full = A1<рекурсивный> N1<ветвь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCI-full = A1<основный> N1<лисповский> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCII-full = A1<точечный> N1<запись> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCIII-full = A1<списочный> N1<форма> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCIV-full = A1<точечный> N1<форма> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCV-full = A1<точечный> N1<обозначение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCVI-full = A1<атомарный> N1<элемент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCVII-full = A1<преобразуемый> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCVIII-full = A1<списочный> N1<запись> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCIX-full = A1<базовый> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCX-full = A1<бинарный> N1<дерево> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXI-full = A1<логический> N1<структура> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXII-full = A1<древовидный> N1<структура> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXIII-full = A1<специальный> N1<таблица> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXIV-full = A1<нужный> N1<информация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXV-full = A1<внешний> N1<имя> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXVI-full = A1<фактический> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXVII-full = A1<функциональный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXVIII-full = A1<перечисленный> N1<пункт> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXIX-full = A1<разный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXX-full = A1<списочный> N1<ячейка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXI-full = A1<равный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXII-full = A1<важный> N1<свойство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXIII-full = A1<побочный> N1<эффект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXIV-full = A1<замкнутый> N1<цикл> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXV-full = A1<единственный> N1<образ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXVI-full = A1<физический> N1<равенство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXVII-full = A1<подобный> N1<ситуация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXVIII-full = A1<логический> N1<равенство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXIX-full = A1<списочный> N1<память> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXX-full = A1<определенный> N1<опасность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXI-full = A1<эффективный> N1<программа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXII-full = A1<явный> N1<особенность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXIII-full = A1<мощный> N1<средство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXIV-full = A1<функциональный> N1<программа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXV-full = A1<типичный> N1<лисп-программа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXVI-full = A1<комплексный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXVII-full = A1<двухэлементный> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXVIII-full = A1<текстовый> N1<файл> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXXXIX-full = A1<поздний> N1<связывание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXL-full = A1<динамический> N1<типизация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLI-full = A1<динамический> N1<связывание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLII-full = A1<дополнительный> N1<гибкость> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLIII-full = A1<неизбежный> N1<плата> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLIV-full = A1<динамический> N1<доступ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLV-full = A1<ранний> N1<диалект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLVI-full = A1<нежелательный> N1<эффект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLVII-full = A1<внешний> N1<окружение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLVIII-full = A1<статический> N1<связывание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXLIX-full = A1<эффективный> N1<компиляция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCL-full = A1<нужный> N1<константа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLI-full = A1<традиционный> N1<язык> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLII-full = A1<рекурсивный> N1<программирование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLIII-full = A1<типичный> N1<прием> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLIV-full = A1<простой> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLV-full = A1<рекурсивный> N1<построение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLVI-full = A1<одноэлементный> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLVII-full = A1<реальный> N1<построение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLVIII-full = A1<реверсируемый> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLIX-full = A1<циклический> N1<конструкция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLX-full = A1<хвостовой> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXI-full = A1<современный> N1<лисп-интерпретатор> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXII-full = A1<высокий> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXIII-full = A1<дальнейший> N1<рассмотрение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXIV-full = A1<левый> N1<ветвь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXV-full = A1<определимый> N1<функция-предикат> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXVI-full = A1<одноуровневый> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXVII-full = A1<немой> N1<подсписок> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXVIII-full = A1<внешний> N1<цикл> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXIX-full = A1<косвенный> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXX-full = A1<прямой> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXI-full = A1<логический> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXII-full = A1<логический> N1<формула> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXIII-full = A1<нужный> N1<преобразование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXIV-full = A1<логический> N1<операнд> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXV-full = A1<скобочный> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXVI-full = A1<нужный> N1<операция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXVII-full = A1<логический> N1<константа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXVIII-full = A1<традиционный> N1<запись> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXIX-full = A1<взаимосвязанный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXX-full = A1<параллельный> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXI-full = A1<правый> N1<поддерево> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXII-full = A1<левый> N1<поддерево> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXIII-full = A1<разный> N1<ветвь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXIV-full = A1<одновременный> N1<проход> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXV-full = A1<правый> N1<лист> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXVI-full = A1<понятный> N1<решение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXVII-full = A1<понятный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXVIII-full = A1<дополнительный> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCLXXXIX-full = A1<очевидный> N1<неэффективность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXC-full = A1<экспоненциальный> N1<эффект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCI-full = A1<дополнительный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCII-full = A1<специальный> N1<параметр-аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCIII-full = A1<рекурсивный> N1<процесс> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCIV-full = A1<ненужный> N1<соединенье> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCV-full = A1<вычислительный> N1<сложность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCVI-full = A1<затратный> N1<операция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCVII-full = A1<реверсированный> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCVIII-full = A1<эффективный> N1<решение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCXCIX-full = A1<внутренний> N1<скобка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCC-full = A1<затратный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCI-full = A1<неатомарный> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCII-full = A1<меньший> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCIII-full = A1<натуральный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCIV-full = A1<списочный> N1<элемент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCV-full = A1<сжатый> N1<форма> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCVI-full = A1<мощный> N1<программа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCVII-full = A1<функциональный> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCVIII-full = A1<подынтегральный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCIX-full = A1<нужный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCX-full = A1<дополнительный> N1<средство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXI-full = A1<внешний> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXII-full = A1<вычислительный> N1<контекст> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXIII-full = A1<одинаковый> N1<имя> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXIV-full = A1<разный> N1<лисповский> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXV-full = A1<функциональный> N1<блокировка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXVI-full = A1<простой> N1<блокировка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXVII-full = A1<переменный> N1<программа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXVIII-full = A1<одноместный> N1<предикат> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXIX-full = A1<положительный> N1<проверка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXX-full = A1<отрицательный> N1<проверка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXI-full = A1<мощный> N1<функционал> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXII-full = A1<большой> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXIII-full = A1<бинарный> N1<операция-функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXIV-full = A1<бинарный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXV-full = A1<правый> N1<свертка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXVI-full = A1<реализованный> N1<функционал> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXVII-full = A1<ключевой> N1<параметр> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXVIII-full = A1<обычный> N1<блокировка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXIX-full = A1<обычный> N1<техника> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXX-full = A1<декартовый> N1<произведенье> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXI-full = A1<одноэлементный> N1<множество> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXII-full = A1<внутренний> N1<цикл> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXIII-full = A1<простой> N1<решение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXIV-full = A1<аналогичный> N1<образ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXV-full = A1<итоговый> N1<список-произведение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXVI-full = A1<лишний> N1<скобка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXVII-full = A1<верный> N1<решение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXVIII-full = A1<итоговый> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXXXIX-full = A1<дополнительный> N1<иллюстрация> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXL-full = A1<простой> N1<квотирование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLI-full = A1<нужный> N1<лямбда-выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLII-full = A1<замкнутый> N1<лямбда-выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLIII-full = A1<разный> N1<лямбда-выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLIV-full = A1<разный> N1<приращение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLV-full = A1<символьный> N1<данных> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLVI-full = A1<удобный> N1<средство> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLVII-full = A1<ассоциативный> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLVIII-full = A1<главный> N1<особенность> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCXLIX-full = A1<старый> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCL-full = A1<квадратный> N1<корень> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLI-full = A1<правильный> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLII-full = A1<паскалевский> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLIII-full = A1<особый> N1<роль> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLIV-full = A1<особый> N1<символ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLV-full = A1<обратный> N1<слэш> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLVI-full = A1<строчный> N1<буква> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLVII-full = A1<специфический> N1<запись> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLVIII-full = A1<посимвольный> N1<ввод> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLIX-full = A1<символьный> N1<константа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLX-full = A1<математический> N1<формула> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXI-full = A1<преобразуемый> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXII-full = A1<обратный> N1<преобразование> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXIII-full = A1<дополнительный> N1<пробел> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXIV-full = A1<диагностический> N1<сообщение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXV-full = A1<программный> N1<файл> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXVI-full = A1<пустой> N1<тело> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXVII-full = A1<одновременный> N1<связывание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXVIII-full = A1<полезный> N1<конструкция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXIX-full = A1<невычисляемый> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXX-full = A1<фактический> N1<параметр-аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXI-full = A1<ключевой> N1<слово> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXII-full = A1<нужный> N1<параметр> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXIII-full = A1<эквивалентный> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXIV-full = A1<синтаксический> N1<конструкция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXV-full = A1<вычислимый> N1<форма> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXVI-full = A1<обратный> N1<блокировка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXVII-full = A1<обратный> N1<кавычка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXVIII-full = A1<предварительный> N1<загрузка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXIX-full = A1<рекурсивный> N1<макроопределение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXX-full = A1<указанный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXXI-full = A1<невычисленный> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXXII-full = A1<одновременный> N1<присваивание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXXIII-full = A1<блочный> N1<конструкция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXXIV-full = A1<операторный> N1<стиль> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Term-DCCCLXXXV-full = Pa1<главенствующий> N1<роль> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCLXXXVI-full = Pa1<нарушающий> N1<принцип> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCLXXXVII-full = Pa1<вложивший> N1<список> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCLXXXVIII-full = Pa1<указавший> N1<требование> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCLXXXIX-full = Pa1<задающий> N1<значение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXC-full = Pa1<встроивший> N1<функция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCI-full = Pa1<вычисляющий> N1<значение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCII-full = Pa1<упростивший> N1<способ> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCIII-full = Pa1<квотирующий> N1<выражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCIV-full = Pa1<встроивший> N1<лисповская> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCV-full = Pa1<определяющий> N1<выражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCVI-full = Pa1<вычисляющий> N1<выражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCVII-full = Pa1<приведший> N1<выша> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCVIII-full = Pa1<определяющий> N1<функция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-DCCCXCIX-full = Pa1<вложивший> N1<вызов> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CM-full = Pa1<упростивший> N1<запись> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMI-full = Pa1<описывающий> N1<функция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMII-full = Pa1<повторяющийся> N1<буква> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMIII-full = Pa1<сравнивающий> N1<атом> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMIV-full = Pa1<встроивший> N1<предикат> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMV-full = Pa1<вычисляющий> N1<длина> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMVI-full = Pa1<рассматривающий> N1<задача> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMVII-full = Pa1<указавший> N1<значение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMVIII-full = Pa1<обобщающий> N1<понятие> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMIX-full = Pa1<разделяющий> N1<точка> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMX-full = Pa1<открывающий> N1<скобка> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXI-full = Pa1<закрывающий> N1<скобка> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXII-full = Pa1<перечисливший> N1<пункт> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXIII-full = Pa1<представляющий> N1<выражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXIV-full = Pa1<показавший> N1<конфигурация> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXV-full = Pa1<замкнувший> N1<цикл> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXVI-full = Pa1<вычисляющий> N1<аргумент> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXVII-full = Pa1<подавляющий> N1<число> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXVIII-full = Pa1<называющий> N1<концепция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXIX-full = Pa1<требующий> N1<список> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXX-full = Pa1<перевернувший> N1<список-хвост> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXI-full = Pa1<отложивший> N1<вызов> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXII-full = Pa1<перевернувший> N1<список> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXIII-full = Pa1<вложивший> N1<цикл> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXIV-full = Pa1<закончивший> N1<сравнение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXV-full = Pa1<преобразовавший> N1<операнд> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXVI-full = Pa1<приведший> N1<функция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXVII-full = Pa1<накапливающий> N1<параметр> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXVIII-full = Pa1<выровнявший> N1<список> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXIX-full = Pa1<накопивший> N1<атом> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXX-full = Pa1<повторяющийся> N1<элемент> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXI-full = Pa1<вычисляющий> N1<глубина> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXII-full = Pa1<сжавший> N1<форма> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXIII-full = Pa1<применяющий> N1<операция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXIV-full = Pa1<встроивший> N1<функционал> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXV-full = Pa1<отображающий> N1<функционал> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXVI-full = Pa1<применяющий> N1<функционал> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXVII-full = Pa1<зафиксировавший> N1<связь> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXVIII-full = Pa1<введший> N1<связь> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXXXIX-full = Pa1<называющий> N1<замыкание> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXL-full = Pa1<упорядочивший> N1<список> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLI-full = Pa1<реализовавший> N1<функционал> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLII-full = Pa1<имеющийся> N1<подмножество> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLIII-full = Pa1<замкнувший> N1<лямбда-выражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLIV-full = Pa1<встроивший> N1<форма> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLV-full = Pa1<реализовавший> N1<функция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLVI-full = Pa1<проверяющий> N1<правильность> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLVII-full = Pa1<введший> N1<выражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLVIII-full = Pa1<введший> N1<символ> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMXLIX-full = Pa1<вводящий> N1<текст> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CML-full = Pa1<введший> N1<строка> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLI-full = Pa1<введший> N1<текст> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLII-full = Pa1<обнаруживший> N1<ошибка> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLIII-full = Pa1<увеличивший> N1<число> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLIV-full = Pa1<составивший> N1<список> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLV-full = Pa1<расширивший> N1<форма> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLVI-full = Pa1<вычисляющий> N1<подвыражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLVII-full = Pa1<вызвавший> N1<макрос> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLVIII-full = Pa1<указавший> N1<функция> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Term-CMLIX-full = A1<единая> A2<синтаксический> N1<форма> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLX-full = A1<базовым> A2<функциональный> N1<средство> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXI-full = A1<внешней> A2<круглый> N1<скобка> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXII-full = A1<мнемоничные> A2<синонимичный> N1<название> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXIII-full = A1<строго> A2<функциональный> N1<программирование> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXIV-full = A1<выше> A2<безымянный> N1<функция-дизъюнкция> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXV-full = A1<выше> A2<базовый> N1<набор> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXVI-full = A1<простые> A2<рекурсивный> N1<функция> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXVII-full = A1<поочередно> A2<внутренний> N1<представление> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXVIII-full = A1<взаимосвязанных> A2<списочный> N1<ячейка> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXIX-full = A1<заглавной> A2<списочный> N1<ячейка> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXX-full = A1<полей> A2<списочный> N1<ячейка> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXI-full = A1<существующей> A2<списочный> N1<структура> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXII-full = A1<ациклический> A2<ориентированный> N1<граф> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXIII-full = A1<логически> A2<одинаковый> N1<список> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXIV-full = A1<свободной> A2<списочный> N1<память> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXV-full = A1<ненужные> A2<списочный> N1<ячейка> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXVI-full = A1<существующих> A2<списочный> N1<ячейка> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXVII-full = A1<графовой> A2<физический> N1<структура> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXVIII-full = A1<указанных> A2<побочный> N1<эффект> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXIX-full = A1<главных> A2<отличительный> N1<особенность> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXX-full = A1<традиционных> A2<императивный> N1<язык> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXI-full = A1<традиционных> A2<условный> N1<оператор> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXII-full = A1<переменных> A2<поздний> N1<связывание> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXIII-full = A1<рекурсивную> A2<внутренний> N1<структура> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXIV-full = A1<излишних> A2<рекурсивный> N1<вызов> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXV-full = A1<одинаковое> A2<синтаксический> N1<представление> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXVI-full = A1<свободных> A2<переменный> N1<функция> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXVII-full = A1<особых> A2<экзотический> N1<имя> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXVIII-full = A1<единственного> A2<пустой> N1<множество> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMLXXXIX-full = A1<чисто> A2<функциональный> N1<программирование> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMXC-full = A1<лисповские> A2<особый> N1<функция> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMXCI-full = A1<нужный> A2<функциональный> N1<вызов> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMXCII-full = A1<вычислимое> A2<лисповский> N1<выражение> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMXCIII-full = A1<вычислимые> A2<лисповский> N1<выражение> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMXCIV-full = A1<обычной> A2<лисповский> N1<форма> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Term-CMXCV-full = A1<строго> Pa2<фиксировавший> N1<число> <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom> <A1~>N1,Pa2~>N1>
+Term-CMXCVI-full = A1<обычных> Pa2<встроивший> N1<функция> <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom> <A1~>N1,Pa2~>N1>
+Term-CMXCVII-full = A1<особая> Pa2<встроивший> N1<функция> <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom> <A1~>N1,Pa2~>N1>
+Term-CMXCVIII-full = A1<указанным> Pa2<определяющий> N1<выражение> <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom> <A1~>N1,Pa2~>N1>
+Term-CMXCIX-full = A1<ациклический> Pa2<ориентировавший> N1<граф> <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom> <A1~>N1,Pa2~>N1>
+Term-M-full = A1<объемлющей> Pa2<вычисляющий> N1<функция> <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom> <A1~>N1,Pa2~>N1>
+Term-MI-full = A1<выше> Pa2<встроивший> N1<функция> <A1=Pa2=N1> =text> A1 Pa2 #N1<c=nom> <A1~>N1,Pa2~>N1>
+Term-MII-full = Pa1<вложенных> A2<функциональный> N1<вызов> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MIII-full = Pa1<встроенная> A2<лисповский> N1<функция> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MIV-full = Pa1<исключены> A2<внешний> N1<скобка> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MV-full = Pa1<встроенная> A2<особый> N1<функция> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MVI-full = Pa1<встроенные> A2<логический> N1<функция> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MVII-full = Pa1<отложенными> A2<функциональный> N1<вызов> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MVIII-full = Pa1<показано> A2<внутренний> N1<представление> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MIX-full = Pa1<существующей> A2<списочный> N1<структура> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MX-full = Pa1<существующих> A2<списочный> N1<ячейка> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXI-full = Pa1<указанных> A2<побочный> N1<эффект> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXII-full = Pa1<отложенных> A2<рекурсивный> N1<вызов> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXIII-full = Pa1<называемую> A2<хвостовой> N1<рекурсия> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXIV-full = Pa1<получающуюся> A2<квадратичный> N1<зависимость> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXV-full = Pa1<выровненное> A2<правый> N1<поддерево> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXVI-full = Pa1<вложенных> A2<рекурсивный> N1<вызов> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXVII-full = Pa1<встроена> A2<специальный> N1<форма> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXVIII-full = Pa1<называемых> A2<ключевой> N1<параметр> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXIX-full = Pa1<возникшие> A2<лишний> N1<скобка> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXX-full = Pa1<приведенной> A2<низкий> N1<программа> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXXI-full = Pa1<введено> A2<лисповский> N1<выражение> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXXII-full = Pa1<открывающая> A2<круглый> N1<скобка> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXXIII-full = Pa1<исключены> A2<побочный> N1<эффект> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXXIV-full = Pa1<выполненного> A2<функциональный> N1<вызов> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXXV-full = Pa1<называемые> A2<ключевой> N1<слово> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXXVI-full = Pa1<сформирован> A2<рекурсивный> N1<вызов> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Term-MXXVII-full = Pa1<реализована> Pa2<встроивший> N1<функция> <Pa1=Pa2=N1> =text> Pa1 Pa2 #N1<c=nom> <Pa1~>N1,Pa2~>N1>
+Term-MXXVIII-full = A1<старый> N1<язык> N2<программирование,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXIX-full = A1<развитой> N1<диалект> N2<язык,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXX-full = A1<функциональный> N1<парадигма> N2<программирование,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXI-full = A1<удивительный> N1<особенность> N2<лисп,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXII-full = A1<синтаксический> N1<форма> N2<запись,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXIII-full = A1<функциональный> N1<средство> N2<язык,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXIV-full = A1<современный> N1<диалект> N2<лисп,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXV-full = A1<императивный> N1<парадигма> N2<программирование,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXVI-full = A1<современный> N1<диалект> N2<язык,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXVII-full = A1<ключевой> N1<понятие> N2<язык,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXVIII-full = A1<металингвистический> N1<формула> N2<бэкус-наур,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXXXIX-full = A1<верхний> N1<уровень> N2<список,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXL-full = A1<синтаксический> N1<единообразие> N2<программа,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLI-full = A1<базовый> N1<набор> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLII-full = A1<ранний> N1<реализация> N2<лисп,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLIII-full = A1<одновременный> N1<значение> N2<аргумент,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLIV-full = A1<формальный> N1<параметр> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLV-full = A1<обычный> N1<место> N2<имя,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLVI-full = A1<фактический> N1<параметр> N2<лямбда-вызов,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLVII-full = A1<итоговый> N1<значение> N2<лямбда-вызов,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLVIII-full = A1<неоднократный> N1<применение> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXLIX-full = A1<внешний> N1<скобка> N2<лямбда-выражение,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-ML-full = A1<базовый> N1<набор> N2<лисп-функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLI-full = A1<определенный> N1<суперпозиция> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLII-full = A1<нужный> N1<уровень> N2<список-аргумент,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLIII-full = A1<разный> N1<диалект> N2<лисп,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLIV-full = A1<верхний> N1<уровень> N2<список-аргумент,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLV-full = A1<одновременный> N1<подсчет> N2<число,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLVI-full = A1<рекурсивный> N1<вызов> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLVII-full = A1<элементарный> N1<ветвь> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLVIII-full = A1<локальный> N1<связь> N2<переменный-параметр,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLIX-full = A1<верхний> N1<уровень> N2<первое,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLX-full = A1<верхний> N1<уровень> N2<второе,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXI-full = A1<правильный> N1<порядок> N2<вызов,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXII-full = A1<рекурсивный> N1<слияние> N2<хвост,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXIII-full = A1<реальный> N1<присоединение> N2<элемент,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXIV-full = A1<лисповский> N1<структура> N2<данных,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXV-full = A1<точечный> N1<форма> N2<запись,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXVI-full = A1<обратный> N1<правило> N2<преобразование,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXVII-full = A1<списочный> N1<форма> N2<запись,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXVIII-full = A1<внутренний> N1<представление> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXIX-full = A1<списочный> N1<ячейка> N2<структура,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXX-full = A1<физический> N1<равенство> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXI-full = A1<списочный> N1<ячейка> N2<память,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXII-full = A1<последовательный> N1<проверка> N2<содержимое,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXIII-full = A1<независимый> N1<область> N2<память,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXIV-full = A1<специальный> N1<утилита> N2<сборка,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXV-full = A1<функциональный> N1<ядро> N2<язык,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXVI-full = A1<императивный> N1<язык> N2<программирование,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXVII-full = A1<нужный> N1<последовательность> N2<операция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXVIII-full = A1<двухэлементный> N1<список> N2<число,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXIX-full = A1<ранний> N1<диалект> N2<лисп,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXX-full = A1<указанный> N1<стратегия> N2<связывание,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXI-full = A1<традиционный> N1<язык> N2<программирование,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXII-full = A1<типичный> N1<прием> N2<построение,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXIII-full = A1<равный> N1<длина> N2<реверсируемое,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXIV-full = A1<меньший> N1<объем> N2<память,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXV-full = A1<одноуровневый> N1<список> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXVI-full = A1<вышеописанный> N1<техника> N2<переписывание,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXVII-full = A1<сложный> N1<цепочка> N2<вызов,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXVIII-full = A1<разный> N1<ветвь> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MLXXXIX-full = A1<правый> N1<лист> N2<дерево,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXC-full = A1<одновременный> N1<подсчет> N2<сумма,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCI-full = A1<пустой> N1<список> N2<число,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCII-full = A1<рекурсивный> N1<процесс> N2<проход,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCIII-full = A1<рекурсивный> N1<процесс> N2<выравнивание,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCIV-full = A1<равный> N1<число> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCV-full = A1<порядковый> N1<номер> N2<значение,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCVI-full = A1<вычислительный> N1<мощность> N2<язык,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCVII-full = A1<разный> N1<класс> N2<задача,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCVIII-full = A1<одноуровневый> N1<список> N2<число,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MXCIX-full = A1<функциональный> N1<аргумент> N2<функционал,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MC-full = A1<динамический> N1<связывание> N2<имя,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCI-full = A1<обычный> N1<решение> N2<проблема,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCII-full = A1<фактический> N1<аргумент> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCIII-full = A1<компактный> N1<программирование> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCIV-full = A1<внешний> N1<цикл> N2<проход,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCV-full = A1<декартовый> N1<произведенье> N2<элемент-атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCVI-full = A1<выразительный> N1<мощность> N2<функционал,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCVII-full = A1<одноэлементный> N1<список> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCVIII-full = A1<последовательный> N1<рассмотрение> N2<элемент,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCIX-full = A1<дополнительный> N1<иллюстрация> N2<отличие,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCX-full = A1<функциональный> N1<подмножество> N2<язык,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXI-full = A1<удобный> N1<средство> N2<хранение,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXII-full = A1<главный> N1<особенность> N2<список,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXIII-full = A1<успешный> N1<удаление> N2<свойство,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXIV-full = A1<внутренний> N1<представление> N2<список,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXV-full = A1<абсолютный> N1<значение> N2<число,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXVI-full = A1<внутренний> N1<функция> N2<суперпозиция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXVII-full = A1<допустимый> N1<тип> N2<аргумент,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXVIII-full = A1<стандартный> N1<функция> N2<паскаль,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXIX-full = A1<внутренний> N1<имя> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXX-full = A1<связанный> N1<список> N2<свойство,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXI-full = A1<внешний> N1<имя> N2<символ,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXII-full = A1<единоразовый> N1<ввод> N2<текст,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXIII-full = A1<внешний> N1<имя> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXIV-full = A1<итоговый> N1<значение> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXV-full = A1<пустой> N1<тело> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXVI-full = A1<нужный> N1<параметр> N2<список,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXVII-full = A1<формальный> N1<параметр> N2<макрос,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXVIII-full = A1<фактический> N1<параметр> N2<макровызов,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXIX-full = A1<фактический> N1<параметр> N2<макрос,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXX-full = A1<удобный> N1<средство> N2<расширение,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXXI-full = A1<специальный> N1<средство> N2<блокировка,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXXII-full = A1<предварительный> N1<загрузка> N2<файл,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXXIII-full = A1<фактический> N1<параметр> N2<вызов,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXXIV-full = A1<невычисленный> N1<аргумент> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXXV-full = A1<вычислимый> N1<лисповский> N2<выражение,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Term-MCXXXVI-full = Pa1<развивший> N1<диалект> N2<язык,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXXXVII-full = Pa1<фиксировавший> N1<число> N2<аргумент,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXXXVIII-full = Pa1<встроивший> N1<функция> N2<лисп,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXXXIX-full = Pa1<встроивший> N1<лисповский> N2<функция,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXL-full = Pa1<определяющий> N1<выражение> N2<функция,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLI-full = Pa1<вложивший> N1<вызов> N2<функция,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLII-full = Pa1<видевший> N1<связь> N2<имя,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLIII-full = Pa1<определяющий> N1<условие> N2<завершение,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLIV-full = Pa1<обобщающий> N1<понятие> N2<список,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLV-full = Pa1<подавляющий> N1<число> N2<функция,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLVI-full = Pa1<встроивший> N1<функция> N2<диалект,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLVII-full = Pa1<указавший> N1<стратегия> N2<связывание,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLVIII-full = Pa1<фиксировавший> N1<участок> N2<память,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCXLIX-full = Pa1<вычисляющий> N1<глубина> N2<список,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCL-full = Pa1<приведший> N1<путь> N2<решение,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLI-full = Pa1<упорядочивший> N1<список> N2<число,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLII-full = Pa1<встроивший> N1<функция> N2<присваивание,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLIII-full = Pa1<вложивший> N1<функция> N2<суперпозиция,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLIV-full = Pa1<связавший> N1<список> N2<свойство,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLV-full = Pa1<встроивший> N1<функция> N2<ввод,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLVI-full = Pa1<введший> N1<строка> N2<символ,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLVII-full = Pa1<встроивший> N1<функция> N2<вывод,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLVIII-full = Pa1<расширивший> N1<форма> N2<макровызов,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Term-MCLIX-full = N1<год> A1<прошлый> N2<веко,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLX-full = N1<область> A1<искусственный> N2<интеллект,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXI-full = N1<задача> A1<искусственный> N2<интеллект,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXII-full = N1<представитель> A1<функциональный> N2<парадигма,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXIII-full = N1<мощность> A1<языковой> N2<средство,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXIV-full = N1<принцип> A1<функциональный> N2<парадигма,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXV-full = N1<построение> A1<рекурсивный> N2<программа,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXVI-full = N1<ряд> A1<важный> N2<особенность,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXVII-full = N1<принцип> A1<строгий> N2<функциональность,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXVIII-full = N1<давление> A1<императивный> N2<парадигма,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXIX-full = N1<запись> A1<символьный> N2<атом,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXX-full = N1<атом> A1<базовый> N2<лисп,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXI-full = N1<константа> A1<составной> N2<тип,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXII-full = N1<запись> A1<пустой> N2<список,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXIII-full = N1<имя> A1<формальный> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXIV-full = N1<функция> A1<базовый> N2<набор,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXV-full = N1<аргумент> A1<обычный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXVI-full = N1<ветвь> A1<условный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXVII-full = N1<значение> A1<условный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXVIII-full = N1<вложенность> A1<функциональный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXIX-full = N1<описание> A1<вычислимый> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXX-full = N1<описание> A1<обычный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXI-full = N1<выша> A1<безымянный> N2<функция-дизъюнкция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXII-full = N1<связывание> A1<формальный> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXIII-full = N1<передача> A1<фактический> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXIV-full = N1<построение> A1<рекурсивный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXV-full = N1<вычислимости> A1<лисповский> N2<список,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXVI-full = N1<выша> A1<базовый> N2<набор,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXVII-full = N1<основа> A1<базовый> N2<набор,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXVIII-full = N1<элемент> A1<верхний> N2<уровень,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCLXXXIX-full = N1<деление> A1<целый> N2<число,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXC-full = N1<программирование> A1<рекурсивный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCI-full = N1<длина> A1<пустой> N2<список,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCII-full = N1<ветвь> A1<рекурсивный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCIII-full = N1<выполнение> A1<рекурсивный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCIV-full = N1<процесс> A1<рекурсивный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCV-full = N1<поиск> A1<нужный> N2<подсписок,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCVI-full = N1<программирование> A1<рекурсивный> N2<ветвь,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCVII-full = N1<понятие> A1<лисповский> N2<список,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCVIII-full = N1<вложение> A1<точечный> N2<пара,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCXCIX-full = N1<список> A1<верхний> N2<уровень,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCC-full = N1<преимущество> A1<точечный> N2<запись,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCI-full = N1<таблица> A1<символьный> N2<атом,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCII-full = N1<роль> A1<формальный> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCIII-full = N1<исключение> A1<внешний> N2<имя,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCIV-full = N1<представление> A1<символьный> N2<атом,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCV-full = N1<компьютер> A1<списочный> N2<структура,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCVI-full = N1<указатель> A1<списочный> N2<структура,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCVII-full = N1<число> A1<списочный> N2<ячейка,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCVIII-full = N1<число> A1<точечный> N2<пара,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCIX-full = N1<представление> A1<списочный> N2<структура,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCX-full = N1<термин> A1<внутренний> N2<представление,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXI-full = N1<указатель> A1<лисповский> N2<объект,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXII-full = N1<поль> A1<списочный> N2<ячейка,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXIII-full = N1<конфигурация> A1<списочный> N2<ячейка,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXIV-full = N1<копия> A1<верхний> N2<уровень,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXV-full = N1<свойство> A1<функциональный> N2<программирование,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXVI-full = N1<отсутствие> A1<побочный> N2<эффект,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXVII-full = N1<уровень> A1<списочный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXVIII-full = N1<решение> A1<указанный> N2<проблема,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXIX-full = N1<особенность> A1<функциональный> N2<программирование,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXX-full = N1<функция> A1<побочный> N2<эффект,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXI-full = N1<главное> A1<отличительный> N2<особенность,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXII-full = N1<особенность> A1<функциональный> N2<программа,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXIII-full = N1<деление> A1<комплексный> N2<число,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXIV-full = N1<концепция> A1<поздний> N2<связывание,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXV-full = N1<проверка> A1<нужный> N2<тип,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXVI-full = N1<интерпретатор> A1<функциональный> N2<язык,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXVII-full = N1<компиляция> A1<функциональный> N2<программа,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXVIII-full = N1<вызов> A1<рекурсивный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXIX-full = N1<длина> A1<реверсируемый> N2<список,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXX-full = N1<класс> A1<рекурсивный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXI-full = N1<оптимизация> A1<хвостовой> N2<рекурсия,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXII-full = N1<выполнение> A1<рекурсивный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXIII-full = N1<аргумент> A1<рекурсивный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXIV-full = N1<ветвь> A1<бинарный> N2<дерево,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXV-full = N1<запись> A1<логический> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXVI-full = N1<преобразование> A1<логический> N2<формула,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXVII-full = N1<перевод> A1<логический> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXVIII-full = N1<перевод> A1<логический> N2<операнд,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXXXIX-full = N1<преобразование> A1<логический> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXL-full = N1<лист> A1<бинарный> N2<дерево,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLI-full = N1<термин> A1<бинарный> N2<дерево,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLII-full = N1<прием> A1<функциональный> N2<программирование,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLIII-full = N1<задача> A1<одновременный> N2<подсчет,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLIV-full = N1<дублирование> A1<рекурсивный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLV-full = N1<число> A1<рекурсивный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLVI-full = N1<создание> A1<точечный> N2<пара,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLVII-full = N1<расщепление> A1<точечный> N2<пара,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLVIII-full = N1<выравнивание> A1<левый> N2<поддерево,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXLIX-full = N1<порядок> A1<рекурсивный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCL-full = N1<список> A1<точечный> N2<пара,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLI-full = N1<произведение> A1<натуральный> N2<число,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLII-full = N1<рекурсия> A1<высокий> N2<порядок,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLIII-full = N1<структура> A1<списочный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLIV-full = N1<элемент> A1<списочный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLV-full = N1<атом> A1<списочный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLVI-full = N1<функция> A1<высокий> N2<порядок,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLVII-full = N1<решение> A1<разный> N2<класс,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLVIII-full = N1<список> A1<фактический> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLIX-full = N1<квотирование> A1<функциональный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLX-full = N1<замыкание> A1<функциональный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXI-full = N1<качество> A1<функциональный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXII-full = N1<тело> A1<безымянный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXIII-full = N1<принцип> A1<динамический> N2<связывание,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXIV-full = N1<пополнение> A1<вычислительный> N2<контекст,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXV-full = N1<проблема> A1<функциональный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXVI-full = N1<вызов> A1<функциональный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXVII-full = N1<запись> A1<функциональный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXVIII-full = N1<проверка> A1<нужный> N2<свойство,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXIX-full = N1<число> A1<сложный> N2<операция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXX-full = N1<ассоциативность> A1<бинарный> N2<операция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXI-full = N1<замена> A1<функциональный> N2<блокировка,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXII-full = N1<имя> A1<ключевой> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXIII-full = N1<техника> A1<рекурсивный> N2<программирование,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXIV-full = N1<произведение> A1<одноэлементный> N2<множество,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXV-full = N1<соединение> A1<промежуточный> N2<список-результат,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXVI-full = N1<основа> A1<аналогичный> N2<рассужденье,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXVII-full = N1<выражение> A1<безымянный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXVIII-full = N1<решение> A1<практический> N2<задача,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXIX-full = N1<суперпозиция> A1<стандартный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXX-full = N1<атом-имя> A1<паскалевский> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXI-full = N1<выражение-суперпозиция> A1<паскалевский> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXII-full = N1<добавление> A1<логический> N2<тип,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXIII-full = N1<построение> A1<внутренний> N2<имя,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXIV-full = N1<имя> A1<символьный> N2<атом,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXV-full = N1<знак> A1<вертикальный> N2<черта,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXVI-full = N1<получение> A1<внешний> N2<имя,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXVII-full = N1<константа> A1<символьный> N2<тип,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXVIII-full = N1<функция> A1<посимвольный> N2<ввод,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCLXXXIX-full = N1<символ> A1<вертикальный> N2<черта,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXC-full = N1<список> A1<односимвольный> N2<атом,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCI-full = N1<вывод> A1<символьный> N2<атом,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCII-full = N1<последовательность> A1<вычислимый> N2<лисповский,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCIII-full = N1<запись> A1<управляющий> N2<конструкция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCIV-full = N1<значение> A1<фактический> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCV-full = N1<выражение> A1<обычный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCVI-full = N1<число> A1<фактический> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCVII-full = N1<выполнение> A1<функциональный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCVIII-full = N1<элемент> A1<функциональный> N2<вызов,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCXCIX-full = N1<список> A1<формальный> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCC-full = N1<связь> A1<формальный> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCCI-full = N1<вызов> A1<обычный> N2<функция,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCCII-full = N1<построение> A1<вычислимый> N2<форма,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCCIII-full = N1<список> A1<невычисленный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCCIV-full = N1<функция-аналог> A1<широкоупотребительный> N2<оператор,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Term-MCCCV-full = N1<имя> Pa1<вызывающий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCVI-full = N1<параметризация> Pa1<вычисляющий> N2<выражение,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCVII-full = N1<имя> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCVIII-full = N1<имя> Pa1<определяющий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCIX-full = N1<набор> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCX-full = N1<ряд> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXI-full = N1<выполнение> Pa1<проверяющий> N2<условие,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXII-full = N1<набор> Pa1<встроивший> N2<лисп-функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXIII-full = N1<текст> Pa1<интерпретирующий> N2<программа,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXIV-full = N1<пар> Pa1<представляющий> N2<выражение,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXV-full = N1<ячейка> Pa1<сравнивающий> N2<список,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXVI-full = N1<решение> Pa1<указавший> N2<проблема,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXVII-full = N1<набор> Pa1<запрограммировавший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXVIII-full = N1<база> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXIX-full = N1<тело> Pa1<вычисляющий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXX-full = N1<построение> Pa1<требующий> N2<список,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXI-full = N1<построение> Pa1<перевернувший> N2<список,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXII-full = N1<подсоединение> Pa1<сохранивший> N2<элемент,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXIII-full = N1<стек> Pa1<вложивший> N2<вызов,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXIV-full = N1<значение> Pa1<преобразовавший> N2<формула,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXV-full = N1<тело> Pa1<определяющий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXVI-full = N1<вызов> Pa1<определяющий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXVII-full = N1<роль> Pa1<накапливающий> N2<параметр,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXVIII-full = N1<введение> Pa1<накапливающий> N2<параметр,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXIX-full = N1<значение> Pa1<накапливающий> N2<параметр,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXX-full = N1<переписывание> Pa1<вычисляющий> N2<выражение,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXI-full = N1<параметр> Pa1<решающий> N2<задача,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXII-full = N1<элемент> Pa1<вычисляющий> N2<список,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXIII-full = N1<набор> Pa1<встроивший> N2<функционал,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXIV-full = N1<группа> Pa1<отображающий> N2<функционал,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXV-full = N1<аргумент> Pa1<применяющий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXVI-full = N1<набор> Pa1<зафиксировавший> N2<связь,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXVII-full = N1<аргумент> Pa1<встроивший> N2<функционал,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXVIII-full = N1<вызов> Pa1<встроивший> N2<функционал,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXXXIX-full = N1<операнд> Pa1<редуцирующий> N2<операция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXL-full = N1<тело> Pa1<возвращающий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLI-full = N1<средство> Pa1<встроивший> N2<замыкание,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLII-full = N1<аргумент> Pa1<давший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLIII-full = N1<аргумент> Pa1<анализирующий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLIV-full = N1<преобразование> Pa1<введший> N2<выражение,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLV-full = N1<выша> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLVI-full = N1<запись> Pa1<управляющий> N2<конструкция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLVII-full = N1<вывод> Pa1<поясняющий> N2<строка,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLVIII-full = N1<имя> Pa1<применяющий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCXLIX-full = N1<параметр> Pa1<определяющий> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCL-full = N1<получение> Pa1<расширивший> N2<форма,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCLI-full = N1<макроопределение> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Term-MCCCLII-full = N1<год> N2<прошлое,c=gen> N3<век,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLIII-full = N1<структура> N2<данных,c=gen> N3<язык,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLIV-full = N1<пика> N2<популярность,c=gen> N3<лисп,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLVI-full = N1<первое> N2<реализация,c=gen> N3<лисп,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLVII-full = N1<база> N2<концепция,c=gen> N3<лисп,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLIX-full = N1<язык> N2<программирование,c=gen> N3<задача,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLX-full = N1<форма> N2<запись,c=gen> N3<программа,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXI-full = N1<вопрос> N2<построение,c=gen> N3<функционал,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXII-full = N1<диалект> N2<лисп,c=gen> N3<конструкция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXIII-full = N1<полнота> N2<картина,c=gen> N3<язык,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXIV-full = N1<основа> N2<язык,c=gen> N3<лисп,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXV-full = N1<качество> N2<разделитель,c=gen> N3<элемент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXVI-full = N1<разделитель> N2<элемент,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXVII-full = N1<уровень> N2<вложенность,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXVIII-full = N1<уровень> N2<элемент,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXIX-full = N1<число> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXX-full = N1<вычислимость> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXI-full = N1<ряд> N2<диалект,c=gen> N3<лисп,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXII-full = N1<проверка> N2<равенство,c=gen> N3<число,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXIII-full = N1<качество> N2<значение,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXIV-full = N1<число> N2<параметр,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXV-full = N1<место> N2<имя,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXVI-full = N1<качество> N2<имя,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXVII-full = N1<форма> N2<запись,c=gen> N3<лямбда-вызов,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXVIII-full = N1<вычислимости> N2<лисповский,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXIX-full = N1<элемент> N2<список-вызов,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXX-full = N1<деление> N2<целое,c=gen> N3<число,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXI-full = N1<равенство> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXII-full = N1<условие> N2<завершение,c=gen> N3<рекурсия,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXIII-full = N1<исчерпание> N2<элемент,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXIV-full = N1<вызов> N2<функция,c=gen> N3<сложение,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXV-full = N1<уровень> N2<первое,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXVI-full = N1<уровень> N2<второе,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXVII-full = N1<порядок> N2<вызов,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXVIII-full = N1<присоединение> N2<первое,c=gen> N3<элемент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCLXXXIX-full = N1<элемент> N2<первое,c=gen> N3<список-аргумент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXC-full = N1<слияние> N2<хвост,c=gen> N3<первое,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCI-full = N1<хвост> N2<первое,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCII-full = N1<присоединение> N2<элемент,c=gen> N3<первое,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCIII-full = N1<элемент> N2<первое,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCIV-full = N1<понятие> N2<лисповский,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCV-full = N1<обобщение> N2<понятие,c=gen> N3<атом,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCVI-full = N1<список> N2<свойство,c=gen> N3<атом,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCVII-full = N1<выполнение> N2<вызов,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCVIII-full = N1<позиция> N2<имя,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCCCXCIX-full = N1<позиция> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCD-full = N1<элемент> N2<таблица,c=gen> N3<атом,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDI-full = N1<значение> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDII-full = N1<указатель> N2<лисповский,c=gen> N3<объект,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDIII-full = N1<первое> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDIV-full = N1<уровень> N2<первое,c=gen> N3<список-аргумент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDV-full = N1<подсоединение> N2<элемент,c=gen> N3<первое,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDVI-full = N1<путь> N2<сравнение,c=gen> N3<указатель,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDVII-full = N1<утилит> N2<сборка,c=gen> N3<мусор,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDIX-full = N1<естественность> N2<расширение,c=gen> N3<язык,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDX-full = N1<справа> N2<первое,c=gen> N3<элемент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXI-full = N1<длина> N2<реверсируемое,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXII-full = N1<сравнение> N2<элемент,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXIII-full = N1<ветвь> N2<тело,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXIV-full = N1<первое> N2<элемент,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXV-full = N1<размещение> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXVI-full = N1<программирование> N2<подсчет,c=gen> N3<атом,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXVII-full = N1<завершение> N2<подсчет,c=gen> N3<сумма,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXVIII-full = N1<число> N2<вызов,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXIX-full = N1<отщепление> N2<элемент,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXX-full = N1<задача> N2<выравнивание,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXI-full = N1<выравнивание> N2<левый,c=gen> N3<поддерево,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXII-full = N1<рекурсия> N2<первое,c=gen> N3<порядок,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXIII-full = N1<проверка> N2<равенство,c=gen> N3<множество,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXIV-full = N1<путь> N2<отбрасывание,c=gen> N3<первое,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXV-full = N1<отбрасывание> N2<первое,c=gen> N3<элемент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXVI-full = N1<запись> N2<определенье,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXVII-full = N1<решение> N2<проблема,c=gen> N3<коллизия,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXVIII-full = N1<проблема> N2<коллизия,c=gen> N3<имя,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXIX-full = N1<место> N2<вызов,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXX-full = N1<место> N2<запись,c=gen> N3<лямбда-выражение,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXI-full = N1<атомарность> N2<первое,c=gen> N3<элемент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXII-full = N1<ряд> N2<диалект,c=gen> N3<язык,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXIII-full = N1<качество> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXIV-full = N1<средство> N2<хранение,c=gen> N3<информация,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXV-full = N1<особенность> N2<список,c=gen> N3<свойство,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXVI-full = N1<удаление> N2<свойство,c=gen> N3<атом,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXVII-full = N1<представление> N2<список,c=gen> N3<свойство,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXVIII-full = N1<задача> N2<проверка,c=gen> N3<правильность,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXXXIX-full = N1<проверка> N2<правильность,c=gen> N3<выражение,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXL-full = N1<правильность> N2<выражение,c=gen> N3<язык,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLI-full = N1<правильность> N2<тип,c=gen> N3<аргумент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLII-full = N1<тип> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLIII-full = N1<тип> N2<значение,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLIV-full = N1<список> N2<свойство,c=gen> N3<атом-имя,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLV-full = N1<свойство> N2<атом-имя,c=gen> N3<паскалевский,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLVI-full = N1<атом-имя> N2<паскалевский,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLVII-full = N1<выражение-суперпозиция> N2<паскалевский,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLVIII-full = N1<проверка> N2<тип,c=gen> N3<аргумент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDXLIX-full = N1<тип> N2<выражение-суперпозиция,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDL-full = N1<расширение> N2<набор,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLI-full = N1<функция> N2<вывод,c=gen> N3<лисповский,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLII-full = N1<запись> N2<управляющий,c=gen> N3<конструкция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLIII-full = N1<вызов> N2<функция,c=gen> N3<ввод,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLIV-full = N1<тело> N2<функция,c=gen> N3<выражение,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLV-full = N1<выполнение> N2<тело,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLVI-full = N1<условие> N2<продолжение,c=gen> N3<рекурсия,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLVII-full = N1<отличие> N2<вызов,c=gen> N3<макрос,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLVIII-full = N1<контекст> N2<вызов,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLIX-full = N1<средство> N2<расширение,c=gen> N3<язык,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLX-full = N1<упрощение> N2<описание,c=gen> N3<макрос,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Term-MCDLXI-full = N1<выражение> N2<тело,c=gen> N3<цикл,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>

@@ -1,0 +1,12 @@
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\CheckPatterns\bin\Debug\CheckPatterns.exe.config
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\CheckPatterns\bin\Debug\CheckPatterns.exe
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\CheckPatterns\bin\Debug\CheckPatterns.pdb
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\CheckPatterns\obj\Debug\CheckPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\CheckPatterns\obj\Debug\CheckPatterns.exe
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\CheckPatterns\obj\Debug\CheckPatterns.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\CheckPatterns\bin\Debug\CheckPatterns.exe.config
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\CheckPatterns\obj\Debug\CheckPatterns.exe
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\CheckPatterns\obj\Debug\CheckPatterns.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\CheckPatterns\bin\Debug\CheckPatterns.exe
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\CheckPatterns\bin\Debug\CheckPatterns.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\CheckPatterns\obj\Debug\CheckPatterns.csprojResolveAssemblyReference.cache

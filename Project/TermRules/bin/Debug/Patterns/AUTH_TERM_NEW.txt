@@ -1,0 +1,370 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1
+
+NE = "не" =text> "не"
+Del = "," =text> "," | "-" =text> "-"
+
+PMSP = N1 (N1) =text> N1 
+PMSP = A1 N1 <A1=N1> (N1) =text> A1 N1 
+PMSP = Pa1 N1 <Pa1=N1> (N1) =text> Pa1 N1 
+PMSP = N1 N2<c=gen> (N1) =text> N1 N2<c=gen>
+
+WD = W1 =text> W1 | Del1 =text> Del1
+SG = "," [Pr1] Pn1<который> {WD1}<0,4> "," (Pn1) =text> "," Pr1 Pn1 WD1 ","
+PG = "," [NE1] Pa1 {WD1}<0,4> "," (Pa1) =text> "," NE1 Pa1 WD1 ","
+NMSP = N1 (N1) =text> N1 | N1 N2<c=gen> (N1) =text> N1 N2<c=gen>
+NMSPTWO = N1 (N1) =text> "["N1"]" ";" | N1 N2<c=gen> (N1) =text> "["N1"]" N2<c=gen> ";"
+
+MSP = N1 (N1) =text> N1 
+MSP = N1 N2<c=gen> (N1) =text> N1 N2<c=gen> 
+MSP = A1 N1 <A1=N1> (N1) =text> A1 N1 <A1~>N1> 
+MSP = Pa1 N1 <Pa1=N1> (N1) =text> Pa1 N1 <Pa1~>N1> 
+MSP = A1 A2 N1 <A1=A2=N1> (N1) =text> A1 A2 N1 <A1~>N1, A2~>N1> 
+MSP = A1 Pa2 N1 <A1=N1> <Pa2=N1> (N1) =text> A1 Pa2 N1 <A1~>N1, Pa2~>N1>
+MSP = Pa1 A2 N1 <Pa1=N1> <A2=N1> (N1) =text> Pa1 A2 N1 <Pa1~>N1, A2~>N1>
+MSP = Pa1 Pa2 N1 <Pa1=N1> <Pa2=N1> (N1) =text> Pa1 Pa2 N1 <Pa1~>N1, Pa2~>N1>
+MSP = A1 N1 N2<c=gen> <A1=N1> (N1) =text> A1 N1 <A1~>N1> N2<c=gen>
+MSP = Pa1 N1 N2<c=gen> <Pa1=N1> (N1) =text> Pa1 N1<Pa1~>N1> N2<c=gen>
+MSP = N1 A1 N2<c=gen> <A1=N2> (N1) =text> N1 A1 N2<c=gen> <A1~>N2> 
+MSP = N1 Pa1 N2<c=gen> <Pa1=N2> (N1) =text> N1 Pa1 N2<c=gen> <Pa1~>N2>
+MSP = N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2<c=gen> N3<c=gen>
+
+Prep = Pr1 MSP1 (MSP1) =text> Pr1 MSP1 <Pr1~>MSP1>
+AXXX = ',' A1 {W}<0,4> (A1) =text> ',' A1 W
+PAXXX = ',' Pa1 {W}<0,4> (Pa1) =text> ',' Pa1 W
+
+Dfn = MSP1 (MSP1) =text> MSP1 
+Dfn = 'то' =text> 'то' 
+Dfn = 'это' =text> 'это' 
+Dfn = Pn1<любой> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> 
+Dfn = Pn1<некий> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> 
+Dfn = Pn1<такой> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> 
+Dfn = Pn1<всякий> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> 
+Dfn = Pn1<это> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> 
+Dfn = MSP1 PG1 <MSP1=PG1> (MSP1) =text> MSP1 PG1 <MSP1~>PG1> 
+Dfn = MSP1 SG1 <MSP1=SG1> (MSP1) =text> MSP1 SG1 <MSP1~>SG1>
+Df = MSP1 MSP2<c=gen> (MSP1) =text> MSP1 MSP2<c=gen>
+DfnIns = MSP1 Pr1<с> N1<c=ins> (MSP1) =text> MSP1 Pr1 N1<c=ins> | MSP1 Pr1<без> N1<c=gen> (MSP1) =text> MSP1 Pr1 N1<c=gen>
+DfnXXX = Dfn1 (Dfn1) =text> Dfn1 | Dfn1 AXXX1 (Dfn1) =text> Dfn1 AXXX1 | Dfn1 PAXXX1 (Dfn1) =text> Dfn1 PAXXX1
+
+TermSyn = MSP1 ["\("MSP2"\)"] <MSP1.c=MSP2.c> (MSP1) =text> MSP1
+TermAASyn = A1 ["\("A2"\)"]  <A1=A2> (A1) =text> A1
+TermPAPASyn = Pa1 ["\("Pa2"\)"]  <Pa1=Pa2> (Pa1) =text> Pa1
+TermAPASyn = A1 ["\("Pa2"\)"]  <A1=Pa2> (A1) =text> A1
+TermPAASyn = Pa1 ["\("A2"\)"]  <Pa1=A2> (Pa1) =text> Pa1
+TermN = NMSP1 [PG1] <NMSP1=PG1> (NMSP1) =text> NMSP1
+Term = TermSyn1 [[","] "или" ["просто"] TermSyn2] <TermSyn1.c=TermSyn2.c> (TermSyn1) =text> TermSyn1
+
+TermA = TermAASyn1 [[","] "или" TermAASyn2 [","]] <TermAASyn1=TermAASyn2> (TermAASyn1) =text> TermAASyn1
+TermA = TermAASyn1 [[","] "или" TermPAPASyn2 [","]] <TermAASyn1=TermPAPASyn2> (TermAASyn1) =text> TermAASyn1
+TermA = TermAASyn1 [[","] "или" TermAPASyn2 [","]] <TermAASyn1=TermAPASyn2> (TermAASyn1) =text> TermAASyn1
+TermA = TermAASyn1 [[","] "или" TermPAASyn2 [","]] <TermAASyn1=TermPAASyn2> (TermAASyn1) =text> TermAASyn1
+
+TermA = TermPAPASyn1 [[","] "или" TermAASyn2 [","]] <TermPAPASyn1=TermAASyn2> (TermPAPASyn1) =text> TermPAPASyn1
+TermA = TermPAPASyn1 [[","] "или" TermPAPASyn2 [","]] <TermPAPASyn1=TermPAPASyn2> (TermPAPASyn1) =text> TermPAPASyn1
+TermA = TermPAPASyn1 [[","] "или" TermAPASyn2 [","]] <TermPAPASyn1=TermAPASyn2> (TermPAPASyn1) =text> TermPAPASyn1
+TermA = TermPAPASyn1 [[","] "или" TermPAASyn2 [","]] <TermPAPASyn1=TermPAASyn2> (TermPAPASyn1) =text> TermPAPASyn1
+
+TermA = TermAPASyn1 [[","] "или" TermAASyn2 [","]] <TermAPASyn1=TermAASyn2> (TermAPASyn1) =text> TermAPASyn1
+TermA = TermAPASyn1 [[","] "или" TermPAPASyn2 [","]] <TermAPASyn1=TermPAPASyn2> (TermAPASyn1) =text> TermAPASyn1
+TermA = TermAPASyn1 [[","] "или" TermAPASyn2 [","]] <TermAPASyn1=TermAPASyn2> (TermAPASyn1) =text> TermAPASyn1
+TermA = TermAPASyn1 [[","] "или" TermPAASyn2 [","]] <TermAPASyn1=TermPAASyn2> (TermAPASyn1) =text> TermAPASyn1
+
+TermA = TermPAASyn1 [[","] "или" TermAASyn2 [","]] <TermPAASyn1=TermAASyn2> (TermPAASyn1) =text> TermPAASyn1
+TermA = TermPAASyn1 [[","] "или" TermPAPASyn2 [","]] <TermPAASyn1=TermPAPASyn2> (TermPAASyn1) =text> TermPAASyn1
+TermA = TermPAASyn1 [[","] "или" TermAPASyn2 [","]] <TermPAASyn1=TermAPASyn2> (TermPAASyn1) =text> TermPAASyn1
+TermA = TermPAASyn1 [[","] "или" TermPAASyn2 [","]] <TermPAASyn1=TermPAASyn2> (TermPAASyn1) =text> TermPAASyn1
+
+NPNMSPTWO = N1 (N1) =text> "N1[" #N1 "] =text] #N1"
+NPNMSPTWO = N1 N2<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 "] =text] #N1 N2[c=gen]" 
+
+NPMSP = N1 (N1) =text> "N1[" #N1 "] (N1) =text] #N1"
+NPMSP = N1 N2<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] (N1) =text] #N1 N2[c=gen]" 
+NPMSP = A1 N1 <A1=N1> (N1) =text> "A1[" #A1 "] N1[" #N1 "] [A1=N1] (N1) =text] A1 #N1 [A1~]N1]" 
+NPMSP = Pa1 N1 <Pa1=N1> (N1) =text> "Pa1[" #Pa1 "] N1[" #N1 "] [Pa1=N1] (N1) =text] Pa1 #N1 [Pa1~]N1]"
+NPMSP = A1 A2 N1 <A1=A2=N1> (N1) =text>"A1[" #A1 "] A2[" #A2 "] N1[" #N1 "] [A1=A2=N1] (N1) =text] A1 A2 N1 [A1~]N1, A2~]N1]" 
+NPMSP = A1 Pa2 N1 <A1=N1> <Pa2=N1> (N1) =text>"A1[" #A1 "] Pa2[" #Pa2 "] N1[" #N1 "] [A1=N1] [Pa2=N1] (N1) =text] A1 Pa2 N1 [A1~]N1, Pa2~]N1]" 
+NPMSP = Pa1 A2 N1 <Pa1=N1> <A2=N1> (N1) =text>"Pa1[" #Pa1 "] A2[" #A2 "] N1[" #N1 "] [Pa1=N1] [A2=N1] (N1) =text] AP1 A2 N1 [Pa1~]N1, A2~]N1]" 
+NPMSP = Pa1 Pa2 N1 <Pa1=Pa2=N1> (N1) =text>"Pa1[" #Pa1 "] Pa2[" #Pa2 "] N1[" #N1 "] [Pa1=Pa2=N1] (N1) =text] Pa1 Pa2 N1 [Pa1~]N1, Pa2~]N1]" 
+NPMSP = A1 N1 N2<c=gen> <A1=N1> (N1) =text> "A1[" #A1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1=N1] (N1) =text] A1 N1[A1~]N1] N2[c=gen]"
+NPMSP = Pa1 N1 N2<c=gen> <Pa1=N1> (N1) =text> "Pa1[" #Pa1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1=N1] (N1) =text] Pa1 N1[Pa1~]N1] N2[c=gen]"
+NPMSP = N1 A1 N2<c=gen> <A1=N2> (N1) =text> "N1[" #N1 "] A1[" #A1 "] N2[" #N2 ",c=gen] [A1=N2] (N1) =text] N1 A1 N2[c=gen][A1~]N2]" 
+NPMSP = N1 Pa1 N2<c=gen> <Pa1=N2> (N1) =text> "N1[" #N1 "] Pa1[" #Pa1 "] N2[" #N2 ",c=gen] [Pa1=N2] (N1) =text] N1 Pa1 N2[c=gen][Pa1~]N2]" 
+NPMSP = N1 N2<c=gen> N3<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] N3[" #N3 ",c=gen] (N1) =text] N1 N2[c=gen] N3[c=gen]"
+NPNMSP = N1 (N1) =text> "N1[" #N1 "] =text] #N1"  
+NPNMSP = N1 N2<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 "] =text] #N1 N2[c=gen]" 
+
+NPTermASyn = A1 ["\("A2"\)"]  <A1=A2> (A1) =text> A1
+NPTermASyn = A1 ["\("Pa2"\)"]  <A1=Pa2> (A1) =text> A1
+NPTermASyn = Pa1 ["\("A2"\)"]  <Pa1=A2> (Pa1) =text> Pa1
+NPTermASyn = Pa1 ["\("Pa2"\)"]  <Pa1=Pa2> (Pa1) =text> Pa1
+NPTermSyn = NPMSP1 ["\("NPMSP2"\)"] <NPMSP1.c=NPMSP2.c> (NPMSP1) =text> NPMSP1
+NPTerm = NPTermSyn1 [[","] "или" ["просто"] NPTermSyn2] <NPTermSyn1.c=NPTermSyn2.c> (NPTermSyn1) =text> NPTermSyn1
+
+NPTermN = NPNMSP1 [PG1] <NPNMSP1=PG1> (NPNMSP1) =text> NPNMSP1
+NPTermA = NPTermASyn1 [[","] "или" NPTermASyn2 [","]] <NPTermASyn1=NPTermASyn2> (NPTermASyn1) =text> NPTermASyn1
+
+DefA = Term1<c=nom> '-' ['это'] Dfn1<c=nom> =text> #Term1
+NPDefA = NPTerm1 <c=nom> '-' ['это'] Dfn1<c=nom> =text> #NPTerm1 
+
+DefB = 'под' Term1<c=ins> [Prep1<c=prep>] ['обычно' | 'здесь'] V1<пониматься, t=pres, p=3, m=ind> Dfn1<c=nom> <Dfn1.n=V1.n> =text> #Term1
+NPDefB = 'под' NPTerm1 <c=ins> [Prep1<c=prep>] ['обычно' | 'здесь'] V1<пониматься, t=pres, p=3, m=ind> Dfn1<c=nom> <Dfn1.n=V1.n> =text> #NPTerm1 
+
+DefC = Term1<c=nom> '-' ['это'] Df1<c=nom> =text> #Term1
+NPDefC = NPTerm1 <c=nom> '-' ['это'] Df1<c=nom> =text> #NPTerm1
+
+DefD = Term1<c=ins> 'мы' 'называем' DfnIns1<c=acc> =text> #Term1
+NPDefD = NPTerm1 <c=ins> 'мы' 'называем' DfnIns1<c=acc> =text> #NPTerm1
+
+DefE = 'под' Term1<c=ins> 'мы' 'понимаем' DfnXXX1<c=acc> =text> #Term1
+NPDefE = 'под' NPTerm1 <c=ins> 'мы' 'понимаем' DfnXXX1<c=acc> =text> #NPTerm1
+
+DefF = Term1<c=ins> "мы" "называем" Dfn1<c=acc> =text> #Term1
+NPDefF = NPTerm1 <c=ins> "мы" "называем" Dfn1<c=acc> =text> #NPTerm1
+
+DefG = Dfn1 "," Pn1<который> "мы" ["условно"] "называем" Term1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a>  =text> #Term1
+NPDefG = Dfn1 "," Pn1<который> "мы" ["условно"] "называем" NPTerm1 <c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a>  =text> #NPTerm1 
+
+DefH = Term1<c=ins> "будем" "называть" Dfn1<c=acc>  =text> #Term1
+NPDefH = NPTerm1 <c=ins> "будем" "называть" Dfn1<c=acc>  =text> #NPTerm1
+
+DefI = Dfn1<c=acc> ["мы"] "будем" "называть" Term1<c=ins>  =text> #Term1
+NPDefI = Dfn1<c=acc> ["мы"] "будем" "называть" NPTerm1<c=ins>  =text> #NPTerm1
+
+DefJ = Dfn1 "," Pn1<который> ["далее"] "будем" ["условно"] "называть" Term1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a>  =text> #Term1
+NPDefJ = Dfn1 "," Pn1<который> ["далее"] "будем" ["условно"] "называть" NPTerm1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a>  =text> #NPTerm1 
+
+DefK = Dfn1<c=acc> "можно" "называть" Term1<c=ins>  =text> #Term1
+NPDefK = Dfn1<c=acc> "можно" "называть" NPTerm1<c=ins>  =text> #NPTerm1
+
+DefL = Dfn1<c=acc> ["кратко"] "назовем" Term1<c=ins> =text> #Term1
+NPDefL = Dfn1<c=acc> ["кратко"] "назовем" NPTerm1<c=ins> =text> #NPTerm1 
+
+DefM = "назовем" Term1<c=ins> Dfn1<c=acc>  =text> #Term1
+NPDefM = "назовем" NPTerm1 <c=ins> Dfn1<c=acc>  =text> #NPTerm1 
+
+DefN = "назовем" Dfn1<c=acc> Term1<c=ins> =text> #Term1
+NPDefN = "назовем" Dfn1<c=acc> NPTerm1<c=ins> =text> #NPTerm1 
+
+DefO = "назовем" Dfn1<c=acc> Term1<c=nom> =text> #Term1
+NPDefO = "назовем" Dfn1<c=acc> NPTerm1<c=nom> =text> #NPTerm1
+
+DefP = Dfn1<c=acc> "," Pn1<который> "назовем" Term1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a> =text> #Term1
+NPDefP = Dfn1<c=acc> "," Pn1<который> "назовем" NPTerm1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a> =text> #NPTerm1 
+
+DefR = Dfn1<c=acc> "можно" "назвать" Term1<c=ins> =text> #Term1
+NPDefR = Dfn1<c=acc> "можно" "назвать" NPTerm1<c=ins> =text> #NPTerm1 
+
+DefS = Dfn1 "," Pn1<который> "можно" ["было" "бы"] "назвать" ["также"] Term1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a> =text> #Term1
+NPDefS = Dfn1 "," Pn1<который> "можно" ["было" "бы"] "назвать" ["также"] NPTerm1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a> =text> #NPTerm1 
+
+DefT = Dfn1<c=acc> {"удобно"|"разумно"}<1,1> "назвать" Term1<c=ins> =text> #Term1
+NPDefT = Dfn1<c=acc> {"удобно"|"разумно"}<1,1> "назвать" NPTerm1<c=ins> =text> #NPTerm1 
+
+DefU = "может" "быть" Pa1<назвать, f=short> Term1<c=ins> <Pa1.n=Term1.n> =text> #Term1
+NPDefU = "может" "быть" Pa1<назвать, f=short> NPTerm1 <c=ins> <Pa1.n=NPTerm1 .n> =text> #NPTerm1 
+
+DefV = Term1<c=ins> ["\("MSP1<c=gen>"\)" | "\("Prep1<c=prep>"\)"] V1<называтьсЯ, t=pres, p=3, m=ind> Dfn1<c=nom> <V1.n=Dfn1.n> =text> #Term1
+NPDefV = NPTerm1 <c=ins> ["\("MSP1<c=gen>"\)" | "\("Prep1<c=prep>"\)"] V1<называтьсЯ, t=pres, p=3, m=ind> Dfn1<c=nom> <V1.n=Dfn1.n> =text> #NPTerm1 
+
+DefW = Dfn1<c=nom> ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] V1<называтьсЯ, t=pres, p=3, m=ind> Term1<c=ins> <Dfn1.n=V1.n> =text> #Term1
+NPDefW = Dfn1<c=nom> ["условно" | "," "как" "правило" "," | "обычно" | "иногда" | "и"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTerm1 <c=ins> <Dfn1.n=V1.n> =text> #NPTerm1 
+
+DefX = Dfn1<c=nom> Prep1<c=prep> V1<называтьсЯ, t=pres, p=3, m=ind> Term1<c=ins> <V1.n=Dfn1.n> =text> Term1
+NPDefX = Dfn1<c=nom> Prep1<c=prep> V1<называтьсЯ, t=pres, p=3, m=ind> NPTerm1 <c=ins> <V1.n=Dfn1.n> =text> #NPTerm1 
+
+DefY = Dfn1<c=nom> "называетсЯ" ["везде" "одинаково" "-"] Term1<c=nom> =text> #Term1
+NPDefY = Dfn1<c=nom> "называетсЯ" ["везде" "одинаково" "-"] NPTerm1 <c=nom> =text> #NPTerm1 
+
+DefZ = Dfn1"," Pn1<который> ["традиционно"] V1<называтьсЯ, t=pres, p=3, m=ind> Term1<c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a> =text> #Term1
+NPDefZ = Dfn1"," Pn1<который> ["традиционно"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTerm1 <c=ins> <Dfn1.g=Pn1.g, Dfn1.n=Pn1.n, Dfn1.a=Pn1.a> =text> #NPTerm1 
+
+DefAA = Term1<c=ins> "принЯто" "называть" Dfn1<c=acc> =text> #Term1
+NPDefAA = NPTerm1 <c=ins> "принЯто" "называть" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAB = Dfn1<c=acc> "принЯто" "называть" Term1<c=ins> =text> #Term1
+NPDefAB = Dfn1<c=acc> "принЯто" "называть" NPTerm1 <c=ins> =text> #NPTerm1
+
+DefAC = Dfn1<c=acc> [Prep1<c=prep>]  "называют" ["также"] Term1<c=ins> =text> #Term1
+NPDefAC = Dfn1<c=acc> [Prep1<c=prep>]  "называют" ["также"] NPTerm1 <c=ins> =text> #NPTerm1 
+
+DefAD = Term1<c=ins> "называют" Dfn1<c=acc> =text> #Term1
+NPDefAD = NPTerm1 <c=ins> "называют" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAE = Dfn1<c=nom> Pa1<назвать, f=short> [Prep1<c=prep>] Term1<c=ins> <Dfn1=Pa1> =text> #Term1
+NPDefAE = Dfn1<c=nom> Pa1<назвать, f=short> [Prep1<c=prep>] NPTerm1 <c=ins> <Dfn1=Pa1> =text> #NPTerm1 
+
+DefAF = Pa1<получить> [Prep1<c=prep>]  N1<название> Term1<c=nom> <Pa1.n=N1.n> =text> #Term1
+NPDefAF = Pa1<получить> [Prep1<c=prep>]  N1<название> NPTerm1 <c=nom> <Pa1.n=N1.n> =text> #NPTerm1 
+
+DefAG = Dfn1<c=nom> V1<получить, t=past, p=3, m=ind> "название" Term1<c=gen> <Dfn1.n=V1.n, Dfn1.g=V1.g> =text> #Term1
+NPDefAG = Dfn1<c=nom> V1<получить, t=past, p=3, m=ind> "название" NPTerm1 <c=gen> <Dfn1.n=V1.n, Dfn1.g=V1.g> =text> #NPTerm1 
+
+DefAH = Dfn1<c=nom> V1<получить, t=past, p=3, m=ind> "название" Term1<c=nom> <Dfn1.n=V1.n> =text> #Term1
+NPDefAH = Dfn1<c=nom> V1<получить, t=past, p=3, m=ind> "название" NPTerm1 <c=nom> <Dfn1.n=V1.n> =text> #NPTerm1 
+
+DefAI = Dfn1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" Term1<c=gen> <Dfn1.n=V1.n> =text> #Term1
+NPDefAI = Dfn1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" NPTerm1 <c=gen> <Dfn1.n=V1.n> =text> #NPTerm1 
+
+DefAJ = Dfn1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" Term1<c=nom> <Dfn1.n=V1.n> =text> #Term1
+NPDefAJ = Dfn1<c=nom> V1<носить, t=pres, p=3, m=ind> "название" NPTerm1 <c=nom> <Dfn1.n=V1.n> =text> #NPTerm1 
+
+DefAK = Dfn1<c=acc> "," Pn1<который> ["впоследствие"] V1<получить, t=past, p=3, m=ind> "название" Term1<c=nom> <Dfn1.n=V1.n, Dfn1.g=V1.g> =text> #Term1
+NPDefAK = Dfn1<c=acc> "," Pn1<который> ["впоследствие"] V1<получить, t=past, p=3, m=ind> "название" NPTerm1 <c=nom> <Dfn1.n=V1.n, Dfn1.g=V1.g> =text> #NPTerm1 
+
+DefAL = "так" Pa1<называть> Term1 <Pa1=Term1> =text> #Term1
+NPDefAL = "так" Pa1<называть> NPTerm1  <Pa1=NPTerm1 > =text> #NPTerm1 
+
+DefAM = {"т.н." | "т" "." "н" "."}<1,1> Term1 =text> #Term1
+NPDefAM = {"т.н." | "т" "." "н" "."}<1,1> NPTerm1  =text> #NPTerm1 
+
+DefAN = Dfn1 {","|"\("}<1,1> Pa1<называть> ["часто"] Term1<c=ins> <Pa1=Dfn1>  =text> #Term1
+NPDefAN = Dfn1 {","|"\("}<1,1> Pa1<называть> ["часто"] NPTerm1 <c=ins> <Pa1=Dfn1>  =text> #NPTerm1 
+
+DefAO = Dfn1 "," Pa1<называть> Term1<c=nom> <Pa1=Dfn1> =text> #Term1
+NPDefAO = Dfn1 "," Pa1<называть> NPTerm1 <c=nom> <Pa1=Dfn1> =text> #NPTerm1 
+
+DefAP = Dfn1 { "," | "\(" }<1,1> Pa1<назвать> Term1<c=ins> <Dfn1=Pa1> =text> #Term1
+NPDefAP = Dfn1 { "," | "\(" }<1,1> Pa1<назвать> NPTerm1 <c=ins> <Dfn1=Pa1> =text> #NPTerm1 
+
+DefAR = Pn1 V1<называть, t=pres, p=3, m=ind> Term1<c=ins> <Pn1=V1> =text> #Term1
+NPDefAR = Pn1 V1<называть, t=pres, p=3, m=ind> NPTerm1 <c=ins> <Pn1=V1> =text> #NPTerm1 
+
+DefAS = "под" Term1<c=ins> "мы" "понимаем" Dfn1<c=acc> =text> #Term1
+NPDefAS = "под" NPTerm1 <c=ins> "мы" "понимаем" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAT = "под" Term1<c=ins> "понимают" Dfn1<c=acc> =text> #Term1
+NPDefAT = "под" NPTerm1 <c=ins> "понимают" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAU = "под" Term1<c=ins> ["здесь" | "в" "общем" "случае" | "мы"] "будем" "понимать" Dfn1<c=acc> =text> #Term1
+NPDefAU = "под" NPTerm1 <c=ins> ["здесь" | "в" "общем" "случае" | "мы"] "будем" "понимать" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAV = "будем" "понимать" "под" Term1<c=ins> Dfn1<c=acc> =text> #Term1
+NPDefAV = "будем" "понимать" "под" NPTerm1 <c=ins> Dfn1<c=acc> =text> #NPTerm1 
+
+DefAW = "введем" "понЯтие" Term1<c=acc> "," "под" "которым" "будем" "понимать" Dfn1<c=acc> =text> #Term1
+NPDefAW = "введем" "понЯтие" NPTerm1 <c=acc> "," "под" "которым" "будем" "понимать" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAX = "введем" "понЯтие" Term1<c=nom> "," "под" "которым" "будем" "понимать" Dfn1<c=acc> =text> #Term1
+NPDefAX = "введем" "понЯтие" NPTerm1 <c=nom> "," "под" "которым" "будем" "понимать" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAY = "под" "термином" Term1<c=nom> "будем" "понимать" Dfn1<c=acc> =text> #Term1
+NPDefAY = "под" "термином" NPTerm1 <c=nom> "будем" "понимать" Dfn1<c=acc> =text> #NPTerm1 
+
+DefAZ = "под" Term1<c=ins> "следует" "понимать" Dfn1<c=acc> =text> #Term1
+NPDefAZ = "под" NPTerm1 <c=ins> "следует" "понимать" Dfn1<c=acc> =text> #NPTerm1 
+
+DefBA = "под" Term1<c=ins> "мы" "понимаем" Dfn1<c=acc> =text> #Term1
+NPDefBA = "под" NPTerm1 <c=ins> "мы" "понимаем" Dfn1<c=acc> =text> #NPTerm1 
+
+DefBB = "под" Term1<c=ins> [Prep1<c=prep>] ["обычно" | "здесь"] V1<пониматьсЯ, t=pres, p=3, m=ind> Dfn1<c=nom> <Dfn1.n=V1.n> =text> #Term1
+NPDefBB = "под" NPTerm1 <c=ins> [Prep1<c=prep>] ["обычно" | "здесь"] V1<пониматьсЯ, t=pres, p=3, m=ind> Dfn1<c=nom> <Dfn1.n=V1.n> =text> #NPTerm1 
+
+DefBC = "под" "термином" Term1<c=nom> V1<пониматьсЯ, t=pres, p=3, m=ind> Dfn1<c=nom> <Term1.n=V1.n> =text> #Term1
+NPDefBC = "под" "термином" NPTerm1 <c=nom> V1<пониматьсЯ, t=pres, p=3, m=ind> Dfn1<c=nom> <NPTerm1 .n=V1.n> =text> #NPTerm1 
+
+DefBD = N1<термин> Term1<c=nom> =text> #Term1
+NPDefBD = N1<термин> NPTerm1 <c=nom> =text> #NPTerm1 
+
+DefBE = "под" "словом" Term1<c=nom> "понимаетсЯ" Dfn1<c=nom> =text> #Term1
+NPDefBE = "под" "словом" NPTerm1 <c=nom> "понимаетсЯ" Dfn1<c=nom> =text> #NPTerm1 
+
+DefBF = Term1<c=nom> ["–"] "есть" Dfn1<c=nom> =text> #Term1
+NPDefBF = NPTerm1 <c=nom> ["–"] "есть" Dfn1<c=nom> =text> #NPTerm1 
+
+DefBG = ["целесообразно" | "можно"] "ввести" N1<понЯтие, c=acc, n=sing> Term1<c=gen> =text> #Term1
+NPDefBG = ["целесообразно" | "можно"] "ввести" N1<понЯтие, c=acc, n=sing> NPTerm1 <c=gen> =text> #NPTerm1 
+
+DefBH = Term1<c=nom> ["–"] "это" Dfn1<c=nom> =text> #Term1
+NPDefBH = NPTerm1 <c=nom> ["–"] "это" Dfn1<c=nom> =text> #NPTerm1 
+
+DefBI = Term1 {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Dfn1 <Term1.c=Dfn1.c> =text> #Term1
+NPDefBI = NPTerm1  {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Dfn1 <NPTerm1 .c=Dfn1.c> =text> #NPTerm1 
+
+DefBJ = Pr1 Term1 {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Pr1 Dfn1 <Term1.c=Dfn1.c> =text> #Term1
+NPDefBJ = Pr1 NPTerm1  {"\(" | "," }<1,1> {"т.е."|"то" "есть"|"т." "е."}<1,1> Pr1 Dfn1 <NPTerm1 .c=Dfn1.c> =text> #NPTerm1 
+
+DefBK = A1 "\(" {"т.е."|"то" "есть"|"т." "е."}<1,1> {W1}<0,4> "\)" NMSPTWO1 <A1=NMSP1> =text> #NMSPTWO1
+NPDefBK = A1 "\(" {"т.е."|"то" "есть"|"т." "е."}<1,1> {W1}<0,4> "\)" NPNMSPTWO1 <A1=NPNMSP1> =text> #NPNMSPTWO1
+
+DefBL = Pa1 "\(" {"т.е."|"то" "есть"|"т." "е."}<1,1> {W1}<0,4> "\)" NMSPTWO1 <Pa1=NMSP1> =text> #NMSPTWO1
+NPDefBL = Pa1 "\(" {"т.е."|"то" "есть"|"т." "е."}<1,1> {W1}<0,4> "\)" NPNMSPTWO1 <Pa1=NPNMSP1> =text> #NPNMSPTWO1
+
+SDefA = "называют" Pn1<такой> TermN1<c=acc> TermA1<c=ins> <Pn1=TermA1,TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefA = "называют" Pn1<такой> N1<c=acc> [PG1] NPTermA1<c=ins> <N1=PG1,Pn1=NPTermA1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefA = "называют" Pn1<такой> N1<c=acc> N2<c=gen> [PG1] NPTermA1<c=ins> <N1=PG1,Pn1=NPTermA1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefB = "называют" Pn1<такой> TermN1<c=acc> TermA1<c=ins> <Pn1=TermA1,TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefB = "называют" Pn1<такой> N1<c=acc> [PG1] NPTermA1<c=ins> <N1=PG1,Pn1=NPTermA1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefB = "называют" Pn1<такой> N1<c=acc> N2<c=gen> [PG1] NPTermA1<c=ins> <N1=PG1,Pn1=NPTermA1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefC = TermN1<c=nom> ["иногда"|"и"] V1<называтьсЯ, t=pres, p=3, m=ind> TermA1<c=ins> <TermN1.g=TermA1.g, TermN1.a=TermA1.a, TermN1.n=V1.n=TermA1.n> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefC = N1<c=nom> [PG1] ["иногда"|"и"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefC = N1<c=nom> N2<c=gen> [PG1] ["иногда"|"и"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefD = TermN1<c=nom> ["иногда"|"и"] V1<называтьсЯ, t=pres, p=3, m=ind> TermA1<c=ins> <TermN1.g=TermA1.g, TermN1.a=TermA1.a, TermN1.n=V1.n=TermA1.n> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefD = N1<c=nom> [PG1] ["иногда"|"и"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefD = N1<c=nom> N2<c=gen> [PG1] ["иногда"|"и"] V1<называтьсЯ, t=pres, p=3, m=ind> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefE = TermN1<c=acc> ["часто"] "называют" TermA1<c=ins> <TermN1.g=TermA1.g, TermN1.a=TermA1.a, TermN1.n=TermA1.n>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefE = N1<c=acc> [PG1] ["часто"] "называют" NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=NPTermA1.n>  =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefE = N1<c=acc> N2<c=gen> [PG1] ["часто"] "называют" NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=NPTermA1.n>  =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefF = TermN1<c=acc> ["часто"] "называют" TermA1<c=ins> <TermN1.g=TermA1.g, TermN1.a=TermA1.a, TermN1.n=TermA1.n>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefF = N1<c=acc> [PG1] ["часто"] "называют" NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=NPTermA1.n>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefF = N1<c=acc> N2<c=gen> [PG1] ["часто"] "называют" NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=NPTermA1.n>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefG = "назовем" TermN1<c=acc> [Prep1<c=prep>] TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefG = "назовем" N1<c=acc> [PG1] [Prep1<c=prep>] NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefG = "назовем" N1<c=acc> N2<c=gen> [PG1] [Prep1<c=prep>] NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefH = "назовем" TermN1<c=acc> [Prep1<c=prep>] TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefH = "назовем" N1<c=acc> [PG1] [Prep1<c=prep>] NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefH = "назовем" N1<c=acc> N2<c=gen> [PG1] [Prep1<c=prep>] NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefI = TermN1<c=acc> "назовем" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefI = N1<c=acc> [PG1] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefI = N1<c=acc> N2<c=gen> [PG1] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefJ = TermN1<c=acc> "назовем" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefJ = N1<c=acc> [PG1] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefJ = N1<c=acc> N2<c=gen> [PG1] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefK = TermN1<c=nom> ["условно"] "назовем" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefK = N1<c=nom> [PG1] ["условно"] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefK = N1<c=nom> N2<c=gen> [PG1] ["условно"] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefL = TermN1<c=nom> ["условно"] "назовем" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefL = N1<c=nom> [PG1] ["условно"] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefL = N1<c=nom> N2<c=gen> [PG1] ["условно"] "назовем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefM = TermN1<c=acc> ["далее"] "будем" "называть" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefM = N1<c=acc> [PG1] ["далее"] "будем" "называть" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=P1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefM = N1<c=acc> N2<c=gen> [PG1] ["далее"] "будем" "называть" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefN = TermN1<c=acc> ["далее"] "будем" "называть" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefN = N1<c=acc> [PG1] ["далее"] "будем" "называть" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefN = N1<c=acc> N2<c=gen> [PG1] ["далее"] "будем" "называть" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefO = TermN1<c=acc> "мы" "называем" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefO = N1<c=acc> [PG1] "мы" "называем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefO = N1<c=acc> N2<c=gen> [PG1] "мы" "называем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefP = TermN1<c=acc> "мы" "называем" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a>  =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefP = N1<c=acc> [PG1] "мы" "называем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefP = N1<c=acc> N2<c=gen> [PG1] "мы" "называем" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a>  =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefR = TermN1"," ["условно"|"обычно"] Pa1<назвать> TermA1<c=ins> <TermN1.g=TermA1.g, TermN1.a=TermA1.a, TermN1.n=V1.n=TermA1.n> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefR = N1 [PG1]"," ["условно"|"обычно"] Pa1<назвать> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefR = N1<c=acc> N2<c=gen> [PG1]"," ["условно"|"обычно"] Pa1<назвать> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefS = TermN1"," ["условно"|"обычно"] Pa1<назвать> TermA1<c=ins> <TermN1.g=TermA1.g, TermN1.a=TermA1.a, TermN1.n=V1.n=TermA1.n> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefS = N1 [PG1]"," ["условно"|"обычно"] Pa1<назвать> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefS = N1<c=acc> N2<c=gen> [PG1]"," ["условно"|"обычно"] Pa1<назвать> NPTermA1<c=ins> <N1=PG1,N1.g=NPTermA1.g, N1.a=NPTermA1.a, N1.n=V1.n=NPTermA1.n> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"
+
+SDefT = TermN1<c=acc> [","{W}<0,4>","] "можно" "назвать" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefT = N1<c=acc> [PG1] [","{W}<0,4>","] "можно" "назвать" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "]  [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 [A1~]N1]"
+NPSDefT = N1<c=acc> N2<c=gen> [PG1] [","{W}<0,4>","] "можно" "назвать" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "A1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1.n=N1.n, A1.g=N1.g, N1.a=A1.a] =text] A1 #N1 N2[c=gen] [A1~]N1]"
+
+SDefU = TermN1<c=acc> [","{W}<0,4>","] "можно" "назвать" TermA1<c=ins> <TermA1.n=TermN1.n, TermA1.g=TermN1.g, TermN1.a=TermA1.a> =text> TermA1 #TermN1 <TermA1~>TermN1>
+NPSDefU = N1<c=acc> [PG1] [","{W}<0,4>","] "можно" "назвать" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "]  [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 [Pa1~]N1]"
+NPSDefU = N1<c=acc> N2<c=gen> [PG1] [","{W}<0,4>","] "можно" "назвать" NPTermA1<c=ins> <N1=PG1,NPTermA1.n=N1.n, NPTermA1.g=N1.g, N1.a=NPTermA1.a> =text> "Pa1[" #NPTermA1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1.n=N1.n, Pa1.g=N1.g, N1.a=Pa1.a] =text] Pa1 #N1 N2[c=gen] [Pa1~]N1]"

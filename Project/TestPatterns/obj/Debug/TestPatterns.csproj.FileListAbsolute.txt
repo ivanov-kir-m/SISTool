@@ -1,0 +1,12 @@
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\TestPatterns\bin\Debug\TestPatterns.exe.config
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\TestPatterns\bin\Debug\TestPatterns.exe
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\TestPatterns\bin\Debug\TestPatterns.pdb
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\TestPatterns\obj\Debug\TestPatterns.exe
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\TestPatterns\obj\Debug\TestPatterns.pdb
+C:\Users\Kir\documents\visual studio 2013\Projects\SWStool\TestPatterns\obj\Debug\TestPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TestPatterns\bin\Debug\TestPatterns.exe.config
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TestPatterns\bin\Debug\TestPatterns.exe
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TestPatterns\bin\Debug\TestPatterns.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TestPatterns\obj\Debug\TestPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TestPatterns\obj\Debug\TestPatterns.exe
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TestPatterns\obj\Debug\TestPatterns.pdb

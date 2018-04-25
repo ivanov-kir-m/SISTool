@@ -1,0 +1,14 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1
+MSP = N1 (N1) =text> N1 | N1 N2<c=gen> (N1) =text> N1 N2<c=gen> | AP1 N1 <AP1=N1> (N1) =text> AP1 N1<AP1~>N1> | AP1 AP2 N1 <AP1=AP2=N1> (N1) =text> AP1 AP2 N1<AP1~>N1, AP2~>N1> | AP1 N1 N2<c=gen> <AP1=N1> (N1) =text> AP1 N1<AP1~>N1> N2<c=gen> | N1 AP1 N2<c=gen> <AP1=N2> (N1) =text> N1 AP1 N2<c=gen><AP1~>N2> | N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2<c=gen> N3<c=gen>
+Term = MSP1 ['('MSP2')'] <MSP1.c=MSP2.c> (MSP1) =text> MSP1
+APXXX = ',' AP1 {W} (AP1) =text> ',' AP1 W
+Defin = MSP1 (MSP1) =text> MSP1 | 'то' =text> 'то' | 'это' =text> 'это' | Pn1<любой> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> | Pn1<некий> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> | Pn1<такой> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> | Pn1<всякий> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1> | Pn1<это> MSP1 <Pn1=MSP1> (MSP1) =text> Pn1 MSP1<Pn1~>MSP1>
+Def = MSP1 MSP2<c=gen> (MSP1) =text> MSP1 MSP2<c=gen>
+Prep = Pr1 MSP1 (MSP1) =text> Pr1 MSP1 <Pr1~>MSP1>
+DefinIns = MSP1 Pr1<с> N1<c=ins> (MSP1) =text> MSP1 Pr1 N1<c=ins> | MSP1 Pr1<без> N1<c=gen> (MSP1) =text> MSP1 Pr1 N1<c=gen>
+DefinXXX = Defin1 (Defin1) =text> Defin1 | Defin1 APXXX1 (Defin1) =text> Defin1 APXXX1
+One = Term1<c=nom> '-' ['это'] Defin1<c=nom> =text> #Term1 '-' #Defin1
+Two = 'под' Term1<c=ins> [Prep1<c=prep>] ['обычно' | 'здесь'] V1<пониматься, t=pres, p=3, m=ind> Defin1<c=nom> <Defin1.n=V1.n> =text> Term1<c=nom> '-' Defin1<c=nom>
+Three = Term1<c=nom> '-' ['это'] Def1<c=nom> =text> #Term1 '-' #Def1
+Four = Term1<c=ins> 'мы' 'называем' DefinIns1<c=acc> =text> #Term1 '-' #DefinIns1
+Five = 'под' Term1<c=ins> 'мы' 'понимаем' DefinXXX1<c=acc> =text> #Term1 '-' #DefinXXX1

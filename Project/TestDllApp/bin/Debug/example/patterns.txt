@@ -1,0 +1,6 @@
+AP = A N1<A=N1> N2<c=gen> =pattern> A<c=$A.c, n=$A.n, g=$A.g, doc=$A.doc, t=$A.t, a=$A.a, f=$A.f, m=$A.m, p=$A.p, r=$A.r>
+AT = A N1<A=N1> N2<c=gen> =text> N2 N1 A
+
+ATT = A N1<A=N1> N2<c=gen> (N1)
+APT = ATT =pattern> N<c=$ATT.c, n=$ATT.n, g=$ATT.g>
+

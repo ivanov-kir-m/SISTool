@@ -1,0 +1,46 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1
+
+S_COMB_PAT = AP1 "," AP2 {"и"|"или"|"либо"}<1,1> AP3 N1 <AP1.c=AP2.c=AP3.c=N1.c,  AP1.g=AP2.g=AP3.g=N1.g, AP1.a=AP2.a=AP3.a=N1.a,  AP1.n=AP2.n=AP3.n> =text> AP1 "," AP2 "," AP3 #N1 <AP1~>N1> <AP2~>N1> <AP3~>N1>
+S_COMP_COMB_PAT = AP1 "," AP2 {"и"|"или"|"либо"}<1,1> AP3 N1 <AP1.c=AP2.c=AP3.c=N1.c,  AP1.g=AP2.g=AP3.g=N1.g, AP1.a=AP2.a=AP3.a=N1.a,  AP1.n=AP2.n=AP3.n> =text> #AP1 N1<all=norm> <AP1~>N1>
+S_COMP_COMB_PAT = AP1 "," AP2 {"и"|"или"|"либо"}<1,1> AP3 N1 <AP1.c=AP2.c=AP3.c=N1.c,  AP1.g=AP2.g=AP3.g=N1.g, AP1.a=AP2.a=AP3.a=N1.a,  AP1.n=AP2.n=AP3.n> =text> #AP2 N1<all=norm> <AP2~>N1>
+S_COMP_COMB_PAT = AP1 "," AP2 {"и"|"или"|"либо"}<1,1> AP3 N1 <AP1.c=AP2.c=AP3.c=N1.c,  AP1.g=AP2.g=AP3.g=N1.g, AP1.a=AP2.a=AP3.a=N1.a,  AP1.n=AP2.n=AP3.n> =text> #AP3 N1<all=norm> <AP3~>N1>
+
+S_COMB_PAT = AP1 {"и"|"или"|"либо"}<1,1> AP2 N1 <AP1.c=AP2.c=N1.c,  AP1.g=AP2.g=N1.g, AP1.a=AP2.a=N1.a,  AP1.n=AP2.n> =text> AP1 "," AP2 #N1 <AP1~>N1> <AP2~>N1>
+S_COMP_COMB_PAT = AP1 {"и"|"или"|"либо"}<1,1> AP2 N1 <AP1.c=AP2.c=N1.c,  AP1.g=AP2.g=N1.g, AP1.a=AP2.a=N1.a,  AP1.n=AP2.n> =text> #AP1 N1<all=norm> <AP1~>N1>
+S_COMP_COMB_PAT = AP1 {"и"|"или"|"либо"}<1,1> AP2 N1 <AP1.c=AP2.c=N1.c,  AP1.g=AP2.g=N1.g, AP1.a=AP2.a=N1.a,  AP1.n=AP2.n> =text> #AP2 N1<all=norm> <AP2~>N1>
+
+S_COMB_PAT = AP1 N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 <AP1.c=N3.c=N2.c=N1.c, AP1.g=N3.g=N2.g=N1.g, AP1.a=N3.a=N2.a=N1.a, N3.n=N1.n=N2.n> =text> AP1 N1 "," N2 "," N3
+S_COMP_COMB_PAT = AP1 N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 <AP1.c=N3.c=N2.c=N1.c, AP1.g=N3.g=N2.g=N1.g, AP1.a=N3.a=N2.a=N1.a, N3.n=N1.n=N2.n> =text> AP1 #N1 <AP1~>N1>
+S_COMP_COMB_PAT = AP1 N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 <AP1.c=N3.c=N2.c=N1.c, AP1.g=N3.g=N2.g=N1.g, AP1.a=N3.a=N2.a=N1.a, N3.n=N1.n=N2.n> =text> AP1 #N2 <AP1~>N2>
+S_COMP_COMB_PAT = AP1 N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 <AP1.c=N3.c=N2.c=N1.c, AP1.g=N3.g=N2.g=N1.g, AP1.a=N3.a=N2.a=N1.a, N3.n=N1.n=N2.n> =text> AP1 #N3 <AP1~>N3>
+
+S_COMB_PAT = AP1 N1 {"и"|"или"|"либо"}<1,1> N2 <AP1.c=N2.c=N1.c, AP1.g=N2.g=N1.g, AP1.a=N2.a=N1.a, N1.n=N2.n> =text> AP1 N1 "," N2
+S_COMP_COMB_PAT = AP1 N1 {"и"|"или"|"либо"}<1,1> N2 <AP1.c=N2.c=N1.c, AP1.g=N2.g=N1.g, AP1.a=N2.a=N1.a, N1.n=N2.n> =text> AP1 #N1 <AP1~>N1>
+S_COMP_COMB_PAT = AP1 N1 {"и"|"или"|"либо"}<1,1> N2 <AP1.c=N2.c=N1.c, AP1.g=N2.g=N1.g, AP1.a=N2.a=N1.a, N1.n=N2.n> =text> AP1 #N2 <AP1~>N2>
+
+S_COMB_PAT = "как" AP1 "," "так" "и" AP2 N1 <AP1=AP2=N1> =text> AP1 "," AP2 N1
+S_COMP_COMB_PAT = "как" AP1 "," "так" "и" AP2 N1 <AP1=AP2=N1> =text> AP1 #N1 <AP1~>N1> 
+S_COMP_COMB_PAT = "как" AP1 "," "так" "и" AP2 N1 <AP1=AP2=N1> =text> AP2 #N1 <AP2~>N1>
+
+S_COMB_PAT = "как" AP1 N1 "," "так" "и" AP2 <AP1=AP2=N1> =text> AP1 N1 "," AP2
+S_COMP_COMB_PAT = "как" AP1 N1 "," "так" "и" AP2 <AP1=AP2=N1> =text> AP1 #N1 <AP1=N1>
+S_COMP_COMB_PAT = "как" AP1 N1 "," "так" "и" AP2 <AP1=AP2=N1> =text> AP2 #N1 <AP2=N1>
+
+S_COMB_PAT = N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 N4<c=gen> <N1.n=N2.n=N3.n, N2.a=N1.a=N3.a, N2.c=N1.c=N3.c> =text> N1 "," N2 "," N3 N4
+S_COMP_COMB_PAT = N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 N4<c=gen> <N1.n=N2.n=N3.n, N2.a=N1.a=N3.a, N2.c=N1.c=N3.c> =text> #N1 N4
+S_COMP_COMB_PAT = N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 N4<c=gen> <N1.n=N2.n=N3.n, N2.a=N1.a=N3.a, N2.c=N1.c=N3.c> =text> #N2 N4
+S_COMP_COMB_PAT = N1 "," N2 {"и"|"или"|"либо"}<1,1> N3 N4<c=gen> <N1.n=N2.n=N3.n, N2.a=N1.a=N3.a, N2.c=N1.c=N3.c> =text> #N3 N4
+
+S_COMB_PAT = N1 {"и"|"или"|"либо"}<1,1> N2 N3<c=gen> <N1.n=N2.n, N2.a=N1.a, N2.c=N1.c> =text> N2 "," N3 N4
+S_COMP_COMB_PAT = N1 {"и"|"или"|"либо"}<1,1> N2 N3<c=gen> <N1.n=N2.n, N2.a=N1.a, N2.c=N1.c> =text> #N1 N4
+S_COMP_COMB_PAT = N1 {"и"|"или"|"либо"}<1,1> N2 N3<c=gen> <N1.n=N2.n, N2.a=N1.a, N2.c=N1.c> =text> #N2 N4
+
+
+S_COMB_PAT = N1 N2<c=gen> ["," N3<c=gen>]  {"и"|"или"|"либо"}<1,1> N4<c=gen> =text> #N1 N2 "," N3 "," N4
+S_COMP_COMB_PAT = N1 N2<c=gen> ["," N3<c=gen>]  {"и"|"или"|"либо"}<1,1> N4<c=gen> =text> #N1 N2
+S_COMP_COMB_PAT = N1 N2<c=gen> ["," N3<c=gen>]  {"и"|"или"|"либо"}<1,1> N4<c=gen> =text> #N1 N3
+S_COMP_COMB_PAT = N1 N2<c=gen> ["," N3<c=gen>]  {"и"|"или"|"либо"}<1,1> N4<c=gen> =text> #N1 N4
+
+S_COMB_PAT = N1 N2<c=gen> {"и"|"или"|"либо"}<1,1> N3<c=gen> =text> #N1 N2 "," N3
+S_COMP_COMB_PAT = N1 N2<c=gen> {"и"|"или"|"либо"}<1,1> N3<c=gen> =text> #N1 N2
+S_COMP_COMB_PAT = N1 N2<c=gen> {"и"|"или"|"либо"}<1,1> N3<c=gen> =text> #N1 N3

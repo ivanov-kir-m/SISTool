@@ -1,0 +1,5 @@
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\DbscanImplementation\bin\Debug\DbscanImplementation.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\DbscanImplementation\bin\Debug\DbscanImplementation.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\DbscanImplementation\obj\Debug\DbscanImplementation.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\DbscanImplementation\obj\Debug\DbscanImplementation.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\DbscanImplementation\obj\Debug\DbscanImplementation.csprojResolveAssemblyReference.cache

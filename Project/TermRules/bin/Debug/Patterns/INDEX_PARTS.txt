@@ -1,0 +1,160 @@
+AP = A1 (A1) =text> A1 | Pa1 (Pa1) =text> Pa1 | Num1 (Num1) =text> Num1 
+
+
+
+PART = N1 (N1) =text> " N1["#N1"] =text] #N1"
+
+PART = N1 N2<c=gen> (N1) =text> " N1["#N1"] N2["#N2",c=gen] (N1) =text] #N1 N2[c=gen]"
+
+PART = N1 N2<c=gen> N3<c=gen> (N1) =text> " N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] (N1) =text] #N1 N2 N3"
+
+PART = N1 N2<c=gen> N3<c=gen> N4<c=gen> (N1) =text> " N1["#N1"] N2["#N2",c=gen] N3["#N3",c=gen] N4["#N4",c=gen] (N1) =text] #N1 N2 N3 N4"
+PART = N1 N2<c=gen> N3<c=gen> N4<c=gen> (N1) =text> " N2["#N2"] =text] #N2"
+
+
+PART = A1 N1 <A1=N1> (N1) =text> " A1["#A1"] N1["#N1"] [A1=N1] (N1) =text] A1 #N1 [A1~]N1]"
+
+PART = A1 N1 N2<c=gen> <A1=N1> (N1) =text> " A1["#A1"] N1["#N1"] N2["#N2",c=gen] [A1=N1] (N1) =text] A1 #N1 N2  [A1~]N1]"
+
+PART = A1 A2 N1 <A1=N1> <A2=N1> (N1) =text> " A1["#A1"] A2["#A2"] N1["#N1"] [A1=N1] [A2=N1] (N1) =text] A1 A2 #N1 [A1~]N1, A2~]N1]"
+PART = A1 A2 N1 <A1=N1> <A2=N1> (N1) =text> " A1["#A1"] N1["#N1"] [A1=N1] (N1) =text] A1 #N1 [A1~]N1]"
+
+PART = N1 A1 N2<c=gen> <A1=N2> (N1) =text> " N1["#N1"] A1["#A1"] N2["#N2",c=gen] [A1=N2] (N1) =text] #N1 A1 N2 [A1~]N2]"
+
+PART = N1 A1 N2<c=gen> N3<c=gen> <A1=N2> (N1) =text> " N1["#N1"] A1["#A1"] N2["#N2",c=gen] N3["#N3",c=gen] [A1=N2] (N1) =text] #N1 A1 N2 N3 [A1~]N2]"
+
+PART = N1 A1 A2 N2<c=gen> <A1=N2> <A2=N2> (N1) =text> " N1["#N1"] A1["A1"] A2["A2"] N2["#N2",c=gen] [A1=N2] [A2=N2] (N1) =text] #N1 A1 A2 N2 [A1~]N2, A2~]N2]"
+
+PART = N1 N2<c=gen> A1 N3<c=gen> <A1=N3> (N1) =text> " N1["#N1"] N2["#N2",c=gen] A1["#A1"] N3["#N3",c=gen] [A1=N3] (N1) =text] #N1 N2 A1 N3 [A1~]N3]"
+
+PART = A1 A2 N1 N2<c=gen> <A1=N1> <A2=N1> (N1) =text> " A1["#A1"] A2["#A2"] N1["#N1" N2["#N2",c=gen] [A1=N1] [A2=N1] (N1) =text] A1 A2 #N1 N2 [A1~]N1, A2~]N1]"
+
+PART = A1 N1 A2 N2<c=gen> <A1=N1> <A2=N2> (N1) =text> " A1["#A1"] N1["#N1"] A2["#A2"] N2["#N2",c=gen] [A1=N1] [A2=N2] (N1) =text] A1 N1 A2 N2 [A1~]N1, A2~]N2]"
+
+PART = A1 A2 A3 N1 <A1=N1> <A2=N1> <A1=N1> (N1) =text> " A1["#A1"] A2["#A3"] A3["#A3"] N1["#N1"] [A1=N1] [A2=N1] [A1=N1] (N1) =text] A1 A2 A3 #N1 [A1~]N1, A2~]N1, A1~]N1]"
+
+
+
+PART = Pa1 N1 <Pa1=N1> (N1) =text> " Pa1["#Pa1"] N1["#N1"] [Pa1=N1] (N1) =text] Pa1 #N1 [Pa1~]N1]"
+
+PART = Pa1 N1 N2<c=gen> <Pa1=N1> (N1) =text> " Pa1["#Pa1"] N1["#N1"] N2["#N2",c=gen] [Pa1=N1] (N1) =text] Pa1 #N1 N2  [Pa1~]N1]"
+
+PART = Pa1 Pa2 N1 <Pa1=N1> <Pa2=N1> (N1) =text> " Pa1["#Pa1"] Pa2["#Pa2"] N1["#N1"] [Pa1=N1] [Pa2=N1] (N1) =text] Pa1 Pa2 #N1 [Pa1~]N1, Pa2~]N1]"
+PART = Pa1 Pa2 N1 <Pa1=N1> <Pa2=N1> (N1) =text> " Pa1["#Pa1"] N1["#N1"] [Pa1=N1] (N1) =text] Pa1 #N1 [Pa1~]N1]"
+
+PART = N1 Pa1 N2<c=gen> <Pa1=N2> (N1) =text> " N1["#N1"] Pa1["#Pa1"] N2["#N2",c=gen] [Pa1=N2] (N1) =text] #N1 Pa1 N2 [Pa1~]N2]"
+
+PART = N1 Pa1 N2<c=gen> N3<c=gen> <Pa1=N2> (N1) =text> " N1["#N1"] Pa1["#Pa1"] N2["#N2",c=gen] N3["#N3",c=gen] [Pa1=N2] (N1) =text] #N1 Pa1 N2 N3 [Pa1~]N2]"
+
+PART = N1 Pa1 Pa2 N2<c=gen> <Pa1=N2> <Pa2=N2> (N1) =text> " N1["#N1"] Pa1["Pa1"] Pa2["Pa2"] N2["#N2",c=gen] [Pa1=N2] [Pa2=N2] (N1) =text] #N1 Pa1 Pa2 N2 [Pa1~]N2, Pa2~]N2]"
+
+PART = N1 N2<c=gen> Pa1 N3<c=gen> <Pa1=N3> (N1) =text> " N1["#N1"] N2["#N2",c=gen] Pa1["#Pa1"] N3["#N3",c=gen] [Pa1=N3] (N1) =text] #N1 N2 Pa1 N3 [Pa1~]N3]" 
+
+PART = Pa1 Pa2 N1 N2<c=gen> <Pa1=N1> <Pa2=N1> (N1) =text> " Pa1["#Pa1"] Pa2["#Pa2"] N1["#N1" N2["#N2",c=gen] [Pa1=N1] [Pa2=N1] (N1) =text] Pa1 Pa2 #N1 N2 [Pa1~]N1, Pa2~]N1]"
+
+PART = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1> <Pa2=N2> (N1) =text> " Pa1["#Pa1"] N1["#N1"] Pa2["#Pa2"] N2["#N2",c=gen] [Pa1=N1] [Pa2=N2] (N1) =text] Pa1 N1 Pa2 N2 [Pa1~]N1, Pa2~]N2]"
+
+PART = Pa1 Pa2 Pa3 N1 <Pa1=N1> <Pa2=N1> <Pa1=N1> (N1) =text> " Pa1["#Pa1"] Pa2["#Pa3"] Pa3["#Pa3"] N1["#N1"] [Pa1=N1] [Pa2=N1] [Pa1=N1] (N1) =text] Pa1 Pa2 Pa3 #N1 [Pa1~]N1, Pa2~]N1, Pa1~]N1]"
+
+
+PART = Num1 N1 <Num1=N1> (N1) =text> " Num1["#Num1"] N1["#N1"] [Num1=N1] (N1) =text] Num1 #N1 [Num1~]N1]"
+
+PART = Num1 N1 N2<c=gen> <Num1=N1> (N1) =text> " Num1["#Num1"] N1["#N1"] N2["#N2",c=gen] [Num1=N1] (N1) =text] Num1 #N1 N2  [Num1~]N1]"
+
+PART = Num1 Num2 N1 <Num1=N1> <Num2=N1> (N1) =text> " Num1["#Num1"] Num2["#Num2"] N1["#N1"] [Num1=N1] [Num2=N1] (N1) =text] Num1 Num2 #N1 [Num1~]N1, Num2~]N1]"
+PART = Num1 Num2 N1 <Num1=N1> <Num2=N1> (N1) =text> " Num1["#Num1"] N1["#N1"] [Num1=N1] (N1) =text] Num1 #N1 [Num1~]N1]"
+
+PART = N1 Num1 N2<c=gen> <Num1=N2> (N1) =text> " N1["#N1"] Num1["#Num1"] N2["#N2",c=gen] [Num1=N2] (N1) =text] #N1 Num1 N2 [Num1~]N2]"
+
+PART = N1 Num1 N2<c=gen> N3<c=gen> <Num1=N2> (N1) =text> " N1["#N1"] Num1["#Num1"] N2["#N2",c=gen] N3["#N3",c=gen] [Num1=N2] (N1) =text] #N1 Num1 N2 N3 [Num1~]N2]"
+
+PART = N1 Num1 Num2 N2<c=gen> <Num1=N2> <Num2=N2> (N1) =text> " N1["#N1"] Num1["Num1"] Num2["Num2"] N2["#N2",c=gen] [Num1=N2] [Num2=N2] (N1) =text] #N1 Num1 Num2 N2 [Num1~]N2, Num2~]N2]"
+
+PART = N1 N2<c=gen> Num1 N3<c=gen> <Num1=N3> (N1) =text> " N1["#N1"] N2["#N2",c=gen] Num1["#Num1"] N3["#N3",c=gen] [Num1=N3] (N1) =text] #N1 N2 Num1 N3 [Num1~]N3]" 
+
+PART = Num1 Num2 N1 N2<c=gen> <Num1=N1> <Num2=N1> (N1) =text> " Num1["#Num1"] Num2["#Num2"] N1["#N1" N2["#N2",c=gen] [Num1=N1] [Num2=N1] (N1) =text] Num1 Num2 #N1 N2 [Num1~]N1, Num2~]N1]"
+
+PART = Num1 N1 Num2 N2<c=gen> <Num1=N1> <Num2=N2> (N1) =text> " Num1["#Num1"] N1["#N1"] Num2["#Num2"] N2["#N2",c=gen] [Num1=N1] [Num2=N2] (N1) =text] Num1 N1 Num2 N2 [Num1~]N1, Num2~]N2]"
+
+PART = Num1 Num2 Num3 N1 <Num1=N1> <Num2=N1> <Num1=N1> (N1) =text> " Num1["#Num1"] Num2["#Num3"] Num3["#Num3"] N1["#N1"] [Num1=N1] [Num2=N1] [Num1=N1] (N1) =text] Num1 Num2 Num3 #N1 [Num1~]N1, Num2~]N1, Num1~]N1]"
+
+
+
+
+
+
+
+PARTWORD = N1 (N1) =text> N1 
+
+PARTWORD = N1 N2<c=gen> (N1) =text> N1 N2 
+
+PARTWORD = N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2 N3 
+
+PARTWORD = N1 N2<c=gen> N3<c=gen> N4<c=gen> (N1) =text> N1 N2 N3 N4 
+PARTWORD = N1 N2<c=gen> N3<c=gen> N4<c=gen> (N1) =text> N2 
+
+
+PARTWORD = A1 N1 <A1=N1> (N1) =text> A1 N1 
+
+PARTWORD = A1 N1 N2<c=gen> <A1=N1> (N1) =text> A1 N1 N2 
+
+PARTWORD = A1 A2 N1 <A1=N1> <A2=N1> (N1) =text> A1 A2 N1  
+PARTWORD = A1 A2 N1 <A1=N1> <A2=N1> (N1) =text> A1 N1 
+
+PARTWORD = N1 A1 N2<c=gen> <A1=N2> (N1) =text> N1 A1 N2 
+
+PARTWORD = N1 A1 N2<c=gen> N3<c=gen> <A1=N2> (N1) =text> N1 A1 N2 N3 
+
+PARTWORD = N1 A1 A2 N2<c=gen> <A1=N2> <A2=N2> (N1) =text> N1 A1 A2 N2 
+
+PARTWORD = N1 N2<c=gen> A1 N3<c=gen> <A1=N3> (N1) =text> N1 N2 A1 N3 
+
+PARTWORD = A1 A2 N1 N2<c=gen> <A1=N1> <A2=N1> (N1) =text> A1 A2 N1 N2 
+
+PARTWORD = A1 N1 A2 N2<c=gen> <A1=N1> <A2=N2> (N1) =text> A1 N1 A2 N2 
+
+PARTWORD = A1 A2 A3 N1 <A1=N1> <A2=N1> <A1=N1> (N1) =text> A1 A2 A3 N1 
+
+
+
+PARTWORD = Pa1 N1 <Pa1=N1> (N1) =text> Pa1 N1 
+
+PARTWORD = Pa1 N1 N2<c=gen> <Pa1=N1> (N1) =text> Pa1 N1 N2 
+
+PARTWORD = Pa1 Pa2 N1 <Pa1=N1> <Pa2=N1> (N1) =text> Pa1 Pa2 N1 
+PARTWORD = Pa1 Pa2 N1 <Pa1=N1> <Pa2=N1> (N1) =text> Pa1 N1 
+
+PARTWORD = N1 Pa1 N2<c=gen> <Pa1=N2> (N1) =text> N1 Pa1 N2 
+
+PARTWORD = N1 Pa1 N2<c=gen> N3<c=gen> <Pa1=N2> (N1) =text> N1 Pa1 N2 
+
+PARTWORD = N1 Pa1 Pa2 N2<c=gen> <Pa1=N2> <Pa2=N2> (N1) =text> N1 Pa1 Pa2 N2 
+
+PARTWORD = N1 N2<c=gen> Pa1 N3<c=gen> <Pa1=N3> (N1) =text> N1 N2 Pa1 N3 
+
+PARTWORD = Pa1 Pa2 N1 N2<c=gen> <Pa1=N1> <Pa2=N1> (N1) =text> Pa1 Pa2 N1 N2 
+PARTWORD = Pa1 N1 Pa2 N2<c=gen> <Pa1=N1> <Pa2=N2> (N1) =text> Pa1 N1 Pa2 N2 
+
+PARTWORD = Pa1 Pa2 Pa3 N1 <Pa1=N1> <Pa2=N1> <Pa1=N1> (N1) =text> Pa1 Pa2 Pa3 N1 
+
+
+PARTWORD = Num1 N1 <Num1=N1> (N1) =text> Num1 N1 
+
+PARTWORD = Num1 N1 N2<c=gen> <Num1=N1> (N1) =text> Num1 N1 N2 
+
+PARTWORD = Num1 Num2 N1 <Num1=N1> <Num2=N1> (N1) =text> Num1 Num2 N1
+PARTWORD = Num1 Num2 N1 <Num1=N1> <Num2=N1> (N1) =text> Num1 N1 
+
+PARTWORD = N1 Num1 N2<c=gen> <Num1=N2> (N1) =text> N1 Num1 N2 
+
+PARTWORD = N1 Num1 N2<c=gen> N3<c=gen> <Num1=N2> (N1) =text> N1 Num1 N2 N3
+
+PARTWORD = N1 Num1 Num2 N2<c=gen> <Num1=N2> <Num2=N2> (N1) =text> N1 Num1 Num2 N2 
+
+PARTWORD = N1 N2<c=gen> Num1 N3<c=gen> <Num1=N3> (N1) =text> N1 N2 Num1 N3 
+
+PARTWORD = Num1 Num2 N1 N2<c=gen> <Num1=N1> <Num2=N1> (N1) =text> Num1 Num2 N1 N2 
+
+PARTWORD = Num1 N1 Num2 N2<c=gen> <Num1=N1> <Num2=N2> (N1) =text> Num1 N1 Num2 N2 
+
+PARTWORD = Num1 Num2 Num3 N1 <Num1=N1> <Num2=N1> <Num1=N1> (N1) =text> Num1 Num2 Num3 N1 

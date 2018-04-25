@@ -1,0 +1,551 @@
+Part-I-full = Pa1<структурный-разрушающий> N1<функция> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-I-I = Pa1<структурный-разрушающий> Pa2<встроивший> N1<функция> <Pa1=N1> <Pa2=N1> (N1) =text> Pa1 Pa2 #N1 <Pa1~>N1,Pa2~>N1>
+Part-I-II = Pa1<встроивший> N1<функция> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-I-III = N1<функция> =text> #N1
+Part-II-full = N1<концепция> A1<поздний> N2<связывание,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-II-I = N1<концепция> =text> #N1
+Part-II-II = N1<концепция> A1<поздний> N2<связывание,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-II-III = A1<поздний> N1<связывание> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-II-IV = N1<связывание> =text> #N1
+Part-III-full = A1<хвостовой> N1<рекурсия> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-III-I = A1<хвостовой> N1<рекурсия> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-III-II = N1<рекурсия> =text> #N1
+Part-IV-full = N1<замыкание> A1<функциональный> N2<аргумент,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-IV-I = N1<замыкание> =text> #N1
+Part-IV-II = N1<замыкание> A1<функциональный> N2<аргумент,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-IV-III = A1<функциональный> N1<аргумент> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-IV-IV = N1<аргумент> =text> #N1
+Part-V-full = A1<ключевой> N1<параметр> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-V-I = A1<ключевой> N1<параметр> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-V-II = N1<параметр> =text> #N1
+Part-VI-full = A1<ключевой> N1<слово> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-VI-I = A1<ключевой> N1<слово> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-VI-II = N1<слово> =text> #N1
+Part-VII-full = N1<лямбда-выражение> =text> #N1
+Part-VII-I = N1<лямбда-выражение> =text> #N1
+Part-VIII-full = N1<лямбда-вызов> =text> #N1
+Part-VIII-I = N1<лямбда-вызов> =text> #N1
+Part-IX-full = A1<обратный> N1<блокировка> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-IX-I = A1<обратный> N1<блокировка> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-IX-II = N1<блокировка> =text> #N1
+Part-X-full = N1<функция> A1<высокий> N2<порядок,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-X-I = N1<функция> =text> #N1
+Part-X-II = N1<функция> A1<высокий> N2<порядок,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-X-III = A1<высокий> N1<порядок> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-X-IV = N1<порядок> =text> #N1
+Part-XI-full = N1<лисп-программа> =text> #N1
+Part-XI-I = N1<лисп-программа> =text> #N1
+Part-XII-full = N1<лямбда-список> =text> #N1
+Part-XII-I = N1<лямбда-список> =text> #N1
+Part-XIII-full = N1<присваивание> (N1) =text> N1<c=nom>
+Part-XIII-I = N1<присваивание> =text> #N1
+Part-XIV-full = N1<функция> N2<ввод,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XIV-I = N1<функция> =text> #N1
+Part-XIV-II = N1<функция> N2<ввод,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XIV-III = N1<ввод> =text> #N1
+Part-XV-full = A1<базовый> N1<лисп> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XV-I = A1<базовый> N1<лисп> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XV-II = N1<лисп> =text> #N1
+Part-XVI-full = A1<особый> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XVI-I = A1<особый> N1<функция> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XVI-II = N1<функция> =text> #N1
+Part-XVII-full = A1<функциональный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XVII-I = A1<функциональный> N1<значение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XVII-II = N1<значение> =text> #N1
+Part-XVIII-full = A1<простой> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XVIII-I = A1<простой> N1<рекурсия> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XVIII-II = N1<рекурсия> =text> #N1
+Part-XIX-full = A1<косвенный> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XIX-I = A1<косвенный> N1<рекурсия> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XIX-II = N1<рекурсия> =text> #N1
+Part-XX-full = A1<параллельный> N1<рекурсия> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XX-I = A1<параллельный> N1<рекурсия> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XX-II = N1<рекурсия> =text> #N1
+Part-XXI-full = N1<список> N2<свойство,c=gen> N3<атом,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-XXI-I = N1<список> =text> #N1
+Part-XXI-II = N1<список> N2<свойство,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXI-III = N1<список> N2<свойство,c=gen> N3<атом,c=gen> (N1) =text> #N1 N2 N3
+Part-XXI-IV = N1<свойство> =text> #N1
+Part-XXI-V = N1<свойство> N2<атом,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXI-VI = N1<атом> =text> #N1
+Part-XXII-full = N1<имя> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXII-I = N1<имя> =text> #N1
+Part-XXII-II = N1<имя> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXII-III = N1<функция> =text> #N1
+Part-XXIII-full = N1<хвост> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXIII-I = N1<хвост> =text> #N1
+Part-XXIII-II = N1<хвост> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXIII-III = N1<список> =text> #N1
+Part-XXIV-full = N1<лисповский> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXIV-I = N1<лисповский> =text> #N1
+Part-XXIV-II = N1<лисповский> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXIV-III = N1<функция> =text> #N1
+Part-XXV-full = N1<лисповский> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXV-I = N1<лисповский> =text> #N1
+Part-XXV-II = N1<лисповский> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXV-III = N1<список> =text> #N1
+Part-XXVI-full = N1<суперпозиция> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXVI-I = N1<суперпозиция> =text> #N1
+Part-XXVI-II = N1<суперпозиция> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXVI-III = N1<функция> =text> #N1
+Part-XXVII-full = N1<длина> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXVII-I = N1<длина> =text> #N1
+Part-XXVII-II = N1<длина> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXVII-III = N1<список> =text> #N1
+Part-XXVIII-full = N1<функция> N2<сложение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXVIII-I = N1<функция> =text> #N1
+Part-XXVIII-II = N1<функция> N2<сложение,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXVIII-III = N1<сложение> =text> #N1
+Part-XXIX-full = N1<стека> N2<выражение,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXIX-I = N1<стек> =text> #N1
+Part-XXIX-II = N1<стек> N2<выражение,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXIX-III = N1<выражение> =text> #N1
+Part-XXX-full = N1<память> N2<компьютер,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXX-I = N1<память> =text> #N1
+Part-XXX-II = N1<память> N2<компьютер,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXX-III = N1<компьютер> =text> #N1
+Part-XXXI-full = N1<глубина> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXXI-I = N1<глубина> =text> #N1
+Part-XXXI-II = N1<глубина> N2<рекурсия,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXXI-III = N1<рекурсия> =text> #N1
+Part-XXXII-full = N1<реверсируемого> N2<список,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXXII-I = N1<реверсируемое> =text> #N1
+Part-XXXII-II = N1<реверсируемое> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXXII-III = N1<список> =text> #N1
+Part-XXXIII-full = N1<объем> N2<память,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXXIII-I = N1<объем> =text> #N1
+Part-XXXIII-II = N1<объем> N2<память,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXXIII-III = N1<память> =text> #N1
+Part-XXXIV-full = N1<прямая> N2<рекурсия,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXXIV-I = N1<прямая> =text> #N1
+Part-XXXIV-II = N1<прямая> N2<рекурсия,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXXIV-III = N1<рекурсия> =text> #N1
+Part-XXXV-full = N1<функция> N2<квотирование,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXXV-I = N1<функция> =text> #N1
+Part-XXXV-II = N1<функция> N2<квотирование,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXXV-III = N1<квотирование> =text> #N1
+Part-XXXVI-full = N1<основа> N2<функционал,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXXVI-I = N1<основа> =text> #N1
+Part-XXXVI-II = N1<основа> N2<функционал,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXXVI-III = N1<функционал> =text> #N1
+Part-XXXVII-full = N1<паскалевский> N2<функция,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-XXXVII-I = N1<паскалевский> =text> #N1
+Part-XXXVII-II = N1<паскалевский> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XXXVII-III = N1<функция> =text> #N1
+Part-XXXVIII-full = A1<функциональный> N1<язык> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XXXVIII-I = A1<функциональный> N1<язык> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XXXVIII-II = N1<язык> =text> #N1
+Part-XXXIX-full = A1<пустой> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XXXIX-I = A1<пустой> N1<список> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XXXIX-II = N1<список> =text> #N1
+Part-XL-full = A1<обычный> N1<функция> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XL-I = A1<обычный> N1<функция> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XL-II = N1<функция> =text> #N1
+Part-XLI-full = A1<фактический> N1<аргумент> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLI-I = A1<фактический> N1<аргумент> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLI-II = N1<аргумент> =text> #N1
+Part-XLII-full = A1<рекурсивный> N1<ветвь> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLII-I = A1<рекурсивный> N1<ветвь> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLII-II = N1<ветвь> =text> #N1
+Part-XLIII-full = A1<списочный> N1<форма> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLIII-I = A1<списочный> N1<форма> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLIII-II = N1<форма> =text> #N1
+Part-XLIV-full = A1<списочный> N1<ячейка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLIV-I = A1<списочный> N1<ячейка> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLIV-II = N1<ячейка> =text> #N1
+Part-XLV-full = A1<функциональный> N1<программа> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLV-I = A1<функциональный> N1<программа> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLV-II = N1<программа> =text> #N1
+Part-XLVI-full = A1<динамический> N1<связывание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLVI-I = A1<динамический> N1<связывание> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLVI-II = N1<связывание> =text> #N1
+Part-XLVII-full = A1<статический> N1<связывание> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLVII-I = A1<статический> N1<связывание> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLVII-II = N1<связывание> =text> #N1
+Part-XLVIII-full = A1<одноэлементный> N1<список> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLVIII-I = A1<одноэлементный> N1<список> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLVIII-II = N1<список> =text> #N1
+Part-XLIX-full = A1<логический> N1<выражение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-XLIX-I = A1<логический> N1<выражение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XLIX-II = N1<выражение> =text> #N1
+Part-L-full = A1<правый> N1<поддерево> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-L-I = A1<правый> N1<поддерево> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-L-II = N1<поддерево> =text> #N1
+Part-LI-full = A1<функциональный> N1<блокировка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-LI-I = A1<функциональный> N1<блокировка> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LI-II = N1<блокировка> =text> #N1
+Part-LII-full = A1<обычный> N1<блокировка> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-LII-I = A1<обычный> N1<блокировка> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LII-II = N1<блокировка> =text> #N1
+Part-LIII-full = Pa1<вычисляющий> N1<выражение> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Part-LIII-I = Pa1<вычисляющий> N1<выражение> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LIII-II = N1<выражение> =text> #N1
+Part-LIV-full = Pa1<вычисляющий> N1<аргумент> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Part-LIV-I = Pa1<вычисляющий> N1<аргумент> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LIV-II = N1<аргумент> =text> #N1
+Part-LV-full = Pa1<перевернувший> N1<список> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Part-LV-I = Pa1<перевернувший> N1<список> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LV-II = N1<список> =text> #N1
+Part-LVI-full = Pa1<накапливающий> N1<параметр> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Part-LVI-I = Pa1<накапливающий> N1<параметр> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LVI-II = N1<параметр> =text> #N1
+Part-LVII-full = Pa1<расширивший> N1<форма> <Pa1=N1> (N1) =text> Pa1 N1<c=nom> <Pa1~>N1>
+Part-LVII-I = Pa1<расширивший> N1<форма> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LVII-II = N1<форма> =text> #N1
+Part-LVIII-full = A1<строго> A2<функциональный> N1<программирование> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Part-LVIII-I = A1<строгий> A2<функциональный> N1<программирование> <A1=N1> <A2=N1> (N1) =text> A1 A2 #N1 <A1~>N1,A2~>N1>
+Part-LVIII-II = A1<функциональный> N1<программирование> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LVIII-III = N1<программирование> =text> #N1
+Part-LIX-full = A1<свободной> A2<списочный> N1<память> <A1=A2=N1> =text> A1 A2 #N1<c=nom> <A1~>N1,A2~>N1>
+Part-LIX-I = A1<свободный> A2<списочный> N1<память> <A1=N1> <A2=N1> (N1) =text> A1 A2 #N1 <A1~>N1,A2~>N1>
+Part-LIX-II = A1<списочный> N1<память> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LIX-III = N1<память> =text> #N1
+Part-LX-full = Pa1<вложенных> A2<функциональный> N1<вызов> <Pa1=A2=N1> =text> Pa1 A2 #N1<c=nom> <Pa1~>N1,A2~>N1>
+Part-LX-I = A1<функциональный> N1<вызов> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LX-II = N1<вызов> =text> #N1
+Part-LXI-full = A1<верхний> N1<уровень> N2<список,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXI-I = A1<верхний> N1<уровень> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXI-II = A1<верхний> N1<уровень> N2<список,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXI-III = N1<уровень> =text> #N1
+Part-LXI-IV = N1<уровень> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXI-V = N1<список> =text> #N1
+Part-LXII-full = A1<формальный> N1<параметр> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXII-I = A1<формальный> N1<параметр> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXII-II = A1<формальный> N1<параметр> N2<функция,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXII-III = N1<параметр> =text> #N1
+Part-LXII-IV = N1<параметр> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXII-V = N1<функция> =text> #N1
+Part-LXIII-full = A1<рекурсивный> N1<вызов> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXIII-I = A1<рекурсивный> N1<вызов> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXIII-II = A1<рекурсивный> N1<вызов> N2<функция,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXIII-III = N1<вызов> =text> #N1
+Part-LXIII-IV = N1<вызов> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXIII-V = N1<функция> =text> #N1
+Part-LXIV-full = A1<элементарный> N1<ветвь> N2<функция,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXIV-I = A1<элементарный> N1<ветвь> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXIV-II = A1<элементарный> N1<ветвь> N2<функция,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXIV-III = N1<ветвь> =text> #N1
+Part-LXIV-IV = N1<ветвь> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXIV-V = N1<функция> =text> #N1
+Part-LXV-full = A1<одноуровневый> N1<список> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXV-I = A1<одноуровневый> N1<список> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXV-II = A1<одноуровневый> N1<список> N2<атом,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXV-III = N1<список> =text> #N1
+Part-LXV-IV = N1<список> N2<атом,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXV-V = N1<атом> =text> #N1
+Part-LXVI-full = A1<функциональный> N1<аргумент> N2<функционал,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXVI-I = A1<функциональный> N1<аргумент> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXVI-II = A1<функциональный> N1<аргумент> N2<функционал,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXVI-III = N1<аргумент> =text> #N1
+Part-LXVI-IV = N1<аргумент> N2<функционал,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXVI-V = N1<функционал> =text> #N1
+Part-LXVII-full = A1<формальный> N1<параметр> N2<макрос,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXVII-I = A1<формальный> N1<параметр> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXVII-II = A1<формальный> N1<параметр> N2<макрос,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXVII-III = N1<параметр> =text> #N1
+Part-LXVII-IV = N1<параметр> N2<макрос,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXVII-V = N1<макрос> =text> #N1
+Part-LXVIII-full = A1<вычислимый> N1<лисповский> N2<выражение,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-LXVIII-I = A1<вычислимый> N1<лисповский> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXVIII-II = A1<вычислимый> N1<лисповский> N2<выражение,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-LXVIII-III = N1<лисповский> =text> #N1
+Part-LXVIII-IV = N1<лисповский> N2<выражение,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXVIII-V = N1<выражение> =text> #N1
+Part-LXIX-full = Pa1<встроивший> N1<функция> N2<лисп,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Part-LXIX-I = Pa1<встроивший> N1<функция> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LXIX-II = Pa1<встроивший> N1<функция> N2<лисп,c=gen> <Pa1=N1> (N1) =text> Pa1 #N1 N2  <Pa1~>N1>
+Part-LXIX-III = N1<функция> =text> #N1
+Part-LXIX-IV = N1<функция> N2<лисп,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXIX-V = N1<лисп> =text> #N1
+Part-LXX-full = Pa1<определяющий> N1<выражение> N2<функция,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Part-LXX-I = Pa1<определяющий> N1<выражение> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LXX-II = Pa1<определяющий> N1<выражение> N2<функция,c=gen> <Pa1=N1> (N1) =text> Pa1 #N1 N2  <Pa1~>N1>
+Part-LXX-III = N1<выражение> =text> #N1
+Part-LXX-IV = N1<выражение> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXX-V = N1<функция> =text> #N1
+Part-LXXI-full = Pa1<упорядочивший> N1<список> N2<число,c=gen> <Pa1=N1> =text> Pa1 N1<c=nom> N2<c=gen> <Pa1~>N1>
+Part-LXXI-I = Pa1<упорядочивший> N1<список> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LXXI-II = Pa1<упорядочивший> N1<список> N2<число,c=gen> <Pa1=N1> (N1) =text> Pa1 #N1 N2  <Pa1~>N1>
+Part-LXXI-III = N1<список> =text> #N1
+Part-LXXI-IV = N1<список> N2<число,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXI-V = N1<число> =text> #N1
+Part-LXXII-full = N1<имя> A1<формальный> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXII-I = N1<имя> =text> #N1
+Part-LXXII-II = N1<имя> A1<формальный> N2<параметр,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXII-III = A1<формальный> N1<параметр> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXII-IV = N1<параметр> =text> #N1
+Part-LXXIII-full = N1<функция> A1<базовый> N2<набор,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXIII-I = N1<функция> =text> #N1
+Part-LXXIII-II = N1<функция> A1<базовый> N2<набор,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXIII-III = A1<базовый> N1<набор> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXIII-IV = N1<набор> =text> #N1
+Part-LXXIV-full = N1<ветвь> A1<условный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXIV-I = N1<ветвь> =text> #N1
+Part-LXXIV-II = N1<ветвь> A1<условный> N2<выражение,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXIV-III = A1<условный> N1<выражение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXIV-IV = N1<выражение> =text> #N1
+Part-LXXV-full = N1<значение> A1<условный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXV-I = N1<значение> =text> #N1
+Part-LXXV-II = N1<значение> A1<условный> N2<выражение,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXV-III = A1<условный> N1<выражение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXV-IV = N1<выражение> =text> #N1
+Part-LXXVI-full = N1<связывание> A1<формальный> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXVI-I = N1<связывание> =text> #N1
+Part-LXXVI-II = N1<связывание> A1<формальный> N2<параметр,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXVI-III = A1<формальный> N1<параметр> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXVI-IV = N1<параметр> =text> #N1
+Part-LXXVII-full = N1<уровень> A1<списочный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXVII-I = N1<уровень> =text> #N1
+Part-LXXVII-II = N1<уровень> A1<списочный> N2<выражение,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXVII-III = A1<списочный> N1<выражение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXVII-IV = N1<выражение> =text> #N1
+Part-LXXVIII-full = N1<структура> A1<списочный> N2<выражение,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXVIII-I = N1<структура> =text> #N1
+Part-LXXVIII-II = N1<структура> A1<списочный> N2<выражение,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXVIII-III = A1<списочный> N1<выражение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXVIII-IV = N1<выражение> =text> #N1
+Part-LXXIX-full = N1<качество> A1<функциональный> N2<аргумент,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXIX-I = N1<качество> =text> #N1
+Part-LXXIX-II = N1<качество> A1<функциональный> N2<аргумент,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXIX-III = A1<функциональный> N1<аргумент> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXIX-IV = N1<аргумент> =text> #N1
+Part-LXXX-full = N1<знак> A1<вертикальный> N2<черта,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXX-I = N1<знак> =text> #N1
+Part-LXXX-II = N1<знак> A1<вертикальный> N2<черта,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXX-III = A1<вертикальный> N1<черта> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXX-IV = N1<черта> =text> #N1
+Part-LXXXI-full = N1<значение> A1<фактический> N2<параметр,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-LXXXI-I = N1<значение> =text> #N1
+Part-LXXXI-II = N1<значение> A1<фактический> N2<параметр,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-LXXXI-III = A1<фактический> N1<параметр> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-LXXXI-IV = N1<параметр> =text> #N1
+Part-LXXXII-full = N1<набор> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Part-LXXXII-I = N1<набор> =text> #N1
+Part-LXXXII-II = N1<набор> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> (N1) =text> #N1 Pa1 N2 <Pa1~>N2>
+Part-LXXXII-III = Pa1<встроивший> N1<функция> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LXXXII-IV = N1<функция> =text> #N1
+Part-LXXXIII-full = N1<ряд> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Part-LXXXIII-I = N1<ряд> =text> #N1
+Part-LXXXIII-II = N1<ряд> Pa1<встроивший> N2<функция,c=gen> <Pa1=N2> (N1) =text> #N1 Pa1 N2 <Pa1~>N2>
+Part-LXXXIII-III = Pa1<встроивший> N1<функция> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LXXXIII-IV = N1<функция> =text> #N1
+Part-LXXXIV-full = N1<вызов> Pa1<встроивший> N2<функционал,c=gen> <Pa1=N2> =text> N1<c=nom> Pa1 N2<c=gen> <Pa1~>N2>
+Part-LXXXIV-I = N1<вызов> =text> #N1
+Part-LXXXIV-II = N1<вызов> Pa1<встроивший> N2<функционал,c=gen> <Pa1=N2> (N1) =text> #N1 Pa1 N2 <Pa1~>N2>
+Part-LXXXIV-III = Pa1<встроивший> N1<функционал> <Pa1=N1> (N1) =text> Pa1 #N1 <Pa1~>N1>
+Part-LXXXIV-IV = N1<функционал> =text> #N1
+Part-LXXXV-full = N1<уровень> N2<вложенность,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-LXXXV-I = N1<уровень> =text> #N1
+Part-LXXXV-II = N1<уровень> N2<вложенность,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXV-III = N1<уровень> N2<вложенность,c=gen> N3<список,c=gen> (N1) =text> #N1 N2 N3
+Part-LXXXV-IV = N1<вложенность> =text> #N1
+Part-LXXXV-V = N1<вложенность> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXV-VI = N1<список> =text> #N1
+Part-LXXXVI-full = N1<качество> N2<значение,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-LXXXVI-I = N1<качество> =text> #N1
+Part-LXXXVI-II = N1<качество> N2<значение,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXVI-III = N1<качество> N2<значение,c=gen> N3<функция,c=gen> (N1) =text> #N1 N2 N3
+Part-LXXXVI-IV = N1<значение> =text> #N1
+Part-LXXXVI-V = N1<значение> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXVI-VI = N1<функция> =text> #N1
+Part-LXXXVII-full = N1<элемент> N2<первое,c=gen> N3<список,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-LXXXVII-I = N1<элемент> =text> #N1
+Part-LXXXVII-II = N1<элемент> N2<первое,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXVII-III = N1<элемент> N2<первое,c=gen> N3<список,c=gen> (N1) =text> #N1 N2 N3
+Part-LXXXVII-IV = N1<первое> =text> #N1
+Part-LXXXVII-V = N1<первое> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXVII-VI = N1<список> =text> #N1
+Part-LXXXVIII-full = N1<ветвь> N2<тело,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-LXXXVIII-I = N1<ветвь> =text> #N1
+Part-LXXXVIII-II = N1<ветвь> N2<тело,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXVIII-III = N1<ветвь> N2<тело,c=gen> N3<функция,c=gen> (N1) =text> #N1 N2 N3
+Part-LXXXVIII-IV = N1<тело> =text> #N1
+Part-LXXXVIII-V = N1<тело> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXVIII-VI = N1<функция> =text> #N1
+Part-LXXXIX-full = N1<тип> N2<аргумент,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-LXXXIX-I = N1<тип> =text> #N1
+Part-LXXXIX-II = N1<тип> N2<аргумент,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXIX-III = N1<тип> N2<аргумент,c=gen> N3<функция,c=gen> (N1) =text> #N1 N2 N3
+Part-LXXXIX-IV = N1<аргумент> =text> #N1
+Part-LXXXIX-V = N1<аргумент> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-LXXXIX-VI = N1<функция> =text> #N1
+Part-XC-full = N1<выполнение> N2<тело,c=gen> N3<функция,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-XC-I = N1<выполнение> =text> #N1
+Part-XC-II = N1<выполнение> N2<тело,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XC-III = N1<выполнение> N2<тело,c=gen> N3<функция,c=gen> (N1) =text> #N1 N2 N3
+Part-XC-IV = N1<тело> =text> #N1
+Part-XC-V = N1<тело> N2<функция,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XC-VI = N1<функция> =text> #N1
+Part-XCI-full = A1<обратный> N1<знак> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XCI-I = A1<обратный> N1<знак> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XCI-II = N1<знак> =text> #N1
+Part-XCV-full = N1<левый> N2<сверток,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCV-I = N1<левый> =text> #N1
+Part-XCV-II = N1<левый> N2<сверток,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCV-III = N1<сверток> =text> #N1
+Part-XCVI-full = N1<правый> N2<сверток,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCVI-I = N1<правый> =text> #N1
+Part-XCVI-II = N1<правый> N2<сверток,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCVI-III = N1<сверток> =text> #N1
+Part-XCVII-full = N1<конкатенация> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCVII-I = N1<конкатенация> =text> #N1
+Part-XCVII-II = N1<конкатенация> N2<список,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCVII-III = N1<список> =text> #N1
+Part-XCVIII-full = N1<элемент> A1<функциональный> N2<вызов,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-XCVIII-I = N1<элемент> =text> #N1
+Part-XCVIII-II = N1<элемент> A1<функциональный> N2<вызов,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-XCVIII-III = A1<функциональный> N1<вызов> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-XCVIII-IV = N1<вызов> =text> #N1
+Part-XCIX-full = N1<программирование> N2<цикл,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCIX-I = N1<программирование> =text> #N1
+Part-XCIX-II = N1<программирование> N2<цикл,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-XCIX-III = N1<цикл> =text> #N1
+Part-C-full = N1<итерация> (N1) =text> #N1
+Part-C-I = N1<итерация> =text> #N1
+Part-CI-full = N1<редукция> (N1) =text> #N1
+Part-CI-I = N1<редукция> =text> #N1
+Part-CII-full = A1<динамический> N1<доступ> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CII-I = A1<динамический> N1<доступ> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CII-II = N1<доступ> =text> #N1
+Part-CIII-full = N1<выражение-форма> (N1) =text> #N1
+Part-CIII-I = N1<выражение-форма> =text> #N1
+Part-CIV-full = N1<подвыражение> (N1) =text> #N1
+Part-CIV-I = N1<подвыражение> =text> #N1
+Part-CV-full = N1<стека> (N1) =text> #N1
+Part-CV-I = N1<стек> =text> #N1
+Part-CVI-full = N1<идентификатор> (N1) =text> #N1
+Part-CVI-I = N1<идентификатор> =text> #N1
+Part-CVII-full = N1<выражение> A1<безымянный> N2<функция,c=gen> <A1=N2> (N1) =text> N1 A1 N2<c=gen><A1~>N2>
+Part-CVII-I = N1<выражение> =text> #N1
+Part-CVII-II = N1<выражение> A1<безымянный> N2<функция,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-CVII-III = A1<безымянный> N1<функция> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CVII-IV = N1<функция> =text> #N1
+Part-CVIII-full = N1<ссылка> (N1) =text> #N1
+Part-CVIII-I = N1<ссылка> =text> #N1
+Part-CIX-full = N1<указатель> (N1) =text> #N1
+Part-CIX-I = N1<указатель> =text> #N1
+Part-CX-full = N1<макрофункция> (N1) =text> #N1
+Part-CX-I = N1<макрофункция> =text> #N1
+Part-CXI-full = N1<диалект> N2<язык,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXI-I = N1<диалект> =text> #N1
+Part-CXI-II = N1<диалект> N2<язык,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXI-III = N1<язык> =text> #N1
+Part-CXII-full = N1<реализация> N2<лисп,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXII-I = N1<реализация> =text> #N1
+Part-CXII-II = N1<реализация> N2<лисп,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXII-III = N1<лисп> =text> #N1
+Part-CXIII-full = N1<лисповский> N2<объект,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXIII-I = N1<лисповский> =text> #N1
+Part-CXIII-II = N1<лисповский> N2<объект,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXIII-III = N1<объект> =text> #N1
+Part-CXIV-full = N1<произведение> N2<число,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXIV-I = N1<произведение> =text> #N1
+Part-CXIV-II = N1<произведение> N2<число,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXIV-III = N1<число> =text> #N1
+Part-CXV-full = N1<конфликт> N2<имя,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXV-I = N1<конфликт> =text> #N1
+Part-CXV-II = N1<конфликт> N2<имя,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXV-III = N1<имя> =text> #N1
+Part-CXVI-full = N1<ввод> N2<атом,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXVI-I = N1<ввод> =text> #N1
+Part-CXVI-II = N1<ввод> N2<атом,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXVI-III = N1<атом> =text> #N1
+Part-CXVII-full = N1<ввод> N2<символ,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXVII-I = N1<ввод> =text> #N1
+Part-CXVII-II = N1<ввод> N2<символ,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXVII-III = N1<символ> =text> #N1
+Part-CXVIII-full = N1<тело> N2<макрос,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXVIII-I = N1<тело> =text> #N1
+Part-CXVIII-II = N1<тело> N2<макрос,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXVIII-III = N1<макрос> =text> #N1
+Part-CXIX-full = N1<тело> N2<цикл,c=gen> (N1) =text> N1<c=nom> N2<c=gen>
+Part-CXIX-I = N1<тело> =text> #N1
+Part-CXIX-II = N1<тело> N2<цикл,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXIX-III = N1<цикл> =text> #N1
+Part-CXX-full = A1<современный> N1<диалект> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXX-I = A1<современный> N1<диалект> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXX-II = N1<диалект> =text> #N1
+Part-CXXI-full = A1<вещественный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXI-I = A1<вещественный> N1<число> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXI-II = N1<число> =text> #N1
+Part-CXXII-full = A1<числовой> N1<атом> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXII-I = A1<числовой> N1<атом> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXII-II = N1<атом> =text> #N1
+Part-CXXIII-full = A1<логический> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXIII-I = A1<логический> N1<значение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXIII-II = N1<значение> =text> #N1
+Part-CXXIV-full = A1<истинный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXIV-I = A1<истинный> N1<значение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXIV-II = N1<значение> =text> #N1
+Part-CXXV-full = A1<внешний> N1<имя> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXV-I = A1<внешний> N1<имя> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXV-II = N1<имя> =text> #N1
+Part-CXXVI-full = A1<разный> N1<значение> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXVI-I = A1<разный> N1<значение> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXVI-II = N1<значение> =text> #N1
+Part-CXXVII-full = A1<комплексный> N1<число> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXVII-I = A1<комплексный> N1<число> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXVII-II = N1<число> =text> #N1
+Part-CXXVIII-full = A1<внешний> N1<цикл> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXVIII-I = A1<внешний> N1<цикл> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXVIII-II = N1<цикл> =text> #N1
+Part-CXXIX-full = A1<логический> N1<формула> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXIX-I = A1<логический> N1<формула> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXIX-II = N1<формула> =text> #N1
+Part-CXXX-full = A1<особый> N1<символ> <A1=N1> (N1) =text> A1 N1<c=nom> <A1~>N1>
+Part-CXXX-I = A1<особый> N1<символ> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXX-II = N1<символ> =text> #N1
+Part-CXXXI-full = A1<ранний> N1<диалект> N2<лисп,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-CXXXI-I = A1<ранний> N1<диалект> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXXI-II = A1<ранний> N1<диалект> N2<лисп,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-CXXXI-III = N1<диалект> =text> #N1
+Part-CXXXI-IV = N1<диалект> N2<лисп,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXI-V = N1<лисп> =text> #N1
+Part-CXXXII-full = A1<традиционный> N1<язык> N2<программирование,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-CXXXII-I = A1<традиционный> N1<язык> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXXII-II = A1<традиционный> N1<язык> N2<программирование,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-CXXXII-III = N1<язык> =text> #N1
+Part-CXXXII-IV = N1<язык> N2<программирование,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXII-V = N1<программирование> =text> #N1
+Part-CXXXIII-full = A1<внутренний> N1<имя> N2<атом,c=gen> <A1=N1> =text> A1 N1<c=nom> N2<c=gen> <A1~>N1>
+Part-CXXXIII-I = A1<внутренний> N1<имя> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXXIII-II = A1<внутренний> N1<имя> N2<атом,c=gen> <A1=N1> (N1) =text> A1 #N1 N2  <A1~>N1>
+Part-CXXXIII-III = N1<имя> =text> #N1
+Part-CXXXIII-IV = N1<имя> N2<атом,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXIII-V = N1<атом> =text> #N1
+Part-CXXXIV-full = N1<основа> A1<базовый> N2<набор,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-CXXXIV-I = N1<основа> =text> #N1
+Part-CXXXIV-II = N1<основа> A1<базовый> N2<набор,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-CXXXIV-III = A1<базовый> N1<набор> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXXIV-IV = N1<набор> =text> #N1
+Part-CXXXV-full = N1<элемент> A1<верхний> N2<уровень,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-CXXXV-I = N1<элемент> =text> #N1
+Part-CXXXV-II = N1<элемент> A1<верхний> N2<уровень,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-CXXXV-III = A1<верхний> N1<уровень> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXXV-IV = N1<уровень> =text> #N1
+Part-CXXXVI-full = N1<таблица> A1<символьный> N2<атом,c=gen> <A1=N2> =text> N1<c=nom> A1 N2<c=gen> <A1~>N2>
+Part-CXXXVI-I = N1<таблица> =text> #N1
+Part-CXXXVI-II = N1<таблица> A1<символьный> N2<атом,c=gen> <A1=N2> (N1) =text> #N1 A1 N2 <A1~>N2>
+Part-CXXXVI-III = A1<символьный> N1<атом> <A1=N1> (N1) =text> A1 #N1 <A1~>N1>
+Part-CXXXVI-IV = N1<атом> =text> #N1
+Part-CXXXVII-full = N1<ряд> N2<диалект,c=gen> N3<лисп,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-CXXXVII-I = N1<ряд> =text> #N1
+Part-CXXXVII-II = N1<ряд> N2<диалект,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXVII-III = N1<ряд> N2<диалект,c=gen> N3<лисп,c=gen> (N1) =text> #N1 N2 N3
+Part-CXXXVII-IV = N1<диалект> =text> #N1
+Part-CXXXVII-V = N1<диалект> N2<лисп,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXVII-VI = N1<лисп> =text> #N1
+Part-CXXXVIII-full = N1<элемент> N2<первое,c=gen> N3<список-аргумент,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-CXXXVIII-I = N1<элемент> =text> #N1
+Part-CXXXVIII-II = N1<элемент> N2<первое,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXVIII-III = N1<элемент> N2<первое,c=gen> N3<список-аргумент,c=gen> (N1) =text> #N1 N2 N3
+Part-CXXXVIII-IV = N1<первое> =text> #N1
+Part-CXXXVIII-V = N1<первое> N2<список-аргумент,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXVIII-VI = N1<список-аргумент> =text> #N1
+Part-CXXXIX-full = N1<элемент> N2<таблица,c=gen> N3<атом,c=gen> =text> N1<c=nom> N2<c=gen> N3<c=gen>
+Part-CXXXIX-I = N1<элемент> =text> #N1
+Part-CXXXIX-II = N1<элемент> N2<таблица,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXIX-III = N1<элемент> N2<таблица,c=gen> N3<атом,c=gen> (N1) =text> #N1 N2 N3
+Part-CXXXIX-IV = N1<таблица> =text> #N1
+Part-CXXXIX-V = N1<таблица> N2<атом,c=gen> (N1) =text> #N1 N2<c=gen>
+Part-CXXXIX-VI = N1<атом> =text> #N1
