@@ -11,7 +11,12 @@ using System.Xml;
 using static TermRules.AuxiliaryFunctions;
 using static TermRules.KindOfTerm;
 using DbscanImplementation;
+using ForelImplimentation;
 using Newtonsoft.Json.Linq;
+using Accord.MachineLearning;
+using Accord.Math;
+//using Accord.Statistics.Distributions.DensityKernels;
+//using Accord.Math.Distances;
 
 namespace TermRules
 {
@@ -67,7 +72,9 @@ namespace TermRules
             GetTermsFrequencies(curTermsAr, type);
             if (type == "_auth_terms" || type == "_main_terms")
             {
-                GetPagesSets(curTermsAr);
+                //GetPagesSets(curTermsAr, 3); //DBSCAN
+                //GetPagesSetsAlt1(curTermsAr, 3); //FOREL
+                GetPagesSetsAlt2(curTermsAr, 5); //KMEANS
             }
         }
 
@@ -1937,16 +1944,17 @@ namespace TermRules
             foreach (var term in _proc.MainTermsAr.TermsAr)
                 term.FreqStart = true;
             ClearDublicates(_proc.MainTermsAr);
-            DeleteWhichHaveExtended(_proc.MainTermsAr);
+            //DeleteWhichHaveExtended(_proc.MainTermsAr);
             GetXmlTermsFrequencies(_proc.MainTermsAr, "_main_terms");
             PrintTermsFrequencies(_proc.MainTermsAr, "_main_terms");
             return _proc.MainTermsAr;
         }
 
-        public void GetPagesSets(Terms curTermsAr)
+        public void GetPagesSets(Terms curTermsAr, int c_num = 3) //DBScan
         {
             foreach (var term in curTermsAr.TermsAr)
             {
+                int clusters_num = c_num;
                 List<MyCustomDatasetItem> pages = new List<MyCustomDatasetItem>();
                 foreach (var curPos in term.Pos)
                 {
@@ -1962,9 +1970,134 @@ namespace TermRules
                 var dbs = new DbscanAlgorithm<MyCustomDatasetItem>((x, y) => Math.Abs(x.number - y.number));
                 dbs.ComputeClusterDbscan(allPoints: featureData, epsilon: 3, minPts: 1, clusters: out clusters);
                 List<MyCustomDatasetItem[]> pageClusters = clusters.ToList().OrderBy(item => item.OrderBy(item2 => item2.number).ToList()[0].number).ThenByDescending(item => item.Length).ToList();
-                term.pages = pageClusters.GetRange(0, Math.Min(4, pageClusters.Count));
+                term.pages = pageClusters.GetRange(0, Math.Min(clusters_num, pageClusters.Count));
             }
         }
+
+        public void GetPagesSetsAlt1(Terms curTermsAr, int c_num = 3) //Forel
+        {
+            foreach (var term in curTermsAr.TermsAr)
+            {
+                int clusters_num = c_num;
+                List<double> pages = new List<double>();
+                foreach (var curPos in term.Pos)
+                {
+                    int page = _proc.GetPageNumberByPositon(curPos.Range);
+                    //if(!pages.Any(item => item.number == page))
+                    pages.Add(page);
+                }
+                //if (pages.Count > 10)
+                //{
+                    double[][] clusters;
+                    //for (double r = -10; r <= 10; r += 1)
+                    //{
+                        clusters = Forel.Solve(pages.ToArray(), 4, (x, y) => Math.Abs(x - y), a =>
+                        {
+                            double s = 0.0;
+                            foreach (double v in a)
+                                s += v;
+                            return s / a.Length;
+                        });
+                    List<MyCustomDatasetItem[]> pageClusters = new List<MyCustomDatasetItem[]>();
+                    foreach (var cluster in clusters)
+                    {
+                        List<MyCustomDatasetItem> new_cluster = new List<MyCustomDatasetItem>();
+                        foreach (var page in cluster)
+                        {
+                            new_cluster.Add(new MyCustomDatasetItem(page));
+                        }
+                        pageClusters.Add(new_cluster.ToArray());
+                    }
+
+                pageClusters = pageClusters.OrderBy(item => item.OrderBy(item2 => item2.number).ToList()[0].number).ThenByDescending(item => item.Length).ToList();
+                term.pages = pageClusters.GetRange(0, Math.Min(clusters_num, pageClusters.Count));
+
+                //}
+                //}
+
+                //MyCustomDatasetItem[] featureData = { };
+                //featureData = pages.ToArray();
+                //HashSet<MyCustomDatasetItem[]> clusters;
+
+                //var dbs = new DbscanAlgorithm<MyCustomDatasetItem>((x, y) => Math.Abs(x.number - y.number));
+                //dbs.ComputeClusterDbscan(allPoints: featureData, epsilon: 3, minPts: 1, clusters: out clusters);
+                //List<MyCustomDatasetItem[]> pageClusters = clusters.ToList().OrderBy(item => item.OrderBy(item2 => item2.number).ToList()[0].number).ThenByDescending(item => item.Length).ToList();
+                //term.pages = pageClusters.GetRange(0, Math.Min(4, pageClusters.Count));
+            }
+        }
+
+        public void GetPagesSetsAlt2(Terms curTermsAr, int c_num=3) //Kmeans
+        {
+            foreach (var term in curTermsAr.TermsAr)
+            {
+                int clusters_num = c_num;
+                List<double[]> pages = new List<double[]>();
+                foreach (var curPos in term.Pos)
+                {
+                    int page = _proc.GetPageNumberByPositon(curPos.Range);
+                    pages.Add(new double[] {page, 0});
+                }
+                if (pages.Count > 0)
+                {
+                    int cn = clusters_num;
+                    if (clusters_num > pages.Count)
+                    {
+                        clusters_num = pages.Count;
+                        cn = clusters_num;
+                    }
+
+                    KMeans kmeans = new KMeans(k: cn); //, distance: (x, y) => Math.Abs(x[0] - y[0]));
+
+                    // Compute and retrieve the data centroids
+                    var clusters_centroinds = kmeans.Learn(pages.ToArray());
+
+                    // Use the centroids to parition all the data
+                    int[] clusters_labels = clusters_centroinds.Decide(pages.ToArray());
+                    List<List<double>> clusters = new List<List<double>>();
+                    for (int i = 0; i < clusters_labels.Length; i++)
+                    {
+                        int cur_label = clusters_labels[i];
+                        if (cur_label + 1 > clusters.Count)
+                        {
+                            for (int j = clusters.Count; j < cur_label + 1; j++)
+                            {
+                                clusters.Add(new List<double>());
+                            }
+                        }
+                        clusters[cur_label].Add(pages[i][0]);
+                    }
+
+                    //double[][] clusters;
+
+                    //clusters = Forel.Solve(pages.ToArray(), 4, (x, y) => Math.Abs(x - y), a =>
+                    //{
+                    //    double s = 0.0;
+                    //    foreach (double v in a)
+                    //        s += v;
+                    //    return s / a.Length;
+                    //});
+                    List<MyCustomDatasetItem[]> pageClusters = new List<MyCustomDatasetItem[]>();
+                    foreach (var cluster in clusters)
+                    {
+                        List<MyCustomDatasetItem> new_cluster = new List<MyCustomDatasetItem>();
+                        foreach (var page in cluster)
+                        {
+                            new_cluster.Add(new MyCustomDatasetItem(page));
+                        }
+                        pageClusters.Add(new_cluster.ToArray());
+                    }
+
+                    pageClusters = pageClusters.OrderBy(item => item.OrderBy(item2 => item2.number).ToList()[0].number).ThenByDescending(item => item.Length).ToList();
+                    term.pages = pageClusters.GetRange(0, Math.Min(clusters_num, pageClusters.Count));
+                }
+                else
+                {
+                    term.pages = (new List<MyCustomDatasetItem[]>()).GetRange(0, 0);
+                }
+            }
+           
+        }
+
         public static T[,] ToMultidimensional<T>(T[][] arr, int maxSize)
         {
             T[,] md = (T[,])Array.CreateInstance(typeof(double), arr.Length, maxSize);

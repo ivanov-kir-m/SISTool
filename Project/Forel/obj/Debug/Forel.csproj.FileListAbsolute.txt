@@ -1,0 +1,5 @@
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\Forel\bin\Debug\Forel.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\Forel\bin\Debug\Forel.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\Forel\obj\Debug\Forel.csprojResolveAssemblyReference.cache
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\Forel\obj\Debug\Forel.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\Forel\obj\Debug\Forel.pdb

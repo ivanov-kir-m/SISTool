@@ -22,3 +22,17 @@ C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\D
 C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\DbscanImplementation.dll
 C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\DbscanImplementation.pdb
 C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\DawgSharp.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Forel.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Forel.pdb
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.dll.config
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.MachineLearning.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.Math.Core.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.Math.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.Statistics.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\KMeansPackage.dll
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.xml
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.MachineLearning.xml
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.Math.xml
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.Math.Core.xml
+C:\Users\Kir\Documents\Visual Studio 2015\Projects\SWStool\TermRules\bin\Debug\Accord.Statistics.xml

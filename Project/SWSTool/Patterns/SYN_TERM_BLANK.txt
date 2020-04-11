@@ -1,0 +1,46 @@
+﻿PATTERN	MSP = N1 (N1) =text> N1
+PATTERN	MSP = N1 N2<c=gen> (N1) =text> N1 N2<c=gen>
+PATTERN	MSP =  A1 N1 <A1=N1> (N1) =text> A1 N1 <A1~>N1>
+PATTERN	MSP =  Pa1 N1 <Pa1=N1> (N1) =text> Pa1 N1 <Pa1~>N1>
+PATTERN	MSP = A1 A2 N1 <A1=A2=N1> (N1) =text> A1 A2 N1 <A1~>N1, A2~>N1>
+PATTERN	MSP = A1 Pa2 N1 <A1=Pa2=N1> (N1) =text> A1 Pa2 N1 <A1~>N1, Pa2~>N1>
+PATTERN	MSP = Pa1 A2 N1 <Pa1=A2=N1> (N1) =text> Pa1 A2 N1 <Pa1~>N1, A2~>N1>
+PATTERN	MSP = Pa1 Pa2 N1 <Pa1=Pa2=N1> (N1) =text> Pa1 Pa2 N1 <Pa1~>N1, Pa2~>N1>
+PATTERN	MSP = A1 N1 N2<c=gen> <A1=N1> (N1) =text> A1 N1<A1~>N1> N2<c=gen>
+PATTERN	MSP = Pa1 N1 N2<c=gen> <Pa1=N1> (N1) =text> Pa1 N1<Pa1~>N1> N2<c=gen>
+PATTERN	MSP = N1 A1 N2<c=gen> <A1=N2> (N1) =text> N1 A1 N2<c=gen> <A1~>N2>
+PATTERN	MSP = N1 Pa1 N2<c=gen> <Pa1=N2> (N1) =text> N1 Pa1 N2<c=gen> <Pa1~>N2>  
+PATTERN	MSP =  N1 N2<c=gen> N3<c=gen> (N1) =text> N1 N2<c=gen> N3<c=gen>
+
+PATTERN	NPMSP = N1 (N1) =text> "N1[" #N1 "] (N1) =text] #N1"
+PATTERN	NPMSP = N1 N2<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] (N1) =text] #N1 N2[c=gen]"
+PATTERN	NPMSP = A1 N1 <A1=N1> (N1) =text> "A1[" #A1 "] N1[" #N1 "] [A1=N1] (N1) =text] A1 #N1 [A1~]N1]"
+PATTERN	NPMSP = Pa1 N1 <Pa1=N1> (N1) =text> "Pa1[" #Pa1 "] N1[" #N1 "] [Pa1=N1] (N1) =text] Pa1 #N1 [Pa1~]N1]"
+PATTERN	NPMSP = A1 A2 N1 <A1=A2=N1> (N1) =text>"A1[" #A1 "] A2[" #A2 "] N1[" #N1 "] [A1=A2=N1] (N1) =text] A1 A2 N1 [A1~]N1, A2~]N1]"
+PATTERN	NPMSP = A1 Pa2 N1 <A1=Pa2=N1> (N1) =text>"A1[" #A1 "] Pa2[" #Pa2 "] N1[" #N1 "] [A1=Pa2=N1] (N1) =text] A1 Pa2 N1 [A1~]N1, Pa2~]N1]"
+PATTERN	NPMSP = Pa1 A2 N1 <Pa1=A2=N1> (N1) =text>"Pa1[" #Pa1 "] A2[" #A2 "] N1[" #N1 "] [Pa1=A2=N1] (N1) =text] Pa1 A2 N1 [Pa1~]N1, A2~]N1]"
+PATTERN	NPMSP = Pa1 Pa2 N1 <Pa1=Pa2=N1> (N1) =text>"Pa1[" #Pa1 "] Pa2[" #Pa2 "] N1[" #N1 "] [Pa1=Pa2=N1] (N1) =text] Pa1 Pa2 N1 [Pa1~]N1, Pa2~]N1]"
+PATTERN	NPMSP = A1 N1 N2<c=gen> <A1=N1> (N1) =text> "A1[" #A1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [A1=N1] (N1) =text] A1 N1[A1~]N1] N2[c=gen]"
+PATTERN	NPMSP = Pa1 N1 N2<c=gen> <Pa1=N1> (N1) =text> "Pa1[" #Pa1 "] N1[" #N1 "] N2[" #N2 ",c=gen] [Pa1=N1] (N1) =text] Pa1 N1[Pa1~]N1] N2[c=gen]"
+PATTERN	NPMSP = N1 A1 N2<c=gen> <A1=N2> (N1) =text> "N1[" #N1 "] A1[" #A1 "] N2[" #N2 ",c=gen] [A1=N2] (N1) =text] N1 A1 N2[c=gen][A1~]N2]"
+PATTERN	NPMSP = N1 Pa1 N2<c=gen> <Pa1=N2> (N1) =text> "N1[" #N1 "] Pa1[" #Pa1 "] N2[" #N2 ",c=gen] [Pa1=N2] (N1) =text] N1 Pa1 N2[c=gen][Pa1~]N2]"
+PATTERN	NPMSP = N1 N2<c=gen> N3<c=gen> (N1) =text> "N1[" #N1 "] N2[" #N2 ",c=gen] N3[" #N3 ",c=gen] (N1) =text] N1 N2[c=gen] N3[c=gen]"
+
+
+NPPART	PASTEHERE [","] "или" ["просто"] NPMSP2 <N1.c=NPMSP2.c> (N1) =text> #NPMSP2
+NPPART	NPMSP2 [","] "или" ["просто"] PASTEHERE <N1.c=NPMSP2.c> (N1) =text> #NPMSP2
+NPPART	PASTEHERE "\(" ["или"] NPMSP2 "\)" <N1.c=NPMSP2.c> (N1) =text> #NPMSP2
+NPPART	NPMSP2 "\(" ["или"] PASTEHERE "\)" <N1.c=NPMSP2.c> (N1) =text> #NPMSP2
+NPPART	PASTEHERE "будем" ["также"] "называть" NPMSP2<c=ins> =text> #NPMSP2
+NPPART	NPMSP2<c=acc> "будем" ["также"] "называть" PASTEHERE =text> #NPMSP2
+NPPART	PASTEHERE "\(" "далее" ["-"] NPMSP2<c=nom> "\)" =text> #NPMSP2
+NPPART	NPMSP2 "\(" "далее" ["-"] PASTEHERE "\)" =text> #NPMSP2
+
+PART	PASTEHERE [","] "или" ["просто"] MSP2 <N1.c=MSP2.c> (N1) =text> #MSP2
+PART	MSP2 [","] "или" ["просто"] PASTEHERE <N1.c=MSP2.c> (N1) =text> #MSP2
+PART	PASTEHERE "\(" ["или"] MSP2 "\)" <N1.c=MSP2.c> (N1) =text> #MSPN2
+PART	MSP2 "\(" ["или"] PASTEHERE "\)" <N1.c=MSP2.c> (N1) =text> #MSPN2
+PART	PASTEHERE "будем" ["также"] "называть" MSP2<c=ins> =text> #MSPN2
+PART	MSP2<c=acc> "будем" ["также"] "называть" PASTEHERE =text> #MSPN2
+PART	PASTEHERE "\(" "далее" ["-"] MSP2<c=nom> "\)" =text> #MSPN2
+PART	MSP2 "\(" "далее" ["-"] PASTEHERE "\)" =text> #MSPN2

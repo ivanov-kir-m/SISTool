@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbscanImplementation", "Dbs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BjSTools.File.Json", "BjSTools.File.Json\BjSTools.File.Json.csproj", "{74BD08ED-6C19-4CA9-A812-4A16F7D1F1C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forel", "Forel\Forel.csproj", "{52CB7F8F-DF1B-43E5-9E94-FCC612991386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,14 @@ Global
 		{74BD08ED-6C19-4CA9-A812-4A16F7D1F1C5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74BD08ED-6C19-4CA9-A812-4A16F7D1F1C5}.Release|x86.ActiveCfg = Release|Any CPU
 		{74BD08ED-6C19-4CA9-A812-4A16F7D1F1C5}.Release|x86.Build.0 = Release|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Debug|x86.Build.0 = Debug|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Release|x86.ActiveCfg = Release|Any CPU
+		{52CB7F8F-DF1B-43E5-9E94-FCC612991386}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

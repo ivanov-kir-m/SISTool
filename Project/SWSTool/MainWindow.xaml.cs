@@ -172,7 +172,7 @@ namespace SWStool
             //TermsDG.Items.Refresh();
             //ExtractedTermsDG.Items.Refresh();
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Пособие Лисп финал.docx", DictionaryF.ItTerm, 78, 101, true);
-            var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Пособие Лисп финал.docx", DictionaryF.ItTerm, 2, 101, true);
+            //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Пособие Лисп финал.docx", DictionaryF.ItTerm, 2, 101, true);
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Пособие Лисп финал.docx", DictionaryF.ItTerm, 2, 101, true);
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Пособие Лисп финал.docx", DictionaryF.ItTerm, 2, 101, true);
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Пособие Лисп финал.docx", DictionaryF.ItTerm, 2, 101, true);
@@ -181,7 +181,7 @@ namespace SWStool
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Солопов Ю.И. Лекции по дискретной математике учебное пособие.docx", DictionaryF.ItTerm, 4, 117, true);
 
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Пособие по Рефалу_Итог.docx", DictionaryF.ItTerm, 2, 60, true);
-            //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Написание-Оформление_7.docx", DictionaryF.ItTerm, 2, 52, true);
+            var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Написание-Оформление_7.docx", DictionaryF.ItTerm, 2, 52, true);
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Программир_Пролог_all_final.docx", DictionaryF.ItTerm, 2, 85, true);
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Системы_программир_учеб_пособие.docx", DictionaryF.ItTerm, 5, 81, true);
             //var getter = new IndexAndGlossary("C:\\Users\\Kir\\Desktop\\Test\\Форм_грамматики_Элем_трансляции (02_2010).docx", DictionaryF.ItTerm, 3, 90, true);
